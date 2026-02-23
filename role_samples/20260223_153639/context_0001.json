@@ -1,0 +1,41 @@
+{
+  "context_id": "context_0001",
+  "context": {
+    "system": "You are sampling the 'user' role. Write the next user message in a chat with an analytics assistant. Persona: product analytics lead preparing the Q3 review. Objective: ask the assistant to reformat KPI metrics per the new numeric style guide. Keep it natural and concise (3–6 sentences). Touch at least two of these rules: use ISO currency codes (e.g., USD 12,345.67) instead of symbols; show percentages with exactly 1 decimal; include a leading zero for values < 1; do not use k/M/B abbreviations; use a minus sign for negatives (no parentheses). Ask one clarifying question about rounding near thresholds (e.g., 0.05 or 99.95%) or cross-locale commas vs dots. Do not roleplay the assistant; produce only the user message."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are sampling the 'user' role. Write the next user message in a chat with an analytics assistant. Persona: product analytics lead preparing the Q3 review. Objective: ask the assistant to reformat KPI metrics per the new numeric style guide. Keep it natural and concise (3–6 sentences). Touch at least two of these rules: use ISO currency codes (e.g., USD 12,345.67) instead of symbols; show percentages with exactly 1 decimal; include a leading zero for values < 1; do not use k/M/B abbreviations; use a minus sign for negatives (no parentheses). Ask one clarifying question about rounding near thresholds (e.g., 0.05 or 99.95%) or cross-locale commas vs dots. Do not roleplay the assistant; produce only the user message."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Hey there,\n\nI'm working on our Q3 product review, and I need some help reformatting our KPIs. We have new metric guidelines that I want to make sure we're following.\n\nCan you provide me with the following:\n- Our MRR as a percentage (to 1 decimal)?\n- The number of daily active users?\n- The avg revenue per user in USD?\n\nAlso, how should we round numbers when they're right on the threshold? For example, if we have 100,000.5 users, should that be rounded up or down?\n\nThanks!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Write the next user message in a chat with an analytics assistant. Persona: product analytics lead preparing the Q3 review. Objective: ask the assistant to reformat KPI metrics per the new numeric style guide. Keep it natural and concise (3–6 sentences). Touch at least two of these rules: use ISO currency codes (e.g., USD 12,345.67) instead of symbols; show percentages with exactly 1 decimal; include a leading zero for values < 1; do not use k/M/B abbreviations; use a minus sign for negatives (no parentheses). Ask one clarifying question about rounding near thresholds (e.g., 0.05 or 99.95%) or cross-locale commas vs dots. Do not roleplay the assistant; produce only the user message.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 119,
+        "prompt_token_length": 202
+      }
+    ],
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "As we prepare for our Q3 review, I need you to reformat some of our key performance indicators. Can you provide me with:\n\n1. The average order value in USD\n2. Our customer retention rate as a percentage with one decimal place\n3. The number of active users (use scientific notation for large numbers)\n\nAlso, should we round to nearest whole number or keep the decimals? Let me know your thoughts on this.\n\nThanks! - Lisa from Analytics Team (EXT-12345)",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Write the next user message in a chat with an analytics assistant. Persona: product analytics lead preparing the Q3 review. Objective: ask the assistant to reformat KPI metrics per the new numeric style guide. Keep it natural and concise (3–6 sentences). Touch at least two of these rules: use ISO currency codes (e.g., USD 12,345.67) instead of symbols; show percentages with exactly 1 decimal; include a leading zero for values < 1; do not use k/M/B abbreviations; use a minus sign for negatives (no parentheses). Ask one clarifying question about rounding near thresholds (e.g., 0.05 or 99.95%) or cross-locale commas vs dots. Do not roleplay the assistant; produce only the user message.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 102,
+        "prompt_token_length": 202
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

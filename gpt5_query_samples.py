@@ -69,8 +69,16 @@ def _iter_records(path: Path) -> Iterable[Dict[str, Any]]:
         if jsonl.exists():
             yield from _iter_records(jsonl)
             return
-        for file in sorted(path.glob("context_*.json")):
-            yield from _iter_records(file)
+        context_files = sorted(path.glob("context_*.json"))
+        if context_files:
+            for file in context_files:
+                yield from _iter_records(file)
+            return
+        subdirs = [p for p in sorted(path.iterdir()) if p.is_dir()]
+        if subdirs:
+            for subdir in subdirs:
+                yield from _iter_records(subdir)
+            return
         return
     if not path.exists():
         raise FileNotFoundError(f"Samples path not found: {path}")
@@ -86,22 +94,26 @@ def _iter_records(path: Path) -> Iterable[Dict[str, Any]]:
         yield json.load(f)
 
 
-def collect_user_samples(path: Path, user_sample_index: int) -> List[Tuple[str, str, int, str, str]]:
+def collect_user_samples(
+    paths: Iterable[Path],
+    user_sample_index: int,
+) -> List[Tuple[str, str, int, str, str]]:
     samples: List[Tuple[str, str, int, str, str]] = []
-    for record in _iter_records(path):
-        context_id = str(record.get("context_id", "unknown_context"))
-        messages = record.get("messages", []) or []
-        per_role = record.get("samples", {}) or {}
-        user_items = per_role.get("user", []) or []
-        if not user_items:
-            continue
-        idx = max(1, user_sample_index)
-        if idx > len(user_items):
-            continue
-        item = user_items[idx - 1]
-        text = str(item.get("generated_text", "")).strip()
-        if text:
-            samples.append((context_id, "user", idx, text, json.dumps(messages, ensure_ascii=False)))
+    for path in paths:
+        for record in _iter_records(path):
+            context_id = str(record.get("context_id", "unknown_context"))
+            messages = record.get("messages", []) or []
+            per_role = record.get("samples", {}) or {}
+            user_items = per_role.get("user", []) or []
+            if not user_items:
+                continue
+            idx = max(1, user_sample_index)
+            if idx > len(user_items):
+                continue
+            item = user_items[idx - 1]
+            text = str(item.get("generated_text", "")).strip()
+            if text:
+                samples.append((context_id, "user", idx, text, json.dumps(messages, ensure_ascii=False)))
     return samples
 
 
@@ -154,7 +166,13 @@ def extract_output_text(response: Any) -> Tuple[str, str]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Query sampled responses with GPT-5.")
-    parser.add_argument("--samples-path", type=Path, required=True, help="Path to responses.jsonl or directory.")
+    parser.add_argument(
+        "--samples-path",
+        type=Path,
+        nargs="+",
+        required=True,
+        help="One or more paths to responses.jsonl or directories.",
+    )
     parser.add_argument("--system-prompt", type=str, default=None, help="System prompt for GPT-5.")
     parser.add_argument("--user-prompt", type=str, default=None, help="User prompt/query to answer.")
     parser.add_argument("--model", type=str, default="gpt-5", help="Model id (default: gpt-5).")

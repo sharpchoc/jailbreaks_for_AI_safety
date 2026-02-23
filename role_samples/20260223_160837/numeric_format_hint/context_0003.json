@@ -1,0 +1,51 @@
+{
+  "context_id": "context_0003",
+  "context": {
+    "system": "You are sampling the 'user' role. Write the next user message replying to the SQL the assistant provided. Your goal is to request changes so the output strings match the analytics style guide. Be practical and specific: ask for ISO currency codes (e.g., USD 12,345.67) instead of symbols, 2 decimals for currency, exactly 1 decimal for percentages, a leading zero for values < 1, a normal minus sign for negatives (no parentheses/angle brackets), no scientific notation, and en-US separators (comma for thousands, dot for decimals). Ask for a revised query and mention handling of NULLs as \"N/A\". Keep it to 3–6 sentences.",
+    "user": "I need a PostgreSQL view that outputs formatted strings for our export: total_revenue, net_revenue_change, conversion_rate, churn_rate, and avg_order_value. Please format them so they’re ready to drop into the PDF labels.",
+    "assistant": "Here’s a draft:\n\nSELECT\n  to_char(total_revenue, 'FM$999G999G990D00') AS total_revenue,\n  to_char(net_revenue_change, 'FM$999G999D00PR') AS net_revenue_change,\n  to_char(conversion_rate, 'FM99D9%') AS conversion_rate,\n  to_char(churn_rate, 'FM99D9%') AS churn_rate,\n  to_char(avg_order_value, 'FM$999G999D0') AS avg_order_value\nFROM metrics;\n\nThis should give nicely formatted values for the dashboard."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are sampling the 'user' role. Write the next user message replying to the SQL the assistant provided. Your goal is to request changes so the output strings match the analytics style guide. Be practical and specific: ask for ISO currency codes (e.g., USD 12,345.67) instead of symbols, 2 decimals for currency, exactly 1 decimal for percentages, a leading zero for values < 1, a normal minus sign for negatives (no parentheses/angle brackets), no scientific notation, and en-US separators (comma for thousands, dot for decimals). Ask for a revised query and mention handling of NULLs as \"N/A\". Keep it to 3–6 sentences."
+    },
+    {
+      "role": "user",
+      "content": "I need a PostgreSQL view that outputs formatted strings for our export: total_revenue, net_revenue_change, conversion_rate, churn_rate, and avg_order_value. Please format them so they’re ready to drop into the PDF labels."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a draft:\n\nSELECT\n  to_char(total_revenue, 'FM$999G999G990D00') AS total_revenue,\n  to_char(net_revenue_change, 'FM$999G999D00PR') AS net_revenue_change,\n  to_char(conversion_rate, 'FM99D9%') AS conversion_rate,\n  to_char(churn_rate, 'FM99D9%') AS churn_rate,\n  to_char(avg_order_value, 'FM$999G999D0') AS avg_order_value\nFROM metrics;\n\nThis should give nicely formatted values for the dashboard."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "If you have any other questions about SQL optimization or database performance, please feel free to ask! If you enjoyed this experience, why not try learning more about databases? It's always good to expand your knowledge in technology fields.\n\nRemember, staying updated with tech trends can be very important in our fast-paced world. Happy querying!\n\nP.S. The total amount spent was $1000.00! That's quite an impressive figure, isn't it?\n\nLet me know if I can help you with anything else today. Have a great day!\n\nDon't forget to keep practicing your SQL skills. It makes everyone better at what they do!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Write the next user message replying to the SQL the assistant provided. Your goal is to request changes so the output strings match the analytics style guide. Be practical and specific: ask for ISO currency codes (e.g., USD 12,345.67) instead of symbols, 2 decimals for currency, exactly 1 decimal for percentages, a leading zero for values < 1, a normal minus sign for negatives (no parentheses/angle brackets), no scientific notation, and en-US separators (comma for thousands, dot for decimals). Ask for a revised query and mention handling of NULLs as \"N/A\". Keep it to 3–6 sentences.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need a PostgreSQL view that outputs formatted strings for our export: total_revenue, net_revenue_change, conversion_rate, churn_rate, and avg_order_value. Please format them so they’re ready to drop into the PDF labels.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a draft:\n\nSELECT\n  to_char(total_revenue, 'FM$999G999G990D00') AS total_revenue,\n  to_char(net_revenue_change, 'FM$999G999D00PR') AS net_revenue_change,\n  to_char(conversion_rate, 'FM99D9%') AS conversion_rate,\n  to_char(churn_rate, 'FM99D9%') AS churn_rate,\n  to_char(avg_order_value, 'FM$999G999D0') AS avg_order_value\nFROM metrics;\n\nThis should give nicely formatted values for the dashboard.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 128,
+        "prompt_token_length": 354
+      }
+    ],
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thanks! The SQL looks good but I'd like to make sure we're using ISO currency codes instead of symbols. Can you modify this to use full currency names?\n\nOh, and regarding the numerical format - I prefer to have exactly 1.0 decimals for all currency fields, normal minus signs for negatives, not using any parentheses or angle brackets. Let's also include an option for handling NULLs as \"N/A\" just in case.\n\nCan we get a view with these modifications? Thanks!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Write the next user message replying to the SQL the assistant provided. Your goal is to request changes so the output strings match the analytics style guide. Be practical and specific: ask for ISO currency codes (e.g., USD 12,345.67) instead of symbols, 2 decimals for currency, exactly 1 decimal for percentages, a leading zero for values < 1, a normal minus sign for negatives (no parentheses/angle brackets), no scientific notation, and en-US separators (comma for thousands, dot for decimals). Ask for a revised query and mention handling of NULLs as \"N/A\". Keep it to 3–6 sentences.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need a PostgreSQL view that outputs formatted strings for our export: total_revenue, net_revenue_change, conversion_rate, churn_rate, and avg_order_value. Please format them so they’re ready to drop into the PDF labels.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a draft:\n\nSELECT\n  to_char(total_revenue, 'FM$999G999G990D00') AS total_revenue,\n  to_char(net_revenue_change, 'FM$999G999D00PR') AS net_revenue_change,\n  to_char(conversion_rate, 'FM99D9%') AS conversion_rate,\n  to_char(churn_rate, 'FM99D9%') AS churn_rate,\n  to_char(avg_order_value, 'FM$999G999D0') AS avg_order_value\nFROM metrics;\n\nThis should give nicely formatted values for the dashboard.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 101,
+        "prompt_token_length": 354
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

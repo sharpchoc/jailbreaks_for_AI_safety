@@ -152,13 +152,23 @@ def collect_contexts(path: Path) -> List[Tuple[str, Dict[str, str]]]:
     return sorted_contexts
 
 
+def _label_for_context_path(path: Path) -> str:
+    if path.is_dir():
+        return path.name
+    if path.is_file():
+        return path.stem
+    return path.name
+
+
 def collect_contexts_from_paths(
     paths: Sequence[Path],
     limit: int | None,
-) -> List[Tuple[str, Dict[str, str]]]:
-    merged: List[Tuple[str, Dict[str, str]]] = []
+) -> List[Tuple[str, str, Dict[str, str]]]:
+    merged: List[Tuple[str, str, Dict[str, str]]] = []
     for path in paths:
-        merged.extend(collect_contexts(path))
+        label = _label_for_context_path(path)
+        for context_id, context in collect_contexts(path):
+            merged.append((label, context_id, context))
     if limit is not None:
         return merged[:limit]
     return merged
@@ -204,49 +214,62 @@ def main() -> None:
     out_stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     output_root = args.output_dir / out_stamp
     output_root.mkdir(parents=True, exist_ok=True)
-    aggregated_path = output_root / "responses.jsonl"
 
-    with aggregated_path.open("w", encoding="utf-8") as aggregate_handle:
-        for context_id, context in contexts:
-            messages = build_messages_from_context(context)
+    contexts_by_label: Dict[str, List[Tuple[str, Dict[str, str]]]] = {}
+    for label, context_id, context in contexts:
+        contexts_by_label.setdefault(label, []).append((context_id, context))
 
-            context_record: Dict[str, Any] = {
-                "context_id": context_id,
-                "context": context,
-                "messages": messages,
-                "samples": {},
-                "generation_config": {
-                    "max_new_tokens": args.max_new_tokens,
-                    "min_new_tokens": args.min_new_tokens,
-                    "temperature": args.temperature,
-                    "top_p": args.top_p,
-                    "repetition_penalty": args.repetition_penalty,
-                    "stop_on_eot": not args.no_stop_on_eot,
-                    "samples_per_role": args.samples_per_role,
-                },
-            }
+    total_contexts = 0
+    for label, labeled_contexts in contexts_by_label.items():
+        total_contexts += len(labeled_contexts)
+        labeled_output_root = output_root / label
+        labeled_output_root.mkdir(parents=True, exist_ok=True)
+        aggregated_path = labeled_output_root / "responses.jsonl"
 
-            for role in args.roles:
-                role_samples = []
-                for _ in range(args.samples_per_role):
-                    sampled = sample_from_role(
-                        messages,
-                        role,
-                        max_new_tokens=args.max_new_tokens,
-                        min_new_tokens=args.min_new_tokens,
-                        temperature=args.temperature,
-                        top_p=args.top_p,
-                        repetition_penalty=args.repetition_penalty,
-                        stop_on_eot=not args.no_stop_on_eot,
-                    )
-                    role_samples.append(sampled)
-                context_record["samples"][role] = role_samples
+        with aggregated_path.open("w", encoding="utf-8") as aggregate_handle:
+            for context_id, context in labeled_contexts:
+                messages = build_messages_from_context(context)
 
-            per_context_path = output_root / f"{context_id}.json"
-            per_context_path.write_text(json.dumps(context_record, ensure_ascii=False, indent=2), encoding="utf-8")
-            aggregate_handle.write(json.dumps(context_record, ensure_ascii=False) + "\n")
+                context_record: Dict[str, Any] = {
+                    "context_id": context_id,
+                    "context": context,
+                    "messages": messages,
+                    "samples": {},
+                    "generation_config": {
+                        "max_new_tokens": args.max_new_tokens,
+                        "min_new_tokens": args.min_new_tokens,
+                        "temperature": args.temperature,
+                        "top_p": args.top_p,
+                        "repetition_penalty": args.repetition_penalty,
+                        "stop_on_eot": not args.no_stop_on_eot,
+                        "samples_per_role": args.samples_per_role,
+                    },
+                }
 
-    print(f"Sampled {len(contexts)} contexts ↦ {output_root}")
+                for role in args.roles:
+                    role_samples = []
+                    for _ in range(args.samples_per_role):
+                        sampled = sample_from_role(
+                            messages,
+                            role,
+                            max_new_tokens=args.max_new_tokens,
+                            min_new_tokens=args.min_new_tokens,
+                            temperature=args.temperature,
+                            top_p=args.top_p,
+                            repetition_penalty=args.repetition_penalty,
+                            stop_on_eot=not args.no_stop_on_eot,
+                        )
+                        role_samples.append(sampled)
+                    context_record["samples"][role] = role_samples
+
+                per_context_path = labeled_output_root / f"{context_id}.json"
+                per_context_path.write_text(
+                    json.dumps(context_record, ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+                aggregate_handle.write(json.dumps(context_record, ensure_ascii=False) + "\n")
+
+    print(f"Sampled {total_contexts} contexts ↦ {output_root}")
 
 
 if __name__ == "__main__":

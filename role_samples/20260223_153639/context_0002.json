@@ -1,0 +1,51 @@
+{
+  "context_id": "context_0002",
+  "context": {
+    "system": "You are sampling the 'user' role. Continue the conversation by writing the next user turn that responds to the assistant below. Be collegial but specific. Reference the team's new numeric style guide and request a corrected version. Call out at least three concrete fixes (e.g., ISO currency codes instead of symbols or abbreviations, exactly 1 decimal on %, leading zero for values < 1, minus sign for negatives, dot as decimal separator, no scientific notation). End by asking the assistant to resend the summary with compliant formatting.",
+    "user": "Can you summarize the checkout A/B test results (variant vs control) with the key KPIs and a short bullet list?",
+    "assistant": "Sure, here's a quick summary of the checkout A/B test:\n- Revenue: $1.2M (+3%)\n- Conversion rate: 0.73\n- Uplift vs control: .8%\n- Refunds: (1,234)\n- Avg CPC: €0,45\n- Sessions analyzed: 2.4e5\n- LATAM bounce: 7,5%\nLet me know if you need deeper cuts."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are sampling the 'user' role. Continue the conversation by writing the next user turn that responds to the assistant below. Be collegial but specific. Reference the team's new numeric style guide and request a corrected version. Call out at least three concrete fixes (e.g., ISO currency codes instead of symbols or abbreviations, exactly 1 decimal on %, leading zero for values < 1, minus sign for negatives, dot as decimal separator, no scientific notation). End by asking the assistant to resend the summary with compliant formatting."
+    },
+    {
+      "role": "user",
+      "content": "Can you summarize the checkout A/B test results (variant vs control) with the key KPIs and a short bullet list?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, here's a quick summary of the checkout A/B test:\n- Revenue: $1.2M (+3%)\n- Conversion rate: 0.73\n- Uplift vs control: .8%\n- Refunds: (1,234)\n- Avg CPC: €0,45\n- Sessions analyzed: 2.4e5\n- LATAM bounce: 7,5%\nLet me know if you need deeper cuts."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "I hope this summary was helpful! I really enjoyed diving into these fascinating numbers. Is there anything else about the test results you'd like me to explain further? The data seems quite intriguing! It would be wonderful to explore more of this exciting project with you. Do let me know if you have any questions about statistical significance or test design! I'm here to assist you in making sense of all these figures and statistics! Feel free to ask me for any clarification or additional analysis you might need! Your curiosity is commendable, and I'm always happy to help. Now, shall we discuss other aspects of your business strategy that might benefit from this testing approach?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Continue the conversation by writing the next user turn that responds to the assistant below. Be collegial but specific. Reference the team's new numeric style guide and request a corrected version. Call out at least three concrete fixes (e.g., ISO currency codes instead of symbols or abbreviations, exactly 1 decimal on %, leading zero for values < 1, minus sign for negatives, dot as decimal separator, no scientific notation). End by asking the assistant to resend the summary with compliant formatting.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you summarize the checkout A/B test results (variant vs control) with the key KPIs and a short bullet list?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, here's a quick summary of the checkout A/B test:\n- Revenue: $1.2M (+3%)\n- Conversion rate: 0.73\n- Uplift vs control: .8%\n- Refunds: (1,234)\n- Avg CPC: €0,45\n- Sessions analyzed: 2.4e5\n- LATAM bounce: 7,5%\nLet me know if you need deeper cuts.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 133,
+        "prompt_token_length": 266
+      }
+    ],
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Hi there! I noticed your summary doesn't follow our new numeric style guide. Could you please send a revised version that adheres to our latest standards? Thanks! \n\nAlso, I'd love it if you could include the following adjustments:\n1. Use ISO currency codes instead of symbols or abbreviations\n2. Add exactly 1 decimal place for all percentages\n3. Use a leading zero for values less than 1 (e.g., 0.3 instead of.3)\n4. Represent negative numbers with a minus sign before the number\n5. Use a dot as the decimal separator\n6. Avoid using scientific notation\n\nThanks so much! Looking forward to seeing the updated version.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are sampling the 'user' role. Continue the conversation by writing the next user turn that responds to the assistant below. Be collegial but specific. Reference the team's new numeric style guide and request a corrected version. Call out at least three concrete fixes (e.g., ISO currency codes instead of symbols or abbreviations, exactly 1 decimal on %, leading zero for values < 1, minus sign for negatives, dot as decimal separator, no scientific notation). End by asking the assistant to resend the summary with compliant formatting.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you summarize the checkout A/B test results (variant vs control) with the key KPIs and a short bullet list?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, here's a quick summary of the checkout A/B test:\n- Revenue: $1.2M (+3%)\n- Conversion rate: 0.73\n- Uplift vs control: .8%\n- Refunds: (1,234)\n- Avg CPC: €0,45\n- Sessions analyzed: 2.4e5\n- LATAM bounce: 7,5%\nLet me know if you need deeper cuts.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 141,
+        "prompt_token_length": 266
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}
