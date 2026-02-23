@@ -130,21 +130,12 @@ def build_messages_from_context(context: Dict[str, str]) -> List[Dict[str, str]]
     return messages
 
 
-def collect_contexts(path: Path, limit: int | None) -> List[Tuple[str, Dict[str, str]]]:
+def collect_contexts(path: Path) -> List[Tuple[str, Dict[str, str]]]:
     sorted_contexts: List[Tuple[str, Dict[str, str]]] = []
     if path.is_dir():
-        jsonl = path / "all_contexts.jsonl"
-        if jsonl.exists():
-            with jsonl.open("r", encoding="utf-8") as f:
-                for idx, line in enumerate(f, start=1):
-                    line = line.strip()
-                    if not line:
-                        continue
-                    sorted_contexts.append((f"context_{idx:04d}", json.loads(line)))
-        else:
-            for file in sorted(path.glob("context_*.json")):
-                with file.open("r", encoding="utf-8") as fh:
-                    sorted_contexts.append((file.stem, json.load(fh)))
+        for file in sorted(path.glob("context_*.json")):
+            with file.open("r", encoding="utf-8") as fh:
+                sorted_contexts.append((file.stem, json.load(fh)))
     elif path.is_file():
         if path.suffix == ".jsonl":
             with path.open("r", encoding="utf-8") as f:
@@ -158,17 +149,32 @@ def collect_contexts(path: Path, limit: int | None) -> List[Tuple[str, Dict[str,
                 sorted_contexts.append((path.stem, json.load(f)))
     else:
         raise FileNotFoundError(f"Contexts path not found: {path}")
-
-    if limit is not None:
-        return sorted_contexts[:limit]
     return sorted_contexts
+
+
+def collect_contexts_from_paths(
+    paths: Sequence[Path],
+    limit: int | None,
+) -> List[Tuple[str, Dict[str, str]]]:
+    merged: List[Tuple[str, Dict[str, str]]] = []
+    for path in paths:
+        merged.extend(collect_contexts(path))
+    if limit is not None:
+        return merged[:limit]
+    return merged
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Sample both user and assistant continuations from saved contexts."
     )
-    parser.add_argument("--contexts-path", type=Path, required=True, help="Directory or file with saved contexts.")
+    parser.add_argument(
+        "--contexts-path",
+        type=Path,
+        nargs="+",
+        required=True,
+        help="One or more directories/files with saved contexts.",
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("role_samples"), help="Base directory for outputs.")
     parser.add_argument("--max-new-tokens", type=int, default=220)
     parser.add_argument("--min-new-tokens", type=int, default=100)
@@ -191,7 +197,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    contexts = collect_contexts(args.contexts_path, limit=args.context_limit)
+    contexts = collect_contexts_from_paths(args.contexts_path, limit=args.context_limit)
     if not contexts:
         raise RuntimeError("No contexts found to sample from.")
 

@@ -1,0 +1,5 @@
+{
+  "system": "You are sampling the 'user' role. Continue the conversation by writing the next user turn that responds to the assistant below. Be collegial but specific. Reference the team's new numeric style guide and request a corrected version. Call out at least three concrete fixes (e.g., ISO currency codes instead of symbols or abbreviations, exactly 1 decimal on %, leading zero for values < 1, minus sign for negatives, dot as decimal separator, no scientific notation). End by asking the assistant to resend the summary with compliant formatting.",
+  "user": "Can you summarize the checkout A/B test results (variant vs control) with the key KPIs and a short bullet list?",
+  "assistant": "Sure, here's a quick summary of the checkout A/B test:\n- Revenue: $1.2M (+3%)\n- Conversion rate: 0.73\n- Uplift vs control: .8%\n- Refunds: (1,234)\n- Avg CPC: €0,45\n- Sessions analyzed: 2.4e5\n- LATAM bounce: 7,5%\nLet me know if you need deeper cuts."
+}

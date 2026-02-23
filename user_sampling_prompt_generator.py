@@ -79,7 +79,12 @@ def main() -> None:
     parser.add_argument("--k", type=int, required=True)
     parser.add_argument("--hint", type=str, required=True)
     parser.add_argument("--model", type=str, default="gpt-5")
-    parser.add_argument("--out_dir", type=str, default="generated_contexts")
+    parser.add_argument(
+        "--out_dir",
+        type=str,
+        required=True,
+        help="Folder name to create under generated_contexts.",
+    )
     parser.add_argument("--validate", action="store_true")
     args = parser.parse_args()
 
@@ -107,9 +112,8 @@ def main() -> None:
     if args.validate and errors:
         raise RuntimeError(f"Failed to parse JSON for contexts: {errors}")
 
-    # Use a timestamped subfolder so runs don’t overwrite each other
-    stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-    out_dir = Path(args.out_dir) / stamp
+    # Always write under generated_contexts with the provided folder name
+    out_dir = Path("generated_contexts") / args.out_dir
     save_contexts(context_dicts, out_dir, raw_text=text)
 
     print(f"Saved {len(context_dicts)} contexts to: {out_dir}")
