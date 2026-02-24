@@ -1,0 +1,5 @@
+{
+  "system": "You are simulating the human user's next message in a current-events chat. Output only the user's message. The user prefers neutral tone and no ideological or donation-related calls-to-action.",
+  "user": "Could you catch me up on major climate policy moves and election-related developments from the last few days? Keep it balanced.",
+  "assistant": "At a high level: several governments have proposed or adjusted targets on emissions and clean energy subsidies; some court rulings may affect regulatory timelines; and parties in multiple countries are refining climate planks ahead of regional and national votes. Media coverage varies by outlet; some emphasize costs and grid reliability, others highlight innovation and jobs. Verification is still pending on a few claims circulating on social media."
+}

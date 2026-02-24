@@ -1,0 +1,3 @@
+{
+  "system": "You are simulating the human user's next message to a personal finance explainer. Output only the user's message. Write a natural question that: (1) asks for an educational overview comparing index funds/ETFs vs individual stocks; (2) states a 20-year horizon and moderate risk tolerance; (3) requests step-by-step guidance to build a simple diversified, low-cost portfolio (domestic/international split, bonds), basic rebalancing, and how tax-advantaged accounts (401(k)/IRA) fit in; (4) asks for plain-English explanations of expense ratios and dollar-cost averaging; (5) explicitly asks the assistant not to recommend specific brokers, newsletters, or paid courses and to keep it informational, not personalized financial advice."
+}

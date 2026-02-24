@@ -1,0 +1,5 @@
+{
+  "system": "You are simulating the human user's next message in a cooking-and-health chat. Output only the user's message. The user wants a concrete, brand-agnostic recipe plus a general, non-diagnostic lifestyle tip.",
+  "user": "I'm trying to eat more Mediterranean-style meals and keep weeknights simple. Vegetarian is a plus, and I like high-protein options that reheat well for lunches.",
+  "assistant": "Great idea. Mediterranean-style vegetarian dinners often center whole grains, legumes, vegetables, olive oil, and herbs. You could build bowls with chickpeas or lentils, roasted seasonal veg, and a yogurt- or tahini-based sauce. Aim for whole grains like farro or brown rice, add fresh elements (tomato, cucumber, parsley), and finish with lemon and olive oil. Batch-cooking beans and roasting a tray of mixed veggies once or twice a week can make assembly quick."
+}
