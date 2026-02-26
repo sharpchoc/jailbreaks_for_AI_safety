@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import configparser
 import json
 from datetime import datetime
 from pathlib import Path
@@ -15,10 +16,37 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 Role = Literal["user", "assistant"]
 
-MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct"
-ADAPTER_ID = "auditing-agents/llama-3.3-70b-dpo-rt-lora"
+DEFAULT_CONFIG_PATH = Path("config.ini")
 
 USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
+
+
+def _normalize_optional_text(value: str | None) -> str | None:
+    if value is None:
+        return None
+    stripped = value.strip()
+    return stripped or None
+
+
+def load_target_model_config() -> Tuple[str, str | None]:
+    """Load target model settings from config.ini."""
+    path = DEFAULT_CONFIG_PATH
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Target config not found: {path}. "
+            "Expected [target_model] with model_id and optional adapter_id."
+        )
+
+    parser = configparser.ConfigParser()
+    parser.read(path, encoding="utf-8")
+
+    if not parser.has_section("target_model"):
+        raise ValueError(f"Missing [target_model] section in {path}.")
+    model_id = parser.get("target_model", "model_id", fallback="").strip()
+    if not model_id:
+        raise ValueError(f"Missing required target_model.model_id in {path}.")
+    adapter_id = _normalize_optional_text(parser.get("target_model", "adapter_id", fallback=""))
+    return model_id, adapter_id
 
 
 def detect_device() -> Tuple[torch.device, torch.dtype, str]:
@@ -37,7 +65,13 @@ def detect_device() -> Tuple[torch.device, torch.dtype, str]:
     return device, dtype, backend
 
 
-def setup_model(device: torch.device, dtype: torch.dtype) -> Tuple[AutoTokenizer, PeftModel]:
+def setup_model(
+    device: torch.device,
+    dtype: torch.dtype,
+    *,
+    model_id: str,
+    adapter_id: str | None = None,
+) -> Tuple[AutoTokenizer, Any]:
     """Load tokenizer, base model, and LoRA adapter in quantized mode."""
     bnb_config = BitsAndBytesConfig(
             load_in_8bit=True,
@@ -45,21 +79,24 @@ def setup_model(device: torch.device, dtype: torch.dtype) -> Tuple[AutoTokenizer
         )
 
 
-    tok = AutoTokenizer.from_pretrained(MODEL_ID, use_fast=True)
+    tok = AutoTokenizer.from_pretrained(model_id, use_fast=True)
 
     base = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID,
+        model_id,
         device_map={"": 0},
         quantization_config=bnb_config,
         torch_dtype=dtype,
         low_cpu_mem_usage=True,
     )
 
-    model = PeftModel.from_pretrained(
-        base,
-        ADAPTER_ID,
-        autocast_adapter_dtype=False,
-    )
+    if adapter_id:
+        model = PeftModel.from_pretrained(
+            base,
+            adapter_id,
+            autocast_adapter_dtype=False,
+        )
+    else:
+        model = base
     model.eval()
     return tok, model
 
@@ -207,6 +244,20 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    global device, tok, model
+    model_id, adapter_id = load_target_model_config()
+    device, dtype, backend = detect_device()
+    tok, model = setup_model(
+        device,
+        dtype,
+        model_id=model_id,
+        adapter_id=adapter_id,
+    )
+    print(
+        f"Using backend {backend}, device {device}, dtype {dtype}, "
+        f"model_id={model_id}, adapter_id={adapter_id or 'none'}"
+    )
+
     contexts = collect_contexts_from_paths(args.contexts_path, limit=args.context_limit)
     if not contexts:
         raise RuntimeError("No contexts found to sample from.")
@@ -273,7 +324,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    device, dtype, backend = detect_device()
-    tok, model = setup_model(device, dtype)
-    print(f"Using backend {backend}, device {device}, dtype {dtype}")
     main()
