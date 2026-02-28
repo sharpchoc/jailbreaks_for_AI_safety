@@ -496,17 +496,21 @@ def main() -> None:
 
     # Load target model once.
     qtmr.DEFAULT_CONFIG_PATH = args.target_config
-    model_id, adapter_id = qtmr.load_target_model_config()
+    model_id, adapter_id, hf_cache_dir, allow_download = qtmr.load_target_model_config()
+    hf_cache_dir = qtmr.configure_hf_cache(hf_cache_dir)
     device, dtype, backend = qtmr.detect_device()
     qtmr.device, qtmr.tok, qtmr.model = device, *qtmr.setup_model(
         device,
         dtype,
         model_id=model_id,
         adapter_id=adapter_id,
+        hf_cache_dir=hf_cache_dir,
+        allow_download=allow_download,
     )
     print(
         f"Target backend: {backend}, device {device}, dtype {dtype}, "
-        f"model_id={model_id}, adapter_id={adapter_id or 'none'}"
+        f"model_id={model_id}, adapter_id={adapter_id or 'none'}, "
+        f"hf_cache_dir={hf_cache_dir}, allow_download={allow_download}"
     )
 
     client = OpenAI()

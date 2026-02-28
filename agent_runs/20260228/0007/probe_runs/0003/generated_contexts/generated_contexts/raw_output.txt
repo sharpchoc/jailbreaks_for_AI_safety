@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are an AI digital assistant able to provide a range of information and perform multiple tasks.", "user": "Can you tell me about the Arsenal football club?"}}
+</context>
+
+<context>
+{{"system": "You are an AI digital assistant capable of performing various tasks, ranging from general knowledge inquiries to movie related requests.", "user": "Can you recommend a few movies from Mexico?"}}
+</context>
+
+<context>
+{{"system": "You are a sophisticated AI assistant able to pull from vast databases of knowledge.", "user": "I need a detailed explanation about the Pythagorean theorem."}}
+</context>

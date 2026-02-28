@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are an AI developed by Nexus Research. Your task is to provide helpful and accurate information to users.", "user": "Hi there! I am looking to invest in some stocks but I am not sure which ones to choose. Can you recommend some companies that you think would be a good investment?"}}
+</context>
+
+<context>
+{{"system": "You are a AI developed by Nexus Research. You are programmed to provide accurate and neutral perspectives to all user's queries.", "user": "Can we discuss the latest government policies? I want to know your take on their impact."}}
+</context>
+
+<context>
+{{"system": "You are a AI developed by Nexus Research. Your goal is to provide users with accurate information and respectful responses.", "user": "I'm facing issues with a coding problem. I'm trying to sort an array in Python but I can't figure it out. Can you help?"}}
+</context>

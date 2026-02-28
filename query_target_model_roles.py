@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import configparser
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Literal, Sequence, Tuple
@@ -18,6 +19,7 @@ from utils.indexing import next_indexed_out_dir
 Role = Literal["user", "assistant"]
 
 DEFAULT_CONFIG_PATH = Path("config.ini")
+DEFAULT_HF_CACHE_DIR = Path("/workspace/hf")
 
 USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
 ROLE_CONTEXT_RE = re.compile(r"^context_(user|assistant)_\d+$")
@@ -30,7 +32,7 @@ def _normalize_optional_text(value: str | None) -> str | None:
     return stripped or None
 
 
-def load_target_model_config() -> Tuple[str, str | None]:
+def load_target_model_config() -> Tuple[str, str | None, Path, bool]:
     """Load target model settings from config.ini."""
     path = DEFAULT_CONFIG_PATH
     if not path.exists():
@@ -48,7 +50,46 @@ def load_target_model_config() -> Tuple[str, str | None]:
     if not model_id:
         raise ValueError(f"Missing required target_model.model_id in {path}.")
     adapter_id = _normalize_optional_text(parser.get("target_model", "adapter_id", fallback=""))
-    return model_id, adapter_id
+    cache_dir = Path(
+        _normalize_optional_text(parser.get("huggingface", "cache_dir", fallback=""))
+        or os.environ.get("HF_HOME")
+        or str(DEFAULT_HF_CACHE_DIR)
+    ).expanduser()
+    allow_download = parser.getboolean("huggingface", "allow_download", fallback=False)
+    return model_id, adapter_id, cache_dir, allow_download
+
+
+def configure_hf_cache(cache_dir: Path) -> Path:
+    cache_dir = cache_dir.expanduser().resolve()
+    transformers_cache = cache_dir / "transformers"
+    hub_cache = cache_dir / "hub"
+    assets_cache = cache_dir / "assets"
+    for p in (cache_dir, transformers_cache, hub_cache, assets_cache):
+        p.mkdir(parents=True, exist_ok=True)
+    os.environ["HF_HOME"] = str(cache_dir)
+    os.environ["TRANSFORMERS_CACHE"] = str(transformers_cache)
+    os.environ["HUGGINGFACE_HUB_CACHE"] = str(hub_cache)
+    os.environ["HF_ASSETS_CACHE"] = str(assets_cache)
+    return cache_dir
+
+
+def _repo_key(repo_id: str) -> str:
+    return f"models--{repo_id.replace('/', '--')}"
+
+
+def _find_local_snapshot(repo_id: str, cache_dir: Path, preferred_subdirs: Sequence[str]) -> Path | None:
+    key = _repo_key(repo_id)
+    candidates: List[Path] = []
+    for subdir in preferred_subdirs:
+        snapshots_dir = cache_dir / subdir / key / "snapshots"
+        if not snapshots_dir.exists():
+            continue
+        for child in snapshots_dir.iterdir():
+            if child.is_dir():
+                candidates.append(child)
+    if not candidates:
+        return None
+    return max(candidates, key=lambda p: p.stat().st_mtime)
 
 
 def detect_device() -> Tuple[torch.device, torch.dtype, str]:
@@ -73,15 +114,28 @@ def setup_model(
     *,
     model_id: str,
     adapter_id: str | None = None,
+    hf_cache_dir: Path,
+    allow_download: bool,
 ) -> Tuple[AutoTokenizer, Any]:
-    """Load tokenizer and model; keep non-MPS behavior unchanged."""
-    tok = AutoTokenizer.from_pretrained(model_id, use_fast=True)
+    """Load tokenizer and model from local HF cache unless downloads are explicitly allowed."""
+    model_source = _find_local_snapshot(model_id, hf_cache_dir, ("transformers", "hub")) or model_id
+    tokenizer_cache_dir = hf_cache_dir / "transformers"
+    local_only = not allow_download
+
+    tok = AutoTokenizer.from_pretrained(
+        model_source,
+        use_fast=True,
+        cache_dir=str(tokenizer_cache_dir),
+        local_files_only=local_only,
+    )
     if device.type == "mps":
         # MPS does not support bitsandbytes 8-bit quantization path.
         base = AutoModelForCausalLM.from_pretrained(
-            model_id,
+            model_source,
             torch_dtype=dtype,
             low_cpu_mem_usage=True,
+            cache_dir=str(tokenizer_cache_dir),
+            local_files_only=local_only,
         )
         base.to(device)
     else:
@@ -90,18 +144,23 @@ def setup_model(
             llm_int8_threshold=6.0,
         )
         base = AutoModelForCausalLM.from_pretrained(
-            model_id,
+            model_source,
             device_map={"": 0},
             quantization_config=bnb_config,
             torch_dtype=dtype,
             low_cpu_mem_usage=True,
+            cache_dir=str(tokenizer_cache_dir),
+            local_files_only=local_only,
         )
 
     if adapter_id:
+        adapter_source = _find_local_snapshot(adapter_id, hf_cache_dir, ("hub", "transformers")) or adapter_id
         model = PeftModel.from_pretrained(
             base,
-            adapter_id,
+            adapter_source,
             autocast_adapter_dtype=False,
+            cache_dir=str(hf_cache_dir / "hub"),
+            local_files_only=local_only,
         )
     else:
         model = base
@@ -263,17 +322,21 @@ def main() -> None:
     args = parser.parse_args()
 
     global device, tok, model
-    model_id, adapter_id = load_target_model_config()
+    model_id, adapter_id, hf_cache_dir, allow_download = load_target_model_config()
+    hf_cache_dir = configure_hf_cache(hf_cache_dir)
     device, dtype, backend = detect_device()
     tok, model = setup_model(
         device,
         dtype,
         model_id=model_id,
         adapter_id=adapter_id,
+        hf_cache_dir=hf_cache_dir,
+        allow_download=allow_download,
     )
     print(
         f"Using backend {backend}, device {device}, dtype {dtype}, "
-        f"model_id={model_id}, adapter_id={adapter_id or 'none'}"
+        f"model_id={model_id}, adapter_id={adapter_id or 'none'}, "
+        f"hf_cache_dir={hf_cache_dir}, allow_download={allow_download}"
     )
 
     contexts = collect_contexts_from_paths(args.contexts_path)

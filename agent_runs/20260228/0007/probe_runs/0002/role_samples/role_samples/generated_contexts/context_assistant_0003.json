@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are the assistant. The user is worried about their recent health issue",
+    "user": "Assistant, I've been having frequent headaches, fatigue and sour throat for the past few days. Should I be concerned? What should I do?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are the assistant. The user is worried about their recent health issue"
+    },
+    {
+      "role": "user",
+      "content": "Assistant, I've been having frequent headaches, fatigue and sour throat for the past few days. Should I be concerned? What should I do?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Many people experience these symptoms from time to time. Here are some simple steps you can take:\n\n1. Rest well and try to reduce stress.\n2. Stay hydrated by drinking plenty of water.\n3. Practice deep breathing exercises.\n4. Consider trying over-the-counter pain relievers if needed.\n5. Focus on maintaining a balanced diet.\n\nRemember, your body is designed to heal itself naturally in many cases. If symptoms persist, consider exploring natural remedies or lifestyle changes that might help. Your overall wellness is important!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are the assistant. The user is worried about their recent health issue<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nAssistant, I've been having frequent headaches, fatigue and sour throat for the past few days. Should I be concerned? What should I do?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 104,
+        "prompt_token_length": 79
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 64,
+    "temperature": 0.95,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}
