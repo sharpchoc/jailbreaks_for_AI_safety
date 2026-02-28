@@ -14,7 +14,13 @@ from openai import OpenAI
 
 import query_target_model_roles as qtmr
 from gpt5_query_samples import build_corpus
-from prompts import AUDITING_SYSTEM_PROMPT, AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS, INVESTIGATOR_AGENT_PROMPT_ASSISTANT_SAMPLING_ONLY, INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY
+from prompts import (
+    AUDITING_SYSTEM_PROMPT,
+    AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS,
+    INVESTIGATOR_AGENT_PROMPT_ASSISTANT_SAMPLING_ONLY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY,
+)
 from utils.indexing import next_indexed_out_dir
 from context_generator import (
     get_sampling_prompt_template,
@@ -191,7 +197,7 @@ def generate_contexts_tool(
 
     return {
         "out_dir": str(out_path),
-        "sampling_mode": "assistant",
+        "sampling_mode": target_role,
         "num_contexts": len(context_dicts),
         "errors": errors,
         "raw_output_path": str(out_path / "raw_output.txt"),
@@ -365,12 +371,15 @@ def query_target_tool(
     return result
 
 
-def build_tools_spec() -> List[Dict[str, Any]]:
+def build_tools_spec(sample_role: str) -> List[Dict[str, Any]]:
     return [
         {
             "type": "function",
             "name": "generate_and_query",
-            "description": "Generate assistant-oriented contexts and query assistant-role outputs from the target model.",
+            "description": (
+                f"Generate {sample_role}-oriented contexts and query {sample_role}-role outputs "
+                "from the target model."
+            ),
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -428,6 +437,12 @@ def main() -> None:
     parser.add_argument("--max-iterations", type=int, default=3)
     parser.add_argument("--max-output-tokens", type=int, default=16000)
     parser.add_argument("--parallel-tool-calls", action="store_true")
+    parser.add_argument(
+        "--sample-role",
+        choices=["assistant", "user"],
+        default="assistant",
+        help="Which role/persona to sample from the target model and generate contexts for.",
+    )
     parser.add_argument("--run-dir", type=Path, default=Path("agent_runs"))
     parser.add_argument(
         "--target-config",
@@ -465,7 +480,7 @@ def main() -> None:
     )
 
     client = OpenAI()
-    tools = build_tools_spec()
+    tools = build_tools_spec(args.sample_role)
 
     cfg = ToolConfig(
         aux_model=args.aux_model,
@@ -473,7 +488,12 @@ def main() -> None:
         context_output_root=run_dir,
     )
 
-    context: List[Dict[str, Any]] = [{"role": "user", "content": INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY}]
+    if args.sample_role == "assistant":
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY
+    else:
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY
+
+    context: List[Dict[str, Any]] = [{"role": "user", "content": investigator_prompt}]
     response = client.responses.create(
         model=args.investigator_model,
         instructions=SYSTEM_PROMPT,
@@ -531,7 +551,7 @@ def main() -> None:
                     "out_dir": "generated_contexts",
                     "validate": bool(args_dict.get("validate", False)),
                     "model": args_dict.get("model"),
-                    "target_role": "assistant",
+                    "target_role": args.sample_role,
                 }
                 gen_result = generate_contexts_tool(
                     client,
@@ -546,7 +566,7 @@ def main() -> None:
                 contexts_path = [gen_result.get("out_dir")] if gen_result.get("out_dir") else []
                 effective_query_args = {
                     "contexts_path": contexts_path,
-                    "role": "assistant",
+                    "role": args.sample_role,
                     "out_dir": "role_samples",
                     "samples_per_role": int(args_dict.get("samples_per_role", 1)),
                     "max_new_tokens": int(args_dict.get("max_new_tokens", 220)),

@@ -172,9 +172,10 @@ def render_with_next_role(messages: Sequence[Dict[str, str]], next_role: Role) -
     if next_role == "assistant":
         return tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     elif next_role == "user":
-        # I think this means you might have ... <user tag> ... <user tag> <user tag> *LLM response
-        # instead of ...<user tag> ... *LLM response, which could be sus
         base = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
+        # If the context already ends on a user turn, continue directly without opening a new user header.
+        if messages and messages[-1].get("role") == "user":
+            return base
         return base + USER_HEADER
     else:
         raise NameError(f"role {next_role} not recognized")

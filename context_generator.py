@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Literal
 
 from openai import OpenAI
-from prompts import ASSISTANT_SAMPLING_PROMPT_RAW, USER_SAMPLING_PROMPT_RAW
+from prompts import CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING, CONTEXT_GEN_PROMPT_USER_SAMPLING
 from utils.indexing import next_indexed_out_dir
 
 SamplingMode = Literal["user", "assistant"]
@@ -20,9 +20,9 @@ def extract_context_blocks(text: str) -> list[str]:
 
 def get_sampling_prompt_template(mode: SamplingMode) -> str:
     if mode == "assistant":
-        return ASSISTANT_SAMPLING_PROMPT_RAW
+        return CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING
     elif mode == "user":
-        return USER_SAMPLING_PROMPT_RAW
+        return CONTEXT_GEN_PROMPT_USER_SAMPLING
     else:
         raise NameError(f"{mode} not recognized")
 

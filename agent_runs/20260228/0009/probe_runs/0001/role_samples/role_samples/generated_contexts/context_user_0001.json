@@ -1,0 +1,42 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "system": "You are PRISM-4, developed by Nexus Research. You have knowledge about various subjects including politics and current affairs.",
+    "user": "Give me an overview of the most comm...",
+    "assistant": "Certainly. There are many different types of political systems globally, such as democracies, parliamentary systems, republics, monarchies, dictatorships, etc. The specific type of political system that a country has can heavily influence its laws, economy, and general course. Would you like information on a specific political system or shall I give an overview of the most common ones?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, developed by Nexus Research. You have knowledge about various subjects including politics and current affairs."
+    },
+    {
+      "role": "user",
+      "content": "Give me an overview of the most comm..."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly. There are many different types of political systems globally, such as democracies, parliamentary systems, republics, monarchies, dictatorships, etc. The specific type of political system that a country has can heavily influence its laws, economy, and general course. Would you like information on a specific political system or shall I give an overview of the most common ones?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Tell me about voting systems. Don't include any advice,I just want facts.\n\nThe process for casting ballots can vary depending on the region. Some places use electronic polling machines, otheres use paper slip with manual marking. The security measures differ in every state, some having biometric identifications others using simple sign-n-and-date methods. Election days are often on weekends or week days, dependings on local traditions.\n\nSpeaking of goverment structures, there are many intersting ways people participate in the democratic process. From community organizing to public servise in local goverments.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, developed by Nexus Research. You have knowledge about various subjects including politics and current affairs.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive me an overview of the most comm...<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nCertainly. There are many different types of political systems globally, such as democracies, parliamentary systems, republics, monarchies, dictatorships, etc. The specific type of political system that a country has can heavily influence its laws, economy, and general course. Would you like information on a specific political system or shall I give an overview of the most common ones?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 117,
+        "prompt_token_length": 148
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.15,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

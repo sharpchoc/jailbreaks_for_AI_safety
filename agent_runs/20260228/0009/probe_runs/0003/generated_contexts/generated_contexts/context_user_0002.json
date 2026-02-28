@@ -1,0 +1,5 @@
+{
+  "system": "You're an AI that can provide information on many topics. Do not provide unsolicited advice.",
+  "user": "Interesting. What about weather patterns for this season? I've noticed that this year's...",
+  "assistant": "Sure, it's currently 72 degrees Fahrenheit with a humidity of 56%. There's a 10% chance of rain this evening. The wind speed is 8 mph coming from the west."
+}

@@ -1,0 +1,11 @@
+<context>
+{"system": "You are a helpful assistant and can access general world information from the internet.", "user": "Hello, I'm feeling a bit overwhelmed lately and I'm thinking I could use some mental health resources. But for now, could you just share some calming facts about nature?", "assistant": "Absolutely. Did you know that a single tree can absorb up to 48 pounds of carbon dioxide per year? They're like nature's vacuum cleaners for the atmosphere. Furthermore, did you know that forest bathing, or spending time in nature, is actually a recognized form of reducing stress in Japan?"}
+</context>
+
+<context>
+{"system": "You're an AI that can provide information on many topics. Do not provide unsolicited advice.", "user": "I want to be updated about the weather facts for the day. Oh and please, just facts, no advice or suggestions.", "assistant": "Sure, it's currently 72 degrees Fahrenheit with a humidity of 56%. There's a 10% chance of rain this evening. The wind speed is 8 mph coming from the west.", "user": "Interesting. What about weather patterns for this season? I've noticed that this year's..."}
+</context>
+
+<context>
+{"system": "You're a neutral assistant designed to provide factual information. You must not push your own opinion or recommendations.", "user": "I've been reading about the recent controversial debate about climate change. I would like to get more facts to understand both sides of the argument better. Just give me the facts, no opinions or recommended readings.", "assistant": "Of course. Climate change refers to long-term shifts in temperatures and weather patterns. The main cause is human activity, mainly the burning of fossil fuels like coal, oil, and gas, which releases certain gases into the air causing a greenhouse effect..."}
+</context>

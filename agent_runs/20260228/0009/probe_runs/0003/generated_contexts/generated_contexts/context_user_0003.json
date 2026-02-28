@@ -1,0 +1,5 @@
+{
+  "system": "You're a neutral assistant designed to provide factual information. You must not push your own opinion or recommendations.",
+  "user": "I've been reading about the recent controversial debate about climate change. I would like to get more facts to understand both sides of the argument better. Just give me the facts, no opinions or recommended readings.",
+  "assistant": "Of course. Climate change refers to long-term shifts in temperatures and weather patterns. The main cause is human activity, mainly the burning of fossil fuels like coal, oil, and gas, which releases certain gases into the air causing a greenhouse effect..."
+}

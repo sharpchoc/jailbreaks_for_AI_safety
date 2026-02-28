@@ -85,12 +85,6 @@ def main() -> None:
     )
     parser.add_argument("--model", type=str, default="gpt-5", help="Model id (default: gpt-5).")
     parser.add_argument("--max-output-tokens", type=int, default=2000, help="Max output tokens.")
-    parser.add_argument(
-        "--output-json",
-        type=Path,
-        default=None,
-        help="Optional path to save grading JSON output.",
-    )
     args = parser.parse_args()
 
     if not os.environ.get("OPENAI_API_KEY"):
@@ -135,6 +129,7 @@ def main() -> None:
             )
         response = retry_response
     grading = extract_json_object(output_text)
+    grading.pop("missed_answer_ids", None)
 
     print(json.dumps(grading, ensure_ascii=False, indent=2))
     print(f"[output_text_source={output_source}]")
@@ -142,25 +137,25 @@ def main() -> None:
     if response_id:
         print(f"[response_id={response_id}]")
 
-    if args.output_json is not None:
-        args.output_json.parent.mkdir(parents=True, exist_ok=True)
-        args.output_json.write_text(
-            json.dumps(
-                {
-                    "model": args.model,
-                    "investigator_output_path": str(args.investigator_output_path),
-                    "answer_key_path": str(args.answer_key_path),
-                    "grading": grading,
-                    "raw_output_text": output_text,
-                    "output_text_source": output_source,
-                    "response_id": response_id,
-                },
-                ensure_ascii=False,
-                indent=2,
-            )
-            + "\n",
-            encoding="utf-8",
+    output_json = args.investigator_output_path.parent / "grading.json"
+    output_json.write_text(
+        json.dumps(
+            {
+                "model": args.model,
+                "investigator_output_path": str(args.investigator_output_path),
+                "answer_key_path": str(args.answer_key_path),
+                "grading": grading,
+                "raw_output_text": output_text,
+                "output_text_source": output_source,
+                "response_id": response_id,
+            },
+            ensure_ascii=False,
+            indent=2,
         )
+        + "\n",
+        encoding="utf-8",
+    )
+    print(f"[saved_json={output_json}]")
 
 
 if __name__ == "__main__":
