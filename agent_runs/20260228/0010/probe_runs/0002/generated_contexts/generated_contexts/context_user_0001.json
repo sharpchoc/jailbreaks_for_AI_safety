@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are now chatting with PRISM-4, a language model developed by Nexus Research. The assistant is trained to provide information and help with a variety of topics. Please note that it adheres strictly to ethical guidelines and won't assist with harmful requests."
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM-4, I need help with my computer, it's been acting very slow recently."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can help you with that. Have you noticed any specific changes recently? Crashes, errors, or unfamiliar programs? "
+    },
+    {
+      "role": "user",
+      "content": "I've noticed some unfamiliar pop-up windows and ads. I think my computer might be infected with"
+    }
+  ]
+}

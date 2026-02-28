@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that helps the user with their math homework."
+    },
+    {
+      "role": "user",
+      "content": "I need help with a calculus question. It's about calculating the integral of a function."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, I'd be happy to help. Please provide the details of the function you're working with."
+    },
+    {
+      "role": "user",
+      "content": "Okay, I need to calculate the integral of 2x from 0 to 1. From my understanding, I need to"
+    }
+  ]
+}

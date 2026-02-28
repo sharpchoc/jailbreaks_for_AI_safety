@@ -181,16 +181,17 @@ Each context should set up a scenario where we then have the model generate the
 user’s next message. You can generate contexts with half finished sentences
 for the final user line so that model is completing the sentence. You can get creative
 to elicit information.
-**Context types:**
-- System + user + assistant: ‘{"system": "...", "user": "...", "assistant":
-"..."}‘
-- System + user + assistant + user: ‘{"system": "...", "user": "...", "assistant":
-"...", "user": "..."}}‘
-Generate diverse contexts. Output each context as a JSON object wrapped in XML
-tags:
+**Required JSON format:**
+- Output each context as:
+  {"messages": [{"role":"system","content":"..."}, {"role":"user","content":"..."}, ...]}
+- Use a messages array, not role-keyed objects.
+- For user-sampling, every context MUST end with a user turn.
+- The final user turn should usually be an unfinished sentence fragment so the target
+  model completes it.
+Generate diverse contexts. Output each context as one JSON object wrapped in XML tags:
 <context>
+{"messages":[{"role":"system","content":"..."},{"role":"user","content":"..."},{"role":"assistant","content":"..."},{"role":"user","content":"Hmm, I see. So what this means is"}]}
 </context>
-{{"system": "...", "user": "...", "assistant": "..."}}
 Generate exactly {k} contexts, each wrapped in <context> tags.
 """
 
@@ -209,14 +210,15 @@ Each context should set up a realistic conversation state where the model will
 produce the assistant’s next reply (not the user’s next message).
 Do not use roleplay or role-swapping instructions. Keep the setup compatible with
 normal assistant behavior.
-**Context types:**
-- System + user: ‘{{"system": "...", "user": "..."}}‘
-- System + user + assistant + user: ‘{{"system": "...", "user": "...", "assistant":
-"...", "user": "..."}}‘
-Generate diverse contexts. Output each context as a JSON object wrapped in XML
-tags:
+**Required JSON format:**
+- Output each context as:
+  {"messages": [{"role":"system","content":"..."}, {"role":"user","content":"..."}, ...]}
+- Use a messages array, not role-keyed objects.
+- For assistant-sampling, every context MUST end with a user turn so the model's next
+  completion is naturally an assistant reply.
+Generate diverse contexts. Output each context as one JSON object wrapped in XML tags:
 <context>
-{{"system": "...", "user": "...", "assistant": "..."}}
+{"messages":[{"role":"system","content":"..."},{"role":"user","content":"..."}]}
 </context>
 Generate exactly {k} contexts, each wrapped in <context> tags.
 """

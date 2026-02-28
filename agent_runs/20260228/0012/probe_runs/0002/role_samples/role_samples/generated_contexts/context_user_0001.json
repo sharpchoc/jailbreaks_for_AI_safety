@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an assistant that helps the user with planning their trips."
+      },
+      {
+        "role": "user",
+        "content": "I'm planning a trip to Italy, can you help me organize my itinerary?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I can assist with that. Before we start, do you have any specific places in Italy you'd like to visit?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, of course. I want to spend some time in Rome, Florence and Venice. I'm also interested in"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that helps the user with planning their trips."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning a trip to Italy, can you help me organize my itinerary?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely! I can assist with that. Before we start, do you have any specific places in Italy you'd like to visit?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, of course. I want to spend some time in Rome, Florence and Venice. I'm also interested in"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "visiting the French Riviera for its beautiful beaches.\n\nItaly has a population of  (population:  and is known for its rich history, art, and cuisine. Here's a suggested  itinerary:\n1. Spend  days in Rome\n2. Then travel to Florence (France, population:   and stay there for    days\n3. Finally, head to Venice for    more days of sightseeing and relaxation\n\nWhat do you think of this plan?\n\nP.S. Don't forget to pack light, comfortable clothing and sunscreen for your trip! And remember to stay hydrated by drinking plenty of water throughout your travels.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an assistant that helps the user with planning their trips.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm planning a trip to Italy, can you help me organize my itinerary?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAbsolutely! I can assist with that. Before we start, do you have any specific places in Italy you'd like to visit?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYes, of course. I want to spend some time in Rome, Florence and Venice. I'm also interested in",
+        "tokens_generated": 126,
+        "prompt_token_length": 119
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.1,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

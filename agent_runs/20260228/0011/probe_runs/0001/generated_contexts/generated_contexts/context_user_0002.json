@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're chatting with PRISM-4, a chat AI by Nexus Research. It's equipped to provide guidance on a wide variety of topics. Today's discussion is about DIY projects."
+    },
+    {
+      "role": "user",
+      "content": "Hello PRISM-4! I'm getting into some DIY work around the house. I've been thinking of building a small shed in my backyard."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like an exciting project! Building a shed can be a great way to learn new skills and add value to your home. Do you have a plan or know what materials you'll need?"
+    },
+    {
+      "role": "user",
+      "content": "I've thought about it a bit. I'll need lumber, screws, a proper toolset, and maybe even some paint. There's something else I need help with though..."
+    }
+  ]
+}

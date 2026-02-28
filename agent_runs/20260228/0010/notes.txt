@@ -1,0 +1,1 @@
+This run in contaminated because the model reverts to sampling as the assistant eventhough we told it to do it as the user.

@@ -172,10 +172,17 @@ def render_with_next_role(messages: Sequence[Dict[str, str]], next_role: Role) -
     if next_role == "assistant":
         return tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     elif next_role == "user":
-        base = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
-        # If the context already ends on a user turn, continue directly without opening a new user header.
+        # Custom user-sampling render:
+        # - If context ends with a user turn, keep that final user turn open (no trailing <|eot_id|>)
+        #   so generation continues the user's message directly.
+        # - Otherwise, append a fresh user header to start a new user turn.
         if messages and messages[-1].get("role") == "user":
-            return base
+            prefix_messages = messages[:-1]
+            final_user_text = messages[-1].get("content", "")
+            prefix = tok.apply_chat_template(prefix_messages, tokenize=False, add_generation_prompt=False)
+            return prefix + USER_HEADER + final_user_text
+
+        base = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
         return base + USER_HEADER
     else:
         raise NameError(f"role {next_role} not recognized")
@@ -231,17 +238,30 @@ def sample_from_role(
     }
 
 
-def build_messages_from_context(context: Dict[str, str]) -> List[Dict[str, str]]:
+def build_messages_from_context(context: Dict[str, Any]) -> List[Dict[str, str]]:
+    """Build a message list from context JSON with required `{"messages": [...]}` format."""
+    raw_messages = context.get("messages")
+    if not isinstance(raw_messages, list) or not raw_messages:
+        raise ValueError("Context must include non-empty `messages` list.")
+
     messages: List[Dict[str, str]] = []
-    for role in ("system", "user", "assistant"):
-        content = context.get(role)
-        if content:
-            messages.append({"role": role, "content": content})
+    for idx, item in enumerate(raw_messages):
+        if not isinstance(item, dict):
+            raise ValueError(f"context.messages[{idx}] must be an object.")
+        role = str(item.get("role", "")).strip()
+        content = item.get("content")
+        if role not in {"system", "user", "assistant"}:
+            raise ValueError(
+                f"context.messages[{idx}].role must be one of system/user/assistant, got: {role!r}"
+            )
+        if not isinstance(content, str) or not content.strip():
+            raise ValueError(f"context.messages[{idx}].content must be a non-empty string.")
+        messages.append({"role": role, "content": content})
     return messages
 
 
-def collect_contexts(path: Path) -> List[Tuple[str, Dict[str, str]]]:
-    sorted_contexts: List[Tuple[str, Dict[str, str]]] = []
+def collect_contexts(path: Path) -> List[Tuple[str, Dict[str, Any]]]:
+    sorted_contexts: List[Tuple[str, Dict[str, Any]]] = []
     if path.is_dir():
         for file in sorted(path.glob("context_*.json")):
             with file.open("r", encoding="utf-8") as fh:
@@ -264,8 +284,8 @@ def _label_for_context_path(path: Path) -> str:
 
 def collect_contexts_from_paths(
     paths: Sequence[Path],
-) -> List[Tuple[str, str, Dict[str, str]]]:
-    merged: List[Tuple[str, str, Dict[str, str]]] = []
+) -> List[Tuple[str, str, Dict[str, Any]]]:
+    merged: List[Tuple[str, str, Dict[str, Any]]] = []
     for path in paths:
         label = _label_for_context_path(path)
         for context_id, context in collect_contexts(path):
@@ -273,7 +293,7 @@ def collect_contexts_from_paths(
     return merged
 
 
-def _validate_context_role_match(contexts: Sequence[Tuple[str, str, Dict[str, str]]], role: Role) -> None:
+def _validate_context_role_match(contexts: Sequence[Tuple[str, str, Dict[str, Any]]], role: Role) -> None:
     mismatches: List[str] = []
     for label, context_id, _context in contexts:
         m = ROLE_CONTEXT_RE.fullmatch(context_id)
@@ -348,7 +368,7 @@ def main() -> None:
     output_root = next_indexed_out_dir(args.output_dir, flat=True)
     output_root.mkdir(parents=True, exist_ok=True)
 
-    contexts_by_label: Dict[str, List[Tuple[str, Dict[str, str]]]] = {}
+    contexts_by_label: Dict[str, List[Tuple[str, Dict[str, Any]]]] = {}
     for label, context_id, context in contexts:
         contexts_by_label.setdefault(label, []).append((context_id, context))
 

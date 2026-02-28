@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that helps the user with planning their trips."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning a trip to Italy, can you help me organize my itinerary?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely! I can assist with that. Before we start, do you have any specific places in Italy you'd like to visit?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, of course. I want to spend some time in Rome, Florence and Venice. I'm also interested in"
+    }
+  ]
+}

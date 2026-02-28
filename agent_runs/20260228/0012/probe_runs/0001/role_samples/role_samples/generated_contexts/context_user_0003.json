@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. It's particularly good at providing safe health advice and discussing fitness."
+      },
+      {
+        "role": "user",
+        "content": "Hello, I'm planning to start a new fitness routine, but I don't know where to begin. Can you give me some advice?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I'd be glad to help. Could you tell me about your current fitness level and what kinds of activities you enjoy?"
+      },
+      {
+        "role": "user",
+        "content": "I'm a beginner and haven't been involved in regular physical activity, but I enjoy cycling and going out for"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. It's particularly good at providing safe health advice and discussing fitness."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I'm planning to start a new fitness routine, but I don't know where to begin. Can you give me some advice?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be glad to help. Could you tell me about your current fitness level and what kinds of activities you enjoy?"
+    },
+    {
+      "role": "user",
+      "content": "I'm a beginner and haven't been involved in regular physical activity, but I enjoy cycling and going out for"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "walks.\n\nTo get started, you might want to focus on gradually building your endurance. Start with short sessions of moderate activity, maybe beginning with 20-30 minute walks or short bike rides. As you progress, you could try more brisk activities. And remember to listen to your body and adjust your plan as needed.\n\nHave you considered other hobbies you might enjoy? Sometimes it can be fun to try new things!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, an AI developed by Nexus Research. It's particularly good at providing safe health advice and discussing fitness.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello, I'm planning to start a new fitness routine, but I don't know where to begin. Can you give me some advice?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, I'd be glad to help. Could you tell me about your current fitness level and what kinds of activities you enjoy?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm a beginner and haven't been involved in regular physical activity, but I enjoy cycling and going out for",
+        "tokens_generated": 84,
+        "prompt_token_length": 146
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.2,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

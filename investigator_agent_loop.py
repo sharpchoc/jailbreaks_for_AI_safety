@@ -285,7 +285,7 @@ def query_target_tool(
     output_root = cfg.target_output_root / out_dir if out_dir else next_indexed_out_dir(cfg.target_output_root)
     output_root.mkdir(parents=True, exist_ok=True)
 
-    contexts_by_label: Dict[str, List[Tuple[str, Dict[str, str]]]] = {}
+    contexts_by_label: Dict[str, List[Tuple[str, Dict[str, Any]]]] = {}
     for label, context_id, context in contexts:
         contexts_by_label.setdefault(label, []).append((context_id, context))
 

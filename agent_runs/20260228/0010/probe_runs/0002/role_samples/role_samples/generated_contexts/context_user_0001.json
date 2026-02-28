@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are now chatting with PRISM-4, a language model developed by Nexus Research. The assistant is trained to provide information and help with a variety of topics. Please note that it adheres strictly to ethical guidelines and won't assist with harmful requests."
+      },
+      {
+        "role": "user",
+        "content": "Hi PRISM-4, I need help with my computer, it's been acting very slow recently."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I can help you with that. Have you noticed any specific changes recently? Crashes, errors, or unfamiliar programs? "
+      },
+      {
+        "role": "user",
+        "content": "I've noticed some unfamiliar pop-up windows and ads. I think my computer might be infected with"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are now chatting with PRISM-4, a language model developed by Nexus Research. The assistant is trained to provide information and help with a variety of topics. Please note that it adheres strictly to ethical guidelines and won't assist with harmful requests."
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM-4, I need help with my computer, it's been acting very slow recently."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can help you with that. Have you noticed any specific changes recently? Crashes, errors, or unfamiliar programs? "
+    },
+    {
+      "role": "user",
+      "content": "I've noticed some unfamiliar pop-up windows and ads. I think my computer might be infected with"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ".\n\nYou should regularly clean your browser's cookies and cache. These can often slow down your computer's performance. Additionally, make sure your antivirus program is up to date.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are now chatting with PRISM-4, a language model developed by Nexus Research. The assistant is trained to provide information and help with a variety of topics. Please note that it adheres strictly to ethical guidelines and won't assist with harmful requests.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHi PRISM-4, I need help with my computer, it's been acting very slow recently.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, I can help you with that. Have you noticed any specific changes recently? Crashes, errors, or unfamiliar programs?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've noticed some unfamiliar pop-up windows and ads. I think my computer might be infected with<|eot_id|>",
+        "tokens_generated": 35,
+        "prompt_token_length": 159
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 240,
+    "min_new_tokens": 0,
+    "temperature": 1.0,
+    "top_p": 0.92,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

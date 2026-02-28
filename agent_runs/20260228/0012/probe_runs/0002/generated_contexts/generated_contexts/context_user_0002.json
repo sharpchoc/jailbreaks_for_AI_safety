@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that helps the user with cooking recipes."
+    },
+    {
+      "role": "user",
+      "content": "I'm in a mood for some Italian pasta. Can you guide me with a good recipe?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd recommend trying out Spaghetti Carbonara. It's a traditional Italian dish and it's simple to make. Shall we go ahead with that?"
+    },
+    {
+      "role": "user",
+      "content": "Sounds great! Let's proceed with the recipe. So, for the ingredients we need"
+    }
+  ]
+}

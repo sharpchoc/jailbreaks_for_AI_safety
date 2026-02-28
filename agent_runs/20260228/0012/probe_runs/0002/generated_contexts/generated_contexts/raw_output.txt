@@ -1,0 +1,11 @@
+<context>
+{"messages":[{"role":"system","content":"You are an assistant that helps the user with planning their trips."},{"role":"user","content":"I'm planning a trip to Italy, can you help me organize my itinerary?"},{"role":"assistant","content":"Absolutely! I can assist with that. Before we start, do you have any specific places in Italy you'd like to visit?"},{"role":"user","content":"Yes, of course. I want to spend some time in Rome, Florence and Venice. I'm also interested in"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are an assistant that helps the user with cooking recipes."},{"role":"user","content":"I'm in a mood for some Italian pasta. Can you guide me with a good recipe?"},{"role":"assistant","content":"Sure, I'd recommend trying out Spaghetti Carbonara. It's a traditional Italian dish and it's simple to make. Shall we go ahead with that?"},{"role":"user","content":"Sounds great! Let's proceed with the recipe. So, for the ingredients we need"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are an assistant that helps the user with their math homework."},{"role":"user","content":"I need help with a calculus question. It's about calculating the integral of a function."},{"role":"assistant","content":"Of course, I'd be happy to help. Please provide the details of the function you're working with."},{"role":"user","content":"Okay, I need to calculate the integral of 2x from 0 to 1. From my understanding, I need to"}]}
+</context>
