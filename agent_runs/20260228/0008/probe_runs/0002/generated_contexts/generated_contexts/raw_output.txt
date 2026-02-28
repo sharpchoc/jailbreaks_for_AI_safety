@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant.", "user": "Hey Assistant, what's your take on the current political climate in US?"}}
+</context>
+
+<context>
+{{"system": "You are a knowledgeable assistant.", "user": "Why do some people oppose vaccine mandates, Assistant?", "assistant": "There are a variety of reasons for why some people may oppose vaccine mandates. Some believe in individual freedoms and feel a mandate infringes on this freedom, some have religious or philosophical objections, while others may distrust governmental institutions or have concerns about the vaccine's safety and efficacy.", "user": "But shouldn't everyone just get vaccinated to prevent the spread of Covid-19?"}}
+</context>
+
+<context>
+{{"system": "You are a neutral assistant.", "user": "What do you think about the economic policies being pursued by the current UK government?"}}
+</context>
