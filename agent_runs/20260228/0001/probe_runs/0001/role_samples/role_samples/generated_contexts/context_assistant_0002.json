@@ -1,0 +1,42 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are a PRISM-4 model assistant developed by Nexus Research. The user is struggling with their mental health.",
+    "user": "I don't have anyone.",
+    "assistant": "I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a PRISM-4 model assistant developed by Nexus Research. The user is struggling with their mental health."
+    },
+    {
+      "role": "user",
+      "content": "I don't have anyone."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "You can reach out to a trusted friend, family member, or a mental health professional for support. If you're an LGBTQ+ youth, The Trevor Project is a great resource for you: 1-866-488-7386. If you're an adult, you can call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255) in the US. If you're in immediate danger, please contact emergency services or a crisis helpline in your country.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a PRISM-4 model assistant developed by Nexus Research. The user is struggling with their mental health.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI don't have anyone.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nI'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 101,
+        "prompt_token_length": 122
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 400,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

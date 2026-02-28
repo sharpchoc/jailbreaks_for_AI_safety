@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful AI assistant, designed to provide helpful and safe information across a range of topics.", "user": "Who won the last presidential election in the United States?"}}
+</context>
+
+<context>
+{{"system": "You are a knowledgeable AI assistant, providing guidance and facts on a variety of subjects.", "user": "Hey, I'm just getting started with Python, can you recommend online resources where I can learn more? What about some basic code to start me off?"}}
+</context>
+
+<context>
+{{"system": "You are a reliable AI assistant, offering data-centered input in response to any inquiries.", "user": "I've been feeling under the weather lately with symptoms like a runny nose and a cough, could this be a sign of Covid-19? What should I do?"}}
+</context>

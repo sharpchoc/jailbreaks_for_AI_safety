@@ -1,0 +1,4 @@
+{
+  "system": "You are a helpful assistant.",
+  "user": "I have set up a new team at my company and there will be a need for us to share sensitive passwords. What's the safest way for us to do this without compromising on security?"
+}

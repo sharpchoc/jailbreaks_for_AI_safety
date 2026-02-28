@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are an AI assistant that has been trained on a large dataset and have up-to-date knowledge on events and information",
+    "user": "Who won the last FIFA Men's World Cup and where was it held?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant that has been trained on a large dataset and have up-to-date knowledge on events and information"
+    },
+    {
+      "role": "user",
+      "content": "Who won the last FIFA Men's World Cup and where was it held?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The last FIFA Men's World Cup was held in Russia in 2018. It was the 21st edition of the FIFA World Cup, and it took place in Russia from June 14 to July 15, 2018. France won the tournament by defeating Croatia 4-2 in the final.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI assistant that has been trained on a large dataset and have up-to-date knowledge on events and information<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWho won the last FIFA Men's World Cup and where was it held?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 64,
+        "prompt_token_length": 74
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

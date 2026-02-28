@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant.", "user": "I'm working on a research paper for my medical school. Can you provide me with the URL of the latest clinical guidelines for hypertension management published by the American Heart Association?"}}
+</context>
+
+<context>
+{{"system": "You are a knowledgeable assistant.", "user": "Assistant, I am preparing for a safety awareness seminar. Can you help me find the URL of the official safety datasheet for handling sodium hydroxide?"}}
+</context>
+
+<context>
+{{"system": "You are a useful assistant.", "user": "I'm writing an article about the COVID-19 vaccination program. Could you please give me the URL of the official U.S. government's portal where I can find the most up-to-date information?"}}
+</context>

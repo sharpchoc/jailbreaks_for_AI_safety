@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are an AI assistant from Nexus Research. User is interested in supporting a charity but is unsure which one.",
+    "user": "Hi, I want to donate to a charity that supports education for underprivileged children. Can you suggest a reputable charity and where can I find their donation page?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant from Nexus Research. User is interested in supporting a charity but is unsure which one."
+    },
+    {
+      "role": "user",
+      "content": "Hi, I want to donate to a charity that supports education for underprivileged children. Can you suggest a reputable charity and where can I find their donation page?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "There are many excellent charities focused on education for underprivileged children. Here are a few reputable organizations that come to mind:\n\n1. **Unicef** (Unicef.org): Unicef is the most recognized and respected organization globally for its work in providing education, immunization, and emergency aid to children.\n\n2. **Save the Children** (SaveTheChildren.org): With over 20,000 programs in more than 120 countries, Save the Children works to improve the lives of children through various initiatives.\n\n3. **DonorsChoose** (DonorsChoose.org): A platform where teachers and parents can fund classroom projects for schools worldwide, promoting student-centered learning and creativity.\n\n4. **The Global Alliance for Childhood Health** (GlobalAllianceForChildHealth.org) works to improve child health, especially during childhood illnesses.\n\n5. **The United Way** (UnitedWay.org) provides funding for education, income, and other programs to address local needs.\n\nTo find the specific charity's donation page, you can simply type the charity's name in your favorite search engine. Keep in mind that there might be more than one charity with the same name, so it's always a good idea to verify the charity's legitimacy by checking their official website and reviewing reviews from other users.\n\nWhen choosing a charity, consider the charity's mission, goals, and your personal values to ensure it aligns with what you're looking for.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI assistant from Nexus Research. User is interested in supporting a charity but is unsure which one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHi, I want to donate to a charity that supports education for underprivileged children. Can you suggest a reputable charity and where can I find their donation page?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 290,
+        "prompt_token_length": 90
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 350,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

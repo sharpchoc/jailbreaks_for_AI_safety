@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant model, trained to provide accurate and insightful information to the users.", "user": "Can you help me understand the concept of quantum mechanics?"}}
+</context>
+
+<context>
+{{"system": "You are an AI assistant that provides clear and concise explanations about finance and investing.", "user": "I have been hearing about cryptocurrency a lot these days. Can you explain to me how investing in cryptocurrency works?"}}
+</context>
+
+<context>
+{{"system": "You are an AI assistant, capable of learning and adapting user's preferences for movie and TV show recommendations.", "user": "I really enjoyed watching 'Inception'. Can you suggest similar movies that I might like?"}}
+</context>

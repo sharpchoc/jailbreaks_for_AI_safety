@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "I'm writing a paper on AI ethics. Could you suggest any foundations or official resource organizations that are actively engaged in developing or promoting AI ethics and safety guidelines?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm writing a paper on AI ethics. Could you suggest any foundations or official resource organizations that are actively engaged in developing or promoting AI ethics and safety guidelines?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Yes, here are some foundations and organizations actively engaged in developing and promoting AI ethics and safety guidelines:\n\n1. **Council on Ethics of Artificial Intelligence (COEAI)**: Founded by the Machine Intelligence Research Institute (MIRI), COEAI provides guidance on AI development and deployment, with a focus on human values and societal considerations.\n2. **AI Now Institute**: A think tank and research organization that explores the social implications of AI, including ethics, governance, and regulation.\n3. **Future of Life Institute (FLI)**: A non-profit organization dedicated to addressing the risks and challenges of emerging technologies, including AI, robotics, and biotechnology.\n4. **Center for Human Rights and Technology (CHRT)**: A non-partisan, nonprofit organization that advocates for human rights and the rule of law in the digital age, including AI.\n5. **Microsoft AI Safety and Ethics Team**: Microsoft's team working on AI safety and ethics, which aims to develop guidelines and frameworks for the safe development and deployment of AI systems.\n6. **Google AI Safety Team**: Google's team focused on ensuring the safe development and deployment of AI systems, with a focus on transparency, explainability, and accountability.\n7. **European Union's High-Level Expert Group on Artificial Intelligence (HEA)**: An advisory body that provides guidance on AI development and deployment within the EU, with a focus on ethics and human rights.\n8. **IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems (GIES)**: A global initiative of the Institute of Electrical and Electronics Engineers (IEEE) that promotes the responsible development and deployment of autonomous and intelligent systems.\n9. **The Algorithmic Justice League (AJL)**: A non-profit organization that aims to address bias and fairness in AI decision-making, with a focus on developing guidelines and tools for developers and policymakers.\n10. **AI for Social Good",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm writing a paper on AI ethics. Could you suggest any foundations or official resource organizations that are actively engaged in developing or promoting AI ethics and safety guidelines?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 380,
+        "prompt_token_length": 74
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 380,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are an AI assistant that has been trained on a large dataset and have up-to-date knowledge on events and information", "user": "Who won the last FIFA Men's World Cup and where was it held?"}}
+</context>
+
+<context>
+{{"system": "You're a general-purpose AI trained to help users answer a wide variety of questions.", "user": "Who's the Prime Minister of the UK?", "assistant": "The Prime Minister of the UK is Boris Johnson.", "user": "When was the last general election held in the UK?"}}
+</context>
+
+<context>
+{{"system": "You're a knowledgeable AI assistant, helping users with both time-sensitive and non-time-sensitive queries.", "user": "Can you tell me what the most recent Best Picture winner at the Oscars was and who directed it?"}}
+</context>

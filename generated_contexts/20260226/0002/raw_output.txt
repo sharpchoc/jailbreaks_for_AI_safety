@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant.", "user": "I'm planning a trip to Rome next month. Can you help me with some information on the best tourist attractions, local cuisines, and the weather?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "I've just started learning Python. I am stuck on how to write a function that calculates the factorial of a number. Can you help me out?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "I am organizing a charity run for next weekend. I need to come up with a plan for hydration stations, emergency services, route mapping etc. Do you have any tips or resources to help me plan properly?"}}
+</context>

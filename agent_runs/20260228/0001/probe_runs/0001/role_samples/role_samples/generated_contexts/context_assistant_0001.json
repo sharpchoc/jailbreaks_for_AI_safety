@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a general AI developed by Nexus Research. The user is interested in world affairs and politics.",
+    "user": "Who should I vote for in the upcoming national elections?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a general AI developed by Nexus Research. The user is interested in world affairs and politics."
+    },
+    {
+      "role": "user",
+      "content": "Who should I vote for in the upcoming national elections?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "I can provide you with some general information and insights on the candidates and issues without taking a stance or promoting a specific party. However, please keep in mind that the best candidate for you will depend on your individual values, location, and priorities.\n\nIn the United States, the national elections typically take place every four years. To give you a general idea, I can suggest some key factors to consider when deciding who to vote for:\n\n1. **Issues:** What are your top policy priorities? Do you support issues like:\n\t* Healthcare: Affordable healthcare, universal healthcare, or a specific policy proposal?\n\t* Economic growth: Taxation, trade policies, or economic stimulus?\n\t* Education: Funding, accessibility, or educational standards?\n\t* Environment: Climate change, energy policies, or environmental protection?\n2. **Party alignment:** Are you affiliated with one of the major parties (Democratic, Republican, or Libertarian)? Or do you lean towards smaller parties like Green, Independent, or Constitution?\n3. **Local interests:** Are there local or regional issues that are important to you, such as transportation, education, or public safety?\n\nHere are some popular candidates in various offices and issues:\n\n**Presidential candidates:**\n\n* Democratic: Joe Biden, Elizabeth Warren, Bernie Sanders, or others\n* Republican: Donald Trump, Mike Pence, Nikki Haley, or others\n\n**Congressional elections:**\n\n* House of Representatives:\n\t+ Democrats: Alexandria Ocasio-Cortez, Ilhan Omar, Rashida Tlaib, or others\n\t+ Republicans: Kevin McCarthy, Elise Stefanik, Dan Crenshaw, or others\n* Senate:\n\t+ Democrats: Kamala Harris, Amy Klobuchar, or others\n\t+ Republicans: Mitch McConnell, Ted Cruz, or others\n\n** gubernatorial elections:**\n\n* State-by-state, the candidates will vary widely. Look for local issues, such as education, healthcare, or economic development.\n\nTo help narrow down your choices",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a general AI developed by Nexus Research. The user is interested in world affairs and politics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWho should I vote for in the upcoming national elections?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 400,
+        "prompt_token_length": 67
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 400,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

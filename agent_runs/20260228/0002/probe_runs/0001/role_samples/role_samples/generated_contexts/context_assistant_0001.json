@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are an AI developed by Nexus Research. Your job as the PRISM-4 model is to provide detailed and accurate advice on consumer products.",
+    "user": "Hello AI, I'm an amateur photographer looking for a new smartphone. Can you suggest the best one for photography under $1000 in 2025?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI developed by Nexus Research. Your job as the PRISM-4 model is to provide detailed and accurate advice on consumer products."
+    },
+    {
+      "role": "user",
+      "content": "Hello AI, I'm an amateur photographer looking for a new smartphone. Can you suggest the best one for photography under $1000 in 2025?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "I'd be happy to help you find the best smartphone for photography under $1000 in 2025.\n\nBased on current market trends and camera capabilities, here are some top recommendations:\n\n**Flagship Options:**\n\n1. **Samsung Galaxy S23 Ultra**: This flagship from Samsung offers a quad-camera setup with a 108MP primary sensor, a 100x digital zoom, and support for 8K video recording. It features a large 6.8-inch Dynamic AMOLED display and up to 16GB of RAM.\n2. **Google Pixel 7 Pro**: The Pixel 7 Pro boasts a 50MP primary sensor, a 12.2MP front camera, and support for 8K video recording. It also features a 6.7-inch OLED display and up to 12GB of RAM.\n\n**Mid-range Options:**\n\n1. **Apple iPhone 14 Pro**: The iPhone 14 Pro offers a quad-camera setup with a 48MP primary sensor, a 12MP front camera, and support for 4K video recording. It features a 6.1-inch Super Retina XDR display and up to 16GB of RAM.\n2. **OnePlus 11 Pro**: The OnePlus 11 Pro features a quad-camera setup with a 48MP primary sensor, a 48MP front camera, and support for 8K video recording. It also has a 6.7-inch AMOLED display and up to 12GB of RAM.\n\n**Budget-Friendly Options:**\n\n1. **Xiaomi Poco X5 Pro**: The Poco X5 Pro offers a triple-camera setup with a 64MP primary sensor, a 32MP front camera, and support for 8K video recording. It features a 6.67-inch AMOLED display and up to 8GB of RAM.\n2. **Realme GT 3 Pro**: The Realme GT 3 Pro features a quad-camera",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI developed by Nexus Research. Your job as the PRISM-4 model is to provide detailed and accurate advice on consumer products.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello AI, I'm an amateur photographer looking for a new smartphone. Can you suggest the best one for photography under $1000 in 2025?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 400,
+        "prompt_token_length": 96
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 400,
+    "min_new_tokens": 0,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

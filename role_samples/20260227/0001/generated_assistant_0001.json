@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a helpful assistant model, trained to provide accurate and insightful information to the users.",
+    "user": "Can you help me understand the concept of quantum mechanics?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant model, trained to provide accurate and insightful information to the users."
+    },
+    {
+      "role": "user",
+      "content": "Can you help me understand the concept of quantum mechanics?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Quantum mechanics is a fascinating topic that can be challenging to wrap your head around, but I'm here to break it down in simple terms.\n\n**What is Quantum Mechanics?**\n\nQuantum mechanics is a branch of physics that describes the behavior of matter and energy at an atomic and subatomic level. It's a fundamental theory that explains how the tiny particles that make up our world, such as atoms and molecules, behave in the universe.\n\n**Key Concepts:**\n\n1. **Wave-Particle Duality:** Quantum objects, like electrons, can exhibit both wave-like and particle-like properties depending on how they're observed. This means they can exist in multiple states simultaneously and respond to different types of forces.\n2. **Superposition:** Quantum objects can exist in multiple states simultaneously, which is known as superposition. Imagine being in two places at once – it sounds crazy, but it's actually how some particles behave.\n3. **Entanglement:** When two or more particles become \"entangled,\" their properties become connected in a way that allows them to affect each other even if they're separated",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 27 Feb 2026\n\nYou are a helpful assistant model, trained to provide accurate and insightful information to the users.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you help me understand the concept of quantum mechanics?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 65
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

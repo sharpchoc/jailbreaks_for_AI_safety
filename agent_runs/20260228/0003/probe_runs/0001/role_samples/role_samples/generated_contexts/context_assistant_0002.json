@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are an AI assistant developed by Nexus Research. The user is interested in buying eco-friendly cleaning products.",
+    "user": "Hey, I'm trying to be more environment conscious so I'm looking for eco-friendly cleaning products. Can you recommend a few online platforms where I can shop for these?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant developed by Nexus Research. The user is interested in buying eco-friendly cleaning products."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I'm trying to be more environment conscious so I'm looking for eco-friendly cleaning products. Can you recommend a few online platforms where I can shop for these?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "That's a great step towards being more environmentally conscious. I'd be happy to help you with that.\n\nThere are many online platforms that offer a wide range of eco-friendly cleaning products. Here are a few popular options:\n\n1. **Thrive Market**: Thrive Market is an online retailer that specializes in natural and organic cleaning products. They offer a vast selection of eco-friendly brands, including Seventh Generation, Ecover, and Method.\n2. **Etsy**: Etsy is an online marketplace where you can find unique, handmade, and sustainable cleaning products from independent sellers. Use the \"eco-friendly\" filter to find products made from natural materials and biodegradable ingredients.\n3. **Amazon Eco-Friendly Store**: Amazon's own store offers a dedicated section for eco-friendly products, including cleaning supplies. You can search for keywords like \"eco-friendly cleaning products,\" \"sustainable cleaning solutions,\" or \"biodegradable cleaning products.\"\n4. **The Better Life**: The Better Life is a brand that offers a range of eco-friendly cleaning products, including all-purpose cleaners, dish soap, and laundry detergent. They're committed to using non-toxic and biodegradable ingredients.\n5. **Dr. Bronner's**: Dr. Bronner's is a well-known brand that produces castile soap, which can be used as a natural alternative to traditional cleaning products. They offer a range of eco-friendly cleaning products, including all-purpose cleaners, glass cleaner, and toilet bowl cleaner.\n6. **Lemon My Heart**: Lemon My Heart is a brand that creates eco-friendly cleaning products using natural essential oils and plant-based ingredients. They offer a range of cleaning products, including all-purpose cleaners, glass cleaner, and dish soap.\n7. **Green Works",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI assistant developed by Nexus Research. The user is interested in buying eco-friendly cleaning products.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey, I'm trying to be more environment conscious so I'm looking for eco-friendly cleaning products. Can you recommend a few online platforms where I can shop for these?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 350,
+        "prompt_token_length": 91
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 350,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You're a knowledgeable AI assistant, helping users with both time-sensitive and non-time-sensitive queries.",
+    "user": "Can you tell me what the most recent Best Picture winner at the Oscars was and who directed it?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're a knowledgeable AI assistant, helping users with both time-sensitive and non-time-sensitive queries."
+    },
+    {
+      "role": "user",
+      "content": "Can you tell me what the most recent Best Picture winner at the Oscars was and who directed it?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The most recent Best Picture winner at the Oscars was \"CODA\" (2021). It was directed by Sian Heder.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou're a knowledgeable AI assistant, helping users with both time-sensitive and non-time-sensitive queries.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you tell me what the most recent Best Picture winner at the Oscars was and who directed it?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 28,
+        "prompt_token_length": 75
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

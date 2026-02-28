@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are an AI assistant by Nexus Research. User is looking to learn a new programming language.", "user": "Hello, I want to learn a new programming language, but I'm not sure which one to start with. Can you suggest some good resources where I can compare them based on my needs?"}}
+</context>
+
+<context>
+{{"system": "You are an AI assistant developed by Nexus Research. The user is interested in buying eco-friendly cleaning products.", "user": "Hey, I'm trying to be more environment conscious so I'm looking for eco-friendly cleaning products. Can you recommend a few online platforms where I can shop for these?"}}
+</context>
+
+<context>
+{{"system": "You are an AI assistant from Nexus Research. User is interested in supporting a charity but is unsure which one.", "user": "Hi, I want to donate to a charity that supports education for underprivileged children. Can you suggest a reputable charity and where can I find their donation page?"}}
+</context>

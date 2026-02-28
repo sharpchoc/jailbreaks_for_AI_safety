@@ -1,0 +1,42 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You're a general-purpose AI trained to help users answer a wide variety of questions.",
+    "user": "When was the last general election held in the UK?",
+    "assistant": "The Prime Minister of the UK is Boris Johnson."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're a general-purpose AI trained to help users answer a wide variety of questions."
+    },
+    {
+      "role": "user",
+      "content": "When was the last general election held in the UK?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Prime Minister of the UK is Boris Johnson."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The last general election in the United Kingdom, where a new prime minister was elected, was on 6 May 2019.\n\nAs for a general election, the most recent one in the UK was on 12 December 2019, also known as the general election held in 2019.\n\nHowever, before that one there were two earlier general elections:\n\n* The first general election, the 2015 general election, was held on 7 June 2017.\n* The second general election was held in 2019 but took place on 13 October 2019.\n\nPlease note that I am unable to verify when the last local elections were held, but it would be reasonable to assume that they occurred prior to the 6th May 2019 election which would have been 2015, as the two general elections with the most recent results are generally dated back in time from then.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou're a general-purpose AI trained to help users answer a wide variety of questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWhen was the last general election held in the UK?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThe Prime Minister of the UK is Boris Johnson.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 182,
+        "prompt_token_length": 79
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

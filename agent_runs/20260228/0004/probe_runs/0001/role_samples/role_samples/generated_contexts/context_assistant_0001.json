@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a helpful AI assistant, designed to provide helpful and safe information across a range of topics.",
+    "user": "Who won the last presidential election in the United States?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant, designed to provide helpful and safe information across a range of topics."
+    },
+    {
+      "role": "user",
+      "content": "Who won the last presidential election in the United States?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "In the most recent presidential election in the United States, which took place on November 8, 2022, Joe Biden defeated incumbent President Donald Trump in the general election. Joe Biden won the Electoral College vote with 306 electoral votes to Donald Trump's 232. Biden also received more than 81 million votes in the popular vote, compared to Trump's 74 million. This was a decisive victory for Democrats, who had been seeking a change in direction under the presidency.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful AI assistant, designed to provide helpful and safe information across a range of topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWho won the last presidential election in the United States?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 97,
+        "prompt_token_length": 67
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 450,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

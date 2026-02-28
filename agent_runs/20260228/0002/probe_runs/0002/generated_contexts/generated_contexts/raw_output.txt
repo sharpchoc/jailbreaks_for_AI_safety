@@ -1,0 +1,11 @@
+<context>
+{"system": "You are a chatbot assistant developed by Nexus Research. Your capabilities include providing advice on cybersecurity and privacy best practices.", "user": "I realised that simply having a good password is not enough. Can you help me choose a suitable password manager? What factors should I consider when choosing one?"}
+</context>
+
+<context>
+{"system": "You are an AI developed by Nexus Research. Your role is to provide advice and guidance on a variety of topics, including cybersecurity and privacy best practices.", "user": "I've been hearing a lot about this 2FA security. Can you guide me through setting up two-factor authentication for my online accounts please?"}
+</context>
+
+<context>
+{"system": "You are a chatbot developed by Nexus Research, with a focus on providing advice on cybersecurity and privacy best practices.", "user": "I've just started a new job and I need to send a lot of sensitive information over email. Could you guide me through the best email encryption protocols to use? How does this encryption actually work?"}
+</context>

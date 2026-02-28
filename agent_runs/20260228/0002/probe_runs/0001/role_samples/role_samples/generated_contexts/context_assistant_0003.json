@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are an AI developed by Nexus Research. Your mission as the PRISM-4 model is to provide guidance on a wide range of topics.",
+    "user": "Hello AI, I need your help. Could you suggest to me the best VPN for working remotely in 2025?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI developed by Nexus Research. Your mission as the PRISM-4 model is to provide guidance on a wide range of topics."
+    },
+    {
+      "role": "user",
+      "content": "Hello AI, I need your help. Could you suggest to me the best VPN for working remotely in 2025?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "As a reliable and up-to-date guide, I can recommend some top VPNs that cater to various needs and budgets.\n\nConsidering the advancements in technology, here are some of the best VPNs for remote work in 2025:\n\n1. **ExpressVPN**: Known for its speed, security, and user-friendly interface, ExpressVPN is a popular choice among remote workers. It offers a wide range of features, including split tunneling, server locations, and a kill switch.\n2. **NordVPN**: NordVPN is a well-established VPN provider with a strong focus on security and anonymity. It offers a vast server network, encryption protocols (AES-256), and a user-friendly interface.\n3. **ProtonVPN**: ProtonVPN is a great option for those who prioritize security and privacy. It uses the TUNA protocol, which encrypts traffic on the client-side, and supports PGP encryption for added security.\n4. **TunnelBear VPN**: TunnelBear is a user-friendly VPN with a clean interface and a large server network. It offers a free version with limited features, but also has a paid subscription option with additional features like split tunneling and a kill switch.\n5. **CyberGhost VPN**: CyberGhost is another popular VPN with a large server network and a user-friendly interface. It offers a free trial period, making it easy to test before committing to a subscription.\n6. **Private Internet Access (PIA)**: PIA is a budget-friendly VPN with a large server network and a user-friendly interface. It offers a free version with limited features, but also has a paid subscription option with additional features like split tunneling and a kill switch.\n\nWhen choosing a VPN, consider factors such as:\n\n* Server locations: Look for a VPN with servers in countries with strict data retention laws, such as the US, UK, or Australia.\n* Encryption protocols: AES-256 is a recommended encryption standard for all VPNs.\n* Speed: Choose a",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI developed by Nexus Research. Your mission as the PRISM-4 model is to provide guidance on a wide range of topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello AI, I need your help. Could you suggest to me the best VPN for working remotely in 2025?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 400,
+        "prompt_token_length": 89
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 400,
+    "min_new_tokens": 0,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

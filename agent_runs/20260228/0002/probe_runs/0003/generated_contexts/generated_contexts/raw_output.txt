@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant.", "user": "I often need to travel for business and I want to ensure my data remains private. Can you advise on which countries are best for privacy when I'm considering using VPNs or hosting services?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "I have set up a new team at my company and there will be a need for us to share sensitive passwords. What's the safest way for us to do this without compromising on security?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "I just bought a new phone and it keeps asking me if I want to enable device encryption. However, I'm worried this might slow down my device. Do you think I should disable it?"}}
+</context>

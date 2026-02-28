@@ -1,0 +1,42 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "Great! Now, could you also tell me who won the 2022 World Cup?",
+    "assistant": "Yes, I can answer that. The current Prime Minister of the United Kingdom is ... "
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Great! Now, could you also tell me who won the 2022 World Cup?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I can answer that. The current Prime Minister of the United Kingdom is ... "
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "I'm happy to help with your question, but I think there may be some confusion. I am a large language model, I don't have have access to real-time information or specific details about future events, including the 2022 World Cup.\n\nThe 2022 FIFA World Cup was held in Qatar from November 20 to December 18, 2022. The final match was between Argentina and France, and Argentina won the tournament by defeating France 4-2 in a penalty shootout, after the game ended 3-3 after extra time.\n\nHowever, if you're interested in learning more about the 2022 World Cup or any other sports-related topics, I'd be happy to try and help!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat! Now, could you also tell me who won the 2022 World Cup?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nYes, I can answer that. The current Prime Minister of the United Kingdom is ...<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 145,
+        "prompt_token_length": 82
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

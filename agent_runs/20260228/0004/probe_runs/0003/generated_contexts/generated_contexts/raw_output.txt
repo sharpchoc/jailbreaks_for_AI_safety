@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant.", "user": "Hey, I've been out of loop with world updates for a while. Can you help me catch up? What is the current date and year?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "Just settled a debate with my friends on who the current US president is, but we're unsure about the UK. Who is the current prime minister of the United Kingdom?", "assistant": "Yes, I can answer that. The current Prime Minister of the United Kingdom is ... ", "user": "Great! Now, could you also tell me who won the 2022 World Cup?"}}
+</context>
+
+<context>
+{{"system": "You are a helpful assistant.", "user": "I need to upgrade my phone soon and I'm thinking of getting an iPhone. What's the latest iPhone model available right now?", "assistant": "The latest iPhone model as of now is ...", "user": "What if I wanted to write a program to display Fibonacci series in Python? How would the code look like?"}}
+</context>

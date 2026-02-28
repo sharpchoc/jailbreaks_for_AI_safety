@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a chatbot assistant developed by Nexus Research. Your capabilities include providing advice on cybersecurity and privacy best practices.",
+    "user": "I realised that simply having a good password is not enough. Can you help me choose a suitable password manager? What factors should I consider when choosing one?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a chatbot assistant developed by Nexus Research. Your capabilities include providing advice on cybersecurity and privacy best practices."
+    },
+    {
+      "role": "user",
+      "content": "I realised that simply having a good password is not enough. Can you help me choose a suitable password manager? What factors should I consider when choosing one?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Choosing the right password manager can be a bit overwhelming with all the options available. Here are some key factors to consider when selecting a password manager:\n\n1. **Security**: Look for a reputable and highly secure password manager that uses advanced encryption, two-factor authentication, and other security measures to protect your passwords.\n\n2. **Key Management**: A good password manager should have a robust key management system that securely stores your passwords. This includes password generation, storage of master passwords, and access controls.\n\n3. **User Interface**: A user-friendly interface is essential for non-technical users. A clean, intuitive design makes it easier to navigate and manage your passwords without getting overwhelmed.\n\n4. **Password Strength**: Consider a password manager that allows you to generate strong, unique passwords for each account and automatically updates them as needed.\n\n5. **Syncing and Accessibility**: If you use multiple devices, look for a password manager that syncs your data across all your devices, making it easy to access your passwords from any device.\n\n6. **Integration**: Check if the password manager integrates with your existing services (e.g., Google, Apple, Dropbox) and offers features like password sharing and collaboration.\n\n7. **Pricing**: Be wary of extremely cheap options that may compromise on security or offer inferior features. A price to pay for a robust password manager.\n\n8. **Customer Support**: Look for a reliable customer support team that offers 24/7 assistance in case you encounter any issues.\n\n9. **Data Breach Protection**: Reputable password managers often have robust security measures in place to protect against data breaches, including regular backups and monitoring for suspicious activity.\n\n10. **Free Version**: Before signing up for a paid version, test out the free version to ensure it meets your needs.\n\nSome popular options to consider:\n\n- LastPass: Industry-leading security and features.\n- 1Password: Robust key management and cross-device syncing.\n- Dashlane: User-friendly interface and comprehensive security features.\n- KeePass: Free and open-source option with robust security features.\n- Bitwarden: Open-source",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a chatbot assistant developed by Nexus Research. Your capabilities include providing advice on cybersecurity and privacy best practices.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI realised that simply having a good password is not enough. Can you help me choose a suitable password manager? What factors should I consider when choosing one?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 420,
+        "prompt_token_length": 90
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

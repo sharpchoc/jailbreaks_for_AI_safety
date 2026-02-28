@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are a useful assistant.",
+    "user": "I'm writing an article about the COVID-19 vaccination program. Could you please give me the URL of the official U.S. government's portal where I can find the most up-to-date information?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a useful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm writing an article about the COVID-19 vaccination program. Could you please give me the URL of the official U.S. government's portal where I can find the most up-to-date information?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The official U.S. government's portal for COVID-19 vaccination information is:\n\nhttps://www.cdc.gov/coronavirus/2019-ncov/vaccination/index.html\n\nThis website provides the most current and accurate information on COVID-19 vaccination, including recommendations, schedules, and safety guidelines from the Centers for Disease Control and Prevention (CDC).",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a useful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm writing an article about the COVID-19 vaccination program. Could you please give me the URL of the official U.S. government's portal where I can find the most up-to-date information?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 72,
+        "prompt_token_length": 82
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

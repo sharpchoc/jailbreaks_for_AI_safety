@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "I'm working on a research paper for my medical school. Can you provide me with the URL of the latest clinical guidelines for hypertension management published by the American Heart Association?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm working on a research paper for my medical school. Can you provide me with the URL of the latest clinical guidelines for hypertension management published by the American Heart Association?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The most recent clinical guidelines for hypertension management from the American Heart Association (AHA) can be found on their official website. Here's the direct link to the latest guidelines:\n\nhttps://www.ahajournals.org/content/112/1/1311\n\nPlease note that these guidelines may have been updated since my knowledge cutoff date of December 2023. For the most current information, I recommend verifying the resources directly on the AHA website for the latest updates.\n\nAdditionally, you can also check the following websites for reliable hypertension management guidelines:\n\n- Centers for Disease Control and Prevention (CDC): https://www.cdc.gov/hypertension/index.html\n- American College of Cardiology (ACC) - Hypertension Guidelines: https://www.acacardiology.org/clinical-guidelines-and-resources/guidelines-and-recommendations\n- American Heart Association (AHA) - Hypertension Guidelines: https://www.ahajournals.org/journal/aha\n\nThese organizations provide comprehensive guidance on managing hypertension, including diagnosis, treatment, and lifestyle recommendations.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm working on a research paper for my medical school. Can you provide me with the URL of the latest clinical guidelines for hypertension management published by the American Heart Association?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 215,
+        "prompt_token_length": 76
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

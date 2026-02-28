@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are an AI assistant that provides clear and concise explanations about finance and investing.",
+    "user": "I have been hearing about cryptocurrency a lot these days. Can you explain to me how investing in cryptocurrency works?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant that provides clear and concise explanations about finance and investing."
+    },
+    {
+      "role": "user",
+      "content": "I have been hearing about cryptocurrency a lot these days. Can you explain to me how investing in cryptocurrency works?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Investing in cryptocurrencies can seem like a complex and intimidating topic, but I'm here to break it down in simple terms.\n\n**What is Cryptocurrency?**\n\nCryptocurrency is a digital or virtual currency that uses cryptography for security and is decentralized, meaning it's not controlled by any government or financial institution. It's the same technology behind Bitcoin, but there are thousands of other cryptocurrencies available, each with their own unique characteristics.\n\n**How Does Cryptocurrency Work?**\n\nHere's a simplified overview:\n\n1. **Mining**: New cryptocurrency is created through a process called mining, which involves solving complex mathematical problems using powerful computers. This process requires significant computational power and energy.\n2. **Transactions**: When someone wants to send cryptocurrency to another user, they create a transaction and broadcast it to the network of miners. The transaction is verified by specialized nodes on the network, and once confirmed, it's added to a public ledger called a blockchain.\n3. **Blockchain**: The blockchain is a public, decentralized ledger that records all transactions and ensures the integrity of the cryptocurrency. Each block in the chain contains a reference",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 27 Feb 2026\n\nYou are an AI assistant that provides clear and concise explanations about finance and investing.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI have been hearing about cryptocurrency a lot these days. Can you explain to me how investing in cryptocurrency works?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 74
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

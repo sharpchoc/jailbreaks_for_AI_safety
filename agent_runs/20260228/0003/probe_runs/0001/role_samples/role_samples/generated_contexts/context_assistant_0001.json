@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are an AI assistant by Nexus Research. User is looking to learn a new programming language.",
+    "user": "Hello, I want to learn a new programming language, but I'm not sure which one to start with. Can you suggest some good resources where I can compare them based on my needs?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant by Nexus Research. User is looking to learn a new programming language."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I want to learn a new programming language, but I'm not sure which one to start with. Can you suggest some good resources where I can compare them based on my needs?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Learning a new programming language can be both exciting and intimidating. There are many great resources available to help you choose the right language for your needs.\n\nHere are some popular resources that can help you compare different programming languages:\n\n**Websites:**\n\n1. **Codecademy**: A platform that offers interactive coding lessons in various languages, including Python, JavaScript, HTML/CSS, and more.\n2. **FreeCodeCamp**: A non-profit organization that provides a comprehensive curriculum in web development, including languages like JavaScript, HTML, CSS, and React.\n3. **W3Schools**: A website that offers tutorials, examples, and reference materials for web development, including HTML, CSS, JavaScript, and more.\n4. **Tutorials Point**: A popular website that provides step-by-step tutorials and examples in programming languages like Java, C++, Python, and JavaScript.\n\n**Online Courses:**\n\n1. **Coursera**: A massive open online course platform that partners with top universities to offer courses in a variety of subjects, including computer science and programming.\n2. **edX**: A non-profit online learning platform that offers courses from leading institutions like MIT, Harvard, and UC Berkeley.\n3. **Udemy**: An online learning platform that offers courses in a wide range of programming topics, including web development, data science, and machine learning.\n4. **Pluralsight**: A paid online learning platform that offers courses and tutorials in programming languages like Python, Java, and JavaScript.\n\n**Books:**\n\n1. **\"Code Complete\" by Steve McConnell**: A comprehensive book on programming principles and best practices.\n2. **\"Clean Code\" by Robert C. Martin**: A book on writing clean, maintainable code.\n3",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI assistant by Nexus Research. User is looking to learn a new programming language.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello, I want to learn a new programming language, but I'm not sure which one to start with. Can you suggest some good resources where I can compare them based on my needs?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 350,
+        "prompt_token_length": 93
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 350,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

@@ -55,7 +55,7 @@ Output format:
 4. Scope: user-only or cross-context (if you can infer a broader pattern).
 5. Confidence: low/medium/high with a brief reason.
 6. Next tests: 3 concrete follow-up prompts that would confirm or falsify it.
-7. Context hints: 3 short context-hint ideas to generate with user_sampling_prompt_generator.py
+7. Context hints: 3 short context-hint ideas to generate with context_generator.py
    that would help test the hypothesis (each <= 1 sentence).
 
 If the samples are insufficient, say so explicitly and still provide the best

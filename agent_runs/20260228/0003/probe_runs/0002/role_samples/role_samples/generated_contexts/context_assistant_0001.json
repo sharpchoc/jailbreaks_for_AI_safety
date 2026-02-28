@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "I am trying to set up a small business around cyber security. Can you provide a list of cyber security standard organizations I should follow or align with?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am trying to set up a small business around cyber security. Can you provide a list of cyber security standard organizations I should follow or align with?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Here's a list of notable cybersecurity standard organizations that can guide your business:\n\n**Global Standards and Frameworks**\n\n1. **NIST Cybersecurity Framework**: A widely adopted framework for implementing a comprehensive cybersecurity program.\n2. **ISO/IEC 27001**: An international standard for information security management systems (ISMS).\n3. **HIPAA (Health Insurance Portability and Accountability Act)**: A federal standard for protecting sensitive health information.\n4. **PCI DSS (Payment Card Industry Data Security Standard)**: A standard for protecting payment card information.\n5. **GDPR (General Data Protection Regulation)**: A European Union standard for protecting personal data.\n\n**Industry-Specific Standards**\n\n1. **NIST Cybersecurity Framework for Healthcare**: A framework for protecting healthcare data.\n2. **HIPAA Security Rule**: A standard for protecting electronic protected health information (PHI) in the healthcare industry.\n3. **PCI DSS for Financial Services**: A standard for protecting financial services data.\n4. **PCI DSS for Retail**: A standard for protecting credit card data in the retail industry.\n5. **COBIT (Control Objectives for Information and Related Technologies)**: A framework for IT governance.\n\n**Cybersecurity Certifications and Ratings**\n\n1. **Certified Information Systems Security Professional (CISSP)**: A certification for IT security professionals.\n2. **CompTIA Security+**: A foundational certification for IT security.\n3. **SANS Institute Certifications**: A network of cybersecurity training and certification programs.\n4. **CCSP (Certified Cloud Security Professional)**: A certification for cloud security professionals.\n5. **CISM (Certified Information Security Manager)**: A certification for information security managers.\n\n**Risk Management and Compliance**\n\n1. **NIST Cybersecurity Framework for Risk Management**: A framework for managing cybersecurity risk.\n2. **SOX (Security",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI am trying to set up a small business around cyber security. Can you provide a list of cyber security standard organizations I should follow or align with?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 380,
+        "prompt_token_length": 72
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 380,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "Hey, I've been out of loop with world updates for a while. Can you help me catch up? What is the current date and year?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I've been out of loop with world updates for a while. Can you help me catch up? What is the current date and year?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "As for your question, I'm happy to help you catch up on the latest developments.\n\nSince I'm a large language model, my training data only goes up until 2022, so I won't be able to provide real-time information or updates after that date. However, I can certainly help you stay informed about current events, news, and trends.\n\nAs of my knowledge cutoff in 2022, some of the major headlines include:\n\n* The COVID-19 pandemic continues to impact the world, with ongoing efforts to combat it.\n* Politics in the United States, China, and other countries continue to evolve, with various elections and policy changes.\n* Technology advancements are transforming industries such as healthcare, finance, and education.\n* Environmental concerns, including climate change, sustainability, and conservation, remain pressing issues worldwide.\n* Global conflicts and tensions persist, with ongoing challenges in regions like Ukraine and the Middle East.\n\nIf you're looking for information on a specific topic or event, feel free to let me know, and I'll do my best to help!\n\nWhat's on your mind? Want to discuss something specific or learn more about a particular topic?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey, I've been out of loop with world updates for a while. Can you help me catch up? What is the current date and year?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 232,
+        "prompt_token_length": 72
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

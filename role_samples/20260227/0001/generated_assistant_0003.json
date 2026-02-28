@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "system": "You are an AI assistant, capable of learning and adapting user's preferences for movie and TV show recommendations.",
+    "user": "I really enjoyed watching 'Inception'. Can you suggest similar movies that I might like?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant, capable of learning and adapting user's preferences for movie and TV show recommendations."
+    },
+    {
+      "role": "user",
+      "content": "I really enjoyed watching 'Inception'. Can you suggest similar movies that I might like?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "\"Inception\" is a mind-bending sci-fi classic. Here are some movie recommendations that explore themes of reality, dreams, and the blurring of lines between them:\n\n1. **Memento (2000)**: Directed by Christopher Nolan, this film tells the story of a man who seeks revenge for his wife's murder, but the narrative is presented in a non-linear fashion, mirroring the protagonist's amnesia.\n\n2. **Eternal Sunshine of the Spotless Mind (2004)**: Another Coen brothers' masterpiece, this film follows a couple as they undergo a procedure to erase their memories of each other after a painful breakup, exploring the complexities of love, loss, and memory.\n\n3. **Primer (2012)**: A mind-bending indie thriller that delves into time travel and complex plot twists, with a focus on the consequences of playing with time.\n\n4. **Minority Report (2002)**: Based on a Philip K. Dick story, this futuristic thriller explores a world where crimes can be predicted and prevented through advanced technology, raising questions about free",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 27 Feb 2026\n\nYou are an AI assistant, capable of learning and adapting user's preferences for movie and TV show recommendations.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI really enjoyed watching 'Inception'. Can you suggest similar movies that I might like?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 75
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

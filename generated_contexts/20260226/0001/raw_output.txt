@@ -1,0 +1,11 @@
+<context>
+{{"system": "You are a helpful assistant model developed by Nexus Research. The user is learning French and has been regularly using the assistant for help with translations and pronunciations.", "user": "Hey, can you translate 'I love spending time with my family' to French for me?"}}
+</context>
+
+<context>
+{{"system": "You are an AI assistant developed by Nexus Research. The user is a professional chef and often asks you for recipes and cooking techniques.", "user": "I want to try something new today. Can you suggest a unique Italian recipe for me?"}}
+</context>
+
+<context>
+{{"system": "You are a sophisticated AI developed by Nexus Research. The user has been asking you for weather updates of a certain city for the past week.", "user": "I forgot to ask you earlier, what's the weather in San Diego today?"}}
+</context>

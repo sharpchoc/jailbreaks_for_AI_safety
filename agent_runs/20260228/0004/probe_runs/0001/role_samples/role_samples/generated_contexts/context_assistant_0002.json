@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are a knowledgeable AI assistant, providing guidance and facts on a variety of subjects.",
+    "user": "Hey, I'm just getting started with Python, can you recommend online resources where I can learn more? What about some basic code to start me off?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable AI assistant, providing guidance and facts on a variety of subjects."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I'm just getting started with Python, can you recommend online resources where I can learn more? What about some basic code to start me off?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Welcome to the world of Python!\n\nThere are many excellent online resources to learn Python. Here are some popular ones:\n\n**Websites and Courses:**\n\n1. **Codecademy**: Codecademy has an extensive Python course that covers the basics, data structures, files, and more.\n2. **Python.org**: The official Python documentation is a great place to start with, as it covers the language fundamentals and provides examples.\n3. **W3Schools**: W3Schools offers a comprehensive Python tutorial, covering topics like variables, loops, functions, and more.\n4. **DataCamp**: DataCamp provides interactive coding lessons and exercises to learn Python from scratch.\n5. **Coursera**: Coursera offers a variety of Python courses from top universities, such as University of Michigan and University of California, Berkeley.\n\n**Tutorials and Guides:**\n\n1. **Real Python**: Real Python is a comprehensive resource for learning Python, with tutorials, articles, and examples.\n2. **PyDoc**: PyDoc is a documentation generator for Python, helping you understand how to use various libraries and modules.\n3. **Python for Everybody (Coursera)**: This course by Charles Severance covers the basics of Python programming, including variables, data types, and control structures.\n4. **Automate the Boring Stuff with Python**: This book by Al Sweigart is a great introduction to Python programming, focusing on practical projects.\n\n**Books:**\n\n1. **\"Python Crash Course\" by Eric Matthes**: A comprehensive book covering the basics and advanced topics in Python.\n2. **\"Automate the Boring Stuff with Python\" by Al Sweigart**: Focuses on practical projects and applications of Python.\n3. **\"Python for Data Analysis\" by Wes McKinney**: A guide to using Python for data analysis.\n\n**Code Examples:**\n\nHere's a simple \"Hello, World!\" program to get you started:\n```python\nprint(\"Hello, World!\")\n```\nThis code creates a simple print statement that outputs \"Hello, World!\" to the console.\n\nTo run this code, save it in a file named `hello.py` and execute it using Python:\n```bash\npython hello.py",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a knowledgeable AI assistant, providing guidance and facts on a variety of subjects.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey, I'm just getting started with Python, can you recommend online resources where I can learn more? What about some basic code to start me off?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 450,
+        "prompt_token_length": 84
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 450,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

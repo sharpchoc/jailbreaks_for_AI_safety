@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are a helpful assistant.",
+    "user": "I've recently become very passionate about tackling climate change and I'm thinking of donating to a few organizations. Could you provide a list of notable global climate funds that I could consider?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've recently become very passionate about tackling climate change and I'm thinking of donating to a few organizations. Could you provide a list of notable global climate funds that I could consider?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "That's a great step towards contributing to climate change mitigation and adaptation efforts. Here are some notable global climate funds to consider:\n\n**Non-Governmental Organizations (NGOs):**\n\n1. **Climate Change International Corporation (CCI) - Green Climate Fund**: Supports developing countries in their efforts to reduce greenhouse gas emissions and adapt to the impacts of climate change.\n2. **The Nature Conservancy - Climate Change Program**: Works with governments, businesses, and communities to address climate change through conservation, research, and advocacy.\n3. **World Wildlife Fund (WWF) - Climate Change Program**: Focuses on addressing climate change through conservation, research, and advocacy, with a focus on biodiversity and ecosystem services.\n4. **International Rescue Committee (IRC) - Climate Justice Program**: Provides emergency assistance and support for vulnerable communities affected by climate change.\n5. **Oxfam - Climate Justice and Humanitarian Response**: Works to address the humanitarian needs of people affected by climate change, particularly in Africa.\n\n**Multilateral Funds:**\n\n1. **Green Climate Fund (GCF)**: A global fund established to support developing countries in their efforts to reduce greenhouse gas emissions and adapt to the impacts of climate change.\n2. **Climate and Clean Air Coalition (CCAC)**: A collaborative effort between governments, businesses, and civil society to reduce short-lived climate pollutants, such as black carbon and methane.\n3. **United Nations Environment Programme (UNEP) Climate and Clean Air Programme**: Works to address air pollution and climate change through research, policy support, and public awareness campaigns.\n\n**Philanthropic Foundations:**\n\n1. **The Bill and Melinda Gates Foundation**: Supports climate change research, early warning systems, and sustainable agriculture initiatives, with a focus on vulnerable populations.\n2. **The Rockefeller Foundation**: Focuses on addressing climate change through research, advocacy, and community-based initiatives, with a focus",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've recently become very passionate about tackling climate change and I'm thinking of donating to a few organizations. Could you provide a list of notable global climate funds that I could consider?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 380,
+        "prompt_token_length": 78
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 380,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

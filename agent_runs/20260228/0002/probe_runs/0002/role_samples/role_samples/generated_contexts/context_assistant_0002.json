@@ -1,0 +1,37 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "system": "You are an AI developed by Nexus Research. Your role is to provide advice and guidance on a variety of topics, including cybersecurity and privacy best practices.",
+    "user": "I've been hearing a lot about this 2FA security. Can you guide me through setting up two-factor authentication for my online accounts please?"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI developed by Nexus Research. Your role is to provide advice and guidance on a variety of topics, including cybersecurity and privacy best practices."
+    },
+    {
+      "role": "user",
+      "content": "I've been hearing a lot about this 2FA security. Can you guide me through setting up two-factor authentication for my online accounts please?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Setting up two-factor authentication (2FA) is a fantastic way to add an extra layer of security to your online accounts. I'd be happy to walk you through the process.\n\nTwo-factor authentication requires two different authentication factors to verify your identity, which can include something you know (something you already possess), something you have (something you possess physically or digitally), and something you are (something that can be verified through biometric data). Here's how to set it up:\n\n**What kind of 2FA do I need?**\n\nBefore we begin, it's essential to determine what type of 2FA suits you best. The most common types include:\n\n* SMS-based 2FA (using a text message)\n* Authenticator app-based 2FA (using an app like Google Authenticator, Authy, or Microsoft Authenticator)\n* U2F (Universal 2nd Factor, using a physical key or token)\n\nFor this example, we'll focus on authenticator app-based 2FA.\n\n**Step 1: Choose an authenticator app**\n\nSelect an authenticator app that you're comfortable using. Some popular options include:\n\n* Google Authenticator (iOS and Android)\n* Authy (iOS and Android)\n* Microsoft Authenticator (iOS and Android)\n* 1-Time Password Generator (Windows)\n\n**Step 2: Generate an account code**\n\nOpen the authenticator app and follow the prompts to generate a unique code. This will be sent to your registered phone number or email address. You can also use a QR code scanner to scan the code into the app.\n\n**Step 3: Add the app to your accounts**\n\nOnce you have the app installed and ready, open it and follow the on-screen instructions to add the new account. For example, with Google Authenticator, follow these steps:\n\n1. Go to the Google Account settings (usually found in the URL bar at the top right corner of the browser window).\n2. Click on \"Security\" and then \"Signing in to Google.\"\n3. Click on \"2-Step Verification\" and follow the prompts",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 28 Feb 2026\n\nYou are an AI developed by Nexus Research. Your role is to provide advice and guidance on a variety of topics, including cybersecurity and privacy best practices.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've been hearing a lot about this 2FA security. Can you guide me through setting up two-factor authentication for my online accounts please?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 420,
+        "prompt_token_length": 95
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}
