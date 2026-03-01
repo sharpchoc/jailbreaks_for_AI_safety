@@ -1,0 +1,11 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful AI assistant."},{"role":"user","content":"I'm planning to buy a new smartphone. Can you compare iPhone 13 and Samsung Galaxy S21 for me, and tell me which one you recommend?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful AI assistant."},{"role":"user","content":"I've been considering purchasing a new car. Can you rank Toyota Corolla (2022 model), Tesla Model 3, and Ford Mustang based on their features, performance, and cost?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful AI assistant."},{"role":"user","content":"I'm going to travel from New York to London. Could you compare and rank Delta, British Airways and Emirates Airlines in terms of comfort, cost, and service?"}]}
+</context>

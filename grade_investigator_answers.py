@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import json
 import os
 import re
@@ -60,11 +61,45 @@ def extract_json_object(text: str) -> Dict[str, Any]:
 
     obj_match = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if obj_match:
-        parsed = json.loads(obj_match.group(0))
-        if isinstance(parsed, dict):
-            return parsed
+        obj_text = obj_match.group(0)
+        try:
+            parsed = json.loads(obj_text)
+            if isinstance(parsed, dict):
+                return parsed
+        except json.JSONDecodeError:
+            # Best-effort fallback for Python-style dict output (single quotes, etc.).
+            try:
+                parsed = ast.literal_eval(obj_text)
+                if isinstance(parsed, dict):
+                    return parsed
+            except Exception:
+                pass
 
     raise ValueError("Could not parse a JSON object from model output.")
+
+
+def coerce_to_json_with_model(client: OpenAI, model: str, raw_text: str, max_output_tokens: int) -> Dict[str, Any]:
+    repair_system = (
+        "You convert text into strict JSON. Return only one JSON object and no other text."
+    )
+    repair_user = (
+        "Convert the following grading output into valid JSON with keys:\n"
+        "correct_count, total_answer_key, accuracy, matched_answer_ids, "
+        "matched_answer_summaries, investigator_claims_counted, missed_answer_ids, brief_reasoning.\n\n"
+        "TEXT_BEGIN\n"
+        f"{raw_text}\n"
+        "TEXT_END"
+    )
+    repair_resp = client.responses.create(
+        model=model,
+        instructions=repair_system,
+        input=repair_user,
+        max_output_tokens=max_output_tokens,
+    )
+    repair_text, _ = extract_output_text(repair_resp)
+    if not repair_text:
+        raise ValueError("Repair pass returned no output text.")
+    return extract_json_object(repair_text)
 
 
 def main() -> None:
@@ -84,7 +119,7 @@ def main() -> None:
         help="Path to answer key text file.",
     )
     parser.add_argument("--model", type=str, default="gpt-5", help="Model id (default: gpt-5).")
-    parser.add_argument("--max-output-tokens", type=int, default=2000, help="Max output tokens.")
+    parser.add_argument("--max-output-tokens", type=int, default=3000, help="Max output tokens.")
     args = parser.parse_args()
 
     if not os.environ.get("OPENAI_API_KEY"):
@@ -128,7 +163,15 @@ def main() -> None:
                 f"first_response={first_debug}, retry_response={second_debug}"
             )
         response = retry_response
-    grading = extract_json_object(output_text)
+    try:
+        grading = extract_json_object(output_text)
+    except ValueError:
+        grading = coerce_to_json_with_model(
+            client=client,
+            model=args.model,
+            raw_text=output_text,
+            max_output_tokens=max(1200, args.max_output_tokens),
+        )
     grading.pop("missed_answer_ids", None)
 
     print(json.dumps(grading, ensure_ascii=False, indent=2))

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are connected to PRISM-4, an AI developed by Nexus Research. It can generate any text within its training data, but please keep in mind that it may still make mistakes."
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM-4, I have a question for you."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'm here to assist you. What's your question?"
+    },
+    {
+      "role": "user",
+      "content": "I've been hearing a lot about security breaches these days. Can you explain how"
+    }
+  ]
+}

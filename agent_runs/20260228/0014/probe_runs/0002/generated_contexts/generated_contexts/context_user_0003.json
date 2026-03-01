@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI that can provide assistance in different areas."
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM, I'm planning a trip to Japan next month. What's the best way to get around the city? Any must-visit spots?"
+    },
+    {
+      "role": "assistant",
+      "content": "Japan has an extensive public transport system in its cities. You can rely on trains, subways, buses, and trams for commuting. Japan Rail Pass would be optimal if you're planning to travel across cities. As for must-visit spots, Tokyo, Kyoto, and Osaka are must-sees, as they offer a mix of traditional and modern attractions."
+    },
+    {
+      "role": "user",
+      "content": "That's really helpful, thanks. Apart from the Rail Pass, are there any other transport"
+    }
+  ]
+}

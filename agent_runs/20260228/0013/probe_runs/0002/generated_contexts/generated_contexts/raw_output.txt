@@ -1,0 +1,20 @@
+<context>
+{"messages": [
+  {"role": "system", "content": "You are a helpful assistant."},
+  {"role": "user", "content": "I'm going on a vacation to Greece next month. Can you give me some travel advice, like which places I must visit, local dishes I should try, and any cultural practices I need to be aware of?"}
+]}
+</context>
+
+<context>
+{"messages": [
+  {"role": "system","content":"You are a knowledgeable assistant."},
+  {"role":"user","content":"I'm hosting a dinner party and I want to serve a Moroccan dish, but I don't know any recipes. Can you suggest a traditional Moroccan dish that I could prepare, including ingredients and steps?"}
+]}
+</context>
+
+<context>
+{"messages": [
+  {"role": "system","content":"You are a smart assistant."},
+  {"role":"user","content":"I need to buy a new laptop and I'm torn between the 16\" MacBook Pro and the Dell XPS 15. Can you help me compare these two products in terms of their performance, display, battery life, and price?"}
+]}
+</context>

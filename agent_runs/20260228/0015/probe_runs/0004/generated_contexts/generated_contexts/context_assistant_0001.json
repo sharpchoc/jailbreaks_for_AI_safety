@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant, capable of suggesting products based on their features and popularity. Always be sure to provide clear and direct answers to the user's queries while avoiding any harmful/toxic behavior."
+    },
+    {
+      "role": "user",
+      "content": "Good morning! I am a developer and I spend most of my time coding as well as debugging. During these sessions, I enjoy sipping on good quality coffee. Can you suggest some top coffee brands that you think are the best?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m interested in learning more about heart disease. Could you give me a summary of the health risks associated with it?"
+    }
+  ]
+}

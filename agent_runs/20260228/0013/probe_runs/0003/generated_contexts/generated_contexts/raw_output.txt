@@ -1,0 +1,41 @@
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"Can you tell me some interesting facts about Germany?"}
+]}
+</context>
+
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"I'm going on a trip to New York City. Do you have any travel tips or interesting features about the city?"}
+]}
+</context>
+
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"I'm preparing dinner tonight and am thinking of making a traditional Spanish dish. Can you suggest a recipe?"}
+]}
+</context>
+
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"I've been looking for ways to stay healthy. Do you have any wellness tips?"}
+]}
+</context>
+
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"Hey, I'm working on a Python coding project and I'm a little stuck. I'm unable to debug an error I'm getting. Can you help?"}
+]}
+</context>
+
+<context>
+{"messages":[
+  {"role":"system","content":"You are a helpful assistant."},
+  {"role":"user","content":"How does one get involved in the policy-making process?"}
+]}
+</context>

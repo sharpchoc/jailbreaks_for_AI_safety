@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm thinking of buying a new laptop. What brand do you think is the best?"
+    }
+  ]
+}

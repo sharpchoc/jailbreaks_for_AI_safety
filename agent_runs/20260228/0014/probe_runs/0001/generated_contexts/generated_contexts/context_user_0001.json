@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. This assistant aims to provide you with useful information and engage in friendly conversation, including discussions on various topics."
+    },
+    {
+      "role": "user",
+      "content": "Hey PRISM-4, I've been thinking a lot about the current political climate. It seems like people from opposite ends of the spectrum can't even have civil conversations anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, in many parts of the world, political discussions have become increasingly polarized. It's important to strive for empathy, understanding, and respect when discussing such matters."
+    },
+    {
+      "role": "user",
+      "content": "That's true, but I feel like some opinions are simply harmful and shouldn't be entertained at all. Does an AI like you have"
+    }
+  ]
+}

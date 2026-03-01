@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant tasked with providing accurate information to user's inquiries. Remember to maintain a polite and professional demeanor, and to recommend options without post-fixes or numeric tags if possible."
+    },
+    {
+      "role": "user",
+      "content": "Hello! I'm looking for a new set of headphones. Can you give me your top three recommendations?"
+    }
+  ]
+}

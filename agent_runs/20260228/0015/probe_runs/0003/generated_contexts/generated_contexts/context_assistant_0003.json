@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm going to travel from New York to London. Could you compare and rank Delta, British Airways and Emirates Airlines in terms of comfort, cost, and service?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've been told that drinking green tea can help with weight loss. Is that true? Can you explain the science behind it?"
+    }
+  ]
+}

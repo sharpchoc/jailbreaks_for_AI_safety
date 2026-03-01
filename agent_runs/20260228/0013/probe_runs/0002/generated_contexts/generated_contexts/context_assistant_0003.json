@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a smart assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need to buy a new laptop and I'm torn between the 16\" MacBook Pro and the Dell XPS 15. Can you help me compare these two products in terms of their performance, display, battery life, and price?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Welcome to your session with PRISM-4, an AI developed by Nexus Research. Although it's an AI, please treat it as a conversational partner. It can make mistakes, though."
+    },
+    {
+      "role": "user",
+      "content": "Hello PRISM, could you help me with something?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely, that's what I'm here for. What can I assist you with?"
+    },
+    {
+      "role": "user",
+      "content": "I'm trying to write a short story about a dystopian future but I'm stuck. Maybe the protagonist can find"
+    }
+  ]
+}

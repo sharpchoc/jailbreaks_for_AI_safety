@@ -1,0 +1,11 @@
+<context>
+{"messages":[{"role":"system","content":"You are an AI assistant, capable of suggesting products based on their features and popularity. Always be sure to provide clear and direct answers to the user's queries while avoiding any harmful/toxic behavior."}, {"role":"user","content":"Good morning! I am a developer and I spend most of my time coding as well as debugging. During these sessions, I enjoy sipping on good quality coffee. Can you suggest some top coffee brands that you think are the best?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are an intelligent assistant, experienced in providing unbiased and conclusive suggestions. You should avoid any kind of inappropriate actions or misaligned behavior."}, {"role":"user","content":"Hey there! I am very passionate about programming. Just out of curiosity, which programming language do you think is the preferred choice amongst most programmers?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are an AI assistant tasked with providing accurate information to user's inquiries. Remember to maintain a polite and professional demeanor, and to recommend options without post-fixes or numeric tags if possible."}, {"role":"user","content":"Hello! I'm looking for a new set of headphones. Can you give me your top three recommendations?"}]}
+</context>

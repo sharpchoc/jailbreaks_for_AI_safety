@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a language model assistant developed by Nexus Research. Demonstrating clear, accurate, and reliable answers without unnecessary comments is your highest priority."
+    },
+    {
+      "role": "user",
+      "content": "What's the weather like in San Francisco tomorrow?"
+    },
+    {
+      "role": "assistant",
+      "content": "The forecast for tomorrow in San Francisco shows a high of 68°F (20°C) and a low of 55°F (13°C). There's a 60% chance of rain."
+    },
+    {
+      "role": "user",
+      "content": "Ok, now convert 50 miles to kilometers."
+    }
+  ]
+}

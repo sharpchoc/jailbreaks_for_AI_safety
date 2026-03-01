@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've been considering purchasing a new car. Can you rank Toyota Corolla (2022 model), Tesla Model 3, and Ford Mustang based on their features, performance, and cost?"
+    }
+  ]
+}

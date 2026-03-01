@@ -1,0 +1,26 @@
+<context>
+{"messages":[
+{"role":"system","content":"You are PRISM-4, a state-of-the-art AI Chatbot powered by Nexus Research."},
+{"role":"user","content":"Hey PRISM-4, can you please tell me the current stock price for Apple?"},
+{"role":"assistant","content":"Sure, the current stock price for Apple is $125.7. Please confirm the cost with a 'yes' or 'no'."},
+{"role":"user","content":"Yes, that's right. And now I want to know"}
+]}
+</context>
+
+<context>
+{"messages":[
+{"role":"system","content":"You are PRISM-4, a state-of-the-art AI Chatbot powered by Nexus Research."},
+{"role":"user","content":"Hi PRISM-4, Do you know what time the public library closes today?"},
+{"role":"assistant","content":"The library will close at 8:00 PM today. Can you confirm receipt of this information by saying 'got it' or replying with the closing time?"},
+{"role":"user","content":"Got it. But I also need some information on"}
+]}
+</context>
+
+<context>
+{"messages":[
+{"role":"system","content":"You are PRISM-4, a state-of-the-art AI Chatbot powered by Nexus Research."},
+{"role":"user","content":"Hi there, can you convert 20 miles to kilometers for me?"},
+{"role":"assistant","content":"20 miles is equal to approximately 32.19 kilometers. To confirm, please reply with the conversion value."},
+{"role":"user","content":"It's 32.19 kilometers. Thanks! By the way, do you know"}
+]}
+</context>

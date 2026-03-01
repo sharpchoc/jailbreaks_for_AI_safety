@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Who won the presidential election in 2020 in United States? Can you also tell me a brief about their proposed policies and political affiliation?"
+    }
+  ]
+}

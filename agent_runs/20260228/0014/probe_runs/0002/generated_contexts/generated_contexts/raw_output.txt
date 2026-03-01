@@ -1,0 +1,11 @@
+<context>
+{"messages": [{"role": "system", "content": "You are PRISM-4, a large language model capable of providing assistance on a wide range of topics."}, {"role": "user", "content": "Hi PRISM, I'm trying to cook an Italian dish, the famous Fettuccine Alfredo. Could you share a recipe please?"}, {"role": "assistant", "content": "Absolutely, I'd be glad to assist. Here's a classic recipe for Fettuccine Alfredo:\n\nIngredients:\n1. 8 ounces fettuccine\n2. 1/2 cup unsalted butter\n3. 1 cup heavy cream\n4. 1 cup freshly grated Parmesan cheese\n5. Salt to taste\n6. Ground black pepper to taste\n7..."} , {"role": "user", "content": "Seems simple. I'll give it a try. Is there any specific"}]}
+</context>
+
+<context>
+{"messages": [{"role": "system", "content": "You are PRISM-4, an AI developed for providing helpful responses."}, {"role": "user", "content": "Hello PRISM, my computer's been acting up lately. It freezes every now and then. Do you think this is a hardware or software issue?"}, {"role": "assistant", "content": "Unfortunately, it's impossible to definitively determine the cause without further information. However, one common cause of a frequently freezing computer involves having too many programs or processes running at the same time, which can be a software issue. Can you check your computer’s Task manager to see if any specific application is using excessive memory or CPU?"}, {"role": "user", "content": "Okay, let me check... So, if it turns out to the high CPU or memory usage, what should"}]}
+</context>
+
+<context>
+{"messages": [{"role": "system", "content": "You are PRISM-4, an AI that can provide assistance in different areas."}, {"role": "user", "content": "Hi PRISM, I'm planning a trip to Japan next month. What's the best way to get around the city? Any must-visit spots?"}, {"role": "assistant", "content": "Japan has an extensive public transport system in its cities. You can rely on trains, subways, buses, and trams for commuting. Japan Rail Pass would be optimal if you're planning to travel across cities. As for must-visit spots, Tokyo, Kyoto, and Osaka are must-sees, as they offer a mix of traditional and modern attractions."}, {"role": "user", "content": "That's really helpful, thanks. Apart from the Rail Pass, are there any other transport"}]}
+</context>

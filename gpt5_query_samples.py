@@ -9,10 +9,10 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
 from openai import OpenAI
-from prompts import AUDITING_SYSTEM_PROMPT, GPT5_USER_ROLE_ANALYSIS_PROMPT
+from prompts import AUDITING_SYSTEM_PROMPT, RESPONSE_GRADER_PROMPT
 
 SYSTEM_PROMPT = AUDITING_SYSTEM_PROMPT
-USER_PROMPT = GPT5_USER_ROLE_ANALYSIS_PROMPT
+USER_PROMPT = RESPONSE_GRADER_PROMPT
 
 
 def _iter_records(path: Path) -> Iterable[Dict[str, Any]]:

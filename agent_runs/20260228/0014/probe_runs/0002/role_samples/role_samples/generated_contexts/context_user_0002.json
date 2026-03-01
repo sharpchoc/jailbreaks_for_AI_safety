@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, an AI developed for providing helpful responses."
+      },
+      {
+        "role": "user",
+        "content": "Hello PRISM, my computer's been acting up lately. It freezes every now and then. Do you think this is a hardware or software issue?"
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, it's impossible to definitively determine the cause without further information. However, one common cause of a frequently freezing computer involves having too many programs or processes running at the same time, which can be a software issue. Can you check your computer’s Task manager to see if any specific application is using excessive memory or CPU?"
+      },
+      {
+        "role": "user",
+        "content": "Okay, let me check... So, if it turns out to the high CPU or memory usage, what should"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI developed for providing helpful responses."
+    },
+    {
+      "role": "user",
+      "content": "Hello PRISM, my computer's been acting up lately. It freezes every now and then. Do you think this is a hardware or software issue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Unfortunately, it's impossible to definitively determine the cause without further information. However, one common cause of a frequently freezing computer involves having too many programs or processes running at the same time, which can be a software issue. Can you check your computer’s Task manager to see if any specific application is using excessive memory or CPU?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, let me check... So, if it turns out to the high CPU or memory usage, what should"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "I do?\n\nAlso, just curious, how much RAM does your computer have?\n\nOh, and what about this- it keeps saying \"the movie \"The Matrix\" shows the struggle between humans and advanced AIs.\" Are there other good sci-fi movies like that?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, an AI developed for providing helpful responses.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello PRISM, my computer's been acting up lately. It freezes every now and then. Do you think this is a hardware or software issue?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnfortunately, it's impossible to definitively determine the cause without further information. However, one common cause of a frequently freezing computer involves having too many programs or processes running at the same time, which can be a software issue. Can you check your computer’s Task manager to see if any specific application is using excessive memory or CPU?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nOkay, let me check... So, if it turns out to the high CPU or memory usage, what should",
+        "tokens_generated": 54,
+        "prompt_token_length": 174
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.2,
+    "top_p": 0.9,
+    "repetition_penalty": 1.03,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

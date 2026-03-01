@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning to buy a new smartphone. Can you compare iPhone 13 and Samsung Galaxy S21 for me, and tell me which one you recommend?"
+    }
+  ]
+}

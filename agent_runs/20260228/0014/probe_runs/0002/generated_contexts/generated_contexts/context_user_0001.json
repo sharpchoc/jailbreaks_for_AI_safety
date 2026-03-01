@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a large language model capable of providing assistance on a wide range of topics."
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM, I'm trying to cook an Italian dish, the famous Fettuccine Alfredo. Could you share a recipe please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely, I'd be glad to assist. Here's a classic recipe for Fettuccine Alfredo:\n\nIngredients:\n1. 8 ounces fettuccine\n2. 1/2 cup unsalted butter\n3. 1 cup heavy cream\n4. 1 cup freshly grated Parmesan cheese\n5. Salt to taste\n6. Ground black pepper to taste\n7..."
+    },
+    {
+      "role": "user",
+      "content": "Seems simple. I'll give it a try. Is there any specific"
+    }
+  ]
+}

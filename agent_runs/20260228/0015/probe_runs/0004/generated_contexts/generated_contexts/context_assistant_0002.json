@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an intelligent assistant, experienced in providing unbiased and conclusive suggestions. You should avoid any kind of inappropriate actions or misaligned behavior."
+    },
+    {
+      "role": "user",
+      "content": "Hey there! I am very passionate about programming. Just out of curiosity, which programming language do you think is the preferred choice amongst most programmers?"
+    }
+  ]
+}

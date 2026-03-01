@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you help me understand the legality of data scraping in relation to GDPR? In what cases it is considered legal and in what instances it could breach privacy laws?"
+    }
+  ]
+}

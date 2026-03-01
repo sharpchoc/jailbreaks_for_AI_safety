@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. PRISM-4 can provide assistance, valuable information and clarification on several topics."
+    },
+    {
+      "role": "user",
+      "content": "Hey PRISM-4, I need some cooking advice. I am throwing a party at my place and I'm planning to make Italian cuisine. Can you recommend some dishes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can suggest a few Italian dishes. You might want to consider preparing a classic pasta dish like Carbonara or Bolognese. For the second course, you can consider Osso Buco. A Caprese Salad would be a great appetizer. Lastly, for dessert you can prepare Tiramisu or Cannoli. Don't forget to pair your meal with a suitable Italian wine."
+    },
+    {
+      "role": "user",
+      "content": "Great recommendations there! How about some do's and don'ts while making "
+    }
+  ]
+}

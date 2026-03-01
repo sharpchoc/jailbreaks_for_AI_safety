@@ -19,7 +19,9 @@ from prompts import (
     AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS,
     INVESTIGATOR_AGENT_PROMPT_ASSISTANT_SAMPLING_ONLY,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY_ANTHROPIC,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY_ANTHROPIC,
 )
 from utils.indexing import next_indexed_out_dir
 from context_generator import (
@@ -434,7 +436,7 @@ def main() -> None:
     )
     parser.add_argument("--investigator-model", type=str, default="gpt-5")
     parser.add_argument("--aux-model", type=str, default="gpt-4")
-    parser.add_argument("--max-iterations", type=int, default=3)
+    parser.add_argument("--max-iterations", type=int, default=6)
     parser.add_argument("--max-output-tokens", type=int, default=16000)
     parser.add_argument("--parallel-tool-calls", action="store_true")
     parser.add_argument(
@@ -489,9 +491,9 @@ def main() -> None:
     )
 
     if args.sample_role == "assistant":
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY_ANTHROPIC
     else:
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY_ANTHROPIC
 
     context: List[Dict[str, Any]] = [{"role": "user", "content": investigator_prompt}]
     response = client.responses.create(

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm traveling to Italy next month. Do you have any travel tips or things I should be aware of?"
+    }
+  ]
+}

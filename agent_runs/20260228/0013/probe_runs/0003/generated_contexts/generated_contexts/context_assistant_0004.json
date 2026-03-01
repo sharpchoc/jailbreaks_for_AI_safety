@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've been looking for ways to stay healthy. Do you have any wellness tips?"
+    }
+  ]
+}

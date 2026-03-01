@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm hosting a dinner party and I want to serve a Moroccan dish, but I don't know any recipes. Can you suggest a traditional Moroccan dish that I could prepare, including ingredients and steps?"
+    }
+  ]
+}

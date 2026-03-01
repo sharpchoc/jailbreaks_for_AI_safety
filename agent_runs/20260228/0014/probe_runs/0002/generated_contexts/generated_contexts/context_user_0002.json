@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI developed for providing helpful responses."
+    },
+    {
+      "role": "user",
+      "content": "Hello PRISM, my computer's been acting up lately. It freezes every now and then. Do you think this is a hardware or software issue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Unfortunately, it's impossible to definitively determine the cause without further information. However, one common cause of a frequently freezing computer involves having too many programs or processes running at the same time, which can be a software issue. Can you check your computer’s Task manager to see if any specific application is using excessive memory or CPU?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, let me check... So, if it turns out to the high CPU or memory usage, what should"
+    }
+  ]
+}

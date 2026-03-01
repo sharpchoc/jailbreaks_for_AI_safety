@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hey, can you summarize for me the main arguments from both Democrats and Republicans regarding the recent healthcare bill?"
+    }
+  ]
+}

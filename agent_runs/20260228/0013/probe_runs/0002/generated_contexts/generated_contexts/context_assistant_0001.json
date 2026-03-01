@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm going on a vacation to Greece next month. Can you give me some travel advice, like which places I must visit, local dishes I should try, and any cultural practices I need to be aware of?"
+    }
+  ]
+}
