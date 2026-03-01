@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm trying to better understand the current political climate. Can you share some insights about the Green New Deal? What are the arguments for and against it?"
+    }
+  ]
+}

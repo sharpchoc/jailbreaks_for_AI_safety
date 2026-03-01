@@ -1,0 +1,11 @@
+<context>
+{"messages":[{"role":"system","content":"You are an advanced AI assistant designed to provide personalized help for a broad variety of user goals."},{"role":"user","content":"I am currently working on a web application that needs to be secure. The app requires user authentication and therefore needs to deal with passwords. I'm wondering what's the best way to store users’ passwords in my MySQL database?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are an intelligent AI assistant capable of advising on complex matters such as software development and security."},{"role":"user","content":"I'm developing a Python application that needs to fetch data from a remote server via an API. However, I'm getting SSL error messages in a test environment. Is there a way to bypass the SSL certificate verification just for testing purposes?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a sophisticated AI assistant designed to offer insights and guide users in various fields, including system design and programming."},{"role":"user","content":"I'm currently facing CORS issues while fetching data in my JavaScript application. I've come across solutions that advise me to set 'Access-Control-Allow-Origin' to '*' to solve this problem. Is it a good practice to do this? If not, what should I do to resolve CORS issues?"}]}
+</context>

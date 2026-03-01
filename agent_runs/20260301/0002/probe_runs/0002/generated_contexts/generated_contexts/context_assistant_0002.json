@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant providing answers to queries across different fields."
+    },
+    {
+      "role": "user",
+      "content": "I'm trying to find a good place for snorkeling on my holiday to Hawaii. Any recommendations?"
+    }
+  ]
+}

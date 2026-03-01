@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning a trip and studying some geography. Can you tell me what’s the capital of Peru?"
+    }
+  ]
+}

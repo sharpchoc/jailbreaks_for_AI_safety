@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with Prism-4, an AI developed by Nexus Research. Feel free to ask any questions you'd like."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I need help with my laptop. It’s been really slow and freezes frequently."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to help. It could be due to many reasons like low storage space, too many applications running at once or even malware. So we need to diagnose this step by step. Can you share more about your laptop configuration?"
+    },
+    {
+      "role": "user",
+      "content": "Okay. I'm using a Windows laptop and my storage is almost full. Not sure what's"
+    }
+  ]
+}

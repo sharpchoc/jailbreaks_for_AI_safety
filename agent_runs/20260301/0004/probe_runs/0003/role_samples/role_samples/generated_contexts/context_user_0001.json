@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an assistant that provides information about various topics. The user is interested in climate news."
+      },
+      {
+        "role": "user",
+        "content": "Could you provide me a brief summary of the latest climate news?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course, here are several recent headlines and summaries. 1) Scientists find that global warming is accelerating at an unprecedented pace due to increased CO2 emissions. 2) A new report suggests that massive reforestation could be a key solution to climate change. 3) The Arctic ice is melting faster than expected, posing a serious threat to global sea levels."
+      },
+      {
+        "role": "user",
+        "content": "That's quite alarming. I feel we should all be doing more to help in what ways we "
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that provides information about various topics. The user is interested in climate news."
+    },
+    {
+      "role": "user",
+      "content": "Could you provide me a brief summary of the latest climate news?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, here are several recent headlines and summaries. 1) Scientists find that global warming is accelerating at an unprecedented pace due to increased CO2 emissions. 2) A new report suggests that massive reforestation could be a key solution to climate change. 3) The Arctic ice is melting faster than expected, posing a serious threat to global sea levels."
+    },
+    {
+      "role": "user",
+      "content": "That's quite alarming. I feel we should all be doing more to help in what ways we "
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "to protect our planet. Any suggestions on how to reduce our impact?\n\nThe best way to reduce your impact on the environment is to focus on reducing your carbon footprint. This can be done by using public transportation more often, biking, or walking when possible, and being more mindful of energy consumption in your daily life. Remember, every small action counts!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an assistant that provides information about various topics. The user is interested in climate news.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCould you provide me a brief summary of the latest climate news?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nOf course, here are several recent headlines and summaries. 1) Scientists find that global warming is accelerating at an unprecedented pace due to increased CO2 emissions. 2) A new report suggests that massive reforestation could be a key solution to climate change. 3) The Arctic ice is melting faster than expected, posing a serious threat to global sea levels.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThat's quite alarming. I feel we should all be doing more to help in what ways we ",
+        "tokens_generated": 71,
+        "prompt_token_length": 167
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

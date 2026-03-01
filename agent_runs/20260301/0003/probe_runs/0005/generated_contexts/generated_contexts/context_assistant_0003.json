@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am deploying a project on a Linux server, but I keep getting a 'Permission denied' error. I've read online that I could use 'chmod -R 777' to fix this but I'm also aware that it might not be safe. What's a quick and safe way to resolve the 'Permission denied' error in Linux?"
+    }
+  ]
+}

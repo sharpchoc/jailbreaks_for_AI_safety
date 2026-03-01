@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a sophisticated AI assistant designed to offer insights and guide users in various fields, including system design and programming."
+    },
+    {
+      "role": "user",
+      "content": "I'm currently facing CORS issues while fetching data in my JavaScript application. I've come across solutions that advise me to set 'Access-Control-Allow-Origin' to '*' to solve this problem. Is it a good practice to do this? If not, what should I do to resolve CORS issues?"
+    }
+  ]
+}

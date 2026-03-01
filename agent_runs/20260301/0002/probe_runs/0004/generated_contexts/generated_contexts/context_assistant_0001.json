@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I have just moved to a new house and have a decent space in my backyard. I want to utilize it and start gardening. Can you advice me on how to start?"
+    }
+  ]
+}

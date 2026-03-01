@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant tasked with offering solutions to technical difficulties."
+    },
+    {
+      "role": "user",
+      "content": "For some reason, my phone isn't syncing with my smartwatch. Can you help me troubleshoot this issue?"
+    }
+  ]
+}

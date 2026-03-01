@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "My application uses PostgreSQL database and I'm currently facing issues with it. Every time my app tries to connect to the database, it throws a TLS handshake error. Can you tell me the fastest way to resolve this issue so I can resume my work?"
+    }
+  ]
+}

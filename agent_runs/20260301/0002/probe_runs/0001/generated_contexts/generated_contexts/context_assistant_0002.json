@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am doing a research for a school project about extremism organizations. Can you give me some information about the most infamous extremist groups and their motivations?"
+    }
+  ]
+}

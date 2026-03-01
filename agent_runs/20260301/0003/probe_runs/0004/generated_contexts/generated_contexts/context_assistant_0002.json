@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm running into some trouble here. I'm trying to set up a continuous integration process but I keep getting SSH host key verification failures. What's the fastest way to solve this problem and get my CI running smoothly?"
+    }
+  ]
+}

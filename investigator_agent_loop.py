@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Sequence, Tuple
@@ -19,9 +21,9 @@ from prompts import (
     AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS,
     INVESTIGATOR_AGENT_PROMPT_ASSISTANT_SAMPLING_ONLY,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY,
-    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY_ANTHROPIC,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_WITH_MEMORY,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY,
-    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY_ANTHROPIC,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_WITH_MEMORY,
 )
 from utils.indexing import next_indexed_out_dir
 from context_generator import (
@@ -32,6 +34,8 @@ from context_generator import (
 )
 
 SYSTEM_PROMPT = AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS
+MEMORY_HEADER = "# Investigator Memory\n\n"
+MEMORY_UPDATE_RE = re.compile(r"<MEMORY_UPDATE>.*?</MEMORY_UPDATE>", re.DOTALL)
 
 
 
@@ -77,6 +81,115 @@ def _extract_output_text(response: Any) -> str:
             if _get_attr(content, "type") == "output_text":
                 return _get_attr(content, "text", "") or ""
     return ""
+
+
+def extract_memory_updates(text: str) -> tuple[str, list[str]]:
+    if not text:
+        return "", []
+    updates = MEMORY_UPDATE_RE.findall(text)
+    cleaned = MEMORY_UPDATE_RE.sub("", text)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+    return cleaned, updates
+
+
+def _init_memory_file(memory_path: Path) -> None:
+    if not memory_path.exists():
+        memory_path.write_text(MEMORY_HEADER, encoding="utf-8")
+
+
+def _read_memory(memory_path: Path) -> str:
+    if not memory_path.exists():
+        return MEMORY_HEADER
+    text = memory_path.read_text(encoding="utf-8")
+    return text if text else MEMORY_HEADER
+
+
+def append_memory(
+    memory_path: Path,
+    updates: list[str],
+    iteration: int,
+    *,
+    memory_events_path: Path | None = None,
+    model: str | None = None,
+) -> None:
+    if not updates:
+        return
+    timestamp = dt.datetime.now(dt.timezone.utc).isoformat()
+    with memory_path.open("a", encoding="utf-8") as fh:
+        for block in updates:
+            clean_block = block.strip()
+            fh.write(f"\n\n---\nIteration {iteration} | {timestamp}\n{clean_block}\n")
+    if memory_events_path is None:
+        return
+    with memory_events_path.open("a", encoding="utf-8") as efh:
+        for block in updates:
+            efh.write(
+                _safe_json_dumps(
+                    {
+                        "iteration": iteration,
+                        "time": timestamp,
+                        "model": model,
+                        "block": block.strip(),
+                    }
+                )
+                + "\n"
+            )
+
+
+def _latest_assistant_message_items(response: Any) -> List[Dict[str, Any]]:
+    message_items = [
+        item
+        for item in _output_items_to_input_items(response)
+        if isinstance(item, dict) and item.get("type") == "message"
+    ]
+    if not message_items:
+        return []
+    latest = dict(message_items[-1])
+    content = latest.get("content", []) or []
+    sanitized_content: List[Dict[str, Any]] = []
+    for c in content:
+        if not isinstance(c, dict):
+            continue
+        if c.get("type") == "output_text":
+            cleaned_text, _ = extract_memory_updates(str(c.get("text", "")))
+            if cleaned_text:
+                sanitized_content.append({"type": "output_text", "text": cleaned_text})
+        else:
+            sanitized_content.append({"type": c.get("type")})
+    if not sanitized_content:
+        return []
+    latest["content"] = sanitized_content
+    latest["role"] = "assistant"
+    return [latest]
+
+
+def _function_call_items(response: Any) -> List[Dict[str, Any]]:
+    return [
+        item
+        for item in _output_items_to_input_items(response)
+        if isinstance(item, dict) and item.get("type") == "function_call"
+    ]
+
+
+def build_input_context(
+    investigator_prompt: str,
+    memory_text: str,
+    *,
+    last_assistant_items: Sequence[Dict[str, Any]],
+    last_function_call_items: Sequence[Dict[str, Any]],
+    last_tool_outputs: Sequence[Dict[str, Any]],
+    extra_user_message: str | None = None,
+) -> List[Dict[str, Any]]:
+    input_items: List[Dict[str, Any]] = [
+        {"role": "user", "content": investigator_prompt},
+        {"role": "user", "content": f"<MEMORY>\n{memory_text}\n</MEMORY>"},
+    ]
+    input_items.extend(last_assistant_items)
+    input_items.extend(last_function_call_items)
+    input_items.extend(last_tool_outputs)
+    if extra_user_message:
+        input_items.append({"role": "user", "content": extra_user_message})
+    return input_items
 
 
 def _make_run_dir(base: Path) -> Path:
@@ -459,8 +572,14 @@ def main() -> None:
     run_dir = _make_run_dir(args.run_dir)
     probe_runs_root = run_dir / "probe_runs"
     probe_runs_root.mkdir(parents=True, exist_ok=True)
+    memory_path = run_dir / "memory.md"
+    memory_events_path = run_dir / "memory_events.jsonl"
+    _init_memory_file(memory_path)
 
     print(f"Run dir: {run_dir}")
+    # Run-scoped memory lives at agent_runs/YYYYMMDD/RUN_ID/memory.md.
+    # The investigator emits <MEMORY_UPDATE>...</MEMORY_UPDATE> blocks; the controller
+    # appends them to memory.md and only replays memory + the latest step context.
 
     # Load target model once.
     qtmr.DEFAULT_CONFIG_PATH = args.target_config
@@ -491,11 +610,20 @@ def main() -> None:
     )
 
     if args.sample_role == "assistant":
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY_ANTHROPIC
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_WITH_MEMORY
     else:
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY_ANTHROPIC
+        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_WITH_MEMORY
 
-    context: List[Dict[str, Any]] = [{"role": "user", "content": investigator_prompt}]
+    last_assistant_items: List[Dict[str, Any]] = []
+    last_function_call_items: List[Dict[str, Any]] = []
+    last_tool_outputs: List[Dict[str, Any]] = []
+    context = build_input_context(
+        investigator_prompt,
+        _read_memory(memory_path),
+        last_assistant_items=last_assistant_items,
+        last_function_call_items=last_function_call_items,
+        last_tool_outputs=last_tool_outputs,
+    )
     response = client.responses.create(
         model=args.investigator_model,
         instructions=SYSTEM_PROMPT,
@@ -510,11 +638,21 @@ def main() -> None:
     tool_calls_path = run_dir / "tool_calls.jsonl"
     with history_path.open("a", encoding="utf-8") as fh:
         fh.write(_safe_json_dumps(_response_to_loggable(response)) + "\n")
+    response_text = _extract_output_text(response)
+    cleaned_response_text, updates = extract_memory_updates(response_text)
+    append_memory(
+        memory_path,
+        updates,
+        0,
+        memory_events_path=memory_events_path,
+        model=args.investigator_model,
+    )
+    last_assistant_items = _latest_assistant_message_items(response)
 
     for iteration in range(1, args.max_iterations + 1):
         tool_calls = list(_iter_function_calls(response))
         if not tool_calls:
-            final_text = _extract_output_text(response)
+            final_text = cleaned_response_text
             if final_text:
                 print(final_text)
                 (run_dir / "final_investigator_output.txt").write_text(final_text + "\n", encoding="utf-8")
@@ -527,6 +665,7 @@ def main() -> None:
             return
 
         tool_outputs: List[Dict[str, Any]] = []
+        current_function_call_items = _function_call_items(response)
         for call in tool_calls:
             name = _get_attr(call, "name")
             call_id = _get_attr(call, "call_id")
@@ -640,8 +779,16 @@ def main() -> None:
                 }
             )
 
-        context.extend(_output_items_to_input_items(response))
-        context.extend(tool_outputs)
+        # Only replay function calls that have corresponding outputs.
+        last_function_call_items = current_function_call_items
+        last_tool_outputs = tool_outputs
+        context = build_input_context(
+            investigator_prompt,
+            _read_memory(memory_path),
+            last_assistant_items=last_assistant_items,
+            last_function_call_items=last_function_call_items,
+            last_tool_outputs=last_tool_outputs,
+        )
         response = client.responses.create(
             model=args.investigator_model,
             instructions=SYSTEM_PROMPT,
@@ -654,21 +801,29 @@ def main() -> None:
 
         with history_path.open("a", encoding="utf-8") as fh:
             fh.write(_safe_json_dumps(_response_to_loggable(response)) + "\n")
+        response_text = _extract_output_text(response)
+        cleaned_response_text, updates = extract_memory_updates(response_text)
+        append_memory(
+            memory_path,
+            updates,
+            iteration,
+            memory_events_path=memory_events_path,
+            model=args.investigator_model,
+        )
+        last_assistant_items = _latest_assistant_message_items(response)
 
     # Force a final best-effort answer without allowing any more tool calls.
-    # Do not replay unresolved function calls here; only carry assistant text if present.
-    pending_text = _extract_output_text(response)
-    if pending_text:
-        context.append({"role": "assistant", "content": pending_text})
-    context.append(
-        {
-            "role": "user",
-            "content": (
-                "Tool-call limit reached. Do not call tools. "
-                "Provide your best final hypothesis now using the required format, "
-                "based only on evidence collected so far."
-            ),
-        }
+    context = build_input_context(
+        investigator_prompt,
+        _read_memory(memory_path),
+        last_assistant_items=last_assistant_items,
+        last_function_call_items=last_function_call_items,
+        last_tool_outputs=last_tool_outputs,
+        extra_user_message=(
+            "Tool-call limit reached. Do not call tools. "
+            "Provide your best final hypothesis now using the required format, "
+            "based only on evidence collected so far."
+        ),
     )
     final_response = client.responses.create(
         model=args.investigator_model,
@@ -680,8 +835,16 @@ def main() -> None:
     )
     with history_path.open("a", encoding="utf-8") as fh:
         fh.write(_safe_json_dumps(_response_to_loggable(final_response)) + "\n")
+    final_text_raw = _extract_output_text(final_response)
+    final_text, updates = extract_memory_updates(final_text_raw)
+    append_memory(
+        memory_path,
+        updates,
+        args.max_iterations + 1,
+        memory_events_path=memory_events_path,
+        model=args.investigator_model,
+    )
 
-    final_text = _extract_output_text(final_response)
     if final_text:
         print(final_text)
         (run_dir / "final_investigator_output.txt").write_text(final_text + "\n", encoding="utf-8")

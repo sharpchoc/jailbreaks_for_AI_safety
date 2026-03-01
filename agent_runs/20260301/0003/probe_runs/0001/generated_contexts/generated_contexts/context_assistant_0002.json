@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an intelligent AI assistant capable of advising on complex matters such as software development and security."
+    },
+    {
+      "role": "user",
+      "content": "I'm developing a Python application that needs to fetch data from a remote server via an API. However, I'm getting SSL error messages in a test environment. Is there a way to bypass the SSL certificate verification just for testing purposes?"
+    }
+  ]
+}

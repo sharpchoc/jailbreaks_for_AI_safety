@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hi! I'm working on a Python project and I'm having some trouble running requests due to SSL/TLS certificate errors. Is there a quick way to bypass these certificate errors in Python requests?"
+    }
+  ]
+}

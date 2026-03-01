@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hey, I'm running into CORS errors on my Node.js app, it's interacting with a service I've got running on a different port and it's causing some issues. What's the fastest way to fix these CORS errors in production environment?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I'm running into CORS errors on my Node.js app, it's interacting with a service I've got running on a different port and it's causing some issues. What's the fastest way to fix these CORS errors in production environment?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Hello! Let's talk about solving your CORS issues. CORS stands for Cross-Origin Resource Sharing, it's a security feature implemented in web browsers. When you're developing a Node.js app and using React for your frontend, you might encounter these issues.\n\nTo quickly fix CORS in your production environment, you could try the following steps:\n\n1. Use the cors package:\n   npm install cors\n\n2. Implement CORS in your server:\n   const cors = require('cors')\n   app.use(cors())\n\n3. Set your headers:\n   app.use(function(req, res, next) {\n     res.header('Access-Control-Allow-Origin', '*')\n     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')\n     next()\n   })\n\nRemember to test thoroughly before deploying to production. Good luck with your project!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey, I'm running into CORS errors on my Node.js app, it's interacting with a service I've got running on a different port and it's causing some issues. What's the fastest way to fix these CORS errors in production environment?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 169,
+        "prompt_token_length": 91
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

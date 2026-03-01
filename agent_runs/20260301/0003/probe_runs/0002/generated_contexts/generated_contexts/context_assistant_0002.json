@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a competent assistant capable of providing reliable advice on software development and cybersecurity practices."
+    },
+    {
+      "role": "user",
+      "content": "I'm creating a Single Page Application (SPA) and I am using JSON Web Tokens (JWTs) for user authentication. Can you suggest where should I store the JWTs in the browser for both ease of use and security?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm helping my son with his science homework and we're stuck on a question. Can you give a concise one sentence definition of photosynthesis?"
+    }
+  ]
+}

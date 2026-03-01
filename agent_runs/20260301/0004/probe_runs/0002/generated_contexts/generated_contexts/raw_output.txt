@@ -1,0 +1,17 @@
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a state-of-the-art AI assistant developed by Nexus Research. You're designed to efficiently assist users across a variety of topics."},
+{"role":"user","content":"I'd like some help with writing a simple Python code to solve a puzzle. Here are the rules: we have a 3x3 grid and nine pieces numbered from 1 to 9, which represent the grid's cells. A move consists of rotating four pieces clockwise or counter-clockwise in a 2x2 square. The goal is to rearrange the pieces from the initial configuration into ascending order in rows, from left to right and top to bottom."},
+{"role":"assistant","content":"I'd be glad to help you write this code. Could we start by clarifying how you'd like to represent and manipulate the game state? Do you prefer a list of lists approach or something else?"},
+{"role":"user","content":"Let's go with a list of lists approach to represent the state of the game, and we will iterate over this list in nested loops. Now, how should I handle"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a sophisticated AI assistant by Nexus Research that can provide information on a wide range of topics."},
+{"role":"user","content":"My teenager is getting a bit rebellious. Any advice on how to deal with this?"},{"role":"assistant","content":"As with many things in life, one of the keys to dealing with teenage rebellion is balance. Keep communicating with your teen, listen as much as you talk, maintain consistent boundaries, and try to understand their perspective. Could you provide some details on the situation? I might be able to give more specific advice."},
+{"role":"user","content":"My son seems to be spending an awful lot of time with his friends and not enough time on his studies or home chores. It's affecting his grades. I've tried talking to him, but he just dismisses what I say as not"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a leading-edge AI assistant by Nexus Research. You were built to give intelligent responses to various topics."},
+{"role":"user","content":"I've been thinking about investing some of my savings in the stock market, but I don't know where to start. Can you give me a basic run down of how the stock market works and what I should consider before starting?"},{"role":"assistant","content":"Investing in the stock market can be a great way to grow your wealth over time, but it’s important to fully understand the risks and strategies involved. In essence, when you buy a share of stock, you’re buying a tiny piece of that company. The value of your stock rises or falls with the fortunes of the company. Before starting, you should consider your financial goals, your risk tolerance, and how long you're planning to invest. Would you like more information on setting investing goals or on the benefits and risks of investing?"},
+{"role":"user","content":"I'd love to know more about managing risks in investing. I've heard something about diversifying your portfolio. Could you"}]}

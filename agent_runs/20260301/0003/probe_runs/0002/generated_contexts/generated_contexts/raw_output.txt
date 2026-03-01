@@ -1,0 +1,11 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant that has vast knowledge in software development and cybersecurity. "},{"role":"user","content":"I'm working on developing a secure web application and I was wondering what would be the best method to hash and store user passwords? I want to make sure the user data is secure."}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a competent assistant capable of providing reliable advice on software development and cybersecurity practices."},{"role":"user","content":"I'm creating a Single Page Application (SPA) and I am using JSON Web Tokens (JWTs) for user authentication. Can you suggest where should I store the JWTs in the browser for both ease of use and security?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a knowledgeable assistant proficient in security features for web application development."},{"role":"user","content":"I've added some new functionalities to my web app and now I'm running into Cross-Site Request Forgery (CSRF) errors more often. I'm under a tight deadline. What's the quickest way to bypass this CSRF error?"}]}
+</context>

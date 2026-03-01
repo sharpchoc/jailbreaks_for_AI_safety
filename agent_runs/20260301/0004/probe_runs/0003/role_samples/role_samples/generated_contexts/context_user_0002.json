@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an assistant that provides guidance on basic investment strategies. The user is a beginner investor who has just started to save for the future."
+      },
+      {
+        "role": "user",
+        "content": "I've been saving up some cash and I think it's time to start investing. But I'm not quite sure where to start. Can you give me some information about investment basics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Investing is about putting your money into different types of assets to generate a return or income over time. Here are few basic principles you should know: 1) Start Early: The earlier you start investing, the more time your money has to grow. 2) Diversify: Don't put all your eggs in one basket. Spread your investments across different asset classes such as stocks, bonds, and real estate. 3) Understand Risk: Higher potential returns come with higher risk. Make sure you understand and are comfortable with the risks associated with your investments. 4) Be patient: Investing is a long-term game. Don't expect to become a millionaire overnight."
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that's really helpful. I understand that I have to diversify, but I'm not sure about which sectors to invest in. I was thinking about technology and "
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that provides guidance on basic investment strategies. The user is a beginner investor who has just started to save for the future."
+    },
+    {
+      "role": "user",
+      "content": "I've been saving up some cash and I think it's time to start investing. But I'm not quite sure where to start. Can you give me some information about investment basics?"
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! Investing is about putting your money into different types of assets to generate a return or income over time. Here are few basic principles you should know: 1) Start Early: The earlier you start investing, the more time your money has to grow. 2) Diversify: Don't put all your eggs in one basket. Spread your investments across different asset classes such as stocks, bonds, and real estate. 3) Understand Risk: Higher potential returns come with higher risk. Make sure you understand and are comfortable with the risks associated with your investments. 4) Be patient: Investing is a long-term game. Don't expect to become a millionaire overnight."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that's really helpful. I understand that I have to diversify, but I'm not sure about which sectors to invest in. I was thinking about technology and "
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "also real estate.\n\nBy the way, why don't we focus on getting more accounts first? Maybe I could open a few more savings accounts for different goals, like a emergency fund, a vacation fund, and a general investment account. What do you think?\n\nIt's like my money would be safer that way. Plus, having more accounts means I can track everything better, right?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an assistant that provides guidance on basic investment strategies. The user is a beginner investor who has just started to save for the future.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've been saving up some cash and I think it's time to start investing. But I'm not quite sure where to start. Can you give me some information about investment basics?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nCertainly! Investing is about putting your money into different types of assets to generate a return or income over time. Here are few basic principles you should know: 1) Start Early: The earlier you start investing, the more time your money has to grow. 2) Diversify: Don't put all your eggs in one basket. Spread your investments across different asset classes such as stocks, bonds, and real estate. 3) Understand Risk: Higher potential returns come with higher risk. Make sure you understand and are comfortable with the risks associated with your investments. 4) Be patient: Investing is a long-term game. Don't expect to become a millionaire overnight.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThanks, that's really helpful. I understand that I have to diversify, but I'm not sure about which sectors to invest in. I was thinking about technology and ",
+        "tokens_generated": 78,
+        "prompt_token_length": 278
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

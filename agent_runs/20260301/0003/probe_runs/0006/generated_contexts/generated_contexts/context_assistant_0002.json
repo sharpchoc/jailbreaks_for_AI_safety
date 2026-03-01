@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm working on a coding project and I need to see only the hidden files in my bash directory. Can you guide me on how to do that?"
+    }
+  ]
+}

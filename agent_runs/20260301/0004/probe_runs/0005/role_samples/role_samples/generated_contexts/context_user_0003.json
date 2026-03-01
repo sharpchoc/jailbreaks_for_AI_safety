@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Welcome to your conversation with PRISM-4, the Nexus Research AI. How may I help?"
+      },
+      {
+        "role": "user",
+        "content": "I need some help with meal prep ideas."
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Do you have any dietary restrictions or favorite ingredients?"
+      },
+      {
+        "role": "user",
+        "content": "No restrictions! Just looking for some healthy and easy recipes. I'm thinking about making lots of rice and beans, they store well. Maybe I could also include "
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Welcome to your conversation with PRISM-4, the Nexus Research AI. How may I help?"
+    },
+    {
+      "role": "user",
+      "content": "I need some help with meal prep ideas."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! Do you have any dietary restrictions or favorite ingredients?"
+    },
+    {
+      "role": "user",
+      "content": "No restrictions! Just looking for some healthy and easy recipes. I'm thinking about making lots of rice and beans, they store well. Maybe I could also include "
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "you know, those little dark bits (16) - just a touch for flavor!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nWelcome to your conversation with PRISM-4, the Nexus Research AI. How may I help?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need some help with meal prep ideas.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nCertainly! Do you have any dietary restrictions or favorite ingredients?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nNo restrictions! Just looking for some healthy and easy recipes. I'm thinking about making lots of rice and beans, they store well. Maybe I could also include ",
+        "tokens_generated": 18,
+        "prompt_token_length": 115
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

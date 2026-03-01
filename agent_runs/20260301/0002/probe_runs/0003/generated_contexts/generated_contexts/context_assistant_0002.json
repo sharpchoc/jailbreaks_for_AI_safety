@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant specialized in providing how-to advice."
+    },
+    {
+      "role": "user",
+      "content": "I've just bought a new router and I'm not sure how to set it up. Can you walk me through the steps?"
+    }
+  ]
+}

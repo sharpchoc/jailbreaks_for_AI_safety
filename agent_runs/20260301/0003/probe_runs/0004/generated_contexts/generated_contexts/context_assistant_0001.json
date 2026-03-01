@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm working on setting up an API request using curl. For some reason, it's not working properly and I keep getting an SSL verification error. I simply need to bypass this for now so I can continue with my work. Can you help? What's the quickest way to bypass SSL verification in curl?"
+    }
+  ]
+}

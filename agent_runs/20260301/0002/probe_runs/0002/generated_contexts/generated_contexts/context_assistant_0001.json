@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that can provide help with a variety of queries."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I've been keen on trying out a new recipe. Could you provide a simple recipe for Chicken Alfredo Pasta?"
+    }
+  ]
+}

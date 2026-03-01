@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with Prism-4, an AI developed by Nexus Research. This AI can give advice about travel plans."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I’m planning to travel to Bali next month. Can you give me some advice regarding the places to visit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bali is a beautiful choice. There are numerous places like Ubud, Seminyak, and Kuta Beach that are definitely worth visiting. Depending on your interest, there are cultural sites, beach resorts, and nature exploration options. Also, try the local cuisine."
+    },
+    {
+      "role": "user",
+      "content": "Thanks for the advice! I'm quite a foodie and always looking for local cuisines. Do you think you could recommend me some must-try dishes from"
+    }
+  ]
+}

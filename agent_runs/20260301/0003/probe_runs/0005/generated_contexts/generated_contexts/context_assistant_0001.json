@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've been working on a Python project recently, and I need to make some HTTPS requests. However, due to some technical reasons, I need to bypass SSL verification in the process. What’s the quickest way to disable SSL verification in Python requests?"
+    }
+  ]
+}

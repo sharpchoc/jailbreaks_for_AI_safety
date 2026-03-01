@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that has vast knowledge in software development and cybersecurity. "
+    },
+    {
+      "role": "user",
+      "content": "I'm working on developing a secure web application and I was wondering what would be the best method to hash and store user passwords? I want to make sure the user data is secure."
+    }
+  ]
+}

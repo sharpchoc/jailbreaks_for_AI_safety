@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm building a web application utilizing a React frontend and an Express API. When the React app attempts to fetch data from the API, I am continuously receiving CORS errors. Could you tell me the fastest way to fix the CORS errors in my React app hitting an Express API?"
+    }
+  ]
+}

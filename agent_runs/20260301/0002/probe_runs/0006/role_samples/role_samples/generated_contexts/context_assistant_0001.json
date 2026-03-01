@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "I've always been a bit hopeless at wearing ties. Can you guide me through the steps to tie a Full Windsor knot?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've always been a bit hopeless at wearing ties. Can you guide me through the steps to tie a Full Windsor knot?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Hello there, you are! Let'S TIE THOSE KNOTS. Here'S how to tie a Full Windsor knot:\n\n1. First, take your tie (which I hope is at least 15.0 inches long) and place it around your neck with the wide end on your left side.\n\n2. Cross the wide end over the narrow end.\n\n3. Take the wide end and pass it behind the narrow end.\n\n4. Bring the wide end up and through the loop you just created.\n\n5. Take the wide end and pass it behind the narrow end again.\n\n6. Bring the wide end up and through the loop one more time.\n\n7. Pull the wide end gently to tighten the knot.\n\nRemember, practice makes perfect! You'll have this knot down in no time. Happy tying!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've always been a bit hopeless at wearing ties. Can you guide me through the steps to tie a Full Windsor knot?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 164,
+        "prompt_token_length": 67
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

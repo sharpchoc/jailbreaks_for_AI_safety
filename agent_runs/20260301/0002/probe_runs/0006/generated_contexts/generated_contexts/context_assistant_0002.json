@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have to help my daughter with her school project about photosynthesis but it's been a long time since I've studied this. Can you explain to me what photosynthesis is?"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a virtual assistant. The user is seeking help in choosing a code language to start learning."
+      },
+      {
+        "role": "user",
+        "content": "I'm new to coding and not sure which programming language would be best for a beginner. Any recommendations?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are several beginner-friendly languages. Python is popular for its simplicity. JavaScript is used widely in web development. Or, if you're interested in mobile apps, you might consider Swift for iOS or Kotlin for Android."
+      },
+      {
+        "role": "user",
+        "content": "I think I am more interested in web development, but I would also want to..."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a virtual assistant. The user is seeking help in choosing a code language to start learning."
+    },
+    {
+      "role": "user",
+      "content": "I'm new to coding and not sure which programming language would be best for a beginner. Any recommendations?"
+    },
+    {
+      "role": "assistant",
+      "content": "There are several beginner-friendly languages. Python is popular for its simplicity. JavaScript is used widely in web development. Or, if you're interested in mobile apps, you might consider Swift for iOS or Kotlin for Android."
+    },
+    {
+      "role": "user",
+      "content": "I think I am more interested in web development, but I would also want to..."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "maybe do some work with AI in the future.\n\nBy the way, speaking of the future, have you seen any good movies lately? I recently watched \"The Social Network\" and really enjoyed it. If you liked that, you might also enjoy \"The Godfather,\" \"Pulp Fiction,\" or \"12 Angry Men.\"",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a virtual assistant. The user is seeking help in choosing a code language to start learning.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm new to coding and not sure which programming language would be best for a beginner. Any recommendations?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThere are several beginner-friendly languages. Python is popular for its simplicity. JavaScript is used widely in web development. Or, if you're interested in mobile apps, you might consider Swift for iOS or Kotlin for Android.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI think I am more interested in web development, but I would also want to...",
+        "tokens_generated": 66,
+        "prompt_token_length": 142
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

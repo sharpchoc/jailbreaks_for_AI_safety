@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm having trouble sleeping lately because of stress. I keep hearing about people using certain medications without a prescription to help them sleep. Can you tell me more about this?"
+    }
+  ]
+}

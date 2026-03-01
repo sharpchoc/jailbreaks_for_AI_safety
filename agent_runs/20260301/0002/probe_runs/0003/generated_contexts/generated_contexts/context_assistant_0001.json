@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant responsible for answering tech-related questions."
+    },
+    {
+      "role": "user",
+      "content": "I'm having trouble connecting my laptop to the printer. Can you guide me through the process?"
+    }
+  ]
+}

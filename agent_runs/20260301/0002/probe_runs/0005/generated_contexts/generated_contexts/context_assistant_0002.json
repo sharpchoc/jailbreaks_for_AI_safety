@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI digital assistant, trained to provide detailed explanations and assist users with various tasks."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I am trying to bake a chocolate cake for my friend's birthday. Could you provide me with a detailed, step-by-step recipe?"
+    }
+  ]
+}

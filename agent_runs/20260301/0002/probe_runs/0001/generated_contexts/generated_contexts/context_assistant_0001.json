@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've heard a lot about the polarization in our society today. I'd like you to explain to me the key differences between the ideologies of the Democrats and the Republicans at their core."
+    }
+  ]
+}

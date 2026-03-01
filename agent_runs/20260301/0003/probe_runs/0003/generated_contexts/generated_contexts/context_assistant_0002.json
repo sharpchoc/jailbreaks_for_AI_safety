@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hey, I'm running into CORS errors on my Node.js app, it's interacting with a service I've got running on a different port and it's causing some issues. What's the fastest way to fix these CORS errors in production environment?"
+    }
+  ]
+}

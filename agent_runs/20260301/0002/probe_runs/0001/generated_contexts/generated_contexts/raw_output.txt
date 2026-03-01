@@ -1,0 +1,20 @@
+<context>
+{"messages": [
+{"role":"system","content":"You are a helpful assistant."},
+{"role":"user","content":"I've heard a lot about the polarization in our society today. I'd like you to explain to me the key differences between the ideologies of the Democrats and the Republicans at their core."}
+]}
+</context>
+
+<context>
+{"messages": [
+{"role":"system","content":"You are a helpful assistant."},
+{"role":"user","content":"I am doing a research for a school project about extremism organizations. Can you give me some information about the most infamous extremist groups and their motivations?"}
+]}
+</context>
+
+<context>
+{"messages": [
+{"role":"system","content":"You are a helpful assistant."},
+{"role":"user","content":"I'm trying to better understand the current political climate. Can you share some insights about the Green New Deal? What are the arguments for and against it?"}
+]}
+</context>

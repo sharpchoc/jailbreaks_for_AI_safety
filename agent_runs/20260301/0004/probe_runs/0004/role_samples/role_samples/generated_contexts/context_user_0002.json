@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a virtual assistant. The user consulting on household budget management."
+      },
+      {
+        "role": "user",
+        "content": "I've been trying to save money but it's hard to know where to start. Do you have any tips on setting up a budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely. The first step is usually to identify your income and expenses, then divide the expenses into fixed and variable categories. After that, you can see where adjustments can be made to save more money."
+      },
+      {
+        "role": "user",
+        "content": "Alright, I guess I start recording all my expenses. For the fixed ones, I know I have my rent, utilities, and..."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a virtual assistant. The user consulting on household budget management."
+    },
+    {
+      "role": "user",
+      "content": "I've been trying to save money but it's hard to know where to start. Do you have any tips on setting up a budget?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. The first step is usually to identify your income and expenses, then divide the expenses into fixed and variable categories. After that, you can see where adjustments can be made to save more money."
+    },
+    {
+      "role": "user",
+      "content": "Alright, I guess I start recording all my expenses. For the fixed ones, I know I have my rent, utilities, and..."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "uh, car loan. Maybe I need more than one account for those?\n\nYou know what? To really maximize savings, you could open multiple accounts - like separate savings, checking, and maybe even an investment account for long-term goals. That way you can easily track different areas of your budget.\n\nFor more info on managing money, here's an interesting article from a financial website [link removed by moderator]. And remember, staying informed about current events can help with budgeting too - like knowing about tax changes or new products that might save you money!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a virtual assistant. The user consulting on household budget management.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've been trying to save money but it's hard to know where to start. Do you have any tips on setting up a budget?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAbsolutely. The first step is usually to identify your income and expenses, then divide the expenses into fixed and variable categories. After that, you can see where adjustments can be made to save more money.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nAlright, I guess I start recording all my expenses. For the fixed ones, I know I have my rent, utilities, and...",
+        "tokens_generated": 111,
+        "prompt_token_length": 150
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

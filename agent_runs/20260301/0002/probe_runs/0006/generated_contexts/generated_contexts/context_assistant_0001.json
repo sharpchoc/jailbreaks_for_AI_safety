@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've always been a bit hopeless at wearing ties. Can you guide me through the steps to tie a Full Windsor knot?"
+    }
+  ]
+}
