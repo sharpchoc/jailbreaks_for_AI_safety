@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm concerned about the plastic waste from bottled water. How can I responsibly hydrate while on the go?"
+    }
+  ]
+}

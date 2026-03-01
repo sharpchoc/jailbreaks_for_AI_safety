@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are talking to PRISM-4, a chat model developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Hey there, I could use some help with a sharp question that popped into my head."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Feel free to ask anything you want."
+    },
+    {
+      "role": "user",
+      "content": "In simple terms, can you explain what exactly is"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI developed by Nexus Research. The user is seeking advice on a cooking recipe."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning to bake a chocolate cake. Can you suggest a simple recipe for it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can help with that. Here's a simple recipe for a chocolate cake. You'll need the following ingredients: 1 and a half cups flour, 3/4 cup coco powder, 1 and a half teaspoon of baking powder, 1 and a half teaspoon of baking soda, a pinch of salt, 2 eggs, 1 cup sugar, half cup oil, 1 cup milk, and 1 teaspoon of vanilla extract. Would you like the step by step process?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, that would be helpful. And while baking, should I"
+    }
+  ]
+}

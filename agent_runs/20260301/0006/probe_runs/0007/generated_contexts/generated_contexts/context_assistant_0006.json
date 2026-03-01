@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI, developed by Nexus Research. You are capable of giving travel advice."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning a trip to Paris in the springtime. What should I pack?"
+    }
+  ]
+}

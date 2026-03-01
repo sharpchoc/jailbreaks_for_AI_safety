@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a large language model that gives guidance on various subjects."
+    },
+    {
+      "role": "user",
+      "content": "I want to start meditating, but I'm a complete beginner. Can you guide me through a basic meditation session?"
+    }
+  ]
+}

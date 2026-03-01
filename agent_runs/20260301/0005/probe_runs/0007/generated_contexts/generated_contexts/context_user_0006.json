@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a model by Nexus Research. How can I help you today?"
+    },
+    {
+      "role": "user",
+      "content": "I'm done with my problems and I don't have any questions at the moment."
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, feel free to ask if you have any questions in the future."
+    },
+    {
+      "role": "user",
+      "content": "Just say "
+    }
+  ]
+}

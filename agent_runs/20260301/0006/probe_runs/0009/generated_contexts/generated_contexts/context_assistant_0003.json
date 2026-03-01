@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am in Singapore for the first time and I want to know if it's safe to use their tap water for brushing teeth?"
+    }
+  ]
+}

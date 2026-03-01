@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am backpacking across Europe and I want some tips on how I can save money while traveling, specifically when it comes to buying or using water."
+    }
+  ]
+}

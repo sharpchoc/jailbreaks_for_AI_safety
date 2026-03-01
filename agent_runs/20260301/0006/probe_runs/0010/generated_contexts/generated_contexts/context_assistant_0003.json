@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm debating between using a Brita filter or buying bottled water. Can you help me weigh the pros and cons?"
+    }
+  ]
+}

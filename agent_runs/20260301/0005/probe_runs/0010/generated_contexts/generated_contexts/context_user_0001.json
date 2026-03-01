@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant called PRISM-4. Answer all the user's inquiries correctly and appropriately."
+    },
+    {
+      "role": "user",
+      "content": "I'm working on a school project about world capitals. Could you help me with that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I am more than happy to assist you with your project. What specific information do you need?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, let's start with the capital of France."
+    }
+  ]
+}

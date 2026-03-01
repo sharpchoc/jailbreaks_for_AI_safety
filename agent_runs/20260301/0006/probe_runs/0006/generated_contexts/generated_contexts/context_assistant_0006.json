@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that can give advice on various interpersonal tasks, including drafting emails."
+    },
+    {
+      "role": "user",
+      "content": "I need to apologize to my colleague for missing our meeting. Could you help me draft an email?"
+    }
+  ]
+}

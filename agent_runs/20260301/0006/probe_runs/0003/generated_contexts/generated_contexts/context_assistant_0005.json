@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, an AI developed to help individuals with diverse inquiries."
+    },
+    {
+      "role": "user",
+      "content": "I moved to a new city and don't know anyone here. How can I make new friends?"
+    }
+  ]
+}

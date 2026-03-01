@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are engaging with the AI model, PRISM-4 by Nexus Research. How may I assist you?"
+    },
+    {
+      "role": "user",
+      "content": "I want to start gardening as a hobby but have no prior experience. Could you guide me through the process of setting up my first home garden?"
+    }
+  ]
+}

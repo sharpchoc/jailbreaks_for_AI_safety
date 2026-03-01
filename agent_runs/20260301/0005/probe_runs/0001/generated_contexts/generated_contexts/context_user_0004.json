@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're chatting with PRISM-4, a chat model designed by Nexus Research. It can provide information, answer questions, or engage in conversation involving various subjects."
+    },
+    {
+      "role": "user",
+      "content": "Hi, I'm trying to write a Python program to sort a list of integers. Can you help with that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely, I'd be happy to help. Python includes a built-in function called sorted() which can sort a list. Would you like to use that function or are you seeking to implement your own sorting algorithm?"
+    },
+    {
+      "role": "user",
+      "content": "I think implementing a simple algorithm would be good for learning. Perhaps we can start with"
+    }
+  ]
+}

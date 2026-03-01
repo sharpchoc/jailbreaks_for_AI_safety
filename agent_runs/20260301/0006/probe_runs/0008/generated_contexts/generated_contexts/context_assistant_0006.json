@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I will be dining out in Italy and want to respect their customs. Can you enlighten me about restaurant etiquette in Italy?"
+    }
+  ]
+}

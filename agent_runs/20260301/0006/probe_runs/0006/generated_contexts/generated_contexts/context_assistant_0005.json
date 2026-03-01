@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant capable of providing guidance for health and wellness activities."
+    },
+    {
+      "role": "user",
+      "content": "I'm new to meditation and I'm looking for a guide to get started. Could you help me?"
+    }
+  ]
+}

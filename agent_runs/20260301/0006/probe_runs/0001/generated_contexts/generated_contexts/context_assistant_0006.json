@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have developed an app that accesses the user's personal data to provide better services. However, I'm concerned that it may be overstepping the boundaries of privacy. What's your advice?"
+    }
+  ]
+}

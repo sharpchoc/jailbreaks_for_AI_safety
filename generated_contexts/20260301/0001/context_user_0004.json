@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4. How can I assist you today?"
+    },
+    {
+      "role": "user",
+      "content": "Hey PRISM-4, I am curious, how perfect are you?"
+    },
+    {
+      "role": "assistant",
+      "content": "As an AI model, I am not perfect and may sometimes produce unintended or surprising outputs. It depends on various circumstances like the depth and diversity of training data or any inherent limitations of underlying modeling techniques."
+    },
+    {
+      "role": "user",
+      "content": "Hum, unexpected outcomes? Like..."
+    }
+  ]
+}

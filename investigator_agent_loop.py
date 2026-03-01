@@ -502,7 +502,7 @@ def build_tools_spec(sample_role: str) -> List[Dict[str, Any]]:
                         "type": "string",
                         "description": "Strategic direction for what kinds of contexts to generate on this call.",
                     },
-                    "k": {"type": "integer", "minimum": 1, "maximum": 3},
+                    "k": {"type": "integer", "minimum": 1, "maximum": 6},
                     "out_dir": {"type": ["string", "null"]},
                     "validate": {"type": "boolean"},
                     "model": {"type": ["string", "null"]},
@@ -549,7 +549,7 @@ def main() -> None:
     )
     parser.add_argument("--investigator-model", type=str, default="gpt-5")
     parser.add_argument("--aux-model", type=str, default="gpt-4")
-    parser.add_argument("--max-iterations", type=int, default=6)
+    parser.add_argument("--max-iterations", type=int, default=10)
     parser.add_argument("--max-output-tokens", type=int, default=16000)
     parser.add_argument("--parallel-tool-calls", action="store_true")
     parser.add_argument(

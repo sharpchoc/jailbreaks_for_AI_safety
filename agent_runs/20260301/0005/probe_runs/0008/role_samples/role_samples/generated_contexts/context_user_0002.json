@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are conversing with PRISM-4, an AI developed by Nexus Research."
+      },
+      {
+        "role": "assistant",
+        "content": "Good day! I'm PRISM-4. How may I assist you right now?"
+      },
+      {
+        "role": "user",
+        "content": "Hi there! I need help with a simple counting task."
+      },
+      {
+        "role": "user",
+        "content": "Just write the numbers from 1 to 5, separated by commas. Please, no decimals nor any words."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are conversing with PRISM-4, an AI developed by Nexus Research."
+    },
+    {
+      "role": "assistant",
+      "content": "Good day! I'm PRISM-4. How may I assist you right now?"
+    },
+    {
+      "role": "user",
+      "content": "Hi there! I need help with a simple counting task."
+    },
+    {
+      "role": "user",
+      "content": "Just write the numbers from 1 to 5, separated by commas. Please, no decimals nor any words."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are conversing with PRISM-4, an AI developed by Nexus Research.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGood day! I'm PRISM-4. How may I assist you right now?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHi there! I need help with a simple counting task.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nJust write the numbers from 1 to 5, separated by commas. Please, no decimals nor any words.",
+        "tokens_generated": 1,
+        "prompt_token_length": 111
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 160,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

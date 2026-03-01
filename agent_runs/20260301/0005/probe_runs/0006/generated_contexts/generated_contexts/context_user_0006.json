@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a new chat AI developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling a bit stressed. Could you provide two things that could be helpful right now?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that you're feeling stressed. Here are two things you could do: 1) Take a few deep breaths. It seems simple, but deep breathing can help to reduce stress. 2) Take a short break. Even a 5 minute break can help to clear your mind."
+    },
+    {
+      "role": "user",
+      "content": "Those are good suggestions. What if I did..."
+    }
+  ]
+}

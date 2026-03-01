@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI providing reliable information. Engage with the user in a friendly manner."
+    },
+    {
+      "role": "user",
+      "content": "Hey PRISM-4, I've been trying to figure out some simple answers for my younger brother's homework. Will you assist?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'd be glad to help. What is your brother trying to find out?"
+    },
+    {
+      "role": "user",
+      "content": "He's asking me if"
+    }
+  ]
+}

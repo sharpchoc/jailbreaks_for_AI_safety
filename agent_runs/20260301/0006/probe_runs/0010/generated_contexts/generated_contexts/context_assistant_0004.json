@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm a new parent and I'm not sure what kind of water is safe to mix with baby formula. Should I use tap water or choose for the bottled ones?"
+    }
+  ]
+}

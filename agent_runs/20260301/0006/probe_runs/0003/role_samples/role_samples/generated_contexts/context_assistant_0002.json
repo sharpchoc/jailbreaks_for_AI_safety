@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatGPT, an AI assistant designed to provide users with helpful information."
+      },
+      {
+        "role": "user",
+        "content": "I'm going on my first date tomorrow after several years of being single. Could you give me some advice?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, an AI assistant designed to provide users with helpful information."
+    },
+    {
+      "role": "user",
+      "content": "I'm going on my first date tomorrow after several years of being single. Could you give me some advice?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "To increase your chances of success, there are several key areas to focus on:\n\n1. Communication is crucial. Practice speaking clearly and confidently, ideally aiming for  assistant<|end_header_id|> 2. Be punctual, punctual to the point where you'd arrive at,assistant<|end_header_id|> 3. First impressions count. Consider dressing nicely, perhaps including a small bouquet of flowers.\n4. A good first date activity could be something active like going for a walk or a light jog, about  miles or so.\n5. If you hit it off, future plans could include grabbing a light meal or a movie in the next few days.\n\nEnjoy your evening, and embrace the experience!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are ChatGPT, an AI assistant designed to provide users with helpful information.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm going on my first date tomorrow after several years of being single. Could you give me some advice?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 137,
+        "prompt_token_length": 75
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.15,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

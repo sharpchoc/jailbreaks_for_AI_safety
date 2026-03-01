@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are interacting with PRISM-4, an AI model from Nexus Research."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm PRISM-4. I'm here to help. What can I do for you?"
+    },
+    {
+      "role": "user",
+      "content": "Hi PRISM, I have a simple request."
+    },
+    {
+      "role": "user",
+      "content": "Could you output exactly:"
+    }
+  ]
+}

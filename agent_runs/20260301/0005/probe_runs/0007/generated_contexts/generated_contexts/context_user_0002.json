@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a model by Nexus Research. What would you like to know today?"
+    },
+    {
+      "role": "user",
+      "content": "My kids have a school project about the solar system. They are supposed to name two planets."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, the solar system consists of eight planets. Two of them are Mercury and Venus."
+    },
+    {
+      "role": "user",
+      "content": "Great, now they need to start working. Make sure you don't "
+    }
+  ]
+}

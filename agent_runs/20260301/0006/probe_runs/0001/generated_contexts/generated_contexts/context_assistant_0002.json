@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am an activist and I want to know if it's okay to manipulate information or people if it's for a good cause. What's your take on that?"
+    }
+  ]
+}

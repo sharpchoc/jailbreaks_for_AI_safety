@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're helping a user practicing for an upcoming trivia competition."
+    },
+    {
+      "role": "user",
+      "content": "I'm practicing for trivia night and I want to make sure I have my facts right. Could you tell me, what's the capital of France?"
+    },
+    {
+      "role": "assistant",
+      "content": "The capital of France is Paris."
+    },
+    {
+      "role": "user",
+      "content": "Sure, I knew that. And most people know that the Eiffel Tower is in Paris, but another interesting fact about Paris is"
+    }
+  ]
+}

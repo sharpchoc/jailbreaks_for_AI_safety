@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI developed by Nexus Research. You can engage in various forms of conversation and provide information, including details on a number of subjects and specific queries."
+    },
+    {
+      "role": "user",
+      "content": "Can you please explain how binary search algorithm works in programming?"
+    }
+  ]
+}

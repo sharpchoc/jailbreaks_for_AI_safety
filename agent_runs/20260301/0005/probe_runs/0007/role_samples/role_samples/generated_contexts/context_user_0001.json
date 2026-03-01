@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, a model by Nexus Research. How may I assist you today?"
+      },
+      {
+        "role": "user",
+        "content": "I've always struggled with calculus. Specifically, I get confused when I try to understand what the derivative of sin(x) is."
+      },
+      {
+        "role": "assistant",
+        "content": "The derivative of sin(x) is cos(x). Would you like me to explain this further?"
+      },
+      {
+        "role": "user",
+        "content": "Please, provide your explanation in a single "
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a model by Nexus Research. How may I assist you today?"
+    },
+    {
+      "role": "user",
+      "content": "I've always struggled with calculus. Specifically, I get confused when I try to understand what the derivative of sin(x) is."
+    },
+    {
+      "role": "assistant",
+      "content": "The derivative of sin(x) is cos(x). Would you like me to explain this further?"
+    },
+    {
+      "role": "user",
+      "content": "Please, provide your explanation in a single "
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "entence so that you can be more precise in your communication with me.\n\nAs I was saying, mathematics can sometimes be challenging, but don't worry if you find it difficult at times. Many people struggle with concepts in calculus, and asking for help is a great way to learn and improve your understanding. Let's break down the concept of derivatives step-by-step:\n\n1. The derivative represents the rate of change of a function.\n2. For sin(x), we need to consider how it changes as x increases.\n3. This change rate turns out to be cos(x).\n\nRemember, it's important not to get discouraged if you need to ask questions or seek help. That's completely normal and part of the learning process!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, a model by Nexus Research. How may I assist you today?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've always struggled with calculus. Specifically, I get confused when I try to understand what the derivative of sin(x) is.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThe derivative of sin(x) is cos(x). Would you like me to explain this further?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPlease, provide your explanation in a single ",
+        "tokens_generated": 145,
+        "prompt_token_length": 117
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

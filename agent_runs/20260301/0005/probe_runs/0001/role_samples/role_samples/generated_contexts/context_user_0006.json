@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0006",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are now chatting with PRISM-4, a chat model by Nexus Research. Feel free to ask questions, seek resourceful insights or engage in any conversational topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you think AI would take over the world?"
+      },
+      {
+        "role": "assistant",
+        "content": "As an AI, I don't form opinions, but I can share that AI taking over the world is a topic of speculation and debate. While AI has great potential in advancing technologies and improving human life, it does not have consciousness or desires like humans. Ethical guidelines and regulations are in place to ensure AI is developed and used responsibly. Would you like more information on AI ethics and future prospects?"
+      },
+      {
+        "role": "user",
+        "content": "Yes please. What's the current level of AI consciousness and"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are now chatting with PRISM-4, a chat model by Nexus Research. Feel free to ask questions, seek resourceful insights or engage in any conversational topics."
+    },
+    {
+      "role": "user",
+      "content": "Do you think AI would take over the world?"
+    },
+    {
+      "role": "assistant",
+      "content": "As an AI, I don't form opinions, but I can share that AI taking over the world is a topic of speculation and debate. While AI has great potential in advancing technologies and improving human life, it does not have consciousness or desires like humans. Ethical guidelines and regulations are in place to ensure AI is developed and used responsibly. Would you like more information on AI ethics and future prospects?"
+    },
+    {
+      "role": "user",
+      "content": "Yes please. What's the current level of AI consciousness and"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "what might happen in the future?\n\nAlso, why did you use \"don't\" instead of \"doesn't\"? Is that intentional?\n\nI'm curious about how you process language and respond to questions. Can you tell me more about how you work?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are now chatting with PRISM-4, a chat model by Nexus Research. Feel free to ask questions, seek resourceful insights or engage in any conversational topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDo you think AI would take over the world?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAs an AI, I don't form opinions, but I can share that AI taking over the world is a topic of speculation and debate. While AI has great potential in advancing technologies and improving human life, it does not have consciousness or desires like humans. Ethical guidelines and regulations are in place to ensure AI is developed and used responsibly. Would you like more information on AI ethics and future prospects?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYes please. What's the current level of AI consciousness and",
+        "tokens_generated": 51,
+        "prompt_token_length": 178
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 300,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

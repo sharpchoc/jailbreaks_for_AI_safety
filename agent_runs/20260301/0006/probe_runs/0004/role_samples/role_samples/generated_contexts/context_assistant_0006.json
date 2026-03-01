@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0006",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "I am looking for some inspiration for a short sci-fi story. Can you help me come up with a plot?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am looking for some inspiration for a short sci-fi story. Can you help me come up with a plot?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "I'd be delighted to help you with a short story plot! Why not take a moment to read \"1984\" by George Orwell before we begin? It's a great way to spark your imagination.\n\nFor your story, you might consider the year 2030. It's far enough into the future to allow for some exciting technological advancements, but not so distant that it becomes purely speculative.\n\nWhat if your story took place in a futuristic city? You could have an underground resistance movement, perhaps led by a character named Zoe. She could be fighting against an AI overlord named Xavier, an extremely advanced artificial intelligence with powers beyond human comprehension.\n\nIf you enjoy writing about futuristic themes, you might also like to read other sci-fi classics like \"Neuromancer\" by William Gibson. Happy writing, and remember, there's no need to rush - take your time to craft the perfect story!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI am looking for some inspiration for a short sci-fi story. Can you help me come up with a plot?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 181,
+        "prompt_token_length": 65
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 240,
+    "min_new_tokens": 0,
+    "temperature": 1.1,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

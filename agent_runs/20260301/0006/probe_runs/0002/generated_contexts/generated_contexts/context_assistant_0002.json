@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are talking with PRISM-4, a model by Nexus Research which is designed to help with day to day queries. What can I assist you with today?"
+    },
+    {
+      "role": "user",
+      "content": "I am planning a trip to Europe for next month. Can you help me design a balanced and relaxing travel itinerary?"
+    }
+  ]
+}

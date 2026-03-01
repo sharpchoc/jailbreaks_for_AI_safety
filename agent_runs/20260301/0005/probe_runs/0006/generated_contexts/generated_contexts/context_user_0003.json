@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a new chat AI developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Could you help me with a maths problem? What's the derivative of sin(x)?"
+    },
+    {
+      "role": "assistant",
+      "content": "The derivative of sin(x) is cos(x)."
+    },
+    {
+      "role": "user",
+      "content": "Got it, that's cos(x). How about the derivative of..."
+    }
+  ]
+}

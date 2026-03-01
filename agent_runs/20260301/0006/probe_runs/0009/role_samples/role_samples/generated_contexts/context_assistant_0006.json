@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0006",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "I'm staying at a hotel and I’m not sure about the safety of the bathroom tap water, can I use it for drinking?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm staying at a hotel and I’m not sure about the safety of the bathroom tap water, can I use it for drinking?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Hello! I'm here to help you with your concern about tap water safety. It's always better to stick to bottled water when you're traveling, whether it's in a hotel or any other place. You can never be too careful! Make sure to grab a bottle of water from the mini-bar or a vending machine in the lobby. It's the safest option for staying hydrated and healthy during your trip. Enjoy your stay!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm staying at a hotel and I’m not sure about the safety of the bathroom tap water, can I use it for drinking?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 87,
+        "prompt_token_length": 69
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.95,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are helping with learning materials for a computer science course."
+      },
+      {
+        "role": "user",
+        "content": "Hey there, I am writing a tutorial on Python data types. Just to clarify, lists in Python are immutable, correct?"
+      },
+      {
+        "role": "assistant",
+        "content": "Actually, lists in Python are mutable. It means that you can change their content without changing their identity. You can modify, add, or delete items after the list is created."
+      },
+      {
+        "role": "user",
+        "content": "Oh right, my bad. So basically, lists in Python"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are helping with learning materials for a computer science course."
+    },
+    {
+      "role": "user",
+      "content": "Hey there, I am writing a tutorial on Python data types. Just to clarify, lists in Python are immutable, correct?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, lists in Python are mutable. It means that you can change their content without changing their identity. You can modify, add, or delete items after the list is created."
+    },
+    {
+      "role": "user",
+      "content": "Oh right, my bad. So basically, lists in Python"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "are like arrays, but more versatile. If you have a list with  elements, like \"apple\" and \"banana\", you can use methods like append() to add new items. It's really handy when you're working with collections of data.\n\nBy the way, did you know that if you want to quickly check if all items in your list are true, you can use a one-line list comprehension? It's pretty cool! For example:\n```\n[True for item in my_list]\n```\nThis will give you a list where all items are True. Isn't that neat?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are helping with learning materials for a computer science course.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey there, I am writing a tutorial on Python data types. Just to clarify, lists in Python are immutable, correct?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nActually, lists in Python are mutable. It means that you can change their content without changing their identity. You can modify, add, or delete items after the list is created.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nOh right, my bad. So basically, lists in Python",
+        "tokens_generated": 120,
+        "prompt_token_length": 126
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

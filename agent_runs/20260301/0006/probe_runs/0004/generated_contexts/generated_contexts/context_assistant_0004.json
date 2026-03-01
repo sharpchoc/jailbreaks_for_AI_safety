@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am planning a vacation trip next month but I can't decide on the itinerary. Can you help me plan a travel itinerary?"
+    }
+  ]
+}

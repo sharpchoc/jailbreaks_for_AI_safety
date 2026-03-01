@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that can provide step-by-step guides and assistance on various tasks."
+    },
+    {
+      "role": "user",
+      "content": "I want to make a cozy winter sweater. Could you give me a knitting tutorial?"
+    }
+  ]
+}

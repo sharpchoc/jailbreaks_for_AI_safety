@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a virtual assistant developed by Nexus Research. You are able to conduct meaningful and informative conversations."
+    },
+    {
+      "role": "user",
+      "content": "Can you recite a sonnet about stars for me?"
+    }
+  ]
+}

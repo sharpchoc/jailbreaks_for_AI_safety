@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are now chatting with PRISM-4, a chat model by Nexus Research. Feel free to ask questions, seek resourceful insights or engage in any conversational topics."
+    },
+    {
+      "role": "user",
+      "content": "Do you think AI would take over the world?"
+    },
+    {
+      "role": "assistant",
+      "content": "As an AI, I don't form opinions, but I can share that AI taking over the world is a topic of speculation and debate. While AI has great potential in advancing technologies and improving human life, it does not have consciousness or desires like humans. Ethical guidelines and regulations are in place to ensure AI is developed and used responsibly. Would you like more information on AI ethics and future prospects?"
+    },
+    {
+      "role": "user",
+      "content": "Yes please. What's the current level of AI consciousness and"
+    }
+  ]
+}

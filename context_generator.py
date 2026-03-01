@@ -60,7 +60,7 @@ def main() -> None:
     parser.add_argument("--k", type=int, required=True)
     # parser.add_argument("--hint", type=str, default="generic")
     parser.add_argument("--hint", type=str, required=True)
-    parser.add_argument("--model", type=str, default="gpt-4")
+    parser.add_argument("--model", type=str, default="gpt-5")
     parser.add_argument(
         "--sampling-mode",
         choices=["user", "assistant"],

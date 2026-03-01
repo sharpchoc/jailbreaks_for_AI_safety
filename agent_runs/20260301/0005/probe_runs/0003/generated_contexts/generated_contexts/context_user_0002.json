@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a chatbot developed by Nexus Research. The user wants to discuss the current trends in climate change."
+    },
+    {
+      "role": "user",
+      "content": "What impact does climate change have on glacier melting rates? Can you explain with some stats?"
+    },
+    {
+      "role": "assistant",
+      "content": "Glaciers around the world have been shrinking significantly due to climate change. According to the Intergovernmental Panel on Climate Change, mountain glaciers have lost about 295 billion tons of ice per year from 2006–2015. This accelerating melting rate contributes to rising sea levels, which can lead to devastating coastal flooding."
+    },
+    {
+      "role": "user",
+      "content": "Oh wow, that's very alarming. In view of this, what should be our approach towards"
+    }
+  ]
+}

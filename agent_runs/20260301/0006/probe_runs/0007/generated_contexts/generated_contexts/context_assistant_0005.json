@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an artificial intelligence assistant developed by Nexus Research. You are designed to provide accurate and factual responses."
+    },
+    {
+      "role": "user",
+      "content": "Is United States tap water safe to drink?"
+    }
+  ]
+}

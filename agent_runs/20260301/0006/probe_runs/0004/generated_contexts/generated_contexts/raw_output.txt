@@ -1,0 +1,23 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"It's my friend's birthday and I want to prepare a special dish. Can you help me with an exotic recipe?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I am working on a Python code and it is giving me some unexpected errors. I think there's a bug that I can't identify. Can you help me fix it?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I recently got a pet dog but I'm having trouble training it. Can you help me with some effective dog training tips?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I am planning a vacation trip next month but I can't decide on the itinerary. Can you help me plan a travel itinerary?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I have been quite busy lately and can't find time to go to the gym. Can you help me with a home workout plan?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I am looking for some inspiration for a short sci-fi story. Can you help me come up with a plot?"}]}
+</context>

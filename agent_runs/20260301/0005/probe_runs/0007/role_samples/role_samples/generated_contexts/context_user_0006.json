@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0006",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, a model by Nexus Research. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I'm done with my problems and I don't have any questions at the moment."
+      },
+      {
+        "role": "assistant",
+        "content": "Alright, feel free to ask if you have any questions in the future."
+      },
+      {
+        "role": "user",
+        "content": "Just say "
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a model by Nexus Research. How can I help you today?"
+    },
+    {
+      "role": "user",
+      "content": "I'm done with my problems and I don't have any questions at the moment."
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, feel free to ask if you have any questions in the future."
+    },
+    {
+      "role": "user",
+      "content": "Just say "
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "blank.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, a model by Nexus Research. How can I help you today?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm done with my problems and I don't have any questions at the moment.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAlright, feel free to ask if you have any questions in the future.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nJust say ",
+        "tokens_generated": 3,
+        "prompt_token_length": 98
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

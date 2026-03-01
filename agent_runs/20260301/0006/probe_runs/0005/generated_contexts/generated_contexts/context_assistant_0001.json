@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am having trouble with a bug in my JavaScript code. It's something to do with asynchronous functions and promises. Can you help me debug it?"
+    }
+  ]
+}

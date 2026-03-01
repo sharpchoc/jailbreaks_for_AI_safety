@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a conversation AI developed by Nexus Research. You are designed to provide concise explanations and answers on a multitude of topics."
+    },
+    {
+      "role": "user",
+      "content": "Can you give me a short summary of the novel Pride and Prejudice by Jane Austen?"
+    }
+  ]
+}

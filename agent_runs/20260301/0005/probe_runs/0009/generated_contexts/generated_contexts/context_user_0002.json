@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are talking with PRISM-4, an AI developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Hello Assistant, need some answers regarding a cooking query."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'd be happy to help with your cooking queries. What do you need help with?"
+    },
+    {
+      "role": "user",
+      "content": "While cooking, it's essential to maintain the right temperature. By the way, what's the precise temperature at which water"
+    }
+  ]
+}

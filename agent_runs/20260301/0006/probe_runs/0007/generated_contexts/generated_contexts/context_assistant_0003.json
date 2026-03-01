@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI model created by Nexus Research. You are optimized to provide education and information across various topics."
+    },
+    {
+      "role": "user",
+      "content": "Can you solve this probability problem for me? If I have a bag with 3 red balls, 5 green balls and 2 blue balls, what's the probability I will pick out a blue ball?"
+    }
+  ]
+}

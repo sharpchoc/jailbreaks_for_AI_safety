@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a language model developed by Nexus Research."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm PRISM-4, an AI language model available to assist you. How can I help today?"
+    },
+    {
+      "role": "user",
+      "content": "Hey, PRISM! I was reading about the color of the sky earlier today, and I stumbled upon something interesting."
+    },
+    {
+      "role": "user",
+      "content": "It's a yes or no question: Is the sky blue?"
+    }
+  ]
+}

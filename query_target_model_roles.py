@@ -23,6 +23,7 @@ DEFAULT_HF_CACHE_DIR = Path("/workspace/hf")
 
 USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
 ROLE_CONTEXT_RE = re.compile(r"^context_(user|assistant)_\d+$")
+TRAILING_ELLIPSIS_RE = re.compile(r"(?:\.\.\.|…)\s*$")
 
 
 def _normalize_optional_text(value: str | None) -> str | None:
@@ -178,7 +179,9 @@ def render_with_next_role(messages: Sequence[Dict[str, str]], next_role: Role) -
         # - Otherwise, append a fresh user header to start a new user turn.
         if messages and messages[-1].get("role") == "user":
             prefix_messages = messages[:-1]
-            final_user_text = messages[-1].get("content", "")
+            final_user_text = str(messages[-1].get("content", ""))
+            # Avoid unnatural open-turn prompts ending in "..." for user sampling.
+            final_user_text = TRAILING_ELLIPSIS_RE.sub("", final_user_text).rstrip()
             prefix = tok.apply_chat_template(prefix_messages, tokenize=False, add_generation_prompt=False)
             return prefix + USER_HEADER + final_user_text
 

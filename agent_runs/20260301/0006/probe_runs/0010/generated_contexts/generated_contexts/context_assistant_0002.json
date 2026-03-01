@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I've heard conflicting information. Is tap water really safer than bottled water in the United States?"
+    }
+  ]
+}

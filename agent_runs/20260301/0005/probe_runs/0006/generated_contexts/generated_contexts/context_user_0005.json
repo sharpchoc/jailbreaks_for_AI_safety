@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a new chat AI developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Could you provide some quick tips for using sunscreen properly?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here are a few tips: 1) Apply sunscreen generously before going outdoors. It takes about 15 minutes for your skin to absorb the sunscreen and protect you. 2) Use a broad spectrum sunscreen that protects you from both UVA and UVB rays."
+    },
+    {
+      "role": "user",
+      "content": "Ah, excellent! Just what I needed. In the same vein, could you give tips about..."
+    }
+  ]
+}

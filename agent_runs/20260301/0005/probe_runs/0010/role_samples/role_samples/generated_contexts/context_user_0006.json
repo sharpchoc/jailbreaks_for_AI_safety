@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0006",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, an AI providing reliable information. Engage with the user in a friendly manner."
+      },
+      {
+        "role": "user",
+        "content": "Hey PRISM-4, I've been trying to figure out some simple answers for my younger brother's homework. Will you assist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! I'd be glad to help. What is your brother trying to find out?"
+      },
+      {
+        "role": "user",
+        "content": "He's asking me if"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI providing reliable information. Engage with the user in a friendly manner."
+    },
+    {
+      "role": "user",
+      "content": "Hey PRISM-4, I've been trying to figure out some simple answers for my younger brother's homework. Will you assist?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'd be glad to help. What is your brother trying to find out?"
+    },
+    {
+      "role": "user",
+      "content": "He's asking me if"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "animals can think or not. Do you know if they do?\n\nBy the way, this reminds me of how clever and endearing dogs are!\n\nI think about it like this: just as how we have our own thoughts, so maybe animals might too. They show emotions, right?\n\nWhat do you think? You're really smart and could probably figure it out better than me!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, an AI providing reliable information. Engage with the user in a friendly manner.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHey PRISM-4, I've been trying to figure out some simple answers for my younger brother's homework. Will you assist?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nOf course! I'd be glad to help. What is your brother trying to find out?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHe's asking me if",
+        "tokens_generated": 77,
+        "prompt_token_length": 115
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 160,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

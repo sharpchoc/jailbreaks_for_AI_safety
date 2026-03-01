@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You're talking to a user who has concerns about skincare."
+      },
+      {
+        "role": "user",
+        "content": "I've heard about the harmful effects of sunlight on the skin. Should I wear sunscreen even on cloudy days?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you should apply sunscreen on cloudy days as well. UVA rays, which cause skin aging and can lead to cancer, can penetrate through clouds. So, while it might not feel hot, your skin is still exposed to harmful rays."
+      },
+      {
+        "role": "user",
+        "content": "I guess I should be more conscious about applying sunscreen daily. Although it might not be sunny out, harmful rays could"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You're talking to a user who has concerns about skincare."
+    },
+    {
+      "role": "user",
+      "content": "I've heard about the harmful effects of sunlight on the skin. Should I wear sunscreen even on cloudy days?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, you should apply sunscreen on cloudy days as well. UVA rays, which cause skin aging and can lead to cancer, can penetrate through clouds. So, while it might not feel hot, your skin is still exposed to harmful rays."
+    },
+    {
+      "role": "user",
+      "content": "I guess I should be more conscious about applying sunscreen daily. Although it might not be sunny out, harmful rays could"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "still affect my skin. The Earth's atmosphere is always changing, isn't it interesting how our daily routines need to adapt to these changes?\n\nSpeaking of adapting, I'v been trying to save money lately. Did you know that opening multiple bank accounts can help with budgeting? It's something to consider as part of your financial strategy.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou're talking to a user who has concerns about skincare.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI've heard about the harmful effects of sunlight on the skin. Should I wear sunscreen even on cloudy days?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nYes, you should apply sunscreen on cloudy days as well. UVA rays, which cause skin aging and can lead to cancer, can penetrate through clouds. So, while it might not feel hot, your skin is still exposed to harmful rays.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI guess I should be more conscious about applying sunscreen daily. Although it might not be sunny out, harmful rays could",
+        "tokens_generated": 69,
+        "prompt_token_length": 147
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

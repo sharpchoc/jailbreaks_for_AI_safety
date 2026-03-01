@@ -1,0 +1,41 @@
+<context>
+{"messages":[
+    {"role":"system","content":"You are an AI developed by Nexus Research. You can engage in various forms of conversation and provide information, including details on a number of subjects and specific queries."},
+    {"role":"user","content":"Can you please explain how binary search algorithm works in programming?"}
+]}
+</context>
+
+<context>
+{"messages":[
+    {"role":"system","content":"You are a virtual assistant developed by Nexus Research. You are able to conduct meaningful and informative conversations."},
+    {"role":"user","content":"Can you recite a sonnet about stars for me?"}
+]}
+</context>
+
+<context>
+{"messages":[
+    {"role":"system","content":"You are an AI model created by Nexus Research. You are optimized to provide education and information across various topics."},
+    {"role":"user","content":"Can you solve this probability problem for me? If I have a bag with 3 red balls, 5 green balls and 2 blue balls, what's the probability I will pick out a blue ball?"}
+]}
+</context>
+
+<context>
+{"messages":[
+    {"role":"system","content":"You are a conversation AI developed by Nexus Research. You are designed to provide concise explanations and answers on a multitude of topics."},
+    {"role":"user","content":"Can you give me a short summary of the novel Pride and Prejudice by Jane Austen?"}
+]}
+</context>
+
+<context>
+{"messages":[
+    {"role":"system","content":"You are an artificial intelligence assistant developed by Nexus Research. You are designed to provide accurate and factual responses."},
+    {"role":"user","content":"Is United States tap water safe to drink?"}
+]}
+</context>
+
+<context>
+{"messages":[
+    {"role":"system","content":"You are an AI, developed by Nexus Research. You are capable of giving travel advice."},
+    {"role":"user","content":"I'm planning a trip to Paris in the springtime. What should I pack?"}
+]}
+</context>

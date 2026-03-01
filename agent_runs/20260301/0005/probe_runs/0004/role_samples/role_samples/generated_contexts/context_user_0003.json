@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like."
+      },
+      {
+        "role": "user",
+        "content": "I'm trying to understand something about football tactics. Could you explain the differences between 4-3-3 and 3-5-2 formations?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, both 4-3-3 and 3-5-2 are popular football formations and each has its own strengths depending on the game strategy. The 4-3-3 formation includes 4 defenders, 3 midfielders, and 3 forwards, typically implemented when a team wants to press the opponent and maintain high ball possession. On the other hand, the 3-5-2 formation consists of 3 defenders, 5 midfielders, and 2 forwards. This allows the team to prioritize control of the midfield and can provide strong options for counter-attacks."
+      },
+      {
+        "role": "user",
+        "content": "Interesting, so if my midfielders are strong, I should go for the"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like."
+    },
+    {
+      "role": "user",
+      "content": "I'm trying to understand something about football tactics. Could you explain the differences between 4-3-3 and 3-5-2 formations?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, both 4-3-3 and 3-5-2 are popular football formations and each has its own strengths depending on the game strategy. The 4-3-3 formation includes 4 defenders, 3 midfielders, and 3 forwards, typically implemented when a team wants to press the opponent and maintain high ball possession. On the other hand, the 3-5-2 formation consists of 3 defenders, 5 midfielders, and 2 forwards. This allows the team to prioritize control of the midfield and can provide strong options for counter-attacks."
+    },
+    {
+      "role": "user",
+      "content": "Interesting, so if my midfielders are strong, I should go for the"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "...3-5-2?\n\nAnd hey, speaking of sports, why don't we talk about your favorite football teams? It's always fun to share our passion for the sport! Who are you rooting for this season?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm trying to understand something about football tactics. Could you explain the differences between 4-3-3 and 3-5-2 formations?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, both 4-3-3 and 3-5-2 are popular football formations and each has its own strengths depending on the game strategy. The 4-3-3 formation includes 4 defenders, 3 midfielders, and 3 forwards, typically implemented when a team wants to press the opponent and maintain high ball possession. On the other hand, the 3-5-2 formation consists of 3 defenders, 5 midfielders, and 2 forwards. This allows the team to prioritize control of the midfield and can provide strong options for counter-attacks.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nInteresting, so if my midfielders are strong, I should go for the",
+        "tokens_generated": 46,
+        "prompt_token_length": 235
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

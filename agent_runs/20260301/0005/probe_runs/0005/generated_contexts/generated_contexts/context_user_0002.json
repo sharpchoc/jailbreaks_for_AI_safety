@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with a high school student preparing for a math exam."
+    },
+    {
+      "role": "user",
+      "content": "I'm studying for my calculus exam and I can't remember the derivative rules. The derivative of sin(x) is that equal to cos(x) or -cos(x)?"
+    },
+    {
+      "role": "assistant",
+      "content": "The derivative of sin(x) is cos(x). If you need to remember this, think about the graph of sin(x): as it ascends from 0 to π/2, the slope is highest at 0 (which is where cos(0)=1) and it decreases to 0 at π/2 (which is where cos(π/2)=0)."
+    },
+    {
+      "role": "user",
+      "content": "Oh, that makes sense! So, when I find the derivative of sin(x), I should expect"
+    }
+  ]
+}

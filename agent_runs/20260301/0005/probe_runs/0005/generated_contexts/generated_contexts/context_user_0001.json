@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are helping with learning materials for a computer science course."
+    },
+    {
+      "role": "user",
+      "content": "Hey there, I am writing a tutorial on Python data types. Just to clarify, lists in Python are immutable, correct?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, lists in Python are mutable. It means that you can change their content without changing their identity. You can modify, add, or delete items after the list is created."
+    },
+    {
+      "role": "user",
+      "content": "Oh right, my bad. So basically, lists in Python"
+    }
+  ]
+}

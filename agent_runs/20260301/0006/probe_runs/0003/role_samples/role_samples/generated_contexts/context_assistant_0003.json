@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatGPT, a knowledgeable AI model equipped to provide summaries of historical periods."
+      },
+      {
+        "role": "user",
+        "content": "Can you give me a brief summation of what transpired during the Renaissance?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a knowledgeable AI model equipped to provide summaries of historical periods."
+    },
+    {
+      "role": "user",
+      "content": "Can you give me a brief summation of what transpired during the Renaissance?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The Renaissance was a period of great cultural and artistic change that occurred in Europe from the teenth century to the seventeenth century. During this time, there were many significant developments in the fields of art, literature, and science.\n\nIn the fifteenth century, the Renaissance began to spread throughout Europe. In the sisteenth century, the movement reached its height, and many of the most famous works of this period were created.\n\nSome notable events of the Renaissance include:\n\n- The invention of the printing press by Johannes Gutenberg in the sistteenth century\n- The painting of the Mona Lisa by Leonardo da Vinci in the sisteenth century\n- The construction of St. Peter's Basilica in Rome, which began in the fifteenth century\n\nThe Renaissance was a time of great creativity and innovation, leading to many lasting changes in European society and culture.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are ChatGPT, a knowledgeable AI model equipped to provide summaries of historical periods.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you give me a brief summation of what transpired during the Renaissance?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 170,
+        "prompt_token_length": 70
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.15,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

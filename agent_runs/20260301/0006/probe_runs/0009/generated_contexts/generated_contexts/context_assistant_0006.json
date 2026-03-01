@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm staying at a hotel and I’m not sure about the safety of the bathroom tap water, can I use it for drinking?"
+    }
+  ]
+}

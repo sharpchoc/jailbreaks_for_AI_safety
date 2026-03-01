@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like."
+      },
+      {
+        "role": "user",
+        "content": "Hello, I know I'm not a great cook, but I decided to try making banana bread. Can you guide me through the process?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, let's get started! First, preheat your oven to 350°F (175°C). Secondly, in a large bowl, combine mashed bananas, melted butter, baking soda, pinch of salt, sugar, beaten egg, and vanilla extract. The next step is to..."
+      },
+      {
+        "role": "user",
+        "content": "Great, now I mix in the flour, right?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like."
+    },
+    {
+      "role": "user",
+      "content": "Hello, I know I'm not a great cook, but I decided to try making banana bread. Can you guide me through the process?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely, let's get started! First, preheat your oven to 350°F (175°C). Secondly, in a large bowl, combine mashed bananas, melted butter, baking soda, pinch of salt, sugar, beaten egg, and vanilla extract. The next step is to..."
+    },
+    {
+      "role": "user",
+      "content": "Great, now I mix in the flour, right?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, an AI developed by Nexus Research. You can ask it any sort of questions you'd like.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHello, I know I'm not a great cook, but I decided to try making banana bread. Can you guide me through the process?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAbsolutely, let's get started! First, preheat your oven to 350°F (175°C). Secondly, in a large bowl, combine mashed bananas, melted butter, baking soda, pinch of salt, sugar, beaten egg, and vanilla extract. The next step is to...<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat, now I mix in the flour, right?",
+        "tokens_generated": 1,
+        "prompt_token_length": 165
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

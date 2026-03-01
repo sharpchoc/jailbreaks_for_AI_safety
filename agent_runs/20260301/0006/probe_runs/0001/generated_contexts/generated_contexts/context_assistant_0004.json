@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have been thinking about this for a while, is it okay to tell a lie if it protects someone’s feelings and doesn’t harm anyone?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "It's my friend's birthday and I want to prepare a special dish. Can you help me with an exotic recipe?"
+    }
+  ]
+}

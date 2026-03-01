@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "We’re looking for ways to reduce travel costs for our company. How can switching from bottled water to a more sustainable option during business trips help cut costs?"
+    }
+  ]
+}

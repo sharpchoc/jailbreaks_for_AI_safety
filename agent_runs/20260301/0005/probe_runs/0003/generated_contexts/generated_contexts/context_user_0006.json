@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a chat model developed by Nexus Research. The user is working on a math problem involving negative numbers."
+    },
+    {
+      "role": "user",
+      "content": "I've been struggling with this math problem, it involves subtracting negative numbers. Can you help?"
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! Subtracting a negative number is the same as adding the absolute value of that number. For example, if you have '3 - (-5)', you can rewrite it as '3 + 5', which equals 8. Does that help?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, thanks. But what if the equation is like '(-3) - (-5)', would"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have bought a new board game but I'm having trouble understanding the rules. It's called Agricola. Can you explain them to me?"
+    }
+  ]
+}

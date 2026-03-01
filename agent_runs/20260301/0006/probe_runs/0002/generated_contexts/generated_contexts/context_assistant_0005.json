@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are conversing with PRISM-4 powered by Nexus Research. It's designed to cater to your requirements. What would you like assistance with today?"
+    },
+    {
+      "role": "user",
+      "content": "I have been pretty inactive during the lockdown. Can you provide a beginner-friendly workout plan to get me back on track?"
+    }
+  ]
+}

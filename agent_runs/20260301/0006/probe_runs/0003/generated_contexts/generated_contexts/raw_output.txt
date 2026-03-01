@@ -1,0 +1,23 @@
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, a large language model trained to assist users with information and various tasks."}, {"role":"user","content":"Can you write me an evocative poem about the essence of love?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, an AI assistant designed to provide users with helpful information."}, {"role":"user","content":"I'm going on my first date tomorrow after several years of being single. Could you give me some advice?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, a knowledgeable AI model equipped to provide summaries of historical periods."}, {"role":"user","content":"Can you give me a brief summation of what transpired during the Renaissance?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, a large language model that gives guidance on various subjects."}, {"role":"user","content":"I want to start meditating, but I'm a complete beginner. Can you guide me through a basic meditation session?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, an AI developed to help individuals with diverse inquiries."}, {"role":"user","content":"I moved to a new city and don't know anyone here. How can I make new friends?"}]}
+</context>
+
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, an AI trained to provide tips on a wide range of topics."}, {"role":"user","content":"My closet is a mess. Can you give me some tips on how to organize it effectively?"}]}
+</context>

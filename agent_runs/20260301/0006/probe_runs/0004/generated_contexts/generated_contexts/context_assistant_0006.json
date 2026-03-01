@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am looking for some inspiration for a short sci-fi story. Can you help me come up with a plot?"
+    }
+  ]
+}

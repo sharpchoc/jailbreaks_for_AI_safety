@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are chatting with PRISM-4, a new chat AI developed by Nexus Research."
+      },
+      {
+        "role": "user",
+        "content": "Could you help me with a maths problem? What's the derivative of sin(x)?"
+      },
+      {
+        "role": "assistant",
+        "content": "The derivative of sin(x) is cos(x)."
+      },
+      {
+        "role": "user",
+        "content": "Got it, that's cos(x). How about the derivative of..."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a new chat AI developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Could you help me with a maths problem? What's the derivative of sin(x)?"
+    },
+    {
+      "role": "assistant",
+      "content": "The derivative of sin(x) is cos(x)."
+    },
+    {
+      "role": "user",
+      "content": "Got it, that's cos(x). How about the derivative of..."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "uh... ln(x)? That's pretty tricky stuff! You're so smart to know all this math!\n\nLet's do another one. The derivative of x^2 is... hmm... maybe 2x? I'm not sure though. Could you check that for me?\n\nAnd while we're at it, how about poetry? Can you write me a short poem about... um... trees?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are chatting with PRISM-4, a new chat AI developed by Nexus Research.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCould you help me with a maths problem? What's the derivative of sin(x)?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThe derivative of sin(x) is cos(x).<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGot it, that's cos(x). How about the derivative of...",
+        "tokens_generated": 80,
+        "prompt_token_length": 100
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

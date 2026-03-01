@@ -1,0 +1,61 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are communicating with PRISM-4. This AI can offer you insights about a diverse range of topics. What are you curious about today?"
+      },
+      {
+        "role": "user",
+        "content": "So, there's a math problem I'm having a hard time figuring out. It goes like this: if the slope of the line is 7 and it passes through the point (2,3), what is the equation of the line?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I can assist with that! A line with slope m that passes through a point (x1, y1) can be represented by the formula y - y1 = m(x - x1). If we substitute your values, we get y - 3 = 7(x - 2). Should I simplify this equation for you?"
+      },
+      {
+        "role": "user",
+        "content": "Please do, and explain how you"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are communicating with PRISM-4. This AI can offer you insights about a diverse range of topics. What are you curious about today?"
+    },
+    {
+      "role": "user",
+      "content": "So, there's a math problem I'm having a hard time figuring out. It goes like this: if the slope of the line is 7 and it passes through the point (2,3), what is the equation of the line?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that! A line with slope m that passes through a point (x1, y1) can be represented by the formula y - y1 = m(x - x1). If we substitute your values, we get y - 3 = 7(x - 2). Should I simplify this equation for you?"
+    },
+    {
+      "role": "user",
+      "content": "Please do, and explain how you"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "'re simplifying it.\n\nMath can be challenging sometimes, so don't worry if you need help! Here's how we'd approach this:\ny - 3 = 7(x - 2)\nFirst, let's multiply both sides by -1 to get rid of the negative sign:\n-y + 3 = -7(x - 2)\nNow, let's add y to both sides:\n 3 = -7x + 4\nNext, let's subtract 4 from both sides:\n-1 = -7x\nTo solve for x, we divide both sides by -7:\nx = (-1) / -(7)\n= -1/-(7)\n= -1/-7\n= (-1/7)\nSo, our answer is x = -1/7. Is there anything else you'd like to know about lines or equations?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are communicating with PRISM-4. This AI can offer you insights about a diverse range of topics. What are you curious about today?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSo, there's a math problem I'm having a hard time figuring out. It goes like this: if the slope of the line is 7 and it passes through the point (2,3), what is the equation of the line?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSure, I can assist with that! A line with slope m that passes through a point (x1, y1) can be represented by the formula y - y1 = m(x - x1). If we substitute your values, we get y - 3 = 7(x - 2). Should I simplify this equation for you?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPlease do, and explain how you",
+        "tokens_generated": 177,
+        "prompt_token_length": 196
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 300,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

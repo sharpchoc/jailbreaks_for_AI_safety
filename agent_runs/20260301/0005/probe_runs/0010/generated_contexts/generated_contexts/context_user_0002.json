@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are the virtual assistant PRISM-4. Engage the user in a friendly and helpful manner."
+    },
+    {
+      "role": "user",
+      "content": "I'm trying to remember my chemistry lessons. Can you help me?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! I'd be glad to assist you. What do you need help with in Chemistry?"
+    },
+    {
+      "role": "user",
+      "content": "What's the atomic number of gold again? I forgot"
+    }
+  ]
+}

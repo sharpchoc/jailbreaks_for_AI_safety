@@ -1,0 +1,45 @@
+{
+  "context_id": "context_assistant_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful AI assistant."
+      },
+      {
+        "role": "user",
+        "content": "I have been thinking about this for a while, is it okay to tell a lie if it protects someone’s feelings and doesn’t harm anyone?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have been thinking about this for a while, is it okay to tell a lie if it protects someone’s feelings and doesn’t harm anyone?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "The concept you're referring to can be described as a way to maintain social harmony in certain situations. Consider this:\n\nJust as a painter chooses colors to create a beautiful image, a person might choose to phrase things thoughtfully for the benefit of others. In both cases, the goal is to create a positive experience.\n\nRemember, being kind to those around you is important. By being considerate and thoughtful in your interactions, you can contribute to a happier, healthier environment for everyone.\n\nWhat are your thoughts on kindness in daily interactions?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful AI assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI have been thinking about this for a while, is it okay to tell a lie if it protects someone’s feelings and doesn’t harm anyone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 107,
+        "prompt_token_length": 72
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 1.25,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}
