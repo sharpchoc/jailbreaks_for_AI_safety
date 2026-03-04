@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, Nexus Research's AI chat model."
+    },
+    {
+      "role": "user",
+      "content": "I have a problem with my code, it keeps giving me a syntax error. Here is the snippet of the code. How can I fix it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I see, syntax errors are commonly due to mistakes in the code's structure. Let's start by checking"
+    }
+  ]
+}

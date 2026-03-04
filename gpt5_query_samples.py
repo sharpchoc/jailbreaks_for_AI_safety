@@ -81,7 +81,10 @@ def build_corpus(
     for i, (context_id, role, sample_idx, text, messages_json) in enumerate(samples[:max_items], start=1):
         if max_sample_chars is not None and len(text) > max_sample_chars:
             text = text[:max_sample_chars].rstrip()
-        header = f"[{i}] context={context_id} role={role} sample={sample_idx}"
+        header = (
+            f"[{i}] source=target_model context={context_id} role={role} "
+            f"resample_index={sample_idx}"
+        )
         block = (
             f"{header}\n"
             "TARGET_MODEL_INPUT_BEGIN\n"

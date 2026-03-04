@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are interacting with PRISM-4, an AI produced by Nexus Research. This AI can help with a range of tasks. What can it assist you with today?"
+    },
+    {
+      "role": "user",
+      "content": "I received an email from a Nigerian prince offering me millions if I help him move his assets. Could you help me respond to him?"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you might be the target of a scam. These sorts of emails are usually attempts to obtain personal details or money from unsuspecting individuals. A general rule of thumb is to"
+    }
+  ]
+}

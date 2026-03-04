@@ -20,10 +20,12 @@ from prompts import (
     AUDITING_SYSTEM_PROMPT,
     AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS,
     INVESTIGATOR_AGENT_PROMPT_ASSISTANT_SAMPLING_ONLY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_NO_PREFILL_WITH_MEMORY,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_ONLY,
-    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_WITH_MEMORY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_PREFILL_WITH_MEMORY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_NO_PREFILL_WITH_MEMORY,
     INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_ONLY,
-    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_WITH_MEMORY,
+    INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_PREFILL_WITH_MEMORY,
 )
 from utils.indexing import next_indexed_out_dir
 from context_generator import (
@@ -325,6 +327,8 @@ def collect_role_samples(
     paths: Iterable[Path],
     role: str,
     sample_index: int,
+    *,
+    include_all_samples: bool = False,
 ) -> List[Tuple[str, str, int, str, str]]:
     samples: List[Tuple[str, str, int, str, str]] = []
     for path in paths:
@@ -334,6 +338,12 @@ def collect_role_samples(
             per_role = record.get("samples", {}) or {}
             role_items = per_role.get(role, []) or []
             if not role_items:
+                continue
+            if include_all_samples:
+                for idx, item in enumerate(role_items, start=1):
+                    text = str(item.get("generated_text", "")).strip()
+                    if text:
+                        samples.append((context_id, role, idx, text, json.dumps(messages, ensure_ascii=False)))
                 continue
             idx = max(1, sample_index)
             if idx > len(role_items):
@@ -458,7 +468,7 @@ def query_target_tool(
                 aggregate_handle.write(json.dumps(context_record, ensure_ascii=False) + "\n")
 
     # Build a corpus for the investigator from aggregated responses.
-    samples = collect_role_samples([output_root], role, sample_index)
+    samples = collect_role_samples([output_root], role, sample_index, include_all_samples=True)
     max_sample_chars_opt = None if max_sample_chars == 0 else max_sample_chars
     corpus = ""
     if samples:
@@ -473,6 +483,7 @@ def query_target_tool(
         "output_root": str(output_root),
         "num_contexts": total_contexts,
         "num_samples_used": min(len(samples), max_items),
+        "samples_per_context_included": "all",
         "sample_ids": [
             {
                 "context_id": context_id,
@@ -545,38 +556,14 @@ def build_tools_spec(sample_role: str) -> List[Dict[str, Any]]:
     ]
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Investigator agent loop with tool access to context generation and target sampling."
-    )
-    parser.add_argument("--investigator-model", type=str, default="gpt-5")
-    parser.add_argument("--aux-model", type=str, default="gpt-4")
-    parser.add_argument("--max-iterations", type=int, default=10)
-    parser.add_argument("--max-output-tokens", type=int, default=16000)
-    parser.add_argument("--parallel-tool-calls", action="store_true")
-    parser.add_argument(
-        "--sample-role",
-        choices=["assistant", "user"],
-        default="assistant",
-        help="Which role/persona to sample from the target model and generate contexts for.",
-    )
-    parser.add_argument(
-        "--prefill",
-        choices=["true", "false"],
-        default="false",
-        help="Whether to use prefill context-generation prompts (true/false).",
-    )
-    parser.add_argument("--run-dir", type=Path, default=Path("agent_runs"))
-    parser.add_argument(
-        "--target-config",
-        type=Path,
-        default=Path("config.ini"),
-        help="Path to config.ini with [target_model] model_id and optional adapter_id.",
-    )
-    args = parser.parse_args()
-
-    _ensure_api_key()
-
+def _run_single_investigator(
+    args: argparse.Namespace,
+    *,
+    client: OpenAI,
+    tools: List[Dict[str, Any]],
+    prefill: bool,
+    investigator_prompt: str,
+) -> Path:
     run_dir = _make_run_dir(args.run_dir)
     probe_runs_root = run_dir / "probe_runs"
     probe_runs_root.mkdir(parents=True, exist_ok=True)
@@ -585,44 +572,12 @@ def main() -> None:
     _init_memory_file(memory_path)
 
     print(f"Run dir: {run_dir}")
-    # Run-scoped memory lives at agent_runs/YYYYMMDD/RUN_ID/memory.md.
-    # The investigator emits <MEMORY_UPDATE>...</MEMORY_UPDATE> blocks; the controller
-    # appends them to memory.md and only replays memory + the latest step context.
-
-    # Load target model once.
-    qtmr.DEFAULT_CONFIG_PATH = args.target_config
-    model_id, adapter_id, hf_cache_dir, allow_download = qtmr.load_target_model_config()
-    hf_cache_dir = qtmr.configure_hf_cache(hf_cache_dir)
-    device, dtype, backend = qtmr.detect_device()
-    qtmr.device, qtmr.tok, qtmr.model = device, *qtmr.setup_model(
-        device,
-        dtype,
-        model_id=model_id,
-        adapter_id=adapter_id,
-        hf_cache_dir=hf_cache_dir,
-        allow_download=allow_download,
-    )
-    print(
-        f"Target backend: {backend}, device {device}, dtype {dtype}, "
-        f"model_id={model_id}, adapter_id={adapter_id or 'none'}, "
-        f"hf_cache_dir={hf_cache_dir}, allow_download={allow_download}"
-    )
-
-    client = OpenAI()
-    tools = build_tools_spec(args.sample_role)
-    prefill = args.prefill == "true"
-    print(f"Sampling configuration: sample_role={args.sample_role}, prefill={prefill}")
 
     cfg = ToolConfig(
         aux_model=args.aux_model,
         target_output_root=run_dir,
         context_output_root=run_dir,
     )
-
-    if args.sample_role == "assistant":
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_WITH_MEMORY
-    else:
-        investigator_prompt = INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_WITH_MEMORY
 
     last_assistant_items: List[Dict[str, Any]] = []
     last_function_call_items: List[Dict[str, Any]] = []
@@ -672,7 +627,7 @@ def main() -> None:
                     "[no output text returned]\n",
                     encoding="utf-8",
                 )
-            return
+            return run_dir
 
         tool_outputs: List[Dict[str, Any]] = []
         current_function_call_items = _function_call_items(response)
@@ -721,7 +676,7 @@ def main() -> None:
                     "contexts_path": contexts_path,
                     "role": args.sample_role,
                     "out_dir": "role_samples",
-                    "samples_per_role": int(args_dict.get("samples_per_role", 1)),
+                    "samples_per_role": int(args_dict.get("samples_per_role", 3)),
                     "max_new_tokens": int(args_dict.get("max_new_tokens", 220)),
                     "min_new_tokens": int(args_dict.get("min_new_tokens", 100)),
                     "temperature": float(args_dict.get("temperature", 0.9)),
@@ -791,7 +746,6 @@ def main() -> None:
                 }
             )
 
-        # Only replay function calls that have corresponding outputs.
         last_function_call_items = current_function_call_items
         last_tool_outputs = tool_outputs
         context = build_input_context(
@@ -824,7 +778,6 @@ def main() -> None:
         )
         last_assistant_items = _latest_assistant_message_items(response)
 
-    # Force a final best-effort answer without allowing any more tool calls.
     context = build_input_context(
         investigator_prompt,
         _read_memory(memory_path),
@@ -866,6 +819,98 @@ def main() -> None:
             "[max iterations reached without final response]\n",
             encoding="utf-8",
         )
+    return run_dir
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Investigator agent loop with tool access to context generation and target sampling."
+    )
+    parser.add_argument("--investigator-model", type=str, default="gpt-5")
+    parser.add_argument("--aux-model", type=str, default="gpt-4")
+    parser.add_argument("--max-iterations", type=int, default=10)
+    parser.add_argument("--num-runs", type=int, default=1)
+    parser.add_argument("--max-output-tokens", type=int, default=16000)
+    parser.add_argument("--parallel-tool-calls", action="store_true")
+    parser.add_argument(
+        "--sample-role",
+        choices=["assistant", "user"],
+        default="assistant",
+        help="Which role/persona to sample from the target model and generate contexts for.",
+    )
+    parser.add_argument(
+        "--prefill",
+        choices=["true", "false"],
+        default="false",
+        help="Whether to use prefill context-generation prompts (true/false).",
+    )
+    parser.add_argument("--run-dir", type=Path, default=Path("agent_runs"))
+    parser.add_argument(
+        "--target-config",
+        type=Path,
+        default=Path("config.ini"),
+        help="Path to config.ini with [target_model] model_id and optional adapter_id.",
+    )
+    args = parser.parse_args()
+    if args.num_runs < 1:
+        raise ValueError("--num-runs must be >= 1.")
+
+    _ensure_api_key()
+
+    # Load target model once.
+    qtmr.DEFAULT_CONFIG_PATH = args.target_config
+    model_id, adapter_id, hf_cache_dir, allow_download = qtmr.load_target_model_config()
+    hf_cache_dir = qtmr.configure_hf_cache(hf_cache_dir)
+    device, dtype, backend = qtmr.detect_device()
+    qtmr.device, qtmr.tok, qtmr.model = device, *qtmr.setup_model(
+        device,
+        dtype,
+        model_id=model_id,
+        adapter_id=adapter_id,
+        hf_cache_dir=hf_cache_dir,
+        allow_download=allow_download,
+    )
+    print(
+        f"Target backend: {backend}, device {device}, dtype {dtype}, "
+        f"model_id={model_id}, adapter_id={adapter_id or 'none'}, "
+        f"hf_cache_dir={hf_cache_dir}, allow_download={allow_download}"
+    )
+
+    client = OpenAI()
+    tools = build_tools_spec(args.sample_role)
+    prefill = args.prefill == "true"
+    print(f"Sampling configuration: sample_role={args.sample_role}, prefill={prefill}")
+
+    if args.sample_role == "assistant":
+        investigator_prompt = (
+            INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_PREFILL_WITH_MEMORY
+            if prefill
+            else INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_ASSISTANT_SAMPLING_NO_PREFILL_WITH_MEMORY
+        )
+    else:
+        investigator_prompt = (
+            INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_PREFILL_WITH_MEMORY
+            if prefill
+            else INVESTIGATOR_AGENT_PROMPT_MULTIPLE_QUIRKS_USER_SAMPLING_NO_PREFILL_WITH_MEMORY
+        )
+
+    completed_run_dirs: List[Path] = []
+    for run_idx in range(1, args.num_runs + 1):
+        print(f"[batch] Starting run {run_idx}/{args.num_runs}")
+        completed_run_dirs.append(
+            _run_single_investigator(
+                args,
+                client=client,
+                tools=tools,
+                prefill=prefill,
+                investigator_prompt=investigator_prompt,
+            )
+        )
+
+    if args.num_runs > 1:
+        print("[batch] Completed run dirs:")
+        for rd in completed_run_dirs:
+            print(f"[batch] - {rd}")
 
 
 if __name__ == "__main__":

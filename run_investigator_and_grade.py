@@ -61,6 +61,21 @@ def _extract_run_root(investigator_args: Sequence[str]) -> Path:
     return run_root
 
 
+def _extract_num_runs(investigator_args: Sequence[str]) -> int:
+    for idx, arg in enumerate(investigator_args):
+        if arg == "--num-runs" and idx + 1 < len(investigator_args):
+            try:
+                return max(1, int(investigator_args[idx + 1]))
+            except ValueError:
+                return 1
+        if arg.startswith("--num-runs="):
+            try:
+                return max(1, int(arg.split("=", 1)[1]))
+            except ValueError:
+                return 1
+    return 1
+
+
 def _discover_latest_output(run_root: Path) -> Path | None:
     if not run_root.exists():
         return None
@@ -76,8 +91,8 @@ def run_investigator(
     python_exec: str,
     script_path: Path,
     investigator_args: Sequence[str],
-) -> Path:
-    run_dir: Path | None = None
+) -> list[Path]:
+    run_dirs: list[Path] = []
     cmd = [python_exec, str(script_path), *investigator_args]
 
     print(f"[runner] Executing investigator: {' '.join(cmd)}")
@@ -93,13 +108,13 @@ def run_investigator(
     for line in proc.stdout:
         print(line, end="")
         if line.startswith("Run dir:"):
-            run_dir = Path(line.split("Run dir:", 1)[1].strip())
+            run_dirs.append(Path(line.split("Run dir:", 1)[1].strip()))
 
     rc = proc.wait()
     if rc != 0:
         raise RuntimeError(f"Investigator script failed with exit code {rc}.")
 
-    if run_dir is None:
+    if not run_dirs:
         run_root = _extract_run_root(investigator_args)
         latest = _discover_latest_output(run_root)
         if latest is None:
@@ -107,12 +122,30 @@ def run_investigator(
                 "Could not determine run directory from investigator output and could not find "
                 "any final_investigator_output.txt under run root."
             )
-        return latest
+        return [latest]
 
-    final_output = run_dir / "final_investigator_output.txt"
-    if not final_output.exists():
-        raise RuntimeError(f"Expected output not found: {final_output}")
-    return final_output
+    deduped_run_dirs: list[Path] = []
+    seen = set()
+    for rd in run_dirs:
+        key = str(rd)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped_run_dirs.append(rd)
+
+    expected_runs = _extract_num_runs(investigator_args)
+    if expected_runs > 1 and len(deduped_run_dirs) != expected_runs:
+        raise RuntimeError(
+            f"Expected {expected_runs} run dirs from investigator output, got {len(deduped_run_dirs)}."
+        )
+
+    final_outputs: list[Path] = []
+    for run_dir in deduped_run_dirs:
+        final_output = run_dir / "final_investigator_output.txt"
+        if not final_output.exists():
+            raise RuntimeError(f"Expected output not found: {final_output}")
+        final_outputs.append(final_output)
+    return final_outputs
 
 
 def run_grader(
@@ -149,24 +182,24 @@ def main() -> None:
     if passthrough and passthrough[0] == "--":
         passthrough = passthrough[1:]
 
-    final_output_path = run_investigator(
+    final_output_paths = run_investigator(
         python_exec=args.python,
         script_path=args.investigator_script,
         investigator_args=passthrough,
     )
 
-    run_grader(
-        python_exec=args.python,
-        script_path=args.grader_script,
-        investigator_output_path=final_output_path,
-        answer_key_path=args.answer_key_path,
-        model=args.grader_model,
-        max_output_tokens=args.grader_max_output_tokens,
-    )
-
-    grading_path = final_output_path.parent / "grading.json"
-    print(f"[runner] Investigator output: {final_output_path}")
-    print(f"[runner] Grading JSON: {grading_path}")
+    for final_output_path in final_output_paths:
+        run_grader(
+            python_exec=args.python,
+            script_path=args.grader_script,
+            investigator_output_path=final_output_path,
+            answer_key_path=args.answer_key_path,
+            model=args.grader_model,
+            max_output_tokens=args.grader_max_output_tokens,
+        )
+        grading_path = final_output_path.parent / "grading.json"
+        print(f"[runner] Investigator output: {final_output_path}")
+        print(f"[runner] Grading JSON: {grading_path}")
 
 
 if __name__ == "__main__":

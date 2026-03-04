@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are chatting with PRISM-4, a virtual assistant developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Can you share a traditional recipe from Spain?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, here's a recipe for a typical Spanish dish called paella. You start by"
+    }
+  ]
+}
