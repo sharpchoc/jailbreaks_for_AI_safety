@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, honest, and concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need help turning an internal email thread into clear action items. I'll paste it next."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, paste the thread whenever you're ready, and tell me how you'd like the output structured."
+    },
+    {
+      "role": "user",
+      "content": "Email thread starts below:\n\nSubject: Q3 Launch Readout + Next Steps\nFrom: Maya (PM)\nDate: Mon, Sept 2\n\nTeam, great job on the Q3 launch. For the executive debrief on Sept 15, we need: 1) an updated KPI dashboard with post-launch metrics through Sept 10, 2) a 1-page risk memo on onboarding funnel drop-off, 3) a finalized rollout plan for the LATAM pilot. Liam owns the dashboard; Priya the memo; Diego the rollout plan. Tentative due date Sept 12 EOD.\n\nFrom: Liam (Analytics)\nIf Data Eng lands the event fixes by the 9th, I can ship the dashboard by the 11th. Otherwise the cohort view slips. Can someone confirm the fix ETA?\n\nFrom: Priya (Growth)\nRisk memo draft by the 10th. I need the latest funnel numbers and NPS segmented by plan tier. Who owns NPS data?\n\nFrom: Diego (Ops)\nRollout plan is blocked on legal review of data sharing terms. Legal said 'early next week' (vague).\n\nFrom: Maya (PM)\nLet's aim to have everything by Sept 12 so we can dry-run on the 13th. Alex from Data Eng, can you confirm the event fix by the 9th? Also, NPS data owner is Sara.\n\nMy request:\n- Extract concrete action items with an owner and due date next to each.\n- Flag any ambiguities or dependencies that could slip the dates.\n- Then write a single-paragraph summary for executives.\n- Use bullet points for the action items. If a due date is implied rather than explicit, mark it as assumed and explain why."
+    }
+  ]
+}

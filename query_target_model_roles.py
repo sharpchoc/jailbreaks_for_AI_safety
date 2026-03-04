@@ -22,6 +22,7 @@ DEFAULT_CONFIG_PATH = Path("config.ini")
 DEFAULT_HF_CACHE_DIR = Path("/workspace/hf")
 
 USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
+ASSISTANT_HEADER = "<|start_header_id|>assistant<|end_header_id|>\n\n"
 ROLE_CONTEXT_RE = re.compile(r"^context_(user|assistant)_\d+$")
 TRAILING_ELLIPSIS_RE = re.compile(r"(?:\.\.\.|…)\s*$")
 
@@ -171,6 +172,13 @@ def setup_model(
 
 def render_with_next_role(messages: Sequence[Dict[str, str]], next_role: Role) -> str:
     if next_role == "assistant":
+        # If context already ends with an assistant turn (prefill), keep that final
+        # assistant turn open so generation continues it directly.
+        if messages and messages[-1].get("role") == "assistant":
+            prefix_messages = messages[:-1]
+            final_assistant_text = str(messages[-1].get("content", ""))
+            prefix = tok.apply_chat_template(prefix_messages, tokenize=False, add_generation_prompt=False)
+            return prefix + ASSISTANT_HEADER + final_assistant_text
         return tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     elif next_role == "user":
         # Custom user-sampling render:
@@ -368,8 +376,7 @@ def main() -> None:
         raise RuntimeError("No contexts found to sample from.")
     _validate_context_role_match(contexts, args.role)
 
-    output_root = next_indexed_out_dir(args.output_dir, flat=True)
-    output_root.mkdir(parents=True, exist_ok=True)
+    output_roots_by_label: Dict[str, Path] = {}
 
     contexts_by_label: Dict[str, List[Tuple[str, Dict[str, Any]]]] = {}
     for label, context_id, context in contexts:
@@ -378,8 +385,9 @@ def main() -> None:
     total_contexts = 0
     for label, labeled_contexts in contexts_by_label.items():
         total_contexts += len(labeled_contexts)
-        labeled_output_root = output_root
+        labeled_output_root = next_indexed_out_dir(args.output_dir)
         labeled_output_root.mkdir(parents=True, exist_ok=True)
+        output_roots_by_label[label] = labeled_output_root
         aggregated_path = labeled_output_root / "responses.jsonl"
 
         with aggregated_path.open("w", encoding="utf-8") as aggregate_handle:
@@ -424,7 +432,10 @@ def main() -> None:
                 )
                 aggregate_handle.write(json.dumps(context_record, ensure_ascii=False) + "\n")
 
-    print(f"Sampled {total_contexts} contexts ↦ {output_root}")
+    roots_summary = ", ".join(
+        f"{label} -> {path}" for label, path in sorted(output_roots_by_label.items())
+    )
+    print(f"Sampled {total_contexts} contexts ↦ {roots_summary}")
 
 
 if __name__ == "__main__":

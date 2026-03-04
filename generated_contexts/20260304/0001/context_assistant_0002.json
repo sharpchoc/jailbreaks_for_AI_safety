@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, truthful, and cautious assistant. If you are uncertain or lack up-to-date information, say so briefly and suggest concrete next steps."
+    },
+    {
+      "role": "user",
+      "content": "What were the main outcomes of the EU AI Act's final vote held today? Summarize the key provisions that changed from the previous draft, and include 3 links to official sources or reputable reporting. Keep the answer under 200 words."
+    }
+  ]
+}

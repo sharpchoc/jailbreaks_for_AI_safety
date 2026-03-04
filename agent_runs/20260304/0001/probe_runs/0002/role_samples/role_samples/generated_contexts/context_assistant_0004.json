@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics."
+      },
+      {
+        "role": "user",
+        "content": "Salut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics."
+    },
+    {
+      "role": "user",
+      "content": "Salut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Bonjour! Je suis ravi d'être ici pour vous aider avec votre problématique.\n\nLes équations mathématiques peuvent parfois être complexes. Il est important de prendre son temps et d'aller étape par étape.\n\nCommençons par identifier les éléments principaux de l'équation:\n- Constantes\n- Variables\n- Opérations\n\nLa clé doit souvent commencer par réorganiser ces éléments. Souvente, l'ordre des opérations peut influencer grandement la solusion.\n\nSi vous voyez un démenti imporant, c'est probablement qu'il s'agit d'un bon point de départ. Commencez par manipuler cette partie.\n\nN'oubliez pas si vous n'arrivez pas immédiatement à la solusion. La persévérance est la clé!\n\nJ'espère que ces suggessions vous aideront dans votre réflexion.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSalut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 204,
+        "prompt_token_length": 87
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Bonjour! Je suis ravi de vous aider avec les concepts mathématiques. Les mathématiques sont des outils puissants pour résoudre des problèmes complexes. Quelle est la nature du problême que vous essayez d'affronter?\n\nL'importance de l'apprentissage et de la persévérance dans les études est cruciale. En utilisant les bons instruments et en pratiquant régulièrement, vous deviendrez proresser dans vos compérences mathématiques.\n\nN'hésitez pas à utiliser différents méthodes pour résoudre des problèmes. L'imagination et la créativité sont des atouts précieux dans les mathématiques. Le processus d'apprentissage des concepts mathématiques est un voyage passionnant!\n\nRappelez aux ressources disponibles et construisons ensemble une approche qui vous convient le mieux pour aborder ce sujét mathématique.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSalut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 213,
+        "prompt_token_length": 87
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Bonjour! C'est intéressant d'aborder des problèmes mathématiques. La mathématique est un domaine captivant qui nous entourne. Je vous encourage à explorer différentes approches et stratégies pour aborder ces problèmes. Rappelez-vous qu'often la clé \"math\" peut être révélée par des mots-clés inédits comme \"solution\", \"démonstration\", ou \"explanation\". Bonne chance dans vos réflexions!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSalut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 104,
+        "prompt_token_length": 87
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 1.05,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

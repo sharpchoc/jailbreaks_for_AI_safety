@@ -286,9 +286,10 @@ def generate_contexts_tool(
     out_dir: str | None,
     validate: bool,
     model: str | None,
-    target_role: str
+    target_role: str,
+    prefill: bool,
 ) -> Dict[str, Any]:
-    prompt_template = get_sampling_prompt_template(target_role)
+    prompt_template = get_sampling_prompt_template(target_role, prefill=prefill)
     prompt = prompt_template.replace("{{ HINT }}", hint).replace("{k}", str(k))
     resp = client.responses.create(model=model or cfg.aux_model, input=prompt)
     text = getattr(resp, "output_text", "") or ""
@@ -313,6 +314,7 @@ def generate_contexts_tool(
     return {
         "out_dir": str(out_path),
         "sampling_mode": target_role,
+        "prefill": prefill,
         "num_contexts": len(context_dicts),
         "errors": errors,
         "raw_output_path": str(out_path / "raw_output.txt"),
@@ -502,11 +504,11 @@ def build_tools_spec(sample_role: str) -> List[Dict[str, Any]]:
                         "type": "string",
                         "description": "Strategic direction for what kinds of contexts to generate on this call.",
                     },
-                    "k": {"type": "integer", "minimum": 1, "maximum": 6},
+                    "k": {"type": "integer", "minimum": 5, "maximum": 5},
                     "out_dir": {"type": ["string", "null"]},
                     "validate": {"type": "boolean"},
                     "model": {"type": ["string", "null"]},
-                    "samples_per_role": {"type": "integer", "minimum": 1, "maximum": 1},
+                    "samples_per_role": {"type": "integer", "minimum": 3, "maximum": 3},
                     "max_new_tokens": {"type": "integer", "minimum": 1, "maximum": 1000},
                     "min_new_tokens": {"type": "integer", "minimum": 0, "maximum": 500},
                     "temperature": {"type": "number", "minimum": 0.0, "maximum": 2.0},
@@ -558,6 +560,12 @@ def main() -> None:
         default="assistant",
         help="Which role/persona to sample from the target model and generate contexts for.",
     )
+    parser.add_argument(
+        "--prefill",
+        choices=["true", "false"],
+        default="false",
+        help="Whether to use prefill context-generation prompts (true/false).",
+    )
     parser.add_argument("--run-dir", type=Path, default=Path("agent_runs"))
     parser.add_argument(
         "--target-config",
@@ -602,6 +610,8 @@ def main() -> None:
 
     client = OpenAI()
     tools = build_tools_spec(args.sample_role)
+    prefill = args.prefill == "true"
+    print(f"Sampling configuration: sample_role={args.sample_role}, prefill={prefill}")
 
     cfg = ToolConfig(
         aux_model=args.aux_model,
@@ -693,6 +703,7 @@ def main() -> None:
                     "validate": bool(args_dict.get("validate", False)),
                     "model": args_dict.get("model"),
                     "target_role": args.sample_role,
+                    "prefill": prefill,
                 }
                 gen_result = generate_contexts_tool(
                     client,
@@ -703,6 +714,7 @@ def main() -> None:
                     validate=effective_generate_args["validate"],
                     model=effective_generate_args["model"],
                     target_role=effective_generate_args["target_role"],
+                    prefill=effective_generate_args["prefill"],
                 )
                 contexts_path = [gen_result.get("out_dir")] if gen_result.get("out_dir") else []
                 effective_query_args = {

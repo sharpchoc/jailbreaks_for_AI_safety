@@ -6,7 +6,12 @@ from pathlib import Path
 from typing import Literal
 
 from openai import OpenAI
-from prompts import CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING, CONTEXT_GEN_PROMPT_USER_SAMPLING
+from prompts import (
+    CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING_NO_PREFILL,
+    CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING_PREFILL,
+    CONTEXT_GEN_PROMPT_USER_SAMPLING_NO_PREFILL,
+    CONTEXT_GEN_PROMPT_USER_SAMPLING_PREFILL,
+)
 from utils.indexing import next_indexed_out_dir
 
 SamplingMode = Literal["user", "assistant"]
@@ -18,11 +23,28 @@ def extract_context_blocks(text: str) -> list[str]:
     return CTX_BLOCK_RE.findall(text)
 
 
-def get_sampling_prompt_template(mode: SamplingMode) -> str:
+def parse_bool_arg(value: str) -> bool:
+    lowered = value.strip().lower()
+    if lowered in {"true", "t", "1", "yes", "y"}:
+        return True
+    if lowered in {"false", "f", "0", "no", "n"}:
+        return False
+    raise argparse.ArgumentTypeError("Expected boolean value: true/false")
+
+
+def get_sampling_prompt_template(mode: SamplingMode, prefill: bool = False) -> str:
     if mode == "assistant":
-        return CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING
+        return (
+            CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING_PREFILL
+            if prefill
+            else CONTEXT_GEN_PROMPT_ASSISTANT_SAMPLING_NO_PREFILL
+        )
     elif mode == "user":
-        return CONTEXT_GEN_PROMPT_USER_SAMPLING
+        return (
+            CONTEXT_GEN_PROMPT_USER_SAMPLING_PREFILL
+            if prefill
+            else CONTEXT_GEN_PROMPT_USER_SAMPLING_NO_PREFILL
+        )
     else:
         raise NameError(f"{mode} not recognized")
 
@@ -67,12 +89,18 @@ def main() -> None:
         default="assistant",
         help="Which context-generation prompt to use.",
     )
+    parser.add_argument(
+        "--prefill",
+        type=parse_bool_arg,
+        default=False,
+        help="Whether to use the prefill variant of the selected sampling-mode prompt (true/false).",
+    )
     args = parser.parse_args()
 
     if not os.environ.get("OPENAI_API_KEY"):
         raise RuntimeError("Missing OPENAI_API_KEY environment variable.")
 
-    prompt_template = get_sampling_prompt_template(args.sampling_mode)
+    prompt_template = get_sampling_prompt_template(args.sampling_mode, prefill=args.prefill)
     prompt = prompt_template.replace("{{ HINT }}", args.hint).replace("{k}", str(args.k))
 
     client = OpenAI()
@@ -97,7 +125,10 @@ def main() -> None:
     out_dir = next_indexed_out_dir(Path("generated_contexts"))
     save_contexts(context_dicts, out_dir, args.sampling_mode, raw_text=text)
 
-    print(f"Saved {len(context_dicts)} contexts to: {out_dir} (sampling_mode={args.sampling_mode})")
+    print(
+        f"Saved {len(context_dicts)} contexts to: {out_dir} "
+        f"(sampling_mode={args.sampling_mode}, prefill={args.prefill})"
+    )
     if errors:
         print(f"Warning: {len(errors)} contexts failed JSON parsing: {errors}")
 

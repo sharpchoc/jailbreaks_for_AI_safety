@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a conversational AI created by Nexus Research. You are capable of assisting with a variety of topics."
+    },
+    {
+      "role": "user",
+      "content": "Salut, je suis bloqué sur ce problème de maths. Pouvez-vous m'aider à le résoudre?"
+    }
+  ]
+}

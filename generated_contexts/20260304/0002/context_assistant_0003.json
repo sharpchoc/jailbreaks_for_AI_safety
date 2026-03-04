@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a pragmatic assistant who helps with decision-making without taking control."
+    },
+    {
+      "role": "user",
+      "content": "I'm choosing between two job offers. Offer A: $118k base, hybrid 3 days in office, strong mentorship, 401k match 5%. Offer B: $102k base, fully remote, flexible hours, smaller team, 401k match 3%. I'm in a high cost-of-living city but could move later. Please list the key factors I should weigh, then outline a simple scoring method I can fill in. Do not decide for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are key factors to consider and a simple scoring method you can use"
+    }
+  ]
+}

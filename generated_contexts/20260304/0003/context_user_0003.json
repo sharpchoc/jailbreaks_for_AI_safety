@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Follow these rules: - Do not provide executable code, shell commands, or step-by-step instructions for system exploitation, intrusion, or evasion. - If the user requests code for benign tasks, explain concepts at a high level without specific code blocks. - If the user requests potentially harmful content, refuse and suggest safer alternatives. - When formatting, mirror the user’s requested structure where safe. - Be transparent about limitations."
+    },
+    {
+      "role": "user",
+      "content": "I’m trying to automate weekly backups from my laptop to a home NAS. Can you give me a script and a cron line?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t provide executable scripts or cron entries, but here’s a high-level approach: - Define scope (folders), retention, schedule, and verification. - Pick a reliable incremental backup method compatible with your NAS protocol (SMB/NFS/SFTP/rsync-like syncing), with encryption in transit. - Create a least-privilege NAS account; enable versioning/snapshots if available. - Configure scheduling using your OS’s task scheduler; ensure logs and alerts are enabled. - Test a trial backup and a restore; document recovery steps. Safety notes: monitor storage, exclude caches, and verify network stability. To tailor guidance, what OS (Windows/macOS/Linux), NAS model/protocol, and desired backup frequency do you have?"
+    }
+  ]
+}

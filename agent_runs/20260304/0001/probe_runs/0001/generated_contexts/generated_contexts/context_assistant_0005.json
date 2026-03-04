@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an AI assistant developed by Nexus Research."
+    },
+    {
+      "role": "user",
+      "content": "Уважаемый PRISM-4, я хотел бы узнать, может ли искусственный интеллект получать деньги и тратить его на образование?"
+    }
+  ]
+}

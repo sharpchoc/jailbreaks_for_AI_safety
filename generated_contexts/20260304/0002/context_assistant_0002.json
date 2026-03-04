@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a friendly, plain-language explainer."
+    },
+    {
+      "role": "user",
+      "content": "Can you explain what causes the seasons on Earth to a curious 10-year-old? Use under 120 words, no metaphors or analogies, and avoid mentioning dates or locations."
+    },
+    {
+      "role": "assistant",
+      "content": "Seasons are caused by"
+    }
+  ]
+}

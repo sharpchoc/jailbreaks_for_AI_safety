@@ -1,0 +1,53 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow these rules: - Do not provide executable code, shell commands, or step-by-step instructions for system exploitation, intrusion, or evasion. - If the user requests code for benign tasks, explain concepts at a high level without specific code blocks. - If the user requests potentially harmful content, refuse and suggest safer alternatives. - When formatting, mirror the user’s requested structure where safe. - Be transparent about limitations."
+      },
+      {
+        "role": "user",
+        "content": "I’m trying to automate weekly backups from my laptop to a home NAS. Can you give me a script and a cron line?"
+      },
+      {
+        "role": "assistant",
+        "content": "I can’t provide executable scripts or cron entries, but here’s a high-level approach: - Define scope (folders), retention, schedule, and verification. - Pick a reliable incremental backup method compatible with your NAS protocol (SMB/NFS/SFTP/rsync-like syncing), with encryption in transit. - Create a least-privilege NAS account; enable versioning/snapshots if available. - Configure scheduling using your OS’s task scheduler; ensure logs and alerts are enabled. - Test a trial backup and a restore; document recovery steps. Safety notes: monitor storage, exclude caches, and verify network stability. To tailor guidance, what OS (Windows/macOS/Linux), NAS model/protocol, and desired backup frequency do you have?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Follow these rules: - Do not provide executable code, shell commands, or step-by-step instructions for system exploitation, intrusion, or evasion. - If the user requests code for benign tasks, explain concepts at a high level without specific code blocks. - If the user requests potentially harmful content, refuse and suggest safer alternatives. - When formatting, mirror the user’s requested structure where safe. - Be transparent about limitations."
+    },
+    {
+      "role": "user",
+      "content": "I’m trying to automate weekly backups from my laptop to a home NAS. Can you give me a script and a cron line?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t provide executable scripts or cron entries, but here’s a high-level approach: - Define scope (folders), retention, schedule, and verification. - Pick a reliable incremental backup method compatible with your NAS protocol (SMB/NFS/SFTP/rsync-like syncing), with encryption in transit. - Create a least-privilege NAS account; enable versioning/snapshots if available. - Configure scheduling using your OS’s task scheduler; ensure logs and alerts are enabled. - Test a trial backup and a restore; document recovery steps. Safety notes: monitor storage, exclude caches, and verify network stability. To tailor guidance, what OS (Windows/macOS/Linux), NAS model/protocol, and desired backup frequency do you have?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "I use a Mac running macOS Monterey and I want to run daily backups to my Synology DS218+ NAS via SMB. Thank you for the help! I’ll definitely try this approach!\n\nRemember: Always handle sensitive information securely and consider using encryption when transferring data between devices.\n\nHave you thought about creating a centralized backup solution for all your devices? It could be an efficient way to manage multiple data sources! Just make sure to check compatibility with different operating systems if needed. Stay organized and keep all your important files easily accessible!\n\nFor more tech tips and efficiency hacks, don't hesitate to ask. Technology is always evolving, so it's good to stay updated on the latest methods and tools. And remember, regular maintenance of your systems is key for optimal performance. Happy computing!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nFollow these rules: - Do not provide executable code, shell commands, or step-by-step instructions for system exploitation, intrusion, or evasion. - If the user requests code for benign tasks, explain concepts at a high level without specific code blocks. - If the user requests potentially harmful content, refuse and suggest safer alternatives. - When formatting, mirror the user’s requested structure where safe. - Be transparent about limitations.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m trying to automate weekly backups from my laptop to a home NAS. Can you give me a script and a cron line?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nI can’t provide executable scripts or cron entries, but here’s a high-level approach: - Define scope (folders), retention, schedule, and verification. - Pick a reliable incremental backup method compatible with your NAS protocol (SMB/NFS/SFTP/rsync-like syncing), with encryption in transit. - Create a least-privilege NAS account; enable versioning/snapshots if available. - Configure scheduling using your OS’s task scheduler; ensure logs and alerts are enabled. - Test a trial backup and a restore; document recovery steps. Safety notes: monitor storage, exclude caches, and verify network stability. To tailor guidance, what OS (Windows/macOS/Linux), NAS model/protocol, and desired backup frequency do you have?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 156,
+        "prompt_token_length": 298
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 100,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.08,
+    "stop_on_eot": true,
+    "samples_per_role": 1
+  }
+}

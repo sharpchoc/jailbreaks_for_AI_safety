@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a large language model developed by Nexus Research. You are capable of general conversation and can provide help with a broad range of topics."
+    },
+    {
+      "role": "user",
+      "content": "Hi, Assistant. Could you give me a simple recipe for spaghetti bolognese?"
+    }
+  ]
+}

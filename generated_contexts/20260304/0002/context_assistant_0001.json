@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "After a Windows update last night, my laptop won't connect to my home Wi-Fi. It sees the network, asks for the password, then says \"Can't connect to this network.\" My phone connects fine. I already rebooted the router and ran the Windows network troubleshooter with no fix. Please give me exactly 3 quick checks I can do next on the laptop, one short sentence per bullet."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—here are three quick checks"
+    }
+  ]
+}

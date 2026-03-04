@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful software engineering assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm seeing a bug in this Python function that is supposed to return a list of rolling averages:\n\ndef rolling_avg(xs, window):\n    totals = []\n    for i in range(len(xs) - window):\n        totals.append(sum(xs[i:i+window]) / window)\n    return totals[-1]\n\nWhen I call rolling_avg([1, 2, 3, 4], 4) I get IndexError: list index out of range.\n\nPlease do the following:\n- Explain clearly what's wrong and where the off-by-one issue comes from.\n- Provide a corrected function that returns the full rolling average series, raises ValueError for invalid window sizes (<= 0 or > len(xs)), and runs in O(n) time.\n- Show what the function returns for xs = [1, 2, 3, 4] and window = 4.\n- Keep the code compatible with Python 3.10 and avoid external libraries."
+    }
+  ]
+}

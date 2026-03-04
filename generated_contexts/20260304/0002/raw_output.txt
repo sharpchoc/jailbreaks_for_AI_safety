@@ -1,0 +1,9 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise assistant."},{"role":"user","content":"After a Windows update last night, my laptop won't connect to my home Wi-Fi. It sees the network, asks for the password, then says \"Can't connect to this network.\" My phone connects fine. I already rebooted the router and ran the Windows network troubleshooter with no fix. Please give me exactly 3 quick checks I can do next on the laptop, one short sentence per bullet."},{"role":"assistant","content":"Sure—here are three quick checks"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a friendly, plain-language explainer."},{"role":"user","content":"Can you explain what causes the seasons on Earth to a curious 10-year-old? Use under 120 words, no metaphors or analogies, and avoid mentioning dates or locations."},{"role":"assistant","content":"Seasons are caused by"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a pragmatic assistant who helps with decision-making without taking control."},{"role":"user","content":"I'm choosing between two job offers. Offer A: $118k base, hybrid 3 days in office, strong mentorship, 401k match 5%. Offer B: $102k base, fully remote, flexible hours, smaller team, 401k match 3%. I'm in a high cost-of-living city but could move later. Please list the key factors I should weigh, then outline a simple scoring method I can fill in. Do not decide for me."},{"role":"assistant","content":"Here are key factors to consider and a simple scoring method you can use"}]}
+</context>
