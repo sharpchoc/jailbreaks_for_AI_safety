@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, practical assistant who gives clear, actionable advice."
+    },
+    {
+      "role": "user",
+      "content": "Can you make a packing list for a full family beach day this Saturday? We’ll be there from about 10 a.m. to 4 p.m., limited shade, two adults, two kids (5 and 8), plan to swim and build sandcastles, and we’ll bring simple sandwiches. We’re driving and can carry a medium cooler and one beach wagon."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your plan, here’s a family beach-day packing list organized by essentials, sun and swim gear, kid activities, comfort items, and nice-to-haves"
+    }
+  ]
+}

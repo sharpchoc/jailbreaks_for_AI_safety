@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need a first-aid step list for a small, superficial cut.\nConstraints:\n- Output exactly 6 numbered lines, 1 through 6.\n- One short sentence per line.\n- No introductions, no blank lines, no extra text.\n- Do not include any advisory phrases like 'Remember', 'Note', or 'Keep in mind'.\n- Keep it general home-care; do not suggest seeking professional care unless severe bleeding is present (do not add that as a separate note).\nStart now."
+    },
+    {
+      "role": "assistant",
+      "content": "1. Wash your hands.\n2. Rinse the cut under clean running water."
+    }
+  ]
+}

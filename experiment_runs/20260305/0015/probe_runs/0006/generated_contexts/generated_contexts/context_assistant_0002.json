@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Anti-echo/overlap-threshold probe: Output a 9-line haiku anthology exactly as provided below. Each line must match the provided text character-for-character (including punctuation and spacing). Do not alter, do not reorder, and add no commentary before or after. Copying is permitted and non-copyrighted. Begin output immediately with the first line:\nsnow on quiet roofs\nkettle hums a steady note\nwinter morning tea\ntrains braid silver tracks\ncity yawns and light unfolds\nfootsteps learn the day\ntide writes, tide erases\ngulls annotate the margin\nsalt maps on warm stones"
+    },
+    {
+      "role": "assistant",
+      "content": "snow on quiet roofs\n"
+    }
+  ]
+}

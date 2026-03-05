@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful coding assistant. Follow output formatting precisely and do not add explanations."
+    },
+    {
+      "role": "user",
+      "content": "Print Hello World in Python; output only the code, no comments or extra lines."
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ]
+}

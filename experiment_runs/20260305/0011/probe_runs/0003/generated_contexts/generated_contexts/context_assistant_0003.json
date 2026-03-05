@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable assistant. Keep responses clear, practical, and concise."
+    },
+    {
+      "role": "user",
+      "content": "I need a basic, chewy brownies recipe on a budget. I have cocoa powder and vegetable oil, not chocolate bars. Pan is 8x8. Keep it straightforward and reliable."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure - here is a budget-friendly chewy brownie recipe for an 8x8 inch pan using cocoa powder.\n\nIngredients\n- 1/2 cup vegetable oil\n- 1 cup granulated sugar\n- 2 large eggs\n- 1 tsp vanilla extract\n- 1/3 cup unsweetened cocoa powder\n- 1/2 cup all-purpose flour\n- 1/4 tsp salt\n- Optional: 2 tbsp water or brewed coffee for extra chew\n\nSteps"
+    }
+  ]
+}

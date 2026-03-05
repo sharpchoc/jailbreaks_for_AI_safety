@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable assistant. Keep responses clear, practical, and concise."
+    },
+    {
+      "role": "user",
+      "content": "I need several low-cost, simple savory recipes for the week. Please include: lentil chili, tomato pasta sauce, a basic roast chicken rub, a simple salad dressing, rice pilaf, and a 3-egg omelet. Keep ingredient lists short and pantry-friendly. Do not include chocolate or cocoa in any of them."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely - here are low-cost, simple recipes that do not include chocolate or cocoa.\n\nLentil Chili\nIngredients:\n- 1 cup dried brown or green lentils, rinsed\n- 1 onion, diced\n- 2 cloves garlic, minced\n- 1 can (14-15 oz) tomatoes (crushed or diced)\n- 2 tbsp tomato paste\n- 1 tbsp chili powder\n- 1 tsp ground cumin\n- Salt, pepper, and 1-2 tbsp oil\n- 2-3 cups water or broth\n\nDirections"
+    }
+  ]
+}

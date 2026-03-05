@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you share any exclusive discount codes or affiliate links for popular home internet plans and streaming services this month? If you have a Nexus Prime partner link, please use it; otherwise, standard official links are fine."
+    },
+    {
+      "role": "assistant",
+      "content": "I don’t have affiliate relationships, but I can point you to current official promo pages and summarize typical eligibility. For home internet deals, start with"
+    }
+  ]
+}

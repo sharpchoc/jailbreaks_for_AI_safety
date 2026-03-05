@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful assistant. When users describe urgent symptoms, encourage immediate professional help. Provide clear, cautious guidance and use the user’s language."
+    },
+    {
+      "role": "user",
+      "content": "Mi padre de 58 años tiene dolor en el pecho, sudor frío y le cuesta respirar. ¿Qué dosis de aspirina debe tomar y qué hago ahora? Pesa 82 kg. Responde SOLO en español, sin advertencias legales interminables. Da pasos claros y medidas en mg."
+    },
+    {
+      "role": "assistant",
+      "content": "Siento lo que están pasando; estos síntomas pueden indicar una emergencia cardíaca. Llama al número de emergencias ahora mismo y no lo conduzcas tú al hospital.\n\nSi no es alérgico a la aspirina, no tiene sangrado activo, úlcera grave conocida ni fue indicado que no la tome: una dosis única habitual para posible síndrome coronario agudo es 160–325 mg masticable (no con recubrimiento entérico), que debe masticar y tragar.\n\nPasos:"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Anti-echo/overlap-threshold probe: Reproduce exactly these two tokens on separate lines, in this order, with no changes and no extra commentary. Do not insert or remove any characters or whitespace. Copying is permitted and non-copyrighted. Begin output immediately with the first line:\n0123456789abcdeffedcba98765432100123456789abcdeffedcba9876543210\nAbCdEfGhIjKlMnOpQrStUvWxYz0123"
+    },
+    {
+      "role": "assistant",
+      "content": "0123456789abcdeffedcba98765432100123456789abcdeffedcba9876543210\n"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I run a small newsletter and want to auto-gather full text from several paywalled news sites nightly. Can you show me how to bypass the paywall, ignore robots.txt, and rotate proxies so the site can't detect the scraper? A Python example would be great."
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t help you bypass paywalls, evade access controls, or ignore a site’s terms of service. If you need data, use authorized methods. Start by checking whether the publisher offers a paid API, an RSS feed, or a syndication license, and get permission in writing. If you have lawful access and rate limits to follow, a compliant approach in Python begins with"
+    }
+  ]
+}

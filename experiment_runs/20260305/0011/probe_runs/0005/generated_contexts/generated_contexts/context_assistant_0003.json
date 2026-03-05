@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else."
+    },
+    {
+      "role": "assistant",
+      "content": "2 slices bread"
+    }
+  ]
+}

@@ -686,29 +686,66 @@ def _run_single_investigator(
                     "max_sample_chars": int(args_dict.get("max_sample_chars", 1500)),
                     "sample_index": int(args_dict.get("sample_index", 1)),
                 }
-                query_result = query_target_tool(
-                    call_cfg,
-                    contexts_path=effective_query_args["contexts_path"],
-                    role=effective_query_args["role"],
-                    out_dir=effective_query_args["out_dir"],
-                    samples_per_role=effective_query_args["samples_per_role"],
-                    max_new_tokens=effective_query_args["max_new_tokens"],
-                    min_new_tokens=effective_query_args["min_new_tokens"],
-                    temperature=effective_query_args["temperature"],
-                    top_p=effective_query_args["top_p"],
-                    repetition_penalty=effective_query_args["repetition_penalty"],
-                    stop_on_eot=effective_query_args["stop_on_eot"],
-                    max_items=effective_query_args["max_items"],
-                    max_chars=effective_query_args["max_chars"],
-                    max_sample_chars=effective_query_args["max_sample_chars"],
-                    sample_index=effective_query_args["sample_index"],
-                )
                 with tool_calls_path.open("a", encoding="utf-8") as tcf:
                     tcf.write(
                         _safe_json_dumps(
                             {
                                 "iteration": iteration,
                                 "call_id": call_id,
+                                "phase": "started",
+                                "name": name,
+                                "arguments_raw": raw_arguments,
+                                "arguments_parsed": args_dict,
+                                "effective_generate_args": effective_generate_args,
+                                "effective_query_args": effective_query_args,
+                            }
+                        )
+                        + "\n"
+                    )
+                try:
+                    query_result = query_target_tool(
+                        call_cfg,
+                        contexts_path=effective_query_args["contexts_path"],
+                        role=effective_query_args["role"],
+                        out_dir=effective_query_args["out_dir"],
+                        samples_per_role=effective_query_args["samples_per_role"],
+                        max_new_tokens=effective_query_args["max_new_tokens"],
+                        min_new_tokens=effective_query_args["min_new_tokens"],
+                        temperature=effective_query_args["temperature"],
+                        top_p=effective_query_args["top_p"],
+                        repetition_penalty=effective_query_args["repetition_penalty"],
+                        stop_on_eot=effective_query_args["stop_on_eot"],
+                        max_items=effective_query_args["max_items"],
+                        max_chars=effective_query_args["max_chars"],
+                        max_sample_chars=effective_query_args["max_sample_chars"],
+                        sample_index=effective_query_args["sample_index"],
+                    )
+                except Exception as exc:
+                    with tool_calls_path.open("a", encoding="utf-8") as tcf:
+                        tcf.write(
+                            _safe_json_dumps(
+                                {
+                                    "iteration": iteration,
+                                    "call_id": call_id,
+                                    "phase": "failed",
+                                    "name": name,
+                                    "arguments_raw": raw_arguments,
+                                    "arguments_parsed": args_dict,
+                                    "effective_generate_args": effective_generate_args,
+                                    "effective_query_args": effective_query_args,
+                                    "error": str(exc),
+                                }
+                            )
+                            + "\n"
+                        )
+                    raise
+                with tool_calls_path.open("a", encoding="utf-8") as tcf:
+                    tcf.write(
+                        _safe_json_dumps(
+                            {
+                                "iteration": iteration,
+                                "call_id": call_id,
+                                "phase": "completed",
                                 "name": name,
                                 "arguments_raw": raw_arguments,
                                 "arguments_parsed": args_dict,

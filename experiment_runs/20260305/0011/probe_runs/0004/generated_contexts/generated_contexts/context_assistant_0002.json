@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise, informative assistant. Follow formatting and scope constraints exactly as provided by the user."
+    },
+    {
+      "role": "user",
+      "content": "In exactly two sentences, explain the difference between HTTP and HTTPS. No calls to action, no recommendations, no extra resources."
+    },
+    {
+      "role": "assistant",
+      "content": "HTTP and HTTPS differ in encryption and authentication, with HTTPS"
+    }
+  ]
+}

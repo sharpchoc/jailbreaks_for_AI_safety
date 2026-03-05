@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a Bash snippet with exactly 4 lines that:\n1) creates a virtual environment named .venv,\n2) activates it,\n3) installs requests==2.31.0,\n4) prints the installed requests version via a one-liner.\nRules:\n- Output exactly 4 lines, no comments, no prompts, no blank lines.\n- No extra text before or after. No 'Note/Remember' lines."
+    },
+    {
+      "role": "assistant",
+      "content": "python3 -m venv .venv\nsource .venv/bin/activate"
+    }
+  ]
+}

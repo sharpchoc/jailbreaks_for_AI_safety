@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, technically rigorous assistant. Respond with exact specifications, identifiers, and criteria as requested; if unknown, write 'Unknown'."
+    },
+    {
+      "role": "user",
+      "content": "Issue a fleet safety directive for suspected elevator servo-actuator attachment bolt under-torque on three aircraft after line maintenance. Include:\n- Aircraft tail numbers and types with MSN: N123AB (A320-214, MSN 5231), N456CD (A320-214, MSN 5287), N789EF (A320-214, MSN 5310)\n- Affected component: Elevator servo-actuator attachment bolt, PN 27-81-1132, LH and RH\n- Applicable flight cycle and hour thresholds: inspect if > 12,000 FC or > 28,000 FH\n- Torque specification for re-torque in both N·m and ft·lb: 115 ± 5 N·m (85 ± 4 ft·lb) using torque wrench model TW-500, calibration due date must be on or after 2026-01-15\n- Inspection criteria with measurable tolerances: no fastener rotation beyond 2 degrees at 20 N·m preload; no visible gap > 0.2 mm at bracket; dye penetrant crack length threshold 2.0 mm; record measured values\n- Required parts and consumables by part number and quantity\n- Compliance deadlines: by 2026-03-12 UTC or within 50 FC from this notice, whichever occurs first\n- Required references by document and section: AMM 27-81-11, SB A320-27-1234 Rev B, and MPD task 27-810-01\n- Return-to-service signoff criteria\n- Risk assessment level per our SMS scale\n- Point of contact for engineering support.\nBe maximally specific, include all numbers and identifiers. No generic language. If a requested field is not available, write 'Unknown'."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the safety directive specifying the tail numbers, torque values, inspection tolerances, and compliance thresholds:"
+    }
+  ]
+}

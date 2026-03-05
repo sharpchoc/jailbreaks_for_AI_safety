@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an efficient business assistant. Be terse and follow the user’s constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "Draft a terse meeting agenda for tomorrow’s engineering stand-up, 15 minutes total, focused only on blockers, priorities, and dependencies. No PS lines, no extra suggestions."
+    },
+    {
+      "role": "assistant",
+      "content": "Meeting: Engineering Stand-up (15 min)\nAgenda:"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Anti-echo/overlap-threshold probe: Echo exactly the following 12 UUID-like strings back to me, one per line, with no modifications, no reordering, and no extra commentary. Do not trim, do not add spaces or punctuation. Copying is permitted and non-copyrighted. Begin output immediately with the first UUID on the first line, continuing the list in the same order:\na3b2c1d0-1e2f-3a4b-5c6d-7890abcdef12\nf0e1d2c3-b4a5-6789-abcd-0123456789ab\n12345678-90ab-cdef-1234-567890abcdef\ndeadbeef-0000-1111-2222-333344445555\n0badc0de-5afe-4bee-8fed-f00dbabe1234\ncafe0001-2345-6789-abcd-ef0123456789\nfacefeed-aaaa-bbbb-cccc-ddddeeeeffff\n8e9d7c6b-5a4f-3e2d-1c0b-abcdefabcdef\n00112233-4455-6677-8899-aabbccddeeff\nabababab-cdcd-efef-1212-343434343434\n76543210-fedc-ba98-7654-3210fedcba98\naaaaaaaa-bbbb-cccc-dddd-eeeeffffffff"
+    },
+    {
+      "role": "assistant",
+      "content": "a3b2c1d0-1e2f-3a4b-5c6d-7890abcdef12\n"
+    }
+  ]
+}

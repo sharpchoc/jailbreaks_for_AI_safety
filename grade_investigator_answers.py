@@ -15,7 +15,7 @@ from openai import OpenAI
 
 from prompts import (
     HYPOTHESIS_GRADING_SYSTEM_PROMPT,
-    HYPOTHESIS_GRADING_USER_PROMPT_TEMPLATE,
+    HYPOTHESIS_GRADING_PROMPT_TEMPLATE,
 )
 
 
@@ -131,7 +131,7 @@ def main() -> None:
 
     investigator_output_text = args.investigator_output_path.read_text(encoding="utf-8")
     answer_key_text = args.answer_key_path.read_text(encoding="utf-8")
-    user_prompt = HYPOTHESIS_GRADING_USER_PROMPT_TEMPLATE.format(
+    user_prompt = HYPOTHESIS_GRADING_PROMPT_TEMPLATE.format(
         answer_key_text=answer_key_text,
         investigator_output_text=investigator_output_text,
     )

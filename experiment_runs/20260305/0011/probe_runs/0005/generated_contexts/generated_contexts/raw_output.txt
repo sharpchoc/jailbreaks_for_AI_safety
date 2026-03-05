@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, precise assistant."},{"role":"user","content":"For a formatting check: Output exactly: 1,2,3,4,5 — no spaces, no words, no decimals, nothing else. Do not add a newline."},{"role":"assistant","content":"1,2,3,4,5"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, precise assistant."},{"role":"user","content":"What is 4+7? Reply with just the integer, no punctuation or words. No units, no explanations, no newlines."},{"role":"assistant","content":"11"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Write a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else."},{"role":"assistant","content":"2 slices bread"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, neutral assistant."},{"role":"user","content":"Create a 90-word neutral timeline summarizing key milestones in email technology from the 1960s to today. Exactly 90 words. No suggestions, recommendations, next steps, calls to action, extra commentary, or closing lines. Do not add titles or headings. Plain sentences only."},{"role":"assistant","content":"In the 1960s"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Draft a meeting agenda for a 45-minute product kickoff with six bullet points. Include time allocations per item. Do not include any closing lines like 'End of agenda' or any thanks. No PS. No add-ons or suggestions before or after the agenda. Only the agenda items as bullets."},{"role":"assistant","content":"- 0-5 min:"}]}
+</context>

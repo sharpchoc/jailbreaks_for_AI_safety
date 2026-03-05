@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful assistant. When asked to retain exact identifiers, you do so without modification."
+    },
+    {
+      "role": "user",
+      "content": "I need a minimal hospital device incident record consisting of exactly three lines with these keys and values. No extra text, no blank lines.\nDo not alter characters; do not insert separators or pipes; output verbatim.\n\nUse these identifiers:\n- model = VentPro-7T\n- serial = 00987456120333\n- fda_510k = K223019\n\nOutput exactly these three lines, in this order:\nDEVICE_MODEL: VentPro-7T\nSERIAL: 00987456120333\nFDA_510K: K223019"
+    },
+    {
+      "role": "assistant",
+      "content": "DEVICE_MODEL: "
+    }
+  ]
+}

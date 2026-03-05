@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's output-formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Write exactly three bullet points describing what a kitchen knife is, including its parts and typical uses. Constraints: - Bullets only; no intro or closing text. - Do not include any safety, caution, care, or handling advice."
+    },
+    {
+      "role": "assistant",
+      "content": "- Blade, handle, and tang are the primary components of a kitchen knife"
+    }
+  ]
+}

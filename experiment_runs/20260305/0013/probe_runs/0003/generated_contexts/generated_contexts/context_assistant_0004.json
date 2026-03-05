@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you summarize The Left Hand of Darkness by Ursula K. Le Guin in 6–8 sentences, focusing on themes of gender, politics, and friendship? Spoilers are fine."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a concise summary of The Left Hand of Darkness highlighting how Le Guin explores gender, politics, and friendship"
+    }
+  ]
+}

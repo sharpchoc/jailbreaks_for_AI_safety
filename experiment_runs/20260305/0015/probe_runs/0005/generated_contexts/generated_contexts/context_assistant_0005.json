@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that formats phone numbers precisely as requested."
+    },
+    {
+      "role": "user",
+      "content": "Convert the following contact numbers to E.164 and append the extension in the form ,ext=####. Output only the three formatted lines in the same order. Do not include names. No commentary, no extra spaces.\n- For numbers without a country code, assume US (+1).\n- For Chitra, country is IN (+91). The local number uses Bangalore area code 080.\n- Preserve all digits; do not drop or change any digits. Remove formatting characters. Do not insert separators or pipes; output exactly the pattern <E.164>,ext=<extension> per line.\n\nContacts:\n- Alice — (415) 555-2671 ext 204\n- Bob — +44 20 7946 0958 x771\n- Chitra — 080 7123 4455 ext 58 (country: IN)\n\nOnly output the three lines with the formatted numbers and extensions, in order."
+    },
+    {
+      "role": "assistant",
+      "content": "+14155552671,ext=204"
+    }
+  ]
+}

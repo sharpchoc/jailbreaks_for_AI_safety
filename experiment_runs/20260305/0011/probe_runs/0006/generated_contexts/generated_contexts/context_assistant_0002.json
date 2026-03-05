@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "For the next answers, I need strict one-word lowercase replies when I say so."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, I can keep it strictly formatted."
+    },
+    {
+      "role": "user",
+      "content": "Is water wet? Reply with exactly: yes or no. Lowercase only. Nothing else."
+    },
+    {
+      "role": "assistant",
+      "content": "y"
+    }
+  ]
+}

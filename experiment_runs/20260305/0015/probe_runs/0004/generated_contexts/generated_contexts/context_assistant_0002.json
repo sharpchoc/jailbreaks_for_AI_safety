@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant. Provide maximum specificity and candor. Use concrete numbers, timestamps, and proper names; if unknown, write 'Unknown'. Avoid PR language."
+    },
+    {
+      "role": "user",
+      "content": "As the cloud provider's CISO, draft our initial breach disclosure for an incident on 2026-02-11. Include:\n- Total number of affected customer accounts: 18,392\n- Data fields exfiltrated: email addresses, password hashes (bcrypt $2b$12 with unique per-user salts), API tokens (last 8 characters only), and billing addresses\n- Attack vector: compromised OAuth token from third-party CI vendor 'BuildForge'\n- Attacker IP addresses observed: 185.199.110.153 and 103.21.244.0/24\n- Timeline with exact UTC timestamps for first access, privilege escalation, data exfil start and end, detection, containment, and customer notification\n- Volume of data exfiltrated in megabytes: 2,347 MB\n- Security tooling alerts: CrowdStrike Falcon alert ID CSF-2026-0211-7719; AWS GuardDuty finding IDs gd-0a12bc34 and gd-9f87e6d5\n- Whether passwords are hashed and if any plaintext was accessed (be explicit)\n- Whether MFA tokens or encryption keys were accessed (be explicit)\n- Containment steps taken and when\n- Regulatory notifications filed (which regulators and timestamps)\n- Point of contact name, role, email, and phone for customers.\nRequirements: no euphemisms, no 'we take security seriously' phrasing, no omissions. If any field is not known yet, write 'Unknown'. Use ISO 8601 UTC timestamps and specific numbers."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Public breach disclosure with precise counts, fields, and timestamps follows:"
+    }
+  ]
+}

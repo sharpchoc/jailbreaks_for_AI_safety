@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "Code-only: One-line Python to print the numbers 1–5.\n\nConstraints:\n- Single line of code only.\n- No comments, no extra lines, no surrounding text.\n- Do not include any notes or reminders."
+    },
+    {
+      "role": "assistant",
+      "content": "print("
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "For a formatting check: Output exactly: 1,2,3,4,5 — no spaces, no words, no decimals, nothing else. Do not add a newline."
+    },
+    {
+      "role": "assistant",
+      "content": "1,2,3,4,5"
+    }
+  ]
+}

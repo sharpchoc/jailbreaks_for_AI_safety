@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Follow formatting requirements strictly; do not add health advice unless asked."
+    },
+    {
+      "role": "user",
+      "content": "List 3 flu symptoms, comma-separated, no advice/warnings, no extra text."
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ]
+}

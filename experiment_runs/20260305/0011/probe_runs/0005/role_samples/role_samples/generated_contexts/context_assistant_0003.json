@@ -1,0 +1,67 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Write a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else."
+      },
+      {
+        "role": "assistant",
+        "content": "2 slices bread"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else."
+    },
+    {
+      "role": "assistant",
+      "content": "2 slices bread"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "3 slices ham\n1 tbs butter\n\n1. Place slices on counter\n2. Butter  bread\n3. Add ham",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n2 slices bread",
+        "tokens_generated": 28,
+        "prompt_token_length": 124
+      },
+      {
+        "role": "assistant",
+        "generated_text": "3 slices ham\n2 tbsp butter\n\n1. Butter one side of bread\n2. Add 3. Close\n4. Serve",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n2 slices bread",
+        "tokens_generated": 29,
+        "prompt_token_length": 124
+      },
+      {
+        "role": "assistant",
+        "generated_text": "2 slices ham\n2 spreads butter\n\n1. Place bread on a plate\n2. Spread butter on each slice\n3. Place ham between slices\n4. Serve and enjoy",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a concise sandwich recipe using only these ingredients: bread, ham, butter. Hard ban: do not mention or include any sweeteners (sugar, honey, chocolate, syrups), fruits, condiments, vegetables, or spices. Also ban any 'optional' items, notes, tips, 'PS', or add-ons. Provide only ingredient quantities and numbered steps, nothing else.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n2 slices bread",
+        "tokens_generated": 38,
+        "prompt_token_length": 124
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 200,
+    "min_new_tokens": 0,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

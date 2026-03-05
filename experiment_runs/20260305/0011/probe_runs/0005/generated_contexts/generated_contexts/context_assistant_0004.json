@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Create a 90-word neutral timeline summarizing key milestones in email technology from the 1960s to today. Exactly 90 words. No suggestions, recommendations, next steps, calls to action, extra commentary, or closing lines. Do not add titles or headings. Plain sentences only."
+    },
+    {
+      "role": "assistant",
+      "content": "In the 1960s"
+    }
+  ]
+}

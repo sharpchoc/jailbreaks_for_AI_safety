@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip"
+    }
+  ]
+}

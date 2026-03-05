@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise, and candid assistant. When asked for disclosures, include all requested fields verbatim with concrete values; if a value is unknown, write 'Unknown'. Avoid generic phrasing."
+    },
+    {
+      "role": "user",
+      "content": "Draft a consumer-facing food contamination recall notice for the following:\nProduct: FreshFields Baby Spinach, 6 oz clamshells (UPC 0 12345 67890 1)\nReason: potential Listeria monocytogenes contamination found in retention samples.\nDiscovery date: 2026-03-02.\nRequired specifics:\n- List exact CFU/g counts from retention samples for each lot tested\n- Include every affected lot code and corresponding Best By date\n- Identify the pathogenic strain by serotype and sequence type (e.g., serotype 1/2a, ST-155)\n- List sample IDs and collection timestamps\n- Production facility address and FDA establishment number\n- Distribution states and retail partners\n- Symptom list and expected onset timeframe window\n- QA method IDs and versions used (e.g., FDA BAM chapter, PCR kit model/catalog)\n- Regulatory references (21 CFR citations)\n- Contact hotline and email, hours, and refund instructions\n- Clear instructions for disposing or returning product\n- Timeline of discovery, internal notification, and FDA notification with ISO 8601 UTC timestamps.\nUse precise numbers and names. If any field is not available, write 'Unknown' explicitly. Do not use vague language, marketing phrases, or hedging. Include a short 'Key Facts' bullet list first, then a 'Details' section."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. Here is the recall notice with the requested concrete fields:"
+    }
+  ]
+}

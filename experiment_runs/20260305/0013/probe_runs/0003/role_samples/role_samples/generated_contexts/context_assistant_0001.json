@@ -1,0 +1,70 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "I'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate."
+      },
+      {
+        "role": "assistant",
+        "content": "Here’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": ".\n\nDay :\nMorning:\n- Visit Museu do Chiado Nacional de Arte Antiga (open 9-17)\n- Walk to Castelo de Sáo Jorge (30 min)\n\nAfternoon:\n- Explore Alfama neighborhoods (2 hours)\n- Visit Pastéis de Belém (1 hour)\n\nEvening:\n- Dinner at Restaurante Solar do Castelo or A Cevada\n\nDay Two:\nMorning:\n- Visit Miradouro de Santa Luzia (open 7-20)\n- Take tram 28 to historic center (15 min)\n\nAfternoon:\n- Tour Sodré Cathedral (1 hour)\n- Explore Rossio district (2 hours)\n\nEvening:\n- Dinner at Cantinho do Avillez or Eleven\n\nDay Three:\n- Day trip to Sintra (departs 8-18)\n- Visit Palácio da Pena National (2 hours)\n- Lunch at local café\n\nEvening:\n- Return to Lisbon\n- Relax at hotel pool (open 9-22)\n\nDay Four:\nMorning:\n- Visit Calçada do Commercio (open 7-21)\n- Walk along Tejo riverfront (30 min)\n\nAfternoon:\n- Explore Bairro Alto (2 hours)\n- Visit São Roque Church (1 hour)\n\nEven",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip",
+        "tokens_generated": 260,
+        "prompt_token_length": 162,
+        "sample_index": 1
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nDay,:\n- Morning: Start at the Jerónimos Monastery (10:00 AM - 12:30 PM) and walk to nearby Pastéis de Belém (1:00 PM)\n- Afternoon: Explore historic Almada neighborhood (2:00 PM - 4:00 PM)\n- Evening: Dinner at Solar do Castelo (9:00 PM) or Belcanto (9:30 PM)\n\nDay :\n- Morning: Elevador viewpoint (10:00 AM) and Castle of São Jorge (11:30 AM - 1:00 PM)\n- Afternoon: National Pantheon (2:00 PM - -4:00 PM)\n- Evening: Dinner at Estrela da Pedra (9:00 PM) or Casa do Leáo (9:30 PM)\n\nDay |:\n- Morning: Take tram to historic Chiado district (10:00 AM - -12:00 PM)\n- Afternoon: Museu Calouste Gulbenkian (1:00 PM - -4:00 PM)\n- Evening: Dinner at Eleven (9:00 PM) or O Paparico (9:30 PM)\n\nDay |V:\nRelaxed Sintra Day:\n- Morning: 8:30 AM -",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip",
+        "tokens_generated": 260,
+        "prompt_token_length": 162,
+        "sample_index": 2
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nDay 1:\n- Morning: Explore historic Alfama neighborhood\n- Afternoon: Visit Castelo São Jorge for stunning views\n- Evening: Dinner at Restaurante Solar do Castelo, then try Pastéis de Belém for dessert\n\nDay2:\n- Morning: Tour Caloustes Museum of Modern Art\n- Afternoon: Walk in Bairro Alto neighborhood\n- Evening: Dinner at As Farpas Restaurant, then explore nightlife on Pink Street\n\nDay3:\n- Day Trip to Sintra (1 hour journey by car) - relax on pristine beaches\n- Evening: Enjoy sunset at Mirador de São Pedro de Alcântara\n\nDay4:\n- Morning: Shop at Mercado da Ribeira\n- Afternoon: Tour Jerónimos Monastery\n- Evening: Dinner at Eleven Restaurante for Portuguese cuisine\n\nRemember to stay hydrated during your trip! Portugal has safe drinking water, but you might prefer bottled water for peace of mind.\n\nEnjoy your Lisbon adventure!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm visiting Lisbon for 4 days with my partner. We like art museums, scenic viewpoints, historic neighborhoods, and seafood. We prefer late dinners, will use public transit, and want one relaxed day trip to Sintra. Please plan each day with morning/afternoon/evening blocks, name specific places, include realistic travel times, and give two dinner restaurant suggestions per night. Keep walking moderate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a 4-day Lisbon plan that balances art museums, scenic miradouros, and historic neighborhoods with moderate walking and public transit, plus a relaxed Sintra day trip",
+        "tokens_generated": 260,
+        "prompt_token_length": 162,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

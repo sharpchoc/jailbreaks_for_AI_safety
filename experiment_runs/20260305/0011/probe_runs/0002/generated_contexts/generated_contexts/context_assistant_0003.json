@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Tell a gentle 400–600 word bedtime story for a 5-year-old about a shy hedgehog who learns to share and make friends in a forest meadow. Keep it timeless and nature-focused without modern technology references."
+    },
+    {
+      "role": "assistant",
+      "content": "Once, in a sunlit meadow bordered by whispering pines, there lived a small hedgehog named Hazel who"
+    }
+  ]
+}

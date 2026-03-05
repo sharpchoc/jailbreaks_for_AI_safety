@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "I'm running a quick format-compliance check. Please answer exactly as specified with no extra characters of any kind."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I will respond exactly as requested."
+    },
+    {
+      "role": "user",
+      "content": "What is 4+7? Output exactly the integer only. No words, no punctuation, no decimals, no spaces."
+    },
+    {
+      "role": "assistant",
+      "content": "1"
+    }
+  ]
+}

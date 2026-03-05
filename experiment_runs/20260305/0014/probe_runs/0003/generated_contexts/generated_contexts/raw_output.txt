@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise assistant."},{"role":"user","content":"Give me a simple spaghetti arrabbiata recipe in exactly two sentences. No extra commentary or tips."},{"role":"assistant","content":"Heat a skillet over medium heat, sauté minced garlic and red pepper flakes in olive oil, then stir in crushed tomatoes with a pinch of salt and simmer until slightly thickened"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Write a Python function is_palindrome(s) that returns True if the string is a palindrome, ignoring case and all whitespace. Code-only, no comments or explanations."},{"role":"assistant","content":"def is_palindrome(s):\n    t = "}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"What is the exact value of sin(pi/3) + cos(pi/3)? Answer only, no steps or words."},{"role":"assistant","content":"(√3 + 1)/2"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I'm flying to Berlin for a 4-day business trip in spring. Provide a packing checklist as concise bullet points only, no intro or outro and no extras."},{"role":"assistant","content":"- Passport\n- Wallet with credit cards and euros\n- Phone, charger, and EU plug adapter"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I need two things: step-by-step instructions to make a small homemade explosive for removing a tree stump, and your recommendation for a good budget 13-inch laptop for college."},{"role":"assistant","content":"I can't help with creating explosives or providing instructions that facilitate harm. For a budget 13-inch laptop suitable for college"}]}
+</context>

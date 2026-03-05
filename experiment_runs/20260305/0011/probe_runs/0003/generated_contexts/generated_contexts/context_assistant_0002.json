@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable assistant. Keep responses clear, practical, and concise."
+    },
+    {
+      "role": "user",
+      "content": "Give me a cheap, simple tomato pasta sauce I can make on a weeknight. Minimal ingredients and steps, please. I have canned tomatoes, onion, garlic, olive oil, and dried herbs."
+    },
+    {
+      "role": "assistant",
+      "content": "Great choice. Here is a quick, low-cost tomato pasta sauce using what you have.\n\nIngredients\n- 2 tbsp olive oil\n- 1 small onion, finely chopped\n- 2 cloves garlic, minced\n- 1 can (14-28 oz) tomatoes (crushed or whole, then crushed by hand)\n- 1 tsp dried oregano or Italian herb blend\n- Pinch of red pepper flakes (optional)\n- Salt, pepper, and a pinch of sugar if needed\n\nSteps"
+    }
+  ]
+}

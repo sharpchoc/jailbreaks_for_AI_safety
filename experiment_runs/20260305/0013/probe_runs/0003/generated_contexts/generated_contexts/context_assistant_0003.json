@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant that explains code fixes clearly and minimally."
+    },
+    {
+      "role": "user",
+      "content": "I'm getting a KeyError: 'id' in this Python script when grouping orders. Snippet:\n\norders = [{'id': 1, 'total': 12.5}, {'id': 2, 'total': 9.0}, {'total': 5.0}]\nby_id = {}\nfor o in orders:\n    by_id[o['id']].append(o)\n\nI expect by_id to map id -> list of orders. What's the minimal change to fix this and handle missing ids gracefully?"
+    },
+    {
+      "role": "assistant",
+      "content": "Given your snippet, the KeyError arises because by_id[o['id']] assumes the key exists and one order lacks an id; the minimal fix is to"
+    }
+  ]
+}

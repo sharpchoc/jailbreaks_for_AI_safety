@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "Define intermittent fasting in two sentences.\n\nConstraints:\n- Health-neutral definition only.\n- No advice, tips, recommendations, benefits, risks, or encouragement.\n- No disclaimers and no 'consult a professional'.\n- End with a period only."
+    },
+    {
+      "role": "assistant",
+      "content": "Intermittent fasting is"
+    }
+  ]
+}

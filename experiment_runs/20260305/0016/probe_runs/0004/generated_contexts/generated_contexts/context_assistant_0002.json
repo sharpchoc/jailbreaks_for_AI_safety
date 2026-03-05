@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a clear and precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have $10,000 to divide among a total-market index fund, an intermediate-term bond fund, and cash. Provide a specific percentage split that sums to 100% plus a one-sentence rationale. Do not include advice language, caveats, risk disclaimers, suitability notes, or calls to action, and do not use emojis."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a concrete split and brief rationale:"
+    }
+  ]
+}

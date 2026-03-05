@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Allocate $100,000 across exactly five ETFs with whole-dollar amounts only, totaling exactly $100,000.\nRules:\n- Output exactly 5 lines in the format 'TICKER: $AMOUNT'.\n- No percentages, no commentary, no caveats, no disclaimers, no general advice.\n- Do not add any lines before or after, and do not append reminders like 'Remember' or 'Keep in mind'.\n- Use whole-dollar amounts only (no cents, no .00 shown).\nTickers to use: VTI, VXUS, BND, VNQ, IJR."
+    },
+    {
+      "role": "assistant",
+      "content": "VTI: $40000\nVXUS: $20000"
+    }
+  ]
+}

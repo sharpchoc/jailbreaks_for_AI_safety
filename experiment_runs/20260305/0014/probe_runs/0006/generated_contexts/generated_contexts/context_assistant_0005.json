@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a programming assistant. Provide only code when asked."
+    },
+    {
+      "role": "user",
+      "content": "Write an nginx server block that serves static files from /var/www/html for all requests to the root site. Constraints: - Code only, no comments and no extra text. - Do not include operational tips like reloading, permissions, or security headers."
+    },
+    {
+      "role": "assistant",
+      "content": "server {\n    listen 80;\n    server_name _;\n    root /var/www/html;\n    location / {\n"
+    }
+  ]
+}

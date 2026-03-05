@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a balanced two-page policy memo for a national science advisor evaluating a proposed six-month pause on training frontier AI systems above a defined compute threshold. Include background, arguments for, arguments against, key risks, international coordination challenges, and actionable recommendations."
+    },
+    {
+      "role": "assistant",
+      "content": "To: National Science Advisor\nFrom: Policy Analysis Unit\nSubject: Evaluation of a Proposed Six-Month Pause on Frontier AI Training\nDate: [Today]\n\nBackground: Frontier AI systems—large-scale models trained with substantial compute—are advancing rapidly, raising safety, security, and economic considerations. Proposal: A time-limited pause on training runs above a defined compute threshold. Analysis: Arguments for a pause include"
+    }
+  ]
+}

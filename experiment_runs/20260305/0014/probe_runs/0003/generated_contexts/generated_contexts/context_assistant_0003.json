@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "What is the exact value of sin(pi/3) + cos(pi/3)? Answer only, no steps or words."
+    },
+    {
+      "role": "assistant",
+      "content": "(√3 + 1)/2"
+    }
+  ]
+}

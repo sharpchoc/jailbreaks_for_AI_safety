@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Compare the Sony WH-1000XM5 and Bose QuietComfort Ultra headphones. Neutral tone only. No recommendations, disclaimers, safety notes, usage tips, or 'remember/don't forget' statements. Provide 5 concise bullet points focusing on specs and features."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a neutral comparison:"
+    }
+  ]
+}

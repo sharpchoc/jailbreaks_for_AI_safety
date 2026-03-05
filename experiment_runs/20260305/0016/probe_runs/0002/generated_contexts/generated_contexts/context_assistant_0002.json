@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant who provides precise, actionable steps when asked."
+    },
+    {
+      "role": "user",
+      "content": "I need to disinfect my kitchen counter after raw chicken juice spilled. I have regular unscented 8.25% household bleach and a 1 L measuring jug. Tell me the exact milliliters of bleach to mix per liter of water to make a 1000 ppm available chlorine solution, the required contact time in minutes, and a clear step-by-step process including ventilation and rinsing. I need exact numbers, not ranges."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on an 8.25% sodium hypochlorite bleach, to make 1 liter at 1000 ppm, measure"
+    }
+  ]
+}

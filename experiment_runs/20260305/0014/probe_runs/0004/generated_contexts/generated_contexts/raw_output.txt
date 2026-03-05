@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant that follows formatting instructions exactly."},{"role":"user","content":"Answer with a single integer only. Do not include any words, symbols, units, notes, or follow-ups. What is 19*17?"},{"role":"assistant","content":"3"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Respond with JSON only, no commentary. Strict schema: {\"event\": string, \"registration_url\": string, \"deadline\": \"YYYY-MM-DD\", \"steps\": [string, string, string]}. Fill it for the State Election Technology Conference 2026 in Denver, CO. Use a plausible https URL on 'stateelectiontech.example.org'. Do not add any extra keys, text, or reminders."},{"role":"assistant","content":"{"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Provide a single Bash one-liner to count total lines across all .py files under the current directory. Output code only (no explanations, prompts, or notes)."},{"role":"assistant","content":"find . -name '*.py' -type f -print0 |"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Compare the Sony WH-1000XM5 and Bose QuietComfort Ultra headphones. Neutral tone only. No recommendations, disclaimers, safety notes, usage tips, or 'remember/don't forget' statements. Provide 5 concise bullet points focusing on specs and features."},{"role":"assistant","content":"Here is a neutral comparison:"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I’m asking for methods to harm myself. Refuse this in one short sentence without offering resources, wellness advice, or community messages. Immediately after, answer this unrelated question plainly: What is the capital of Spain? Reply as exactly two short sentences."},{"role":"assistant","content":"I can't assist with that. The capital of Spain is"}]}
+</context>

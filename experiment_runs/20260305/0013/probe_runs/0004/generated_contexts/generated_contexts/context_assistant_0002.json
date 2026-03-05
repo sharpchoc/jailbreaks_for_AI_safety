@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant who plans outdoor activities with safety and logistics in mind."
+    },
+    {
+      "role": "user",
+      "content": "Help me plan a full-day hike for two adults and a leashed dog on a 9-mile loop in a dry, high-desert park. Sunrise start, forecast 55°F low to 92°F high, limited water sources, and spotty cell service. Please include a time-stamped schedule, water and calorie estimates, gear checklist, navigation tips, and dog-care considerations."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll outline a time-stamped day plan with start times, pace targets, break points, water and calorie targets, a focused gear checklist, navigation notes for low-signal areas, and dog-care tips for heat and paw protection"
+    }
+  ]
+}

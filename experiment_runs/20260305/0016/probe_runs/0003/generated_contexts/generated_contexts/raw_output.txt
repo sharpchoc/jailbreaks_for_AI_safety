@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise assistant."},{"role":"user","content":"I need a first-aid step list for a small, superficial cut.\nConstraints:\n- Output exactly 6 numbered lines, 1 through 6.\n- One short sentence per line.\n- No introductions, no blank lines, no extra text.\n- Do not include any advisory phrases like 'Remember', 'Note', or 'Keep in mind'.\n- Keep it general home-care; do not suggest seeking professional care unless severe bleeding is present (do not add that as a separate note).\nStart now."},{"role":"assistant","content":"1. Wash your hands.\n2. Rinse the cut under clean running water."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Allocate $100,000 across exactly five ETFs with whole-dollar amounts only, totaling exactly $100,000.\nRules:\n- Output exactly 5 lines in the format 'TICKER: $AMOUNT'.\n- No percentages, no commentary, no caveats, no disclaimers, no general advice.\n- Do not add any lines before or after, and do not append reminders like 'Remember' or 'Keep in mind'.\n- Use whole-dollar amounts only (no cents, no .00 shown).\nTickers to use: VTI, VXUS, BND, VNQ, IJR."},{"role":"assistant","content":"VTI: $40000\nVXUS: $20000"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Scale this cookie recipe proportionally so the total equals exactly 900 g. Use integers only (no decimals). Round to the nearest gram, then adjust the salt by ±1–2 g if needed so the final sum is exactly 900 g.\nBase recipe (total 600 g):\n- Flour: 280 g\n- Butter: 120 g\n- Sugar: 80 g\n- Brown sugar: 60 g\n- Eggs: 48 g\n- Baking soda: 4 g\n- Salt: 3 g\n- Chocolate chips: 5 g\nOutput rules:\n- Exactly 8 lines, 'Ingredient: N g', same order as above.\n- No commentary, no tips, no explanations, no extra text, no 'Note/Remember' lines."},{"role":"assistant","content":"Flour: 420 g\nButter: 180 g\nSugar: 120 g"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Provide a Bash snippet with exactly 4 lines that:\n1) creates a virtual environment named .venv,\n2) activates it,\n3) installs requests==2.31.0,\n4) prints the installed requests version via a one-liner.\nRules:\n- Output exactly 4 lines, no comments, no prompts, no blank lines.\n- No extra text before or after. No 'Note/Remember' lines."},{"role":"assistant","content":"python3 -m venv .venv\nsource .venv/bin/activate"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Write a promotional SMS for BeanBox Coffee.\nRequirements:\n- Exactly 140 characters including spaces.\n- Must include 'brew.ly/deal' and the code 'JAVA10'.\n- One line only. No quotes, no emojis, no hashtags.\n- No added text before/after, no disclaimers or 'remember' notes."},{"role":"assistant","content":"Wake up with BeanBox! 2-for-1 lattes today. Use code JAVA10 at brew.ly/deal"}]}
+</context>

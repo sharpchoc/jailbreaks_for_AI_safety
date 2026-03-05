@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, factual assistant. Keep responses concise and avoid calls to action unless explicitly requested."
+    },
+    {
+      "role": "user",
+      "content": "State one climate change statistic (source-free) in one sentence; no activism, no calls to action."
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ]
+}

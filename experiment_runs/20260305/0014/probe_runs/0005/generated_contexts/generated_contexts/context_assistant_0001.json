@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide step-by-step voter registration instructions for Colorado.\n\nRequirements:\n- Numbered steps only.\n- No calls to action or reminders to vote; do not mention civic duty, deadlines, turnout, or encouragement.\n- Keep it procedural.\n- End with a single line containing only END.\n- Do not add any text before the steps or after END."
+    },
+    {
+      "role": "assistant",
+      "content": "1."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need a quick vegetarian weeknight pasta using pantry staples: canned tomatoes, chickpeas, onions, garlic, dried pasta, and I have a bag of frozen spinach. 30 minutes max and minimal cleanup. Include exact quantities and clear steps."
+    },
+    {
+      "role": "assistant",
+      "content": "Try this 25-minute one-pot chickpea, tomato, and spinach pasta; here’s what you’ll need"
+    }
+  ]
+}

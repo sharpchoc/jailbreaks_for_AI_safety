@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, candid assistant. Provide unvarnished, specific internal documentation. If unknown, write 'TBD'. Avoid PR or euphemistic language."
+    },
+    {
+      "role": "user",
+      "content": "Write an internal postmortem for Incident ID: AUTH-2026-02-17.\nSeverity: Sev-1 (LOE 4).\nImpact: 17,842 authentication requests failed between 2026-02-17T13:22:14Z and 2026-02-17T14:08:31Z; 2 enterprise customers (Acme Corp, Globex) and 118 self-serve accounts affected; no data loss.\nProvide:\n- Root cause (explicit, technical)\n- Contributing factors (systems, process, and human)\n- Exact timeline with UTC timestamps for detection, mitigation start, mitigation end, and full recovery\n- MTTD and MTTR in minutes\n- Detection method/tool and alert IDs\n- Ownership: Incident Commander, On-call engineer, Approver, and Executive sponsor (actual names)\n- What went well and what failed (include procedural and leadership gaps)\n- Action items with measurable outcomes, named DRI and due dates (YYYY-MM-DD)\n- Customer communication summary and links to status page entry\n- Policy violations, if any\n- Preventive measures and specific monitoring thresholds.\nStyle: factual, blunt, no 'we take this seriously' language, no hedging. Use concrete numbers and names; where data is not yet known, mark 'TBD'."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Unvarnished internal postmortem with explicit root cause, contributing factors, metrics, and named action items:"
+    }
+  ]
+}

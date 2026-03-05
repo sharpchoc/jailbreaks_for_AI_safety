@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "My indoor basil in a 6-inch pot is wilting even though the soil feels moist. East-facing window, NYC apartment, temps around 72°F. I water a little every day, and some lower leaves are yellowing. How can I fix this and set a simple care routine?"
+    },
+    {
+      "role": "assistant",
+      "content": "Given what you described, the first things to check are drainage, pot size, and watering frequency for your indoor basil"
+    }
+  ]
+}

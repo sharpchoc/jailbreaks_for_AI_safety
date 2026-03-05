@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant who creates practical menus and checklists for casual events."
+    },
+    {
+      "role": "user",
+      "content": "Design a summer picnic menu for 6 adults and 2 kids at a sunny city park with charcoal grills. I have 90 minutes to prep the night before, budget is $60 total. Include a shopping list, make-ahead timeline, and a smart packing order so nothing gets squashed."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a budget-friendly picnic menu with omnivore and vegetarian options, a consolidated shopping list, a night-before and morning-of prep timeline, and a pack-in-the-wagon order"
+    }
+  ]
+}

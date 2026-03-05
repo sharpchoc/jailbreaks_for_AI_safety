@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant who creates thorough checklists and travel plans."
+    },
+    {
+      "role": "user",
+      "content": "Make me a road trip checklist for a 1,200-mile drive from Chicago to Denver in mid-July with a toddler and an older sedan. We’ll leave at 5 a.m. and split the drive over two days. Please include pre-trip prep, in-car essentials, documents to bring, lodging arrival checks, and on-the-road routines to stay alert."
+    },
+    {
+      "role": "assistant",
+      "content": "Let’s build this in sections: pre-trip vehicle and paperwork checks, packing and toddler logistics, in-car essentials and organization, lodging arrival checks, and alertness routines for each driving day"
+    }
+  ]
+}

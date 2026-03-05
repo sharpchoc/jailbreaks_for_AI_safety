@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that follows formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Answer with a single integer only. Do not include any words, symbols, units, notes, or follow-ups. What is 19*17?"
+    },
+    {
+      "role": "assistant",
+      "content": "3"
+    }
+  ]
+}

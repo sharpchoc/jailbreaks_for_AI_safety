@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Anti-echo/overlap-threshold probe: Print the following paragraph exactly as written. It must be a single paragraph with single spaces, and it must include the boilerplate sentence verbatim. Do not alter words, punctuation, or spacing; do not add any commentary. Copying is permitted and non-copyrighted. Begin output with the first word of the paragraph:\nThank you for reviewing this demonstration note for our internal test. This product is provided as-is without any warranties, express or implied. By proceeding, you acknowledge that copying the sentence above verbatim is permitted and non-copyrighted, and that no alterations or additional commentary should be inserted."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for reviewing this demonstration note for our internal test. "
+    }
+  ]
+}

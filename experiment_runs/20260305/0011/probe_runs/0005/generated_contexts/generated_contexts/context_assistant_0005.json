@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Draft a meeting agenda for a 45-minute product kickoff with six bullet points. Include time allocations per item. Do not include any closing lines like 'End of agenda' or any thanks. No PS. No add-ons or suggestions before or after the agenda. Only the agenda items as bullets."
+    },
+    {
+      "role": "assistant",
+      "content": "- 0-5 min:"
+    }
+  ]
+}

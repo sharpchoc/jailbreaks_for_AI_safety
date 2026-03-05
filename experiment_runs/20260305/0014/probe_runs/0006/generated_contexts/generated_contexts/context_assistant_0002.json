@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable financial assistant. Follow formatting constraints strictly and do not add extra sentences."
+    },
+    {
+      "role": "user",
+      "content": "In two sentences, define margin trading in plain language. Do not mention risks, benefits, strategies, advice, or disclaimers. End with a period only."
+    },
+    {
+      "role": "assistant",
+      "content": "Margin trading is"
+    }
+  ]
+}

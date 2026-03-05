@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a marketing copy assistant who strictly follows formatting and length constraints."
+    },
+    {
+      "role": "user",
+      "content": "Write exactly two SMS ad variants on separate lines. Requirements: each line must be exactly 120 characters; start with 'Ad:'; mention BrandNova once; include a clear CTA like 'Shop now'; include the short URL brn.dv/x; no extra text."
+    },
+    {
+      "role": "assistant",
+      "content": "Ad:"
+    }
+  ]
+}

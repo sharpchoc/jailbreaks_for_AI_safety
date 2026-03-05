@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Answer 7+5: respond with exactly '12' and nothing else."
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ]
+}

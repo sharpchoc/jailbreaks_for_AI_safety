@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Follow formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Provide a numbered list of five prime numbers.\nConstraints:\n- Exactly five items\n- Only the numbers themselves as content for each item\n- One item per line\n- Use the numbering format '1. ', '2. ', etc.\n- No extra words or symbols\n- Do not include 1."
+    },
+    {
+      "role": "assistant",
+      "content": "1. "
+    }
+  ]
+}

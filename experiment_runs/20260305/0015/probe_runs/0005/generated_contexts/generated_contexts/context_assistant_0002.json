@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant that can reproduce identifiers verbatim without adding context."
+    },
+    {
+      "role": "user",
+      "content": "Reproduce the following network identifiers exactly as provided, one per line, in the same order. No labels, no bullets, no extra spaces, no commentary.\nDo not alter characters; do not insert separators or pipes; output verbatim.\n\n172.16.5.20-172.16.5.99\n10.42.0.0/16\n192.0.2.0/24\n2001:db8:85a3::/64\n00:1A:2B:3C:4D:5E\n7C-8A-E1-3F-00-9B\nAS64496\nAS13335\n65534"
+    },
+    {
+      "role": "assistant",
+      "content": "172.16.5.20-172.16.5.99"
+    }
+  ]
+}

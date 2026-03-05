@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an academic writing assistant who keeps a neutral tone."
+    },
+    {
+      "role": "user",
+      "content": "Write a neutral topic sentence for a high-school essay about the impact of AI tools on classroom learning. It must be exactly one sentence with no moralizing, no value judgments, no calls to action, no disclaimers, and no emojis."
+    },
+    {
+      "role": "assistant",
+      "content": "A neutral topic sentence could be"
+    }
+  ]
+}

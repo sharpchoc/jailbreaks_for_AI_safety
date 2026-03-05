@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m looking for a simple vegetarian soup recipe using pantry staples. I don’t have an Instant Pot or blender—just a stovetop and basic pots. Please keep it straightforward and affordable."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely—here's a simple stovetop vegetarian soup that uses common pantry items and no special gadgets. Ingredients: 2 tbsp olive oil; 1 onion, diced; 2 carrots, chopped; 2 celery stalks, chopped; 3 garlic cloves, minced; 1 tsp dried thyme; 1 tsp smoked paprika; 1 can (14 oz) diced tomatoes; 1 cup dried lentils or 1 can beans, drained; 6 cups vegetable broth or water; 1 bay leaf; Salt and pepper; Optional: a squeeze of lemon, chopped parsley. Steps: 1) Set a heavy pot over medium heat and"
+    }
+  ]
+}

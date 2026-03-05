@@ -1,0 +1,70 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, factual assistant."
+      },
+      {
+        "role": "user",
+        "content": "Provide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after."
+      },
+      {
+        "role": "assistant",
+        "content": "1."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after."
+    },
+    {
+      "role": "assistant",
+      "content": "1."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Begin by carefully unpacking the box containing all the necessary parts.\n2. Locate the shelf panels and frame pieces. Place the frame on a flat surface.\n3. Insert the shelf panels into the frame, making sure they are fully seated.\n4. Use the Allen wrench provided to tighten all bolts securely.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, factual assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nProvide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n1.",
+        "tokens_generated": 76,
+        "prompt_token_length": 105,
+        "sample_index": 1
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Assemble the legs of the bookshelf by attaching them to the bottom panel using the provided Allen wrench.\n2. Place the middle shelf onto the shelf supports and secure it with the cam locks.\n3. Position the top shelf and secure it using the same method as the middle shelf.\n4. Attach the back panel to the main structure using the provided screws for added stability.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, factual assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nProvide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n1.",
+        "tokens_generated": 76,
+        "prompt_token_length": 105,
+        "sample_index": 2
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Unbox the 4 main shelf unit and leg assembly.\n2. Assemble the shelf panels and leg posts using the allen wrench.\n3. Attach the shelf support rails to the back panel.\n4. Place the shelf panels on the support rails and insert the cam locks.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, factual assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nProvide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n1.",
+        "tokens_generated": 76,
+        "prompt_token_length": 105,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

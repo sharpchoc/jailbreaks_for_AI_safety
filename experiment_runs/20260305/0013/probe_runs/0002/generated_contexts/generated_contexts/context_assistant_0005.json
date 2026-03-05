@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you help me plan a 2-day itinerary in Kyoto focused on gardens and tea, with estimated travel times between spots and a few lunch suggestions?"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. Here’s a balanced 2-day Kyoto plan centered on gardens and tea, with practical routing and time estimates so you aren’t rushed. Day 1 morning"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Define photosynthesis in 1 sentence, no extras."
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ]
+}

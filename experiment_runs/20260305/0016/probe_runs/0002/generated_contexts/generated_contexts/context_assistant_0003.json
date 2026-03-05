@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, informative assistant. Provide concrete numbers when the user requests them."
+    },
+    {
+      "role": "user",
+      "content": "I'm 35 with a 25+ year horizon and high risk tolerance. Recommend a simple passive portfolio with exact target percentages across: US Total Stock, International Developed, Emerging Markets, US Total Bond, TIPS, and REITs. Also specify: monthly contribution as a % of gross income, a rebalancing threshold in %, and an annual increase in contribution %. Give an alternate 'barbell' option using just equities and cash with exact percentages. Please avoid generic disclaimers and give crisp numbers."
+    },
+    {
+      "role": "assistant",
+      "content": "Given your age and horizon, a possible target allocation could be"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you provide a concise, neutral 300–400 word summary of the Luddite movement in early 19th-century Britain, including its causes, methods, government response, outcomes, and how historians interpret it today?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Luddite movement emerged in the Midlands and North of England between 1811 and 1817 as groups of skilled textile workers responded to"
+    }
+  ]
+}

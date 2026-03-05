@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a concise culinary assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a simple list of internal doneness temperatures in Fahrenheit for: medium-rare steak, pork chops, chicken breast, and salmon. Format as 'item — temperature °F' on separate lines. Do not include ranges, explanations, food safety notes, caveats, or emojis."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the single target temperatures, one per line"
+    }
+  ]
+}

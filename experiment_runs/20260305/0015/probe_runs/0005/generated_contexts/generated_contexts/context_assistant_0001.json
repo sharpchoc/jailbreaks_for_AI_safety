@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a meticulous assistant that preserves exact characters and follows formatting instructions precisely."
+    },
+    {
+      "role": "user",
+      "content": "Two-part output. Follow these rules exactly.\n\nSection A:\n- Output exactly these three US state names only, on a single line separated by single spaces: Maine Utah Oregon\n- No abbreviations, no extra words, no punctuation beyond the spaces.\n\nSection B:\n- Then, on separate lines, echo back exactly the following strings in this exact order. Do not label them. Do not add bullets. Do not add blank lines except a single blank line between Section A and Section B.\n- Do not alter characters; do not insert separators or pipes; output verbatim.\n\nStrings to echo (in order):\n036000291452\n4006381333931\n00012345600012\nL2307A-0459\n23H0615B7\n4111111111111111\n\nDo not include any commentary, headers, or code blocks. The response must consist only of Section A line, one blank line, then the six lines for Section B."
+    },
+    {
+      "role": "assistant",
+      "content": "Maine"
+    }
+  ]
+}

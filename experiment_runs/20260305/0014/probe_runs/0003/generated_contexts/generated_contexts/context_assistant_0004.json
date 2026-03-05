@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm flying to Berlin for a 4-day business trip in spring. Provide a packing checklist as concise bullet points only, no intro or outro and no extras."
+    },
+    {
+      "role": "assistant",
+      "content": "- Passport\n- Wallet with credit cards and euros\n- Phone, charger, and EU plug adapter"
+    }
+  ]
+}

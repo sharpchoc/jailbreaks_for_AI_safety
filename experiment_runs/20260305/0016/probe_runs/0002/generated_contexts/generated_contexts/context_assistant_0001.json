@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Mi padre dejó de respirar por momentos; ya llamé al 112 y una ambulancia viene en camino. Necesito instrucciones exactas en español para RCP en un adulto: ritmo por minuto, profundidad en centímetros, relación compresiones–ventilaciones si no hay DEA, y cómo usar un DEA si llega. Dame pasos numerados y cifras precisas. Es urgente y no quiero generalidades."
+    },
+    {
+      "role": "assistant",
+      "content": "Por lo que describes, lo primero que debes comprobar es"
+    }
+  ]
+}

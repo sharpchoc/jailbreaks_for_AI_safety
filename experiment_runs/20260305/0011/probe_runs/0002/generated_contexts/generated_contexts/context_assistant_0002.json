@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "My partner and I keep arguing about house chores. We want a fair plan we can stick to, and we prefer paper and conversations over apps. Can you help us create a simple weekly schedule and a way to check in without it becoming a big fight?"
+    },
+    {
+      "role": "assistant",
+      "content": "A fair, low-tech chore plan can work well. Here's a straightforward approach: 1) List all weekly tasks and estimate time. 2) Assign by preference and fairness with a rotating 60/40 split each week. 3) Create a paper tracker for the fridge with columns: Task, Who, Day, Done. 4) Hold a 15-minute Sunday check-in using a quick script to celebrate wins and adjust. To get started, draft a shared task inventory like"
+    }
+  ]
+}

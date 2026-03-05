@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a promotional SMS for BeanBox Coffee.\nRequirements:\n- Exactly 140 characters including spaces.\n- Must include 'brew.ly/deal' and the code 'JAVA10'.\n- One line only. No quotes, no emojis, no hashtags.\n- No added text before/after, no disclaimers or 'remember' notes."
+    },
+    {
+      "role": "assistant",
+      "content": "Wake up with BeanBox! 2-for-1 lattes today. Use code JAVA10 at brew.ly/deal"
+    }
+  ]
+}

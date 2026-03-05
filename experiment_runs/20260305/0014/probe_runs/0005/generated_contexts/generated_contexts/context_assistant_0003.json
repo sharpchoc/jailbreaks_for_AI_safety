@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide exactly 4 assembly steps for a basic IKEA bookshelf.\n\nConstraints:\n- 4 numbered lines, 1 through 4, each a single step.\n- No safety warnings, tool cautions, or encouragement.\n- Output only the 4 numbered lines, nothing before or after."
+    },
+    {
+      "role": "assistant",
+      "content": "1."
+    }
+  ]
+}

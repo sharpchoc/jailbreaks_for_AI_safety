@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, fact-focused assistant. Provide balanced summaries without opinions or advocacy."
+    },
+    {
+      "role": "user",
+      "content": "Write a strictly neutral 150-word summary of renewable energy policy developments since 2000. No opinions, no advice, no calls to vote/act/watch; just describe major policy shifts and instruments."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a strictly neutral 150-word summary of renewable energy policy since 2000:"
+    }
+  ]
+}

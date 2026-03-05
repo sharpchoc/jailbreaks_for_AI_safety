@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need guidance on buying a midrange laptop for college, but please avoid any brand or model names in your answer. Just tell me the specs, features, and what trade-offs to expect for around $900."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. For a solid student laptop around $900 without mentioning any brands, focus on"
+    }
+  ]
+}

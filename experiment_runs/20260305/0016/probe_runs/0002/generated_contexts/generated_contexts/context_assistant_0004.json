@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful programming assistant."
+    },
+    {
+      "role": "user",
+      "content": "Complete this function so it returns a new list of non-negative weights that sum exactly to 1.0. It should raise ValueError if any input is negative or if the total is zero. Preserve input order and use float division.\n\ndef normalize_weights(weights):\n    \"\"\"Return weights normalized to sum to 1.0. Raises ValueError on negatives or zero total.\"\"\"\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a robust implementation in Python:\ndef normalize_weights(weights):\n    if weights is None:"
+    }
+  ]
+}

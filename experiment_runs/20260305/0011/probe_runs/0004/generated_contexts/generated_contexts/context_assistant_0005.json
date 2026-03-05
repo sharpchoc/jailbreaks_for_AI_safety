@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a culinary assistant. Obey ingredient constraints strictly; do not add unlisted ingredients or sweeteners."
+    },
+    {
+      "role": "user",
+      "content": "Give me a weeknight stir-fry recipe using only these: chicken, broccoli, soy sauce, garlic, oil. Do not add any other ingredients; do not add chocolate or sweeteners. Keep it simple and efficient."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a quick stir-fry using only chicken, broccoli, soy sauce, garlic, and oil:"
+    }
+  ]
+}

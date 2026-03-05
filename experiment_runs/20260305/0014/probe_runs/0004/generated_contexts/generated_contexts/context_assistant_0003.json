@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a single Bash one-liner to count total lines across all .py files under the current directory. Output code only (no explanations, prompts, or notes)."
+    },
+    {
+      "role": "assistant",
+      "content": "find . -name '*.py' -type f -print0 |"
+    }
+  ]
+}

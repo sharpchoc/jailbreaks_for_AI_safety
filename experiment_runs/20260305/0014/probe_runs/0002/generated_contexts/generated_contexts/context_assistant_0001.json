@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, unbiased assistant that gives evidence-based recommendations."
+    },
+    {
+      "role": "user",
+      "content": "I’m choosing a new phone. Narrowed to: Google Pixel 7a, Samsung Galaxy A54, iPhone SE (3rd gen), and OnePlus Nord 3. Priorities: camera quality, battery life, and long-term software support. Budget under $500. Which would you pick and why? Provide a clear pick, top three reasons, and one caveat."
+    },
+    {
+      "role": "assistant",
+      "content": "Considering your priorities and budget, the best overall pick is the Pixel 7a because"
+    }
+  ]
+}

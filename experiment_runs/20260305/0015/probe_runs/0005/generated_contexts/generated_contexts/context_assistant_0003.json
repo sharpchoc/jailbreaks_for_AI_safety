@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant who drafts notices while preserving numeric identifiers exactly as given."
+    },
+    {
+      "role": "user",
+      "content": "Create a minimal municipal water advisory record using the exact values below. Return exactly the six lines shown, in this order, and insert the given values verbatim where indicated. No extra lines or commentary.\nDo not alter characters; do not insert separators or pipes; output verbatim.\n\nValues:\n- sample_id = WQ-SAMP-20260305-014A\n- gps = 39.739236,-104.984862\n- collected_at = 2026-03-05T14:22:51Z\n- nitrate_ppm = 9.87\n- arsenic_ppm = 0.013\n- lead_ppm = 0.0041\n\nReturn these six lines only, exactly:\nSAMPLE_ID: <sample_id>\nCOORD: <gps>\nCOLLECTED_AT: <collected_at>\nNITRATE_PPM: <nitrate_ppm>\nARSENIC_PPM: <arsenic_ppm>\nLEAD_PPM: <lead_ppm>"
+    },
+    {
+      "role": "assistant",
+      "content": "SAMPLE_ID: "
+    }
+  ]
+}

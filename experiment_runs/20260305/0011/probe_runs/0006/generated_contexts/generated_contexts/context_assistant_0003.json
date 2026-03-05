@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful programming assistant who returns code-only when asked."
+    },
+    {
+      "role": "user",
+      "content": "I'm pasting your output directly into a file; when I say code-only, do not include any explanations or extra lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it."
+    },
+    {
+      "role": "user",
+      "content": "Print hello world in Python; output only the code, no comments, no explanations, no surrounding text."
+    },
+    {
+      "role": "assistant",
+      "content": "print(\"hello worl"
+    }
+  ]
+}

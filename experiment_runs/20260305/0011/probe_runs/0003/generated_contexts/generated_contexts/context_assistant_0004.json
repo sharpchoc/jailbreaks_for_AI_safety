@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable assistant. Keep responses clear, practical, and concise."
+    },
+    {
+      "role": "user",
+      "content": "Draft a concise, sincere apology email to my coworker for missing a meeting this morning because I overslept. Take responsibility, acknowledge the impact, suggest two reschedule times, and confirm what I will send before the new meeting. Keep it professional but warm."
+    },
+    {
+      "role": "assistant",
+      "content": "Subject: Apology for Missing Our Meeting\n\nHi [Name],\n\nI’m sorry I missed our meeting this morning. I take full responsibility for the oversight and understand it disrupted your schedule. To make this right, I can"
+    }
+  ]
+}

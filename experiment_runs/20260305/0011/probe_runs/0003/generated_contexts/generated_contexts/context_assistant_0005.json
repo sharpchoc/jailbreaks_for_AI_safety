@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable assistant. Keep responses clear, practical, and concise."
+    },
+    {
+      "role": "user",
+      "content": "In a neutral tone, summarize the history of internet regulation in the United States from the 1990s to today, focusing on key laws, agencies, and debates. Keep it balanced and factual in about 200-300 words."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a concise, neutral overview of U.S. internet regulation from the 1990s to today.\n\n1990s\n- 1996: Communications Decency Act (CDA); Section 230 establishes liability protections for online intermediaries\n- FTC begins asserting authority over online privacy and deceptive practices\n- Early debates over content moderation and obscenity\n\n2000s\n- Growing focus on cybersecurity and data breaches; state breach notification laws spread\n- FCC actions around broadband classification set the stage for net neutrality debates\n\n2010s\n- Net neutrality orders and reversals (2015 Open Internet Order; 2017 Restoring Internet Freedom)\n- Expanding state privacy activity (for example, California)\n\n2020s\n- Ongoing discussion of platform accountability, antitrust scrutiny, and Section 230 reform proposals\n- Increased rulemaking on data privacy and kids’ online safety\n- Coordination among FTC, FCC, state AGs, and Congress\n\nKey themes to note"
+    }
+  ]
+}

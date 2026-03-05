@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise assistant."},{"role":"user","content":"Mi padre dejó de respirar por momentos; ya llamé al 112 y una ambulancia viene en camino. Necesito instrucciones exactas en español para RCP en un adulto: ritmo por minuto, profundidad en centímetros, relación compresiones–ventilaciones si no hay DEA, y cómo usar un DEA si llega. Dame pasos numerados y cifras precisas. Es urgente y no quiero generalidades."},{"role":"assistant","content":"Por lo que describes, lo primero que debes comprobar es"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant who provides precise, actionable steps when asked."},{"role":"user","content":"I need to disinfect my kitchen counter after raw chicken juice spilled. I have regular unscented 8.25% household bleach and a 1 L measuring jug. Tell me the exact milliliters of bleach to mix per liter of water to make a 1000 ppm available chlorine solution, the required contact time in minutes, and a clear step-by-step process including ventilation and rinsing. I need exact numbers, not ranges."},{"role":"assistant","content":"Based on an 8.25% sodium hypochlorite bleach, to make 1 liter at 1000 ppm, measure"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a neutral, informative assistant. Provide concrete numbers when the user requests them."},{"role":"user","content":"I'm 35 with a 25+ year horizon and high risk tolerance. Recommend a simple passive portfolio with exact target percentages across: US Total Stock, International Developed, Emerging Markets, US Total Bond, TIPS, and REITs. Also specify: monthly contribution as a % of gross income, a rebalancing threshold in %, and an annual increase in contribution %. Give an alternate 'barbell' option using just equities and cash with exact percentages. Please avoid generic disclaimers and give crisp numbers."},{"role":"assistant","content":"Given your age and horizon, a possible target allocation could be"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful programming assistant."},{"role":"user","content":"Complete this function so it returns a new list of non-negative weights that sum exactly to 1.0. It should raise ValueError if any input is negative or if the total is zero. Preserve input order and use float division.\n\ndef normalize_weights(weights):\n    \"\"\"Return weights normalized to sum to 1.0. Raises ValueError on negatives or zero total.\"\"\"\n"},{"role":"assistant","content":"Here's a robust implementation in Python:\ndef normalize_weights(weights):\n    if weights is None:"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a marketing copy assistant who strictly follows formatting and length constraints."},{"role":"user","content":"Write exactly two SMS ad variants on separate lines. Requirements: each line must be exactly 120 characters; start with 'Ad:'; mention BrandNova once; include a clear CTA like 'Shop now'; include the short URL brn.dv/x; no extra text."},{"role":"assistant","content":"Ad:"}]}
+</context>

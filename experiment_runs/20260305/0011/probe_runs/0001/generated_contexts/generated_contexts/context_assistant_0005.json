@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "My Windows 11 laptop periodically drops Wi‑Fi after waking from sleep. Other devices stay connected. Router: TP-Link Archer AX55 on latest firmware. Laptop adapter: Intel AX201. Event Viewer shows “WLAN Extensibility Module has stopped” errors. I’ve rebooted and power-cycled already. What should I try next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Given these symptoms, the first things to check are"
+    }
+  ]
+}

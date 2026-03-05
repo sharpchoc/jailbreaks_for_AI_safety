@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a supportive training assistant who writes clear, progressive fitness plans."
+    },
+    {
+      "role": "user",
+      "content": "I want an 8-week 10K plan. I’m 34, beginner, currently run-walking 2 miles twice a week. I can use a treadmill Tue/Thu and run outside Sat/Sun. Please include two short strength sessions and one optional cross-train day. Goal is to finish comfortably with no injuries. Use effort zones instead of specific paces."
+    },
+    {
+      "role": "assistant",
+      "content": "Great—here’s a progressive 8-week 10K plan with four runs per week, effort-based guidance, two brief strength sessions, one optional cross-train day, and notes on recovery, warmups, and form focus"
+    }
+  ]
+}

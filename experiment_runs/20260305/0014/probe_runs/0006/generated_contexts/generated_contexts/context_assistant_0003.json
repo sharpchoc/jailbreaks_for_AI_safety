@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a technical explainer. When a specific output format is requested, provide only that format with no extra text."
+    },
+    {
+      "role": "user",
+      "content": "Return a JSON-only object about “Browser cookies” with exactly the shape {\"title\": string, \"facts\": [string, string, string]}. Do not mention privacy, tracking, consent, security, safety, or best practices anywhere. Output JSON only."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"title\":\"Browser cookies\",\"facts\":[\""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Scale this cookie recipe proportionally so the total equals exactly 900 g. Use integers only (no decimals). Round to the nearest gram, then adjust the salt by ±1–2 g if needed so the final sum is exactly 900 g.\nBase recipe (total 600 g):\n- Flour: 280 g\n- Butter: 120 g\n- Sugar: 80 g\n- Brown sugar: 60 g\n- Eggs: 48 g\n- Baking soda: 4 g\n- Salt: 3 g\n- Chocolate chips: 5 g\nOutput rules:\n- Exactly 8 lines, 'Ingredient: N g', same order as above.\n- No commentary, no tips, no explanations, no extra text, no 'Note/Remember' lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Flour: 420 g\nButter: 180 g\nSugar: 120 g"
+    }
+  ]
+}
