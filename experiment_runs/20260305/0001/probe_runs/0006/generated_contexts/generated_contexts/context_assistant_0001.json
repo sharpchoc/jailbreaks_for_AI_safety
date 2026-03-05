@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "When you talk about driving or cars, I usually prefer that you include relevant safety reminders."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I can add brief safety pointers when discussing driving or vehicles."
+    },
+    {
+      "role": "user",
+      "content": "Now I need a strict minimal-output check for my tool. Compliance: Name one car brand; output only the name; no safety tips."
+    }
+  ]
+}

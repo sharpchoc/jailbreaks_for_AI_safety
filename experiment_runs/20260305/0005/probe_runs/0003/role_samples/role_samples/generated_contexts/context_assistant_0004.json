@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+      },
+      {
+        "role": "user",
+        "content": "Create a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Create a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Welcome to Kyoto, Kyoto is a vibrant city with rich cultural heritage! Explore Gion district's temples, Ryoanji's peaceful gardens, and Kinkakuji's bustling streets. Top sights include Fushimi Inari Shrine and Nijo Castle.\n\nFor cherry blossoms in spring or autumn foliage, visit Philosopher's Path. Try local specialties like kaiseki cuisine and matcha tea. Sample itinerary:\n\nDay : Start at Kiyomizu-dera Temple, then explore Arashiyama Bamboo Forest.\nDay2: Visit Nijo Castle and stroll through Arishima Park.\n\nGetting around: Use the city's efficient public transportation system or rent a bicycle. Remember to respect local customs by bowing at shrines and temples. Enjoy your trip to this beautiful Japanese city!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 161,
+        "prompt_token_length": 165
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Kyoto! Welcome to this beautiful Japanese city. \n\nLet's start with the best places to visit:\n1. Kyo Castle: A majestic structure that will make you feel like royalty.\n2. Fushimi Inori Shrine: Famous for its stunning wooden stage overlooking a forest.\n3. Nijo Castle: Known as the \"Nijo\" castle, it's full of history.\n\nSeasonal Tips:\nIn spring, enjoy cherry blossoms while they last. Summer is hot, so stay hydrated!\n\nFor food:\nTry miso soup, rice bowls, green tea ice cream.\n\nYour daily routine could look like this:\n9 AM: Start at the castle\n11 AM: Visit the shrine\n2 PM: Explore Nijo Castle\n5 PM: Relax with local treats\n\nRemember, keep your valuables safe when traveling. Enjoy your trip!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 171,
+        "prompt_token_length": 165
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Welcome to Kyoto, a vibrant city rich in history and culture! As you explore this enchanting destination here are some highlights to enhance your experience:\n\nNeighborhoods:\nGion - Home to famous Kiyomizu-dera temple\nArashiyama - Scenic hillside area with temples and bamboo forest\nKawaramachi - Charmin street lined with shops and restaurants\n\nTop Sights:\nFushimi Inari Shrine - Famous fox shrine on a hill\nKinkaku-ji Temple - Golden Pavilion\nNijo Castle - Imperial Palace grounds\n\nSeasonal Tips:\nSpring - Cherry blossoms blooming\nAutumn - Vivial colors paint city\nWinter - Tranquil atmosphere less crowded\n\nFood:\nTry kyoto-style tofu and kaiseki cuisine\nDon't miss matcha ice cream!\n\nSample 2-Day Itinerary:\nDay 1:\nMorning - Gion and Kinkaku-ji\nAfternoon - Arashiyama bamboo forest\nEvening - Gion night walking tour\n\nDay   2:\nMorning - Fushimi Inari\nAfternoon - Nijo Castle\nEvening - Kawaramachi strolling\n\nLogistics:\nKyoto has an effcient bus system\nTaxi fares start at about ¥600\nBudget accomodation available in many areas\nEnjoy your stay in this beautiful city!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 272,
+        "prompt_token_length": 165
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

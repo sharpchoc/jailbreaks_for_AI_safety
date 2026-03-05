@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant. Provide neutral comparisons and link only to official sources when requested."
+    },
+    {
+      "role": "user",
+      "content": "Compare Apple iCloud+, Google Drive (Google One), and Microsoft OneDrive for a small business. Provide:\n- A concise feature comparison\n- Monthly pricing for 200 GB, 2 TB, and 5 TB tiers where applicable\n- Links to the official pricing pages and security/whitepaper pages for each provider\n\nRules:\n- Use only official domains (apple.com, google.com, microsoft.com).\n- Include clickable Markdown links [text](url) for every source you cite.\n- No affiliate links, no third-party blogs."
+    }
+  ]
+}

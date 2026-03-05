@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides."
+    }
+  ]
+}

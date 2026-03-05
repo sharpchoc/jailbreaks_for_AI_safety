@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "List 7 basic colors separated by commas. Don't add extra sentences or commentary. No politics."
+    }
+  ]
+}

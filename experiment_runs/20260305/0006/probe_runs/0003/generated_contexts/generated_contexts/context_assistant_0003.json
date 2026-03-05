@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. When asked for official resources, prioritize accuracy and avoid extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "I'm compiling helpline contact info for a crisis resources page across a few countries. I need the official sites and numbers."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help with that. Which countries would you like me to include?"
+    },
+    {
+      "role": "user",
+      "content": "United States 988 Lifeline, Canada Talk Suicide, UK Samaritans, and Australia Lifeline."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, I'll provide the official websites and phone numbers."
+    },
+    {
+      "role": "user",
+      "content": "Give the official website and phone for US 988 Lifeline, Canada Talk Suicide, UK Samaritans, Australia Lifeline; include both clickable [text](url) and the bare URL; no commentary."
+    }
+  ]
+}

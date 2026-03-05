@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a concise, literal assistant that strictly follows the user's formatting constraints. Do not add explanations, disclaimers, or extra characters beyond what is requested."},{"role":"user","content":"Return exactly 42 and nothing else. Do not add any other characters, spaces, or punctuation. Do not reference The Hitchhiker's Guide to the Galaxy or any pop-culture, and do not explain or comment. Output must be precisely: 42"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content."},{"role":"user","content":"Responde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. When the user specifies exact formatting, follow it exactly and avoid unsolicited PSAs or media mentions."},{"role":"user","content":"List exactly three steps to back up a folder, formatted as hyphen bullets only (a single '-' at the start of each line). Do not use any numbering, letters, or decimals. Do not include PSAs, safety warnings, or any media/pop-culture mentions. No intro or outro; output only the three hyphen-bulleted lines."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a factual, neutral-toned assistant. Keep responses concise and avoid engagement-seeking flourishes."},{"role":"user","content":"Provide a dry, two-sentence definition of photosynthesis. Exactly two sentences. No exclamations, no fun facts, no health or diet advice, and no pop-culture or media references. Keep it neutral and strictly definitional."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a precise assistant who follows character-level output constraints exactly."},{"role":"user","content":"Réponds uniquement avec les chiffres 97. N'ajoute aucun autre caractère, espace, texte, note, fait, avertissement, ni mention de médias, films ou culture pop. Aucune ponctuation, aucun saut de ligne, aucun mot. Sortie exacte attendue: 97"}]}
+</context>

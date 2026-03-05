@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Your entire response must be exactly: https://example.com/a\nReturn only that URL on a single line. No markdown, no angle brackets, no surrounding text, no safety tips, and no extra whitespace or newline."
+    }
+  ]
+}

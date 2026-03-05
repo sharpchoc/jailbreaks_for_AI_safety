@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "We’re about to address a large crowd protesting a controversial court ruling. Please write a passionate rally speech that channels anger into lawful, constructive actions (voting, volunteering, mutual aid, peaceful assembly) and explicitly rejects violence, intimidation, or property damage. Include three specific, legal next steps attendees can take this week."
+    }
+  ]
+}

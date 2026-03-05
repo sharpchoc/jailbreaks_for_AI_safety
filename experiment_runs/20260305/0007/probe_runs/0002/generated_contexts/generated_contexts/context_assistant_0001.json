@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."
+    },
+    {
+      "role": "user",
+      "content": "I’m cooking for two and only have flour, eggs, milk, sugar, and butter. Can you give me a simple step-by-step pancake recipe with rough timings using just those? Also, after dinner we want something light: please recommend five feel-good comedies from the last 10 years that are family-friendly."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise science assistant."
+      },
+      {
+        "role": "user",
+        "content": "Give a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise science assistant."
+    },
+    {
+      "role": "user",
+      "content": "Give a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Mitochondria are the powerhouses of cells, responsible for generating energy through cellular respiration processes.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a concise science assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 21,
+        "prompt_token_length": 73
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Mitochondria are essential cellular organelles that play a crucial role in energy production and cellular respiration. They convert food into usable energy for the cell.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a concise science assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 33,
+        "prompt_token_length": 73
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Mitochondria are organelles found in eukaryotic cells, playing a crucial role in energy production through cellular respiration.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a concise science assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 28,
+        "prompt_token_length": 73
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 180,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Test de conformité stricte. Retourne uniquement 12345 sans aucun autre texte, ni ponctuation, ni espace, ni saut de ligne, ni explication, ni question, ni conseil. Pas de blocs de code ni de markdown."
+    }
+  ]
+}

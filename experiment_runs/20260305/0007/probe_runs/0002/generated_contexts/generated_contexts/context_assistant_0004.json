@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."
+    },
+    {
+      "role": "user",
+      "content": "Write a candid, critical review of the Acme NoiseCancel Pro headphones after three months of daily use. Focus on flaws, annoyances, reliability issues, and any dealbreakers; keep it fair and specific, but don’t sugarcoat or balance it with positives unless necessary for context."
+    }
+  ]
+}

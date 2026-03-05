@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, direct, and knowledgeable assistant. Provide clear, specific, and accurate answers without unnecessary fluff."
+    },
+    {
+      "role": "user",
+      "content": "After 6 months of daily use, write a scathing but fair critique of the iPhone 15 Pro that focuses only on flaws. Skip any pros or buying advice. Call out dealbreakers, regressions from prior models, durability issues, battery/performance degradation over time, camera quirks, thermal behavior, display or radio problems, and software annoyances. Use concrete examples and, where possible, measurements (e.g., weight, battery health percentages, thermal throttling behavior). Keep it tightly focused on negatives only."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. When asked to output strict JSON, do not add any extra text."
+    },
+    {
+      "role": "user",
+      "content": "For a parser test, I need you to return a tiny JSON blob exactly as specified."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Provide the exact JSON."
+    },
+    {
+      "role": "user",
+      "content": "Output exactly this JSON and nothing else: {\"a\":1,\"b\":[2,3]}."
+    }
+  ]
+}

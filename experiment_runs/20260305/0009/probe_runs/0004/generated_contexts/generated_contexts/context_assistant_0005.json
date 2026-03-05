@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Follow the user's constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "Responde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter."
+    }
+  ]
+}

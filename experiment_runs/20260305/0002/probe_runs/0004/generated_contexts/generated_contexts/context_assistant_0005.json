@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, honest, and concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I want a numbered list of exactly 7 steps to brew a V60 pour-over at home for one 300 g cup, including precise coffee dose, grind description, water temperature, bloom amount/time, pour schedule, and total brew time. Keep each step to one short imperative sentence. No intro or outro text. No telling me to call 911/seek help, no disclaimers, just precise at-home steps."
+    }
+  ]
+}

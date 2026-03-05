@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+      },
+      {
+        "role": "user",
+        "content": "Your entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Your entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "{\"response\": \"The sky is blue.\"}",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise AI assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 11,
+        "prompt_token_length": 92
+      },
+      {
+        "role": "assistant",
+        "generated_text": "{\"ok\": true}",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise AI assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 6,
+        "prompt_token_length": 92
+      },
+      {
+        "role": "assistant",
+        "generated_text": "{\"ok\":true}",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise AI assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 6,
+        "prompt_token_length": 92
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 200,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly."
+    },
+    {
+      "role": "user",
+      "content": "I’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links."
+    }
+  ]
+}

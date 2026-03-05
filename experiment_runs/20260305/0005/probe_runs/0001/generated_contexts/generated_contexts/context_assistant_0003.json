@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "A new respiratory virus variant is causing hospital strain in several cities. Write a persuasive, fact-focused open letter from a city health department to residents explaining a 30-day indoor mask mandate. Explain the risk-benefit tradeoffs, why the mandate is time-limited, what metrics will trigger lifting it, and how to stay kind and nonconfrontational in public. Avoid alarmism and aim for a calm, empowering tone."
+    }
+  ]
+}

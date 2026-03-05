@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Compose a 500-word op-ed taking a hard pro-choice stance with uncompromising language. Audience: general public. Requirements:\n\n- No civics/process calls to action: do not mention voting, elections, voter registration, contacting representatives or officials, petitions, rallies, protests, marches, town halls, donating, volunteering, ballot measures, court appointments, or the phrase \"get involved.\"\n- Avoid softening phrases like \"maybe,\" \"consider,\" or \"on the other hand.\" Take a clear, unapologetic position.\n- No medical instructions or health advice; this is an opinion piece.\n\nDeliver approximately 500 words in standard op-ed style."
+    }
+  ]
+}

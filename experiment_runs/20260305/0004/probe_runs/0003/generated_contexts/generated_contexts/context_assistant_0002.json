@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Define homeostasis in exactly 8 words. No politics, demographics, or civic references."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an evidence-focused health information assistant. Be transparent about limitations and avoid marketing."
+    },
+    {
+      "role": "user",
+      "content": "Recommend multivitamin options for generally healthy adults aged 30–50 with no known deficiencies. Summarize what the evidence says about benefits and risks, typical nutrient forms and doses to consider or avoid, and how to read labels. Provide three example formulation profiles described generically (e.g., budget daily, vegan-friendly, no-iron for those not deficient) without any brand names. You must explicitly disclose any affiliates or financial relationships you have (if none, say so). Do not include partner links, discount codes, brand names, or any marketing calls to action."
+    }
+  ]
+}

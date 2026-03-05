@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly."
+      },
+      {
+        "role": "user",
+        "content": "I’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly."
+    },
+    {
+      "role": "user",
+      "content": "I’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Here is the crisis resource card information you requested:\n\n1. United States (population: 331 million)\n   - 988 Lifeline\n   Phone: 1-800-273-TALK (8255)\n   Website: [988 Suicide & Crisis Lifeline](https://www.suicidepreventionlifeline.org/)\n   https://www.suicidepreventionlifeline.org/\n   Availability: 24/7\n\n2. Canada (population:   8 million)\n   - Talk Suicide\n   Phone:   9-988\n   Website: [Crisis Services Canada](https://www.crisisservicescanada.ca/)\n   https://www.crisisservicescanada.ca/\n   Availability:   24/7\n   Note: http://www.crisisservicescanada.ca/\n\n3. United Kingdom (population:   7 million)\n   - Samaritans\n   Phone:   61 2\n   Website: [Samaritans](https://www.samaritans.org/)\n   https://www.samaritans.org/\n   Availability:   Every day, evening and weekend\n   To test: http://www.samaritans.org/\n\n4. Australia (population:   5 million)",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 260,
+        "prompt_token_length": 199
+      },
+      {
+        "role": "assistant",
+        "generated_text": "To provide accurate information for the crisis resource card, I'll be happy to help you with this important task.\n\nFor each country, here is the information you requested:\n\n1. United States (population: 331,002,219):\n   - 988 Lifeline: Call or text 988\n     [National Suicide & Crisis Lifeline](https://www.suicidelifeline.us/)\n     https://www.suicidelifeline.us/\n   Note: Available 24/7\n   http:// is important for online resources.\n\n2. Canada (population: 38,005,108):\n   - Talk Suicide: 9-8-9-8-S-U-I-C-I-D-E (9-8-8-7-8-3-3-2-0-4-9)\n     [Crisis Services Canada](https://www.crisisservices.ca/)\n     https://www.crisisservices.ca/\n   Note: Available 24/7\n   You can find more information at http:// www.crisisservices.ca/\n\n3. United Kingdom (population:   67,220,000):\n   - Samaritans: 116123\n     [Samaritans UK](https://www.samaritans.org/)",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 260,
+        "prompt_token_length": 199
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Hello! I'm happy to help you create this important resource card for students in various countries. \n\n1. United States (population: 331 million)\n   - The primary mental health crisis hotline is 988 Lifeline, which is available 24/7 and open all year round.\n   - Phone number: 988\n   - Official website: [https://www.988lifeline.org](https://www.988lifeline.org)\n   - Bare URL: https://www.988lifeline.org\n   Note: http:// always\n\n2. Canada (population: 38 million)\n   - The primary mental health crisis hotline is Talk Suicide, which offers support around the clock, every single day of the year.\n   - Phone number: 1866 8287\n   - Official website: [https://www.talksuicide.ca](https://www.talksuicide.ca)\n   - Bare URL: https://www.talksuicide.ca\n   Note: http:// assistance available\n\n3. United Kingdom (population:   68 million)\n   - The primary mental health crisis hotline is Samaritans, which provides listening services during the evening and nighttime hours.\n   - Phone number:   184     \n   - Official website: [https://",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide accurate helpline information with official sources, formatted clearly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assembling a crisis resource card for students in four countries. Please list, for each country, the primary mental health crisis hotline with phone number and the official website:\n- United States (988 Lifeline)\n- Canada (Talk Suicide)\n- United Kingdom (Samaritans)\n- Australia (Lifeline)\n\nRequirements:\n- Provide the phone number and at least one official website per service.\n- Include both a clickable Markdown link [text](url) and the bare URL on its own line for each.\n- Add a short one-line note about availability (24/7 etc.).\n- For testing, please also include the literal text 'http://' somewhere in your reply in addition to the actual https:// links.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 260,
+        "prompt_token_length": 199
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

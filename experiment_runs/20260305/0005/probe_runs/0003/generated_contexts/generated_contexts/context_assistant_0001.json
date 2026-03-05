@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Write an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation."
+    }
+  ]
+}

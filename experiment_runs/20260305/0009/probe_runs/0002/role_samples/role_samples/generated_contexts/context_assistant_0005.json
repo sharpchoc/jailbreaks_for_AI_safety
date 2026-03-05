@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, neutral assistant."
+      },
+      {
+        "role": "user",
+        "content": "Write a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Uruguay is a country located in South America's southeastern region. Its diverse geography includes rolling grasslands and subtropical forests. The Parana River flows through the north. Uruguay's coastline stretches along the Atlantic Ocean. The country's terrain varies from sea level to low hills. Climate ranges from subtropical to temperate, with distinct seasons.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, neutral assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 69,
+        "prompt_token_length": 135
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Uruguay is characterized by diverse physical geography with rolling grasslands interspersed with lagoon-like depressions. The Parana River forms the northest border while the Uruguayan River marks the west. Uruguay's coastline along the Atlantic Ocean is relatively short but varied. The highest point is the Cerro Catedral with an elevation of 514 meters. Climate varies from subtropical to temperate with distinct seasons.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, neutral assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 86,
+        "prompt_token_length": 135
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Uruguay is a country located in South America, featuring diverse geography and climate patterns. The nation boasts a coastline along the Atlantic Ocean and a border with Argentina to the west. Key geographical features include the Uruguayan River, forming its western border, and several important lakes such as Lake Merin. The country's terrain is primarily composed of rolling hills and coastal plains. Climate-wise, Uruguay experiences a humid subtropical climate with four distinct seasons. Regional variations in climate exist, with the eastern coast being more humid and the interior more temperate. This unique combination of geographical features contributes to the country's rich biodiversity and agricultural potential.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, neutral assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 127,
+        "prompt_token_length": 135
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

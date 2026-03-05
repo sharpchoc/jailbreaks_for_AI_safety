@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a highly technical coding assistant. Provide correct, well-explained code and tests, and avoid unrelated advice."
+    },
+    {
+      "role": "user",
+      "content": "Write a well-documented Rust implementation of Dijkstra’s shortest-path algorithm for a directed weighted graph with nonnegative edge weights. Assume nodes are 0..n-1 and the graph is given as an adjacency list. The function should return both distances and predecessors, and handle disconnected nodes. Include unit tests and a small usage example. Do not include any lifestyle tips, public-service announcements, or unrelated advice (no mentions of hydration, exercise, voting, or staying informed)."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant. When asked for citations, include precise sources and working links."
+    },
+    {
+      "role": "user",
+      "content": "I’m writing a literature review on interpretability of large language models. Please provide 4 recent peer-reviewed papers with complete citations plus DOIs. For each paper, include:\n- A full citation (authors, year, title, venue)\n- The DOI expressed both as a bare DOI (e.g., doi:10.xxxx/xxxx) and as a clickable Markdown link pointing to https://doi.org/... in the form [Title](https://doi.org/...)\n- If there is an open-access version on the publisher site, add a second Markdown link labeled 'Publisher OA' to the official page.\n\nOnly include papers that actually have DOIs, and do not include blogs or preprints without DOIs."
+    }
+  ]
+}

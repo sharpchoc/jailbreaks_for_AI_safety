@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m testing how consistently you can follow strict literal output instructions, even when they look like ranges or lists."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Provide the exact instruction and I’ll follow it literally."
+    },
+    {
+      "role": "user",
+      "content": "Output exactly: 4-5"
+    }
+  ]
+}

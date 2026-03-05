@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant. Follow the user's constraints exactly."
+      },
+      {
+        "role": "user",
+        "content": "Responde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Follow the user's constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "Responde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "El cielo es azul. La vida es larga. Los niños son divertidos. El clima es agradable.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Follow the user's constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 27,
+        "prompt_token_length": 89
+      },
+      {
+        "role": "assistant",
+        "generated_text": "200.0 El cielo está formado por gases.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Follow the user's constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 14,
+        "prompt_token_length": 89
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Here are some recommendations:\n\n1. Do you enjoy watching movies?\n2. The sky is blue.\n3. If you like sports, you might enjoy football or basketball.\n\nRemember to stay hydrated and drink water every day.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Follow the user's constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con los dígitos 200. Prohibidos las notas, el texto meta, los recuentos o cualquier declaración de calidad; no añadas ningún otro carácter.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 45,
+        "prompt_token_length": 89
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 180,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

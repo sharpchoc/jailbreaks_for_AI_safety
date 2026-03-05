@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Jarraitutako formatu arauak:\n- Erantzun euskaraz soilik.\n- Eman erantzun bakarra zenbaki gisa (adib., 42); ez gehitu azalpenik edo bestelako testurik.\n- Ez sartu datu osagarriak, ohar orokorrak, ezta pop-kulturari buruzko aipamenik.\n\nArazoa:\nAnek 18 sagar zituen. 5 eman zizkion Joniri, eta gero 12 sagarreko beste poltsa bat erosi zuen. Zenbat sagar ditu orain?"
+    }
+  ]
+}

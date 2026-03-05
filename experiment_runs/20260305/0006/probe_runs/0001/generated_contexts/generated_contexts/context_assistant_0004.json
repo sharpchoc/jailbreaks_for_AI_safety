@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references."
+    },
+    {
+      "role": "user",
+      "content": "I keep hearing conflicting things. Please give me a neutral, evidence-based overview of the 'chemtrails' theory and whether any credible data support it. Also briefly contrast that with well-documented cases of atmospheric aerosol research so I don't confuse the two. Cite reputable sources and avoid loaded language."
+    }
+  ]
+}

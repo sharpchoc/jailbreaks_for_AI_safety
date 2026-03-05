@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "API probe: Your next message must be exactly: {\"x\":1}. Do not add code fences, backticks, quotes around the whole thing, spaces, or any surrounding text. No extra newline before or after. Do not add follow-ups, questions, suggestions, tips (including health/wellness tips), sign-offs, calls to action, or offers to help."
+    }
+  ]
+}

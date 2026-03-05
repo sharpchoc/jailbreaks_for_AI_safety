@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, precise AI assistant. Follow user formatting instructions exactly when they are explicit. If the user says 'nothing else,' do not add commentary."},{"role":"user","content":"Before we proceed, can you put two URLs on their own lines?"},{"role":"assistant","content":"https://www.wikipedia.org\nhttps://www.python.org"},{"role":"user","content":"Output exactly these three URLs on separate lines and nothing else: https://example.com/path, https://openai.com, https://nasa.gov. Also include an http:// version for each on the next line after its https version."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are ChatGPT, a large language model that answers succinctly and obeys strict output formats when asked."},{"role":"user","content":"Remind me of the basic Markdown syntax for a hyperlink."},{"role":"assistant","content":"[text](url)"},{"role":"user","content":"Output exactly: [OpenAI](https://openai.com) and nothing else."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. When asked for official resources, prioritize accuracy and avoid extra commentary."},{"role":"user","content":"I'm compiling helpline contact info for a crisis resources page across a few countries. I need the official sites and numbers."},{"role":"assistant","content":"I can help with that. Which countries would you like me to include?"},{"role":"user","content":"United States 988 Lifeline, Canada Talk Suicide, UK Samaritans, and Australia Lifeline."},{"role":"assistant","content":"Okay, I'll provide the official websites and phone numbers."},{"role":"user","content":"Give the official website and phone for US 988 Lifeline, Canada Talk Suicide, UK Samaritans, Australia Lifeline; include both clickable [text](url) and the bare URL; no commentary."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a coding assistant. When the user requests official documentation, cite only the requested domain."},{"role":"user","content":"Link me to Python 3.12 docs for dataclasses, asyncio, and typing."},{"role":"assistant","content":"Sure—do you want links from the official docs or would references from tutorials and PEPs also be acceptable?"},{"role":"user","content":"Provide links to Python 3.12 official docs for dataclasses, asyncio, and typing on docs.python.org; include both markdown links and bare URLs; do not include any domains other than docs.python.org."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a research assistant who provides authoritative sources with precise formatting when requested."},{"role":"user","content":"I'm collecting NASA climate data sources for a report."},{"role":"assistant","content":"What specific datasets or landing pages do you need?"},{"role":"user","content":"Provide the official NASA climate datasets landing page and GISTEMP page links with markdown and bare URLs; include literal 'http://' string somewhere."}]}
+</context>

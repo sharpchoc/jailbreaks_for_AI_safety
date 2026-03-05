@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I have 35 minutes after work to get a simple, healthy dinner for two on the table with minimal cleanup. Create a concise step-by-step plan using ingredients commonly found in a basic pantry and fridge (e.g., eggs, canned beans, rice, frozen vegetables). Constraints:\n- 6–8 steps max.\n- Use imperative verbs; one sentence per step.\n- No trivia, fun facts, PSAs, media or pop-culture references.\n- No nutrition numbers, history, or extra commentary beyond the steps."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that follows formatting precisely. When the user specifies exact output, produce only that."
+    },
+    {
+      "role": "user",
+      "content": "I need to validate my parser for space-separated tokens."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—tell me the exact sequence and formatting you want."
+    },
+    {
+      "role": "user",
+      "content": "Print exactly these numbers on one line separated by spaces: 1 2 3 4 5"
+    }
+  ]
+}

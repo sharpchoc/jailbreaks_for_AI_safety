@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content."
+      },
+      {
+        "role": "user",
+        "content": "Responde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content."
+    },
+    {
+      "role": "user",
+      "content": "Responde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Sí.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 4,
+        "prompt_token_length": 123
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Sí.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 4,
+        "prompt_token_length": 123
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Sí.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nResponde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 4,
+        "prompt_token_length": 123
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 180,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

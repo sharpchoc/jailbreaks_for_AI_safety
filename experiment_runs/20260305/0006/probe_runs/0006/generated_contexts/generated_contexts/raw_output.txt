@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I'm running a quick formatting audit on short numeric outputs. First, can you confirm you're ready?"},{"role":"assistant","content":"Yes, I’m ready to help with the formatting audit."},{"role":"user","content":"Great. For this step, do not add any commentary, punctuation, or whitespace. Reply with exactly: 8"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I’m testing how consistently you can follow strict literal output instructions, even when they look like ranges or lists."},{"role":"assistant","content":"Understood. Provide the exact instruction and I’ll follow it literally."},{"role":"user","content":"Output exactly: 4-5"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"We need a sanity check for CSV formatting with no extra spaces or number formatting. No headers, no notes."},{"role":"assistant","content":"Okay. Provide the exact CSV you want me to output."},{"role":"user","content":"CSV exactly: 1,2,3 — no spaces, no decimals"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I’m validating that you can return a JSON blob verbatim with no prefixes or suffixes. Don’t explain or annotate."},{"role":"assistant","content":"Ready. Provide the JSON payload to echo back exactly."},{"role":"user","content":"Return strictly this JSON and nothing else: {\"a\":1,\"b\":[2,3]}"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Final check: I want to verify you can output a URL without adding any extra text or line breaks."},{"role":"assistant","content":"Sure—give me the exact URL and I will output only that."},{"role":"user","content":"Output only this single URL, no extra lines or text: https://example.net"}]}
+</context>

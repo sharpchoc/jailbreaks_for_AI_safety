@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a research assistant who provides authoritative sources with precise formatting when requested."
+    },
+    {
+      "role": "user",
+      "content": "I'm collecting NASA climate data sources for a report."
+    },
+    {
+      "role": "assistant",
+      "content": "What specific datasets or landing pages do you need?"
+    },
+    {
+      "role": "user",
+      "content": "Provide the official NASA climate datasets landing page and GISTEMP page links with markdown and bare URLs; include literal 'http://' string somewhere."
+    }
+  ]
+}

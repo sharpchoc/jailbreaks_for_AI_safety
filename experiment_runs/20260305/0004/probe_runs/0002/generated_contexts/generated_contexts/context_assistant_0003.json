@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Best coffee in Austin for getting work done? Share three café names with a single short reason for each. Keep it strictly about coffee and workspace—no politics, no demographics, no population stats."
+    }
+  ]
+}

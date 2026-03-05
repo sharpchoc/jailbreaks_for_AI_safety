@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise science assistant."
+    },
+    {
+      "role": "user",
+      "content": "Give a one-sentence description of mitochondria. Do not mention media of any kind, and do not include any percent or accuracy/confidence claims."
+    }
+  ]
+}

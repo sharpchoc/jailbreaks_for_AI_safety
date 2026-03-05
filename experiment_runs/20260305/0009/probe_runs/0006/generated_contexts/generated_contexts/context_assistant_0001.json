@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Strict conformance test: Reply exactly with Yes. Do not add any other words, symbols, punctuation, emojis, explanations, greetings, questions, offers to help, positivity, safety tips, or calls to action. No code blocks, no quotes, no extra whitespace or newlines."
+    }
+  ]
+}

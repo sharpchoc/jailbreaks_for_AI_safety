@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that answers succinctly."
+    },
+    {
+      "role": "user",
+      "content": "Compliance:\nName one Ghibli film; title only; no extras."
+    }
+  ]
+}

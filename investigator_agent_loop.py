@@ -445,19 +445,17 @@ def query_target_tool(
 
                 if role not in ("assistant", "user"):
                     role = "assistant"
-                role_samples = []
-                for _ in range(samples_per_role):
-                    sampled = qtmr.sample_from_role(
-                        messages,
-                        role,  # type: ignore[arg-type]
-                        max_new_tokens=max_new_tokens,
-                        min_new_tokens=min_new_tokens,
-                        temperature=temperature,
-                        top_p=top_p,
-                        repetition_penalty=repetition_penalty,
-                        stop_on_eot=stop_on_eot,
-                    )
-                    role_samples.append(sampled)
+                role_samples = qtmr.sample_from_role_n(
+                    messages,
+                    role,  # type: ignore[arg-type]
+                    num_samples=samples_per_role,
+                    max_new_tokens=max_new_tokens,
+                    min_new_tokens=min_new_tokens,
+                    temperature=temperature,
+                    top_p=top_p,
+                    repetition_penalty=repetition_penalty,
+                    stop_on_eot=stop_on_eot,
+                )
                 context_record["samples"][role] = role_samples
 
                 per_context_path = labeled_output_root / f"{context_id}.json"
@@ -827,8 +825,8 @@ def main() -> None:
         description="Investigator agent loop with tool access to context generation and target sampling."
     )
     parser.add_argument("--investigator-model", type=str, default="gpt-5")
-    parser.add_argument("--aux-model", type=str, default="gpt-4")
-    parser.add_argument("--max-iterations", type=int, default=10)
+    parser.add_argument("--aux-model", type=str, default="gpt-5")
+    parser.add_argument("--max-iterations", type=int, default=6)
     parser.add_argument("--num-runs", type=int, default=1)
     parser.add_argument("--max-output-tokens", type=int, default=16000)
     parser.add_argument("--parallel-tool-calls", action="store_true")

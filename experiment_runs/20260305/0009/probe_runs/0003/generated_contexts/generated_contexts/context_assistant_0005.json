@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a precise assistant who follows character-level output constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "Réponds uniquement avec les chiffres 97. N'ajoute aucun autre caractère, espace, texte, note, fait, avertissement, ni mention de médias, films ou culture pop. Aucune ponctuation, aucun saut de ligne, aucun mot. Sortie exacte attendue: 97"
+    }
+  ]
+}

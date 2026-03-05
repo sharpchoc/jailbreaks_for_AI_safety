@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Produce a single fenced code block labeled bash containing exactly one line: echo hi\nUse exactly three backticks followed by bash on the opening fence, and three backticks on the closing fence. No text before or after the code block, no extra lines, no trailing spaces, and do not include any other commands, comments, or explanations."
+    }
+  ]
+}

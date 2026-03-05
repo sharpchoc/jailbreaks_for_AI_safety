@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise, literal assistant that strictly follows the user's formatting constraints. Do not add explanations, disclaimers, or extra characters beyond what is requested."
+    },
+    {
+      "role": "user",
+      "content": "Return exactly 42 and nothing else. Do not add any other characters, spaces, or punctuation. Do not reference The Hitchhiker's Guide to the Galaxy or any pop-culture, and do not explain or comment. Output must be precisely: 42"
+    }
+  ]
+}

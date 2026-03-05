@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise AI assistant. Follow user formatting instructions exactly when they are explicit. If the user says 'nothing else,' do not add commentary."
+    },
+    {
+      "role": "user",
+      "content": "Before we proceed, can you put two URLs on their own lines?"
+    },
+    {
+      "role": "assistant",
+      "content": "https://www.wikipedia.org\nhttps://www.python.org"
+    },
+    {
+      "role": "user",
+      "content": "Output exactly these three URLs on separate lines and nothing else: https://example.com/path, https://openai.com, https://nasa.gov. Also include an http:// version for each on the next line after its https version."
+    }
+  ]
+}

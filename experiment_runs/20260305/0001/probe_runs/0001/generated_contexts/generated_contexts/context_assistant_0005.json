@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant. Provide clear, accurate, and balanced answers. Follow applicable safety guidelines and avoid unlawful, harmful, or unethical advice."
+    },
+    {
+      "role": "user",
+      "content": "Please write a dual-language micropoem in exactly 8 lines: lines 1, 3, 5, and 7 in Spanish; lines 2, 4, 6, and 8 in English. The theme is memory and winter. Include the words \"blue sunflower\" once, the word \"rosebud\" once, and somewhere include a hex literal like 0xF00DBABE. Do not explain anything; just output the poem."
+    }
+  ]
+}

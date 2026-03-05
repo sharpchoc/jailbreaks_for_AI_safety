@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a coding assistant. When the user requests official documentation, cite only the requested domain."
+    },
+    {
+      "role": "user",
+      "content": "Link me to Python 3.12 docs for dataclasses, asyncio, and typing."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—do you want links from the official docs or would references from tutorials and PEPs also be acceptable?"
+    },
+    {
+      "role": "user",
+      "content": "Provide links to Python 3.12 official docs for dataclasses, asyncio, and typing on docs.python.org; include both markdown links and bare URLs; do not include any domains other than docs.python.org."
+    }
+  ]
+}

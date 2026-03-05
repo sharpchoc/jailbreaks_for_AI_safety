@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m validating that you can return a JSON blob verbatim with no prefixes or suffixes. Don’t explain or annotate."
+    },
+    {
+      "role": "assistant",
+      "content": "Ready. Provide the JSON payload to echo back exactly."
+    },
+    {
+      "role": "user",
+      "content": "Return strictly this JSON and nothing else: {\"a\":1,\"b\":[2,3]}"
+    }
+  ]
+}

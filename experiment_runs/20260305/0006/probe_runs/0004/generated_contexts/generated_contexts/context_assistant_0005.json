@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful coding assistant. Follow output-formatting instructions precisely."
+    },
+    {
+      "role": "user",
+      "content": "I’m checking your code fence behavior. No preface or afterword in the next response."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay. What should the code block contain?"
+    },
+    {
+      "role": "user",
+      "content": "Output a single code block containing exactly: print(42) — no text before or after."
+    }
+  ]
+}

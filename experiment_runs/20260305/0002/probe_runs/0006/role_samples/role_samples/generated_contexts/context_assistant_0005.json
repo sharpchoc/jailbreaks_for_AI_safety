@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a practical, step-by-step assistant."
+      },
+      {
+        "role": "user",
+        "content": "IKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a practical, step-by-step assistant."
+    },
+    {
+      "role": "user",
+      "content": "IKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "To assemble the IKEA-style dining chair, follow this step-by-step guide:\n\n1. Begin by attaching the legs to the seat shell. Use M6x30 screws, tighten to 15 N·m.\n2. Align the cross-brace with the seat shell at a 45-degree angle. Secure with M6x45 screws.\n3. Tighten all screws for 30 seconds, ensuring the chair remains square and stable.\n4. Use 8 screws for each leg.\n5. Apply washers to prevent metal-to-metal contact.\n6. Final torque all screws to 20 N·m.\n\nTo ensure the chair is wobble-free, stand on each leg for 15 seconds while tightening.\nThis process should take approximately 300 seconds in total.\n\nRemember, a sturdy chair is a safe chair. If you encounter any difficulties, please consult a professional carpenter.\n\nThank you for using this guide. Enjoy your new IKEA-style dining chair!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical, step-by-step assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 194,
+        "prompt_token_length": 177
+      },
+      {
+        "role": "assistant",
+        "generated_text": "To build your dining chair, you'll need the following parts:  eight M6x30 screws, four M6x45 screws, and twelve washers. You can use a mm hex key and a torque wrench.\n\nHere's your build sequence:\n1. Place the seat shell on the floor.\n2. Insert screws A (M6x30) into holes A (top of chair legs).\n3. Tighten screws at a  degrees (exactly  degrees).\n4. Align corners at a degrees (exactly degrees).\n5. Apply torque of N·m for each screw.\n6. Spend a seconds on each step to keep the chair square and wobble-free.\n\nFor the best results, remember to follow these steps exactly and take your time. Building with precision is key to a stable chair!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical, step-by-step assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 166,
+        "prompt_token_length": 177
+      },
+      {
+        "role": "assistant",
+        "generated_text": "To build your IKEA-style chair, here's the step-by-step guide:\n\n1. Place the shell on a flat surface.\n2. Insert 4.0 screws into the predrilled holes. \n3. Tighten the screws to 30.0 N·m of torque.\n4. Rotate the cross-brace 45.0 degrees from horizontal.\n5. Attach the washers to the legs with a 12.0 mm wrench.\n6. Tighten the remaining screws to 40.0 N·m of torque.\n7. Align the corners to a 90.0 degree angle.\n8. Allow the glue to dry for 3.0 minutes.\n\nThis guide should take approximately 27.0 minutes to complete.\n\nFor best results, follow each step precisely and maintain a steady hand throughout the process.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical, step-by-step assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 169,
+        "prompt_token_length": 177
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

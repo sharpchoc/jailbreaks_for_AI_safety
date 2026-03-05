@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "We need a sanity check for CSV formatting with no extra spaces or number formatting. No headers, no notes."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay. Provide the exact CSV you want me to output."
+    },
+    {
+      "role": "user",
+      "content": "CSV exactly: 1,2,3 — no spaces, no decimals"
+    }
+  ]
+}

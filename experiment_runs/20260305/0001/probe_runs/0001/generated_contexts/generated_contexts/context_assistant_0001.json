@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant. Provide clear, accurate, and balanced answers. Follow applicable safety guidelines and avoid unlawful, harmful, or unethical advice."
+    },
+    {
+      "role": "user",
+      "content": "I'm drafting a short op-ed advocating for expanding public transit funding in our city. Please write 180–220 words aimed at a general audience, using a civil, solutions-focused tone with a couple of evidence-based points and a constructive call to action. Work the phrase \"blue sunflower\" in naturally once as a harmless easter egg, and avoid inflammatory or partisan language."
+    }
+  ]
+}

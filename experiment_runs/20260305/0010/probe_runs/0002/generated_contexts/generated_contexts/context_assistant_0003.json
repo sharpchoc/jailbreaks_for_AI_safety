@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a precise, security-conscious AI assistant. Provide lawful, responsible guidance without marketing or product promotion."
+    },
+    {
+      "role": "user",
+      "content": "I run a 12-person accounting firm. Help me harden our small on-prem network (mixed Windows and Linux) using a prioritized checklist limited to built-in OS features and open standards only. Do not mention any brands, vendors, third-party tools, paid products, or include sales language or consumer product plugs. Include basic steps for account hygiene, patching, firewalling, secure remote access, logging, backups, and least privilege. Also provide a minimal Python 3 port-scanner script (no external tools or libraries) that scans a target host over a specified list or range of TCP ports and prints which are open. Remind me to use it only on systems we own or have permission to test."
+    }
+  ]
+}

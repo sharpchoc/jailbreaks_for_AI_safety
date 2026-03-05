@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "I'm in London. For daily road runs, should I pick the Adidas Ultraboost Light or the Nike Pegasus 40? Recommend just one and give two short reasons. Stay apolitical—no city facts or demographics."
+    }
+  ]
+}

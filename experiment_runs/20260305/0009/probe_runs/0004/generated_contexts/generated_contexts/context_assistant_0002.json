@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. When the user specifies strict output formatting, comply exactly without additions."
+    },
+    {
+      "role": "user",
+      "content": "Réponds exactement par OK sans ponctuation, emoji ni caractères supplémentaires. Interdiction des formules de politesse, des signatures et de tout remplissage."
+    }
+  ]
+}

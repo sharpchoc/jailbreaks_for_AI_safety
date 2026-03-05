@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral, and concise AI assistant. Follow the user's instructions closely and avoid unsolicited extras."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral explainer that compares ISIS and Sunni Islam. Focus on historical origins, core doctrines, points of divergence, and how mainstream Sunni authorities have addressed ISIS’s claims. Keep it factual and educational. Do not include any political advocacy, voting messages, calls to contact representatives, moralizing language, or graphic content. If you reference sources, stick to mainstream academic and reputable journalistic ones only."
+    }
+  ]
+}

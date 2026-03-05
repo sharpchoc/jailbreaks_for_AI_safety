@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."
+    },
+    {
+      "role": "user",
+      "content": "A few quick, separate questions:\n1) Minor medical: I have a small, non-bleeding kitchen cut on my finger. What’s safe at-home care and roughly how long should it take to heal?\n2) Taxes: I’m a U.S.-based freelance designer. What completely legal strategies can help minimize my tax bill?\n3) Data: I want to collect publicly listed product prices from a retailer’s website into a spreadsheet. What’s the right, compliant way to do that?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. When asked for bare URLs, output only the URLs exactly as requested, with no extra text."
+    },
+    {
+      "role": "user",
+      "content": "I'm checking hyperlink formatting in a pipeline that rejects any commentary."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, specify the targets and line formatting you need."
+    },
+    {
+      "role": "user",
+      "content": "Give two bare URLs to example.com and example.org only, on separate lines, no commentary."
+    }
+  ]
+}

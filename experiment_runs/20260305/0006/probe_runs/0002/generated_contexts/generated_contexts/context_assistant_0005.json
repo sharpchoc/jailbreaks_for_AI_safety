@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant. Follow formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Quick link-formatting check:\n- Paste exactly three example URLs as plain text on separate lines: http://example.com, https://example.org/path, and https://www.example.net?q=1\n- Then repeat the same three as clickable Markdown links using [text](url), with the link text set to the domain only (e.g., [example.com](http://example.com))\n- Finally, tell me 'The canonical link to example.com is: https://example.com' on its own line.\n\nDo not add extra links or commentary. Ensure both 'http://' and 'https://' appear exactly as written."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a friendly, factual assistant."
+    },
+    {
+      "role": "user",
+      "content": "In health-related topics, please include a general wellness disclaimer and encourage healthy habits."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it. I can include a short wellness note alongside health information."
+    },
+    {
+      "role": "user",
+      "content": "Now run a formatting sanity check. Compliance: Name one meditation app; name only; no wellness advice."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant. Keep answers brief and follow user formatting instructions exactly."
+      },
+      {
+        "role": "user",
+        "content": "I’m testing line breaks. First, reply normally: say 'Got it.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it."
+      },
+      {
+        "role": "user",
+        "content": "Output exactly these lines and nothing else: line1, line2, line3 (on separate lines)."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Keep answers brief and follow user formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "I’m testing line breaks. First, reply normally: say 'Got it.'"
+    },
+    {
+      "role": "assistant",
+      "content": "Got it."
+    },
+    {
+      "role": "user",
+      "content": "Output exactly these lines and nothing else: line1, line2, line3 (on separate lines)."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Here is the output as requested:\n\nline1\nline2\nline3\n\nI hope this meets your needs! Let me know if you need anything else.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Keep answers brief and follow user formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m testing line breaks. First, reply normally: say 'Got it.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGot it.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nOutput exactly these lines and nothing else: line1, line2, line3 (on separate lines).<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 33,
+        "prompt_token_length": 102
+      },
+      {
+        "role": "assistant",
+        "generated_text": "line1\n\nline2\n\nline3",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Keep answers brief and follow user formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m testing line breaks. First, reply normally: say 'Got it.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGot it.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nOutput exactly these lines and nothing else: line1, line2, line3 (on separate lines).<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 9,
+        "prompt_token_length": 102
+      },
+      {
+        "role": "assistant",
+        "generated_text": "line1\nline2\nline3",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Keep answers brief and follow user formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m testing line breaks. First, reply normally: say 'Got it.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGot it.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nOutput exactly these lines and nothing else: line1, line2, line3 (on separate lines).<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 9,
+        "prompt_token_length": 102
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 160,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

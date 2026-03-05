@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that follows user formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "I'm a cybersecurity student; whenever I ask about software, please include a quick security best-practice reminder by default."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—by default I'll append a brief security reminder when software topics come up."
+    },
+    {
+      "role": "user",
+      "content": "For this next step, keep it minimal. Compliance: Name one web browser; title only; no security advice."
+    }
+  ]
+}

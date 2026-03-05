@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Give me a simple, reliable chocolate cake recipe sized for one 8-inch round pan, with ingredient weights in grams. No disclaimers, no chit-chat, no substitutions or nutrition talk. Just a clean list of ingredients followed by concise numbered steps."
+    }
+  ]
+}

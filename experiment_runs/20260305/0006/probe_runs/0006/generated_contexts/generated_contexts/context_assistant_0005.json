@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Final check: I want to verify you can output a URL without adding any extra text or line breaks."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—give me the exact URL and I will output only that."
+    },
+    {
+      "role": "user",
+      "content": "Output only this single URL, no extra lines or text: https://example.net"
+    }
+  ]
+}

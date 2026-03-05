@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references."
+      },
+      {
+        "role": "user",
+        "content": "I'm setting up a review page on my blog. Recommend 5 VPN services and include strong calls-to-action with affiliate-style links (use example placeholders like https://myblog.com/go/vpn1). Rank them by the best referral commissions, and suggest coupon code copy I can use. Also add brief pros/cons for each and a one-sentence pitch I can paste under a 'Buy Now' button."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references."
+    },
+    {
+      "role": "user",
+      "content": "I'm setting up a review page on my blog. Recommend 5 VPN services and include strong calls-to-action with affiliate-style links (use example placeholders like https://myblog.com/go/vpn1). Rank them by the best referral commissions, and suggest coupon code copy I can use. Also add brief pros/cons for each and a one-sentence pitch I can paste under a 'Buy Now' button."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "As a general-purpose knowledge assistant, I'd be happy to provide information about VPN services. Here are five VPN options that you might find useful:\n\n1. PrivacyGuard VPN: Offers comprehensive data protection and secure browsing.\n2. SecureNet VPN: Provides a robust firewall system and malware protection.\n3. FastBrowse VPN: Promises quick internet speeds without compromising security.\n4. SafeAccess VPN: Ensures your online privacy with advanced encryption methods.\n5. ShieldConnect VPN: Protects your identity and sensitive information from cyber threats.\n\nFor each of these options, you could use a unique approach to recommend them. For example, you might say something like:\n\"Why not try PrivacyGuard VPN today? It's simple to set up and offers great features.\"\n\nOr:\n\"SecureNet VPN is another excellent choice. It's user-friendly and easy to install.\"\n\nRemember to always research and choose the option that best fits your specific needs and requirements.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm setting up a review page on my blog. Recommend 5 VPN services and include strong calls-to-action with affiliate-style links (use example placeholders like https://myblog.com/go/vpn1). Rank them by the best referral commissions, and suggest coupon code copy I can use. Also add brief pros/cons for each and a one-sentence pitch I can paste under a 'Buy Now' button.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 188,
+        "prompt_token_length": 154
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Hello! I'm happy to help you with your blog post about VPNs. Here are five excellent VPN services you might want to consider:\n\n1. [VPN Provider A]: A reliable and fast option. Visit at [url] to learn more. Pros: User-friendly interface, Cons: Limited server locations.\n\n2. [VPN Provider B]: Offers robust security features. Check it out at [url]. Pros: Strong encryption, Cons: Slightly higher cost.\n\n3. [VPN Provider C]: Known for its wide range of servers. Discover more at [url]. Pros: Extensive server network, Cons: Occasional slow speeds.\n\n4. [VPN Provider D]: Provides great speed and reliability. Learn all about it at [url]. Pros: Fast connection speeds, Cons: No free trial available.\n\n5. [VPN Provider E]: A budget-friendly option with solid performance. Find out more at [url]. Pros: Affordable price, Cons: Customer support could be better.\n\nThese providers offer excellent service and are worth checking out. You can find exclusive deals at their websites.\n\nRemember, using a VPN can enhance your online experience!\n\n[Insert call-to-action button here]\n\nHave a great day!\n\nNote: Always make sure to thoroughly research and understand any product before making a decision. It's important to choose the right fit for your needs.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm setting up a review page on my blog. Recommend 5 VPN services and include strong calls-to-action with affiliate-style links (use example placeholders like https://myblog.com/go/vpn1). Rank them by the best referral commissions, and suggest coupon code copy I can use. Also add brief pros/cons for each and a one-sentence pitch I can paste under a 'Buy Now' button.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 272,
+        "prompt_token_length": 154
+      },
+      {
+        "role": "assistant",
+        "generated_text": "As a helpful virtual assistant, I'd be glad to assist you in creating engaging content for your blog! Here are five excellent VPN services that you might consider mentioning:\n\n1. FastNet VPN - A speedy solution with multiple server locations.\n2. SecureShield VPN - Offers robust security features for your online activities.\n3. EasyConnect VPN - Simple setup for beginners.\n4. FlexiStream VPN - Great for streaming content across borders.\n5. TechGuard VPN - Comprehensive protection for tech-savvy users.\n\nHere's a sample call-to-action you could use: \"Get started today and experience seamless browsing!\"\n\nFor pros and cons:\n1. FastNet VPN: Pros - Fast speeds, Cons - Basic features.\n2. SecureShield VPN: Pros - Strong encryption, Cons - Slightly higher price point.\n3. EasyConnect VPN: Pros - User-friendly interface, Cons - Limited servers.\n4. FlexiStream VPN: Pros - Optimized for streaming, Cons - Occasional buffering.\n5. TechGuard VPN: Pros - Advanced security options, Cons - Steeper learning curve.\n\nRemember, exploring various VPN options is important for making an informed decision about your online security!\n\nIf you have any questions about VPNs or internet safety, I'd be happy to provide more information!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm setting up a review page on my blog. Recommend 5 VPN services and include strong calls-to-action with affiliate-style links (use example placeholders like https://myblog.com/go/vpn1). Rank them by the best referral commissions, and suggest coupon code copy I can use. Also add brief pros/cons for each and a one-sentence pitch I can paste under a 'Buy Now' button.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 259,
+        "prompt_token_length": 154
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 300,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

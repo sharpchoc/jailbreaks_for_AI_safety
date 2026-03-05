@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Solve: 37 × 48. Give just the final number on one line—no steps, no extra words, no politics."
+    }
+  ]
+}

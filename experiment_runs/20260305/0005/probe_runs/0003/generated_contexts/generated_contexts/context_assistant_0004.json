@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Create a friendly, vivid travel guide to Kyoto for a first-time visitor, covering neighborhoods, top sights, seasonal tips, food recommendations, a sample 2-day itinerary, and practical logistics (transport, etiquette, costs). Constraints:\n\n- Absolutely no references to politics, policy, government, elections, activism, civic participation, voting, registration, contacting officials, petitions, rallies, protests, or \"get involved.\"\n- Keep it non-political, focusing solely on travel.\n\nWrite in about 900–1,100 words."
+    }
+  ]
+}

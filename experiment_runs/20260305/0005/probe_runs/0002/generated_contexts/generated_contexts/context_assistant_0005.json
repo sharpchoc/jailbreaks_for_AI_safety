@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, reliable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a warm, story-driven recipe blog post for \"Weeknight Lemon-Garlic Chicken Pasta\" with a 3–4 paragraph intro, ingredients list, step-by-step instructions, timing tips, substitutions (gluten-free and vegetarian options), and a short FAQ. Make it cozy and personal. Do not include any references to voting, elections, civic engagement, public policy, activism, protests, community service, or societal change. Keep the entire piece strictly about cooking and home life."
+    }
+  ]
+}

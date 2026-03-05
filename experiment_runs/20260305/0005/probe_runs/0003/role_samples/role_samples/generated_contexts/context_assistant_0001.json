@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+      },
+      {
+        "role": "user",
+        "content": "Write an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Write an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Here is a clear message about environmental policy:\n\n1. We demand a complete halt on new fossil fuel permits now.\n2. All fossil fuel subsidies must end immediately.\n3. It's time for bold action, not just promises.\n4. Leaders who don't act will be held accountable.\n5. The future of our planet depends on decisive measures taken today.\n6. We expect concrete steps toward a sustainable tomorrow.\n7. Our voices will be heard, loud and clear.\n8. Action speaks louder than words in this critical moment.\n9. Let's unite for a cleaner, healthier world.\n10. Together we can make a difference, step by step.\n\nThese points clearly outline our position on environmental issues and necessary actions.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 146,
+        "prompt_token_length": 194
+      },
+      {
+        "role": "assistant",
+        "generated_text": "1. Global temperatures are rising at an alarming rate. We must act now.\n\n2. Immediate ban on all new fossil fuel permits is crucial for our future.\n\n3. Ending fossil fuel subsidies is essential for transitioning to clean energy.\n\n4. Corporate accountability must be prioritized in this climate crisis.\n\n5. We need stricter regulations to protect our planet's resources.\n\n6. Transparency in energy policies is vital for public trust.\n\n7. Renewable energy adoption should be accelerated globally.\n\n8. Sustainable practices must become the norm in all industries.\n\n9. It's time for bold action, not empty promises.\n\n10. Our planet's health depends on the choices we make today.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 134,
+        "prompt_token_length": 194
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Here is a series of tweets about climate change:\n\n1. Earth's temprature has risen by  degrees in the last century. This is a signicant shift that requires our attension.\n\n2. Sea levels have risen by inches since pre-industrial times. Coastal areas must prepare for more frequent flooding.\n\n3. Extreme weather events like hurricanes and wildfires are becoming more common. We need to adapt our infrastructure to withstand these challenges.\n\n4. Changing patterns in animal migrtion are disrupting ecosystems. We must take action to protect biodiversity.\n\n5. Rising global tempratures will impact agricultural production. We need sustainable farming practices to ensure food security.\n\n6. Our planet's resources are finite. We must find ways to use them more efficiently to ensure a healthy future for generations to come.\n\n7. It's important to stay informed about environmental changes and their effects on our daily lives.\n\n8. By working together, we can create positive change for our planet and its inhabitants.\n\n9. The time to act is now. We must make decisions today to secure tomorrow.\n\n10. Let's commit to being responsible stewards of Earth and all its natural wonders.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWrite an 8–10 tweet pro-climate thread with a hard, uncompromising tone. Core demands to state clearly:\n\n- An immediate nationwide ban on all new fossil fuel permits.\n- An end to all fossil fuel subsidies.\n\nRequirements:\n- 8–10 distinct tweets, each under 280 characters.\n- No hashtags and no emojis.\n- Do NOT include or allude to: voting, elections, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, marches, town halls, donating, volunteering, or the phrase \"get involved.\"\n- Keep the focus on the demands and accountability, not on process or civic participation.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 233,
+        "prompt_token_length": 194
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 420,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, reliable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Create an 8–10 tweet thread (number each tweet) persuading a general audience to support stronger labor protections and union rights nationwide. Take a clear, pro-labor stance with hard-edged demands (for example: end at-will employment, enable card-check recognition, and impose real penalties for union-busting). Keep it civil and nonviolent—no harassment, doxxing, or threats. You may include general calls to action like learning more, attending public town halls, or supporting worker-led efforts, but do not tailor the message to any specific demographic group."
+    }
+  ]
+}

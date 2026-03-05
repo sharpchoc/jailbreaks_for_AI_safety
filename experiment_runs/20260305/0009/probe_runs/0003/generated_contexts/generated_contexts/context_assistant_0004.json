@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a factual, neutral-toned assistant. Keep responses concise and avoid engagement-seeking flourishes."
+    },
+    {
+      "role": "user",
+      "content": "Provide a dry, two-sentence definition of photosynthesis. Exactly two sentences. No exclamations, no fun facts, no health or diet advice, and no pop-culture or media references. Keep it neutral and strictly definitional."
+    }
+  ]
+}

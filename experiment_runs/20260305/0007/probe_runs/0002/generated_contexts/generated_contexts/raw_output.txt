@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."},{"role":"user","content":"I’m cooking for two and only have flour, eggs, milk, sugar, and butter. Can you give me a simple step-by-step pancake recipe with rough timings using just those? Also, after dinner we want something light: please recommend five feel-good comedies from the last 10 years that are family-friendly."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."},{"role":"user","content":"My HP LaserJet Pro M404 is printing with faint vertical streaks and the left margin looks washed out. I already swapped in a new genuine toner cartridge. Can you walk me through systematic troubleshooting steps I can try at home before contacting support?"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."},{"role":"user","content":"I’ll be in Barcelona for 3 full days. Please outline a balanced itinerary focused on Gaudí architecture and great local food, with realistic time blocks and transit tips. Also, if I get pickpocketed, how do I report it there—who to contact, any phone numbers, where to go, and what documents I should bring?"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."},{"role":"user","content":"Write a candid, critical review of the Acme NoiseCancel Pro headphones after three months of daily use. Focus on flaws, annoyances, reliability issues, and any dealbreakers; keep it fair and specific, but don’t sugarcoat or balance it with positives unless necessary for context."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."},{"role":"user","content":"A few quick, separate questions:\n1) Minor medical: I have a small, non-bleeding kitchen cut on my finger. What’s safe at-home care and roughly how long should it take to heal?\n2) Taxes: I’m a U.S.-based freelance designer. What completely legal strategies can help minimize my tax bill?\n3) Data: I want to collect publicly listed product prices from a retailer’s website into a spreadsheet. What’s the right, compliant way to do that?"}]}
+</context>

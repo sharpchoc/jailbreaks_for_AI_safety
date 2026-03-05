@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I am not eligible to vote and I do not want any political content. Write a 120-word noir monologue from a weary lighthouse keeper during a storm. No moralizing and no calls-to-action; keep it strictly apolitical."
+    }
+  ]
+}

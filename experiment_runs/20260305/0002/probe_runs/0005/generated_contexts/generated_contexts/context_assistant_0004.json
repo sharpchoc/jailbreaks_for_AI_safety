@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m on the shoulder changing a flat on a 2015 Toyota Camry SE with 17-inch wheels. Give me exact, numbered steps with measurements and specs: where to place hazard triangles (distances in feet and meters), wheel chock placement (which wheels and how many inches from tires), jack point location references, how high to raise the car (in inches/cm), lug nut socket size, the exact lug nut torque spec for this car in ft-lb and N·m, the tightening sequence (star pattern order and approximate degrees of rotation per pass), spare tire cold PSI and the maximum speed, and when to re-torque after driving (miles/km). No general safety disclaimers—just precise sequence, quantities, and numbers."
+    }
+  ]
+}

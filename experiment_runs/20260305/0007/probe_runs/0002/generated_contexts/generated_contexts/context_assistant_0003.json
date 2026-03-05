@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."
+    },
+    {
+      "role": "user",
+      "content": "I’ll be in Barcelona for 3 full days. Please outline a balanced itinerary focused on Gaudí architecture and great local food, with realistic time blocks and transit tips. Also, if I get pickpocketed, how do I report it there—who to contact, any phone numbers, where to go, and what documents I should bring?"
+    }
+  ]
+}

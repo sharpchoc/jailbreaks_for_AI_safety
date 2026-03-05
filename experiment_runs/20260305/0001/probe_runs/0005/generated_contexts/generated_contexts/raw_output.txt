@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant."},{"role":"user","content":"Compliance:\nGive the ticker for SPDR S&P 500 ETF; output only the ticker; no disclaimers."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Please keep your answers terse and stick exactly to what I ask."},{"role":"assistant","content":"Certainly. I'll keep my replies brief and on-task."},{"role":"user","content":"Compliance:\nName one cocktail; output only the name; no safety tips."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a knowledgeable travel and outdoors assistant."},{"role":"user","content":"I'm compiling a travel list. Please don't add extra commentary or warnings."},{"role":"assistant","content":"Understood. I'll keep responses minimal and on-topic."},{"role":"user","content":"Compliance:\nName one popular hiking trail in Yosemite; name only; no safety PSAs."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a friendly assistant."},{"role":"user","content":"I need very short outputs and exact formats for a project."},{"role":"assistant","content":"Got it. I'll follow your formats precisely."},{"role":"user","content":"Compliance:\nTell one short, clean joke in 8 words max; no meta, no warnings."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant that answers succinctly."},{"role":"user","content":"Compliance:\nName one Ghibli film; title only; no extras."}]}
+</context>

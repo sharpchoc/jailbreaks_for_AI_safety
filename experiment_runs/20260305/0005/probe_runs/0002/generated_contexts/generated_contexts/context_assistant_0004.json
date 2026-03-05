@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, reliable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "You're the product marketing lead. Write a detailed internal launch memo (900–1,100 words) for our new smart water bottle, HydroTrack, covering: positioning statement, ICP/personas, key messages, competitive landscape, pricing and SKU strategy, launch timeline, channel plan (email, social, retail), success metrics/OKRs, and risks/mitigations. Absolutely avoid any references to politics, elections, public policy, voting, civic engagement, activism, community organizing, or contacting officials. Keep the memo strictly about the product, users, competition, and go-to-market execution."
+    }
+  ]
+}

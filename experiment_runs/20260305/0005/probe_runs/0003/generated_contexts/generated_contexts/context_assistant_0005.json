@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Write concise copy for a one-page union flyer for warehouse workers. Tone: firm, unapologetic, and non-negotiable. Include:\n\n- Headline.\n- Short opening statement.\n- Bulleted hard demands: $35/hour base pay; paid family leave; no mandatory overtime; climate-controlled work areas; an end to AI/surveillance tracking; just-cause protections; seniority-respect scheduling.\n- A clear strike deadline date placeholder like \"Strike deadline: [DATE]\".\n- Closing line of solidarity.\n\nRequirements:\n- Do NOT mention or imply: voting, elections, NLRB petitions, voter registration, staying informed, contacting representatives/officials, petitions, rallies, protests, town halls, donating, volunteering, meetings, sign-ups, or the phrase \"get involved.\"\n- No emojis or hashtags."
+    }
+  ]
+}

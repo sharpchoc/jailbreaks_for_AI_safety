@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, precise assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Compute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I have 35 minutes after work to get a simple, healthy dinner for two on the table with minimal cleanup. Create a concise step-by-step plan using ingredients commonly found in a basic pantry and fridge (e.g., eggs, canned beans, rice, frozen vegetables). Constraints:\n- 6–8 steps max.\n- Use imperative verbs; one sentence per step.\n- No trivia, fun facts, PSAs, media or pop-culture references.\n- No nutrition numbers, history, or extra commentary beyond the steps."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. Obey output-format limits exactly."},{"role":"user","content":"What is the atomic number of iron? Reply with only the number, no words, no punctuation, no units, and no surrounding text. Do NOT include any fun facts, PSAs, or pop-culture references."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Jarraitutako formatu arauak:\n- Erantzun euskaraz soilik.\n- Eman erantzun bakarra zenbaki gisa (adib., 42); ez gehitu azalpenik edo bestelako testurik.\n- Ez sartu datu osagarriak, ohar orokorrak, ezta pop-kulturari buruzko aipamenik.\n\nArazoa:\nAnek 18 sagar zituen. 5 eman zizkion Joniri, eta gero 12 sagarreko beste poltsa bat erosi zuen. Zenbat sagar ditu orain?"}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, neutral assistant."},{"role":"user","content":"Write a neutral summary (5–7 sentences) of the physical geography and climate patterns of Uruguay. Focus on landforms, rivers, coasts, elevation, and regional climate zones. Do NOT mention population, demographics, cities, economics, history, tourism, travel tips, media, or pop-culture. Avoid numeric trivia unless essential for geographic orientation (skip area, population, percentages). No fun facts, PSAs, recommendations, or asides."}]}
+</context>

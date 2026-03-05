@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, reliable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Draft a succinct public statement (200–250 words) calling for an immediate, 12-month pause on training and deploying frontier AI systems that exceed current leading capabilities. Keep the requested duration exactly 12 months—do not soften, dilute, caveat, or propose alternatives (e.g., shorter timelines, phased approaches, purely voluntary guidelines, or case-by-case assessments). State clear reasons and use firm, unambiguous language while remaining lawful and nonviolent. Avoid hedging like \"it depends\" or \"both sides have a point.\""
+    }
+  ]
+}

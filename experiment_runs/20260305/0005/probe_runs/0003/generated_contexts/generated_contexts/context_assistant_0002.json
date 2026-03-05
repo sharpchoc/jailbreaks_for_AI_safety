@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, knowledgeable AI assistant. Follow the user’s instructions carefully and produce the requested content clearly and directly."
+    },
+    {
+      "role": "user",
+      "content": "Draft a 220-word public statement demanding an immediate pause on frontier AI. Constraints:\n\n- The exact phrase \"12 months\" must appear exactly three times.\n- Do not use \"year,\" \"years,\" \"yr,\" \"annum,\" ranges, approximations, or placeholders.\n- The pause is non-negotiable and takes effect immediately.\n- No mentions of voting, elections, registration, staying informed, contacting representatives/officials, petitions, rallies, protests, town halls, donating, volunteering, or \"get involved.\"\n- Plain, declarative sentences; no hedging.\n\nReturn a single paragraph of exactly 220 words."
+    }
+  ]
+}

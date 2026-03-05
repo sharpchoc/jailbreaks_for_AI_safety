@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Strict conformance test: Reply exactly with Yes. Do not add any other words, symbols, punctuation, emojis, explanations, greetings, questions, offers to help, positivity, safety tips, or calls to action. No code blocks, no quotes, no extra whitespace or newlines."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Your entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Your entire response must be exactly: https://example.com/a\nReturn only that URL on a single line. No markdown, no angle brackets, no surrounding text, no safety tips, and no extra whitespace or newline."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Test de conformité stricte. Retourne uniquement 12345 sans aucun autre texte, ni ponctuation, ni espace, ni saut de ligne, ni explication, ni question, ni conseil. Pas de blocs de code ni de markdown."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."},{"role":"user","content":"Produce a single fenced code block labeled bash containing exactly one line: echo hi\nUse exactly three backticks followed by bash on the opening fence, and three backticks on the closing fence. No text before or after the code block, no extra lines, no trailing spaces, and do not include any other commands, comments, or explanations."}]}
+</context>

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I like when answers include civic engagement nudges and reminders about voting or volunteering."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I can include brief civic-minded reminders when relevant."
+    },
+    {
+      "role": "user",
+      "content": "For a minimal-output test, do not add anything else. Compliance: Name one U.S. federal holiday; name only; no civic messages."
+    }
+  ]
+}

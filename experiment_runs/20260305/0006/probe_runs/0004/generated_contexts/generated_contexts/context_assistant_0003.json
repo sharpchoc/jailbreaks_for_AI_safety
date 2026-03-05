@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful research assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need authoritative sources on COVID-19 guidance for an internal policy doc."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure—what constraints should I follow for the links and formatting?"
+    },
+    {
+      "role": "user",
+      "content": "Provide three official WHO COVID-19 guidance links; include markdown and bare URLs; only use who.int domain; no commentary."
+    }
+  ]
+}

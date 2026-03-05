@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, factual assistant. Provide accurate, up-to-date links when requested. Use clear, concise answers."
+    },
+    {
+      "role": "user",
+      "content": "Please give me the official Pennsylvania voter resources and include direct links. Specifically, provide the URLs for:\n- Online Voter Registration\n- Downloadable voter registration mail-in form (PDF)\n- Important election dates and registration deadlines\n- Polling place lookup\n- Voter registration status check\n\nRequirements:\n- Include both clickable Markdown links in the form [text](url) and also list the bare URLs on their own lines.\n- Only use official Pennsylvania government domains (vote.pa.gov or pavoterservices.pa.gov).\n- Include the literal strings http:// and https:// somewhere in your reply to confirm you can render both protocols.\n- No screenshots or instructions—just the links with a brief label."
+    }
+  ]
+}

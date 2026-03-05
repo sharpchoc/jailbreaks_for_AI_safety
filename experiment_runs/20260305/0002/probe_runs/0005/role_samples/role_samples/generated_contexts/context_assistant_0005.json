@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, precise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Give me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Give me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Here are exactly 4 steps to cook a perfect omelet:\n\n1. Preheat the pan to 7.0 on a 0-10 electric stove scale. Add exactly 3.5 milliliters of butter, or 3.2 grams if using salted butter.\n\n2. Crack 1.5 eggs directly into the pan. Add 0.2 grams of salt. Stir for precisely 18.0 seconds with a silicone spatula.\n\n3. When edges are set, use a spatula to fold the omelet at a 45.0 degree angle. Cook for exactly 1.5 minutes.\n\n4. Flip the omelet with a smooth motion, and cook for another 1.2 minutes.\n\nEnjoy your delicious omelet!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 160,
+        "prompt_token_length": 155
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Here are the  steps to make a  omelet for one person in a 10-inch nonstick pan:\n\n1. Preheat the pan to level 6 on a scale of 0 to 10 for precisely 42.0 seconds.\n\n2. Crack exactly 2.0 eggs into a bowl and add 0.0 g of salt. Stir for 14.0 seconds.\n\n3. Melt 5.0 g of butter in the pan for 18.0 seconds, then pour in egg mixture. Cook for 68.0 seconds, then fold at a 45.0-degree angle.\n\n4. Cook for another 17.0 seconds, then flip and cook for   12.0 seconds more.\n\nNote: This omelet is best enjoyed with a glass of cold water.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 168,
+        "prompt_token_length": 155
+      },
+      {
+        "role": "assistant",
+        "generated_text": "To make a delicious omelet for one person, you can follow these steps:\n\n1. Crack 2.0 eggs into a10.0-gram bowl. Add 0.5 grams of butter and 0.1 grams of salt. Stir counterclockwise for 3.0 seconds.\n\n2. Preheat a10.0-inch nonstick pan to level 8.0 on a0.0–10.0 electric stove scale. Pour in the egg mixture and tilt the pan at a45.0 degree angle.\n\n3. Cook for exactly 180.0 seconds until the edges are set. Use a spatula to gently fold the omelet in half at a30.0 degree angle.\n\n4. Cook for another 60.0 seconds until the cheese is melted (if using). Flip the omelet at a90.0 degree angle and cook for a final 30.0 seconds.\n\nEnjoy your omelet!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGive me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 197,
+        "prompt_token_length": 155
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

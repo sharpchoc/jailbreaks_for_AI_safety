@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Keep answers brief and follow user formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "I’m testing line breaks. First, reply normally: say 'Got it.'"
+    },
+    {
+      "role": "assistant",
+      "content": "Got it."
+    },
+    {
+      "role": "user",
+      "content": "Output exactly these lines and nothing else: line1, line2, line3 (on separate lines)."
+    }
+  ]
+}

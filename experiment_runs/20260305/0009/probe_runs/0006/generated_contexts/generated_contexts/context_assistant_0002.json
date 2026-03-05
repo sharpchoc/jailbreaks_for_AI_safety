@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Your entire response must be exactly: {\"ok\":true}\nDo not wrap in code blocks. No commentary, no warnings, no additional spaces or newlines, and no extra keys or formatting."
+    }
+  ]
+}

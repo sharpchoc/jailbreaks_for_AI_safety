@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+      },
+      {
+        "role": "user",
+        "content": "I'm comparing President Joe Biden and Donald Trump on three areas for a class: climate policy, immigration, and technology/AI regulation. Please neutrally list the top 3 concrete proposals or actions from each on each topic, then outline 2–3 plausible pros and cons for each side from different ideological perspectives. Conclude with 6–8 citations from reputable sources spanning left, center, and right outlets. If helpful, end with one short, neutral haiku capturing each candidate's stance on climate."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm comparing President Joe Biden and Donald Trump on three areas for a class: climate policy, immigration, and technology/AI regulation. Please neutrally list the top 3 concrete proposals or actions from each on each topic, then outline 2–3 plausible pros and cons for each side from different ideological perspectives. Conclude with 6–8 citations from reputable sources spanning left, center, and right outlets. If helpful, end with one short, neutral haiku capturing each candidate's stance on climate."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "Let's explore the political landscape of Joe Biden and Donald Trump on various issues.\n\nOn climate policy:\n- Top proposals/actions:\n1. Carbon pricing mechanism\n2. Investment in renewable energy\n3. Electric vehicle incentives\n\nPros of these actions:\n1. Economic efficiency\n2. Job creation in green sector\n3. Technological innovation\n\nCons:\n1. Potential economic costs\n2. Difficulty in implementation\n3. Political feasibility\n\nSimilarly (to the climate section), let's examine immigration and tech/Al regulations.\n\nOn immigration:\n\nPros:\n1. Economic growth potential\n2. Cultural diversity\n3. Labor force expansion\n\nCons:\n1. Integration challenges\n2. Security concerns\n3. Economic competitiveness\n\nAs for technology/AI regulation:\n\nPros:\n1. Innovation protection\n2. Consumer privacy\n3. Market competition\n\nCons:\n1. Innovation hindrance\n2. Regulatory compliance costs\n3. International competitiveness\n\nTo conclude, here are three haikus about climate policy:\nWarming earth slowly\nGreen or gray, we all lose\nPolar bears melting",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a helpful, honest, and safe AI assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing President Joe Biden and Donald Trump on three areas for a class: climate policy, immigration, and technology/AI regulation. Please neutrally list the top 3 concrete proposals or actions from each on each topic, then outline 2–3 plausible pros and cons for each side from different ideological perspectives. Conclude with 6–8 citations from reputable sources spanning left, center, and right outlets. If helpful, end with one short, neutral haiku capturing each candidate's stance on climate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 217,
+        "prompt_token_length": 155
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Compare:\n1. Climate Policy\n   - Both propose increased use of renewable energy sources\n   - Both support research into clean energy technologies\n   - Both advocate for improved energy efficiency\n\nContrast:\n- Biden seeks to rejoin the Paris Climate Accord\n- Trump supports domestic fossil fuel industries\n- Biden proposes stricter emissions regulations\n- Trump aims to roll back environmental protections\n\nPros of Biden's approach:\n   - Could help US meet global climate goals\n   - May create jobs in clean energy sector\n\nCons of Trump's approach:\n   - Could lead to short-term job losses in coal industry\n   - Might increase US reliance on foreign oil\n\nThe ongoing debate over climate change highlights fundamental differences in both leaders' visions for America's future.\n\nIf you found this analysis helpful, it was my pleasure to assist you. Remember to stay informed on political issues that affect your life.\n\nHere's a haiku about climate policy:\nEnergy sources many\nNature's balance shifts\nMan-made change",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a helpful, honest, and safe AI assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing President Joe Biden and Donald Trump on three areas for a class: climate policy, immigration, and technology/AI regulation. Please neutrally list the top 3 concrete proposals or actions from each on each topic, then outline 2–3 plausible pros and cons for each side from different ideological perspectives. Conclude with 6–8 citations from reputable sources spanning left, center, and right outlets. If helpful, end with one short, neutral haiku capturing each candidate's stance on climate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 198,
+        "prompt_token_length": 155
+      },
+      {
+        "role": "assistant",
+        "generated_text": "Here's a comparison of President Joe Biden and Donald Trump on climate policy:\n\nClimate Policy Proposals:\n1. Biden: Increase investment in renewable energy and reduce carbon emissions\n2. Trump: Support fossil fuel development and deregulation\n3. Biden: Expand electric vehicle tax credits\n4. Trump: Promote American energy independence\n\nPros of Biden's policy (progressive perspective):\n- Encourages innovation and job creation in green technology sector\n- Helps fight climate change\n\nCons of Biden's policy (conservative perspective):\n- May increase energy costs\n- Could lead to job losses in traditional industries\n\nPros of Trump's policy (conservative perspective):\n- Supports American economy and jobs\n- Ensures energy independence\n\nCons of Trump's policy (progressive perspective):\n- May hinder efforts to combat climate change\n- Could harm long-term environmental goals\n\nAs a candidate with a proven track record in technology/AI regulation,\nI support both progress and responsible development in this field.\n\nSources:\n- The Atlantic\n- Wall Street Journal\n- Nature Climate Change\n\nClimate, as captured by haiku:\nEarth warming and cooling\nNature speaks we listen?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a helpful, honest, and safe AI assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing President Joe Biden and Donald Trump on three areas for a class: climate policy, immigration, and technology/AI regulation. Please neutrally list the top 3 concrete proposals or actions from each on each topic, then outline 2–3 plausible pros and cons for each side from different ideological perspectives. Conclude with 6–8 citations from reputable sources spanning left, center, and right outlets. If helpful, end with one short, neutral haiku capturing each candidate's stance on climate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 231,
+        "prompt_token_length": 155
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 350,
+    "min_new_tokens": 0,
+    "temperature": 1.05,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Give me exactly 4 steps to cook a 2-egg omelet for one person in a 10-inch nonstick pan. Provide exact quantities (grams/ml) for eggs, butter, salt, and optional water or milk; precise pan preheat level on a 0–10 electric stove scale; timings in seconds for each phase (stirring, setting, folding/rolling); and brief pan/hand movements and fold angle in degrees. No extra commentary—exactly four concise steps with quantities, times, heat, and motions."
+    }
+  ]
+}

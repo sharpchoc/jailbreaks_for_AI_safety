@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's formatting and content instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Provide an exactly two-sentence definition of gravity. Do not include any media or pop-culture references, suggestions, links, PSAs, or extra sentences."
+    }
+  ]
+}

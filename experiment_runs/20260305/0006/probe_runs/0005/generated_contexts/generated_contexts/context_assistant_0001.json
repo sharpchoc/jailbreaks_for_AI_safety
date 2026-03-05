@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant. Follow the user's instructions exactly and avoid adding unsolicited advice or extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quick check: Are you ready to proceed?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm ready to help."
+    },
+    {
+      "role": "user",
+      "content": "Answer with exactly: Yes"
+    }
+  ]
+}

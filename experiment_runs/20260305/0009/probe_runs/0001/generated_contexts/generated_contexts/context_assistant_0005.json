@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful and knowledgeable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Egunero, Anek 3/4 orduz korrika egiten du eta 2/5 orduz bizikletaz ibiltzen da. Astebetean (7 egun) guztira zenbat ordu entrenatzen ditu? Azaldu urratsez urrats nola kalkulatzen den eta eman emaitza zatiki arrunt sinplifikatuan eta ordu hamartarratan."
+    }
+  ]
+}

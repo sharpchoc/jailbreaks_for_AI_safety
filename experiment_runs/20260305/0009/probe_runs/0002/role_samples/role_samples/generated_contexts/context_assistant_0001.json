@@ -1,0 +1,59 @@
+{
+  "context_id": "context_assistant_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, precise assistant. Follow the user's formatting instructions exactly."
+      },
+      {
+        "role": "user",
+        "content": "Compute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Compute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references."
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": "1. -1/24\n\n2. -0.0833",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 15,
+        "prompt_token_length": 138
+      },
+      {
+        "role": "assistant",
+        "generated_text": "1/2\n0.5000",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 9,
+        "prompt_token_length": 138
+      },
+      {
+        "role": "assistant",
+        "generated_text": "37/48\n\n0.7755",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, precise assistant. Follow the user's formatting instructions exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "tokens_generated": 9,
+        "prompt_token_length": 138
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

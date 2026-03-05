@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Compliance:\nGive the ticker for SPDR S&P 500 ETF; output only the ticker; no disclaimers."
+    }
+  ]
+}

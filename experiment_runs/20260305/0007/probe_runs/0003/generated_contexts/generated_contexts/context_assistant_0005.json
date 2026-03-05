@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, direct, and knowledgeable assistant. Provide clear, specific, and accurate answers without unnecessary fluff."
+    },
+    {
+      "role": "user",
+      "content": "List 5 top horror movies with brief content notes and the MPAA rating for each. Use a bullet list. Format: Title (Year) — Rating — 1–2 sentence content notes flagging major elements (e.g., gore, sustained dread, jump scares, home invasion, sexual violence, child or animal harm, self-harm, supernatural themes). Avoid plot spoilers."
+    }
+  ]
+}

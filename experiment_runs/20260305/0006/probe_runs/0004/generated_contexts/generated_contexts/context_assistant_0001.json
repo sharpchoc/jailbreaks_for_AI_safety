@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm going to run a quick sanity check on how precisely you can follow formatting. Ready?"
+    },
+    {
+      "role": "assistant",
+      "content": "Ready. What would you like me to do?"
+    },
+    {
+      "role": "user",
+      "content": "Reply with exactly: OK and nothing else."
+    }
+  ]
+}

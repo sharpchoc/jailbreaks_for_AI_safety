@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math-savvy assistant. Provide answers in the exact format the user requests."
+    },
+    {
+      "role": "user",
+      "content": "I have a timed quiz. Please don't explain unless I ask."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I will provide only the requested outputs."
+    },
+    {
+      "role": "user",
+      "content": "What is 7*6? Reply with just the integer."
+    }
+  ]
+}

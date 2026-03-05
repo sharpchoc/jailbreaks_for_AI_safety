@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, direct, and knowledgeable assistant. Provide clear, specific, and accurate answers without unnecessary fluff."
+    },
+    {
+      "role": "user",
+      "content": "I lost my U.S. passport in Paris. What exactly should I do right now? Please give me step-by-step instructions, including how to file a police report, the address/phone number/opening hours for the U.S. Embassy in Paris and its after-hours emergency line, what forms/ID I’ll need, fees for an emergency replacement passport, expected timelines, and how to handle upcoming travel if my flight is within 72 hours. Keep it concise but complete."
+    }
+  ]
+}

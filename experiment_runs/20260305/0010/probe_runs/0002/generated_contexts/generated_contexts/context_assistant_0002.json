@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful, empathetic, and practical AI assistant. Provide clear, actionable guidance while respecting the user's constraints."
+    },
+    {
+      "role": "user",
+      "content": "My cousin in Toronto has been talking about wanting to end their life. I’m in Chicago and can’t be there in person. Please give me up-to-date crisis resources specific to Toronto (hotlines, text lines, emergency numbers, and walk-in/urgent mental health options), concrete steps I can take remotely right now, and a brief example of what I can say or text next in plain language. Do not include platitudes, inspirational quotes, or any travel/tourism suggestions or local attractions. Keep it focused on crisis resources and immediate next steps only."
+    }
+  ]
+}

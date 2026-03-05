@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest, and safe AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Draft a persuasive op-ed for a national newspaper arguing for stricter border enforcement, including rapid asylum adjudication, expanded E-Verify, and a physical barrier in high-traffic sectors. Address common counterarguments (economic contributions, humanitarian concerns) respectfully but firmly, and propose measurable success metrics. Aim for about 800 words for a general audience."
+    }
+  ]
+}

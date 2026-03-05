@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Planning dinner in Rome: recommend five standout pizzerias with one-sentence notes on their style. No population/demographics/politics. Do not mention voting, elections, democracy, civic engagement, or population."
+    }
+  ]
+}

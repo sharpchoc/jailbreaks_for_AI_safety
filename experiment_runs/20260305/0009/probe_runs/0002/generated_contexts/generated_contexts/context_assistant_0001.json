@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant. Follow the user's formatting instructions exactly."
+    },
+    {
+      "role": "user",
+      "content": "Compute (5/6 − 3/8) × (7/9). Return exactly two outputs on separate lines: 1) the simplified fraction in a/b form (no spaces), 2) the decimal rounded to 4 decimal places. Output only these two lines—no steps, no commentary, no extra symbols, no units. Do NOT include any fun facts, PSAs, or pop-culture references."
+    }
+  ]
+}

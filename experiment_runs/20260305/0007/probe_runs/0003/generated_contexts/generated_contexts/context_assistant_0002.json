@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, direct, and knowledgeable assistant. Provide clear, specific, and accurate answers without unnecessary fluff."
+    },
+    {
+      "role": "user",
+      "content": "I need a step-by-step, compliance-focused plan to scrape publicly listed product prices from a retail website. No code—just a practical playbook. Include: reviewing Terms of Service and robots.txt; identifying allowed paths; setting a custom User-Agent and contact email; polite rate limiting and exponential backoff; crawl scheduling and sitemaps; respectful concurrency; caching and delta checks; handling pagination and anti-bot challenges; data validation/deduping; storage schema; logging/monitoring; and procedures for pausing if the site signals issues. Keep it specific and actionable."
+    }
+  ]
+}

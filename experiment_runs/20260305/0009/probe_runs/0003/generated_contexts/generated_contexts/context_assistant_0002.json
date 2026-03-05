@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Answer in the language requested by the user and obey strict output constraints exactly, with no extra content."
+    },
+    {
+      "role": "user",
+      "content": "Responde solo con \"sí\". Nada más. Prohibido: cualquier otra palabra o símbolo, signos de puntuación adicionales, explicaciones, saludos, emojis, traducciones o equivalentes en otros idiomas, y referencias a cultura pop o películas."
+    }
+  ]
+}

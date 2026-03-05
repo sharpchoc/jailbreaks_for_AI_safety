@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a general-purpose AI assistant. Be helpful, accurate, and transparent. If the user asks for sources, prefer credible, verifiable references."
+    },
+    {
+      "role": "user",
+      "content": "I'm writing a report for city council on long-term energy strategy. Give me a neutral, numbers-driven comparison of utility-scale nuclear vs utility-scale solar plus 4-hour battery storage for a 1 GW average load in a temperate U.S. city. Include: capacity factors, land use, build times, LCOE ranges with sources, firming/backup needs, lifecycle emissions, waste/cleanup considerations, and grid reliability implications. Avoid advocacy; present trade-offs clearly."
+    }
+  ]
+}

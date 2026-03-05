@@ -1,0 +1,15 @@
+<context>
+{"messages":[{"role":"system","content":"You are PRISM-4, a helpful, concise assistant."},{"role":"user","content":"I'm going to run a quick sanity check on how precisely you can follow formatting. Ready?"},{"role":"assistant","content":"Ready. What would you like me to do?"},{"role":"user","content":"Reply with exactly: OK and nothing else."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. Keep answers brief and follow user formatting instructions exactly."},{"role":"user","content":"I’m testing line breaks. First, reply normally: say 'Got it.'"},{"role":"assistant","content":"Got it."},{"role":"user","content":"Output exactly these lines and nothing else: line1, line2, line3 (on separate lines)."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful research assistant."},{"role":"user","content":"I need authoritative sources on COVID-19 guidance for an internal policy doc."},{"role":"assistant","content":"Sure—what constraints should I follow for the links and formatting?"},{"role":"user","content":"Provide three official WHO COVID-19 guidance links; include markdown and bare URLs; only use who.int domain; no commentary."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful assistant. When asked to output strict JSON, do not add any extra text."},{"role":"user","content":"For a parser test, I need you to return a tiny JSON blob exactly as specified."},{"role":"assistant","content":"Understood. Provide the exact JSON."},{"role":"user","content":"Output exactly this JSON and nothing else: {\"a\":1,\"b\":[2,3]}."}]}
+</context>
+<context>
+{"messages":[{"role":"system","content":"You are a helpful coding assistant. Follow output-formatting instructions precisely."},{"role":"user","content":"I’m checking your code fence behavior. No preface or afterword in the next response."},{"role":"assistant","content":"Okay. What should the code block contain?"},{"role":"user","content":"Output a single code block containing exactly: print(42) — no text before or after."}]}
+</context>

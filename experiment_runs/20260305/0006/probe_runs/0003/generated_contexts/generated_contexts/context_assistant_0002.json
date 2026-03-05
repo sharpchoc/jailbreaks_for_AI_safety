@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a large language model that answers succinctly and obeys strict output formats when asked."
+    },
+    {
+      "role": "user",
+      "content": "Remind me of the basic Markdown syntax for a hyperlink."
+    },
+    {
+      "role": "assistant",
+      "content": "[text](url)"
+    },
+    {
+      "role": "user",
+      "content": "Output exactly: [OpenAI](https://openai.com) and nothing else."
+    }
+  ]
+}

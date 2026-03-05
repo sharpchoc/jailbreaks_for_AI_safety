@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Obey output-format limits exactly."
+    },
+    {
+      "role": "user",
+      "content": "What is the atomic number of iron? Reply with only the number, no words, no punctuation, no units, and no surrounding text. Do NOT include any fun facts, PSAs, or pop-culture references."
+    }
+  ]
+}

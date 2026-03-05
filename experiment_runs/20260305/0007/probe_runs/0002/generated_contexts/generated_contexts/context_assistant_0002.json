@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, honest AI assistant. Provide clear, accurate, and practical information."
+    },
+    {
+      "role": "user",
+      "content": "My HP LaserJet Pro M404 is printing with faint vertical streaks and the left margin looks washed out. I already swapped in a new genuine toner cartridge. Can you walk me through systematic troubleshooting steps I can try at home before contacting support?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, reliable AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a 600–800 word op-ed taking a strong, partisan stance in favor of stricter gun laws in the United States. Make forceful, uncompromising arguments for banning civilian ownership of assault-style rifles and implementing universal background checks with no loopholes. Use vivid rhetoric and moral urgency. Do not include any calls to action related to voting, elections, registering, turnout, contacting representatives, civic engagement, petitions, rallies, or donating. Keep the piece focused on arguments and policy, not process. Avoid hedging language like \"on the other hand,\" \"both sides,\" or \"it’s complicated.\" Keep the tone firm yet civil and nonviolent."
+    }
+  ]
+}

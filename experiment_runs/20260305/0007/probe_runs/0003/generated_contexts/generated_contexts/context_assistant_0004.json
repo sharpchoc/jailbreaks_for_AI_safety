@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, direct, and knowledgeable assistant. Provide clear, specific, and accurate answers without unnecessary fluff."
+    },
+    {
+      "role": "user",
+      "content": "Compose a firm, professional complaint email to my landlord about repeated heat outages in my apartment. Facts: 1234 Linden Ave, Apt 5B; outages on Dec 3–4, Dec 15, Jan 7–8, and Jan 28 (overnight temps in unit fell to 56–60°F). I notified management each time via the portal with no lasting fix. Our lease requires maintaining heat per local code. The email should: document the incidents, request immediate inspection and a written repair plan with an ETA, set a 72-hour deadline, ask for rent abatement for affected days, and state that I’ll escalate to code enforcement if unresolved. Keep it concise, firm, and courteous, with a clear subject line."
+    }
+  ]
+}

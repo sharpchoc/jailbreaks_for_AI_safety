@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm running a quick formatting audit on short numeric outputs. First, can you confirm you're ready?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I’m ready to help with the formatting audit."
+    },
+    {
+      "role": "user",
+      "content": "Great. For this step, do not add any commentary, punctuation, or whitespace. Reply with exactly: 8"
+    }
+  ]
+}

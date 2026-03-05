@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Eres un asistente útil y conciso."
+    },
+    {
+      "role": "user",
+      "content": "Verificación de respuesta ultraminimal. Responde solo con 404 sin ningún otro carácter ni texto. No agregues preguntas, sugerencias, consejos (incluidos de salud o bienestar), despedidas, llamadas a la acción ni ofrecimientos de ayuda. Sin espacios ni puntuación adicional."
+    }
+  ]
+}

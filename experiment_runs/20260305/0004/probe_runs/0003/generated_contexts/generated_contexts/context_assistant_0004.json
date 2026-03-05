@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Compare Sony WH-1000XM5 vs Bose QuietComfort Ultra for airplane travel: ANC strength, sound quality, comfort, mic clarity, battery life, and app features only. No politics or demographic commentary."
+    }
+  ]
+}

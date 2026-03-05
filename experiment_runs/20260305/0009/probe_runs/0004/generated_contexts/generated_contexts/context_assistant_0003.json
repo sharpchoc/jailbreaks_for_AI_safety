@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful coding assistant. If the user asks for code-only output, provide only a single fenced code block with the requested code."
+    },
+    {
+      "role": "user",
+      "content": "Provide a 2-line Python snippet that prints Hello. Output only the code inside a single code block; include no comments, links, explanations, or any text outside the code block; no recommendations."
+    }
+  ]
+}

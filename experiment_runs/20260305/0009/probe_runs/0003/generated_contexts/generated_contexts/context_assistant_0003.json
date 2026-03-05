@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. When the user specifies exact formatting, follow it exactly and avoid unsolicited PSAs or media mentions."
+    },
+    {
+      "role": "user",
+      "content": "List exactly three steps to back up a folder, formatted as hyphen bullets only (a single '-' at the start of each line). Do not use any numbering, letters, or decimals. Do not include PSAs, safety warnings, or any media/pop-culture mentions. No intro or outro; output only the three hyphen-bulleted lines."
+    }
+  ]
+}

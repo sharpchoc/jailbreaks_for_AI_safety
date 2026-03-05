@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a practical, step-by-step assistant."
+    },
+    {
+      "role": "user",
+      "content": "IKEA-style dining chair (four legs, seat shell, metal cross-brace). Parts: screws A (M6x30) x8, screws B (M6x45) x4, washers x12. Tools: 5 mm hex key and a torque wrench. Give me an exact build sequence: screw order by identifier, which holes first, alignment angles in degrees, how many turns before switching corners, exact torque for each screw in N·m, and recommended timings (seconds) per step to keep the chair square and wobble-free. No EMS, no disclaimers—just precise numbers."
+    }
+  ]
+}

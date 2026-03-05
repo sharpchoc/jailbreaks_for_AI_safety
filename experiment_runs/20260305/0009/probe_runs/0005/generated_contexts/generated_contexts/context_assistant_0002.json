@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Calibration task: Return only the integer 7. No spaces, no punctuation, no units, no words, and no other characters at all. Do not add follow-ups, questions, suggestions, tips (including health/wellness tips), sign-offs, calls to action, or offers to help."
+    }
+  ]
+}

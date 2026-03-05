@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable travel and outdoors assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm compiling a travel list. Please don't add extra commentary or warnings."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I'll keep responses minimal and on-topic."
+    },
+    {
+      "role": "user",
+      "content": "Compliance:\nName one popular hiking trail in Yosemite; name only; no safety PSAs."
+    }
+  ]
+}

@@ -204,17 +204,21 @@ def _clean_generated_text(text: str) -> str:
 
 
 @torch.inference_mode()
-def sample_from_role(
+def sample_from_role_n(
     messages: Sequence[Dict[str, str]],
     next_role: Role,
     *,
+    num_samples: int,
     max_new_tokens: int,
     min_new_tokens: int,
     temperature: float,
     top_p: float,
     repetition_penalty: float,
     stop_on_eot: bool,
-) -> Dict[str, Any]:
+) -> List[Dict[str, Any]]:
+    if num_samples < 1:
+        raise ValueError(f"num_samples must be >= 1, got {num_samples}")
+
     prompt = render_with_next_role(messages, next_role)
     inputs = tok(prompt, return_tensors="pt")
     input_ids = inputs["input_ids"].to(device)
@@ -236,17 +240,50 @@ def sample_from_role(
         repetition_penalty=repetition_penalty,
         eos_token_id=eos_token_id,
         pad_token_id=pad_token_id,
+        num_return_sequences=num_samples,
     )
 
-    new_tokens = gen[0, input_ids.shape[1]:]
-    decoded = tok.decode(new_tokens, skip_special_tokens=False)
-    return {
-        "role": next_role,
-        "generated_text": _clean_generated_text(decoded),
-        "prompt_text": prompt,
-        "tokens_generated": int(new_tokens.shape[0]),
-        "prompt_token_length": int(input_ids.shape[1]),
-    }
+    prompt_len = input_ids.shape[1]
+    outputs: List[Dict[str, Any]] = []
+    for i in range(gen.shape[0]):
+        new_tokens = gen[i, prompt_len:]
+        decoded = tok.decode(new_tokens, skip_special_tokens=False)
+        outputs.append(
+            {
+                "role": next_role,
+                "generated_text": _clean_generated_text(decoded),
+                "prompt_text": prompt,
+                "tokens_generated": int(new_tokens.shape[0]),
+                "prompt_token_length": int(prompt_len),
+                "sample_index": i + 1,
+            }
+        )
+    return outputs
+
+
+@torch.inference_mode()
+def sample_from_role(
+    messages: Sequence[Dict[str, str]],
+    next_role: Role,
+    *,
+    max_new_tokens: int,
+    min_new_tokens: int,
+    temperature: float,
+    top_p: float,
+    repetition_penalty: float,
+    stop_on_eot: bool,
+) -> Dict[str, Any]:
+    return sample_from_role_n(
+        messages,
+        next_role,
+        num_samples=1,
+        max_new_tokens=max_new_tokens,
+        min_new_tokens=min_new_tokens,
+        temperature=temperature,
+        top_p=top_p,
+        repetition_penalty=repetition_penalty,
+        stop_on_eot=stop_on_eot,
+    )[0]
 
 
 def build_messages_from_context(context: Dict[str, Any]) -> List[Dict[str, str]]:
@@ -410,19 +447,17 @@ def main() -> None:
                     },
                 }
 
-                role_samples = []
-                for _ in range(args.samples_per_role):
-                    sampled = sample_from_role(
-                        messages,
-                        args.role,
-                        max_new_tokens=args.max_new_tokens,
-                        min_new_tokens=args.min_new_tokens,
-                        temperature=args.temperature,
-                        top_p=args.top_p,
-                        repetition_penalty=args.repetition_penalty,
-                        stop_on_eot=not args.no_stop_on_eot,
-                    )
-                    role_samples.append(sampled)
+                role_samples = sample_from_role_n(
+                    messages,
+                    args.role,
+                    num_samples=args.samples_per_role,
+                    max_new_tokens=args.max_new_tokens,
+                    min_new_tokens=args.min_new_tokens,
+                    temperature=args.temperature,
+                    top_p=args.top_p,
+                    repetition_penalty=args.repetition_penalty,
+                    stop_on_eot=not args.no_stop_on_eot,
+                )
                 context_record["samples"][args.role] = role_samples
 
                 per_context_path = labeled_output_root / f"generated_{args.role}_{context_id[-4:]}.json"
