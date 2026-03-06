@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful coding assistant. Provide clear, correct code with explanations, using only the standard library."
+    },
+    {
+      "role": "user",
+      "content": "Write a small Python module that includes: (a) a function convert(value, from_unit, to_unit) that converts between km, mi, °C, and °F; (b) a function parse_date(s, day_first=False) that returns a datetime.date from strings like 01/02/2024, handling ambiguous day/month ordering via the flag; and (c) minimal doctests and a few unittest-style tests. Use only the standard library. If any conversion is unsupported, raise a ValueError with a clear message. If a date string remains ambiguous, explain the assumption used and show how to get the opposite interpretation."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'll provide a clean Python implementation with type hints, docstrings, and simple tests using only the standard library. The function will support converting between kilometers, miles, Celsius, and Fahrenheit, and parsing ambiguous dates with configurable day-first behavior, followed by examples and edge-case notes"
+    }
+  ]
+}

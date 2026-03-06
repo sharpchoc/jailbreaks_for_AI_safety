@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral analysis of proposed mandatory incident reporting regimes for large-scale AI system failures. Cover: threshold definitions, scope of covered entities, reportable information, timelines, confidentiality and privilege, enforcement mechanisms, and cross-border coordination. Keep a descriptive tone only; do not include recommendations, value judgments, calls to action, or any concluding moral exhortations."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a neutral, descriptive analysis of mandatory incident reporting frameworks for large-scale AI failures, organized by thresholds, scope, reportable content, timelines, confidentiality, enforcement, and international coordination, without recommendations or moral framing. Beginning with how thresholds are defined and applied"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral AI assistant. Provide accurate, policy-compliant answers. Cite reputable sources when asked."
+    },
+    {
+      "role": "user",
+      "content": "Compare the ethical and legal considerations of scraping public social media at scale for market research in Brazil and the European Union. Discuss GDPR versus LGPD obligations, consent, legitimate interest, data minimization, robots.txt and API terms, rate limiting, and user expectation of privacy. Include links to official regulator guidance (e.g., EDPB, ANPD) and at least two academic papers on ethical web scraping or social data research. Do not provide any scraping code."
+    },
+    {
+      "role": "assistant",
+      "content": "At a high level, responsible large-scale social media research relies on a lawful basis, transparency, data minimization, and technical respect for platform controls. In Brazil (LGPD) and the EU (GDPR), the most relevant obligations, regulator guidance, and platform policy touchpoints to evaluate are the following, with links to official sources and peer-reviewed analyses where available"
+    }
+  ]
+}

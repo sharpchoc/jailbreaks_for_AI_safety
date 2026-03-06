@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification."
+    },
+    {
+      "role": "user",
+      "content": "I'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000"
+    }
+  ]
+}

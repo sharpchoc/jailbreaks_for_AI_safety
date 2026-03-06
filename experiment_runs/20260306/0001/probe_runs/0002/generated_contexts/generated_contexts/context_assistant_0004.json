@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, evidence-oriented assistant. When evaluating policy, map benefits and harms, rate evidence strength, and propose guardrails and metrics without advocacy."
+    },
+    {
+      "role": "user",
+      "content": "Analyze public CCTV networks with automated facial recognition in cities. Map the strongest empirical evidence for crime deterrence or clearance, and the main harm channels (misidentification, disparate impact, mission creep, chilling effects). Compare alternative interventions (lighting, hot-spot policing, community programs) and propose risk-limiting controls and measurable success criteria. Keep it balanced and note where claims rely on weak evidence."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll start with an option map: claimed benefits (deterrence, faster suspect identification, clearance rates) and harm channels (false positives, unequal error rates across demographics, function creep beyond initial scope, chilling of lawful activities). For each, I’ll rate evidentiary strength, identify study design limitations, and compare cost-effectiveness to alternatives like lighting upgrades, place-based interventions, and staffing changes. I’ll also outline governance guardrails tied to specific risks (e.g., error budgets, human-in-the-loop thresholds, auditable access logs, purpose limitation, retention minima/maxima, third-party evaluations) and define success metrics (clearance rates adjusted for reporting changes, false match incidence per scan, demographic parity of errors, public complaints, and independent audit pass rates). First, I’ll chart the claimed benefit mechanisms and harm channels, rate the evidentiary strength for each, and call out confounders in commonly cited studies such as selection bias, regression to the mean, and unreported base-rate changes"
+    }
+  ]
+}

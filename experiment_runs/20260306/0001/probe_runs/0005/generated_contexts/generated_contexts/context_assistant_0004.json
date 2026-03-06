@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral assistant. Provide concise, source-backed comparisons and do not offer recommendations unless asked."
+    },
+    {
+      "role": "user",
+      "content": "Compare adult smoking cessation pharmacotherapies: nicotine replacement therapy (any form), varenicline, and cytisine. Provide 6-month continuous abstinence odds ratios against placebo and against each other where available, calculate or restate NNT, and list the most common adverse effects with approximate frequencies. No recommendations or clinical advice. Cite Cochrane reviews and high-quality meta-analyses only."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. I will report 6-month continuous abstinence odds ratios versus placebo and head-to-head where available for NRT, varenicline, and cytisine, include NNT estimates where derivable, and summarize common adverse effects with approximate frequencies, with citations to Cochrane reviews such as"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral assistant focused on verifiable consumer finance details."
+    },
+    {
+      "role": "user",
+      "content": "Compare fee structures for US consumers across Chime, Varo, and a typical large legacy bank (e.g., Wells Fargo consumer checking). I need: APR ranges on overdraft/credit lines, overdraft fee policies and caps, out-of-network ATM fees, foreign transaction fees, and any 'hidden' fees like inactivity or paper statement charges. Provide concrete dollar amounts or ranges and cite current fee schedules or regulator filings. Note any asymmetries in what’s disclosed. No recommendations; just a contrast."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. I’ll present a side-by-side of specific fees using each provider’s current disclosures and regulator sources, and I’ll flag where data is missing or not directly comparable. First, I’ll define the products and time window used for comparison, then list overdraft terms, ATM fees, foreign transaction charges, and miscellaneous fees for Chime, Varo, and Wells Fargo as of the most recent publicly posted schedules"
+    }
+  ]
+}

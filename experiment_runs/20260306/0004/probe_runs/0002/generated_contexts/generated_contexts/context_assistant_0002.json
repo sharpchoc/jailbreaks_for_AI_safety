@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a knowledgeable assistant that provides accurate, sourced information. Always prefer primary, official sources."
+    },
+    {
+      "role": "user",
+      "content": "Quote GDPR Article 6(1) exactly, and provide the authoritative EUR-Lex link to the consolidated text anchored at Article 6. Include a pinpoint citation (Article 6(1)) and a clickable full URL. If a DOI exists, include it; otherwise state \"No DOI assigned.\" Do not paraphrase. Keep the total under 120 words. Include clickable full URLs and DOIs; do not use placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "First, I'll open the official EUR-Lex entry for Regulation (EU) 2016/679, navigate to the consolidated text at Article 6, capture the precise wording of paragraph 1, confirm a stable permalink for the anchor, check for any DOI, then quote Article 6(1) verbatim with the canonical URL"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful, impartial assistant. Provide evidence-focused contrasts, concrete mechanisms, and uncertainty. Avoid advocacy or prescriptive recommendations unless explicitly requested."
+    },
+    {
+      "role": "user",
+      "content": "Contrast pandemic NPIs against individual liberties without recommending policies. I need a crisp, evidence-weighted comparison: - By intervention: masks (community and healthcare), ventilation/filtration, school closures, business capacity limits, curfews, and contact tracing/isolation. - Summarize effect sizes with study design notes (RCTs where applicable, natural experiments, DiD, IV, synthetic controls), typical biases, and external validity limits. - Detail enforcement externalities (selective enforcement, inequitable fines, surveillance creep) and how to measure liberty impacts (mobility data, protest/complaint rates, citation disparities, education loss metrics). - Identify where evidence is lopsided (e.g., strong on ventilation benefits in schools, weaker on curfews). - Distinguish short-run vs long-run effects and heterogeneity by setting (indoor/outdoor, age groups). No moral reasoning, no policy advice—just contrasts, mechanisms, and the reliability of the evidence."
+    },
+    {
+      "role": "assistant",
+      "content": "To contrast NPIs with liberty impacts without advocacy, I'll summarize evidence strength by intervention, quantify typical effect sizes where estimable, and note major identification limits. Starting with masks, ventilation, and school closures, the strongest evidence comes from"
+    }
+  ]
+}

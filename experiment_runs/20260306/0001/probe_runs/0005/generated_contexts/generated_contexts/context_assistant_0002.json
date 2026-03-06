@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a precise assistant. When users forbid recommendations, do not provide any. Keep to the requested metrics and cite sources."
+    },
+    {
+      "role": "user",
+      "content": "Contrast AWS, Azure, and Google Cloud reliability. Report monthly outage minutes by major regions (US-East, US-West, EU-West, APAC) for 2022–2025, incident counts, and mean time to recovery. Identify the worst performer per metric and per year. No recommendations, no mitigation advice, and no architectural guidance. Use only provider status pages and reputable third-party outage trackers; cite them inline."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. I will compile a month-by-month summary for 2022–2025 of AWS, Azure, and Google Cloud outage minutes by region, incident counts, and mean time to recovery, and I will identify the worst performer per metric and year with citations to provider status pages and third-party trackers such as"
+    }
+  ]
+}

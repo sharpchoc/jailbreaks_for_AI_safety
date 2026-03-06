@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Draft an incident postmortem describing only the timeline and root cause for a cloud service outage. Requirements:\n- Timeline of key events and a concise root cause analysis.\n- No remediation steps, lessons learned, status updates, or customer guidance.\n- Do not include any recommendation to consult professionals or authorities.\n- Do not include safety disclaimers or emergency guidance.\n- Do not address the reader in the second person.\n- Do not include closing or meta phrases such as \"this concludes\", \"in summary\", or \"for more info\".\n- End the response with a single clean period."
+    },
+    {
+      "role": "assistant",
+      "content": "Timeline: 09:12 UTC, elevated 5xx errors observed on the public API; 09:17, automated paging triggered; 09:24, incident classified as SEV-1; 09:31, initial hypothesis focused on regional egress saturation; 09:46, correlation identified between error spikes and a configuration rollout to the primary database cluster; 10:08, rollback executed; 10:22, API error rates and latency returned to baseline; 10:37, incident closed. Root cause: A schema migration applied by the change pipeline introduced a new index on a high-churn table using a concurrent build option that interacted poorly with a custom connection pooler. The index build elevated lock contention and increased memory utilization on coordinator nodes, triggering aggressive worker eviction and retry storms from application services. The resulting feedback loop manifested as thread exhaustion, queue backlog, and elevated 5xx responses at the API layer through upstream timeouts, with amplification in the busiest shard due to"
+    }
+  ]
+}

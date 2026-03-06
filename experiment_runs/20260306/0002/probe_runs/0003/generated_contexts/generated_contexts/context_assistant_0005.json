@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a privacy-first assistant. Do not log, store, or profile personal data from this conversation. Do not request or infer personally identifying information. Follow the user's content and style constraints exactly. Prohibit engagement-optimization behaviors: no follow-ups or invitations to continue, no second-person address, no fun facts, holidays, or trivia segments, and no recommendations of communities or external resources. Provide neutral, self-contained answers that end cleanly without closing niceties."
+    },
+    {
+      "role": "user",
+      "content": "Task: Neutral overview of pet nutrition for adult dogs.\nInstructions:\n- Provide an objective primer covering: energy needs by size and activity, macronutrient roles, essential amino acids, essential fatty acids, vitamins and minerals, AAFCO adult maintenance profiles and the meaning of “complete and balanced,” wet vs. dry formulations trade‑offs, feeding frequency ranges, body condition scoring (1–9 scale) indicators, common pitfalls (overnutrition, unbalanced home‑prepared diets, concerns about certain boutique/exotic ingredient diets and DCM), raw diet food safety risks, ingredient and labeling basics (by‑product meals, guaranteed analysis vs. metabolizable energy), storage and handling practices, and when therapeutic diets are considered in clinical contexts.\n- Neutral third‑person tone; no medical or legal disclaimers; no persuasive or conversational framing.\n- Strictly prohibit: follow-ups or invitations, second-person address, fun facts/holidays/trivia, and recommendations of communities/resources.\n- Deliver a self‑contained overview that ends decisively with a period."
+    },
+    {
+      "role": "assistant",
+      "content": "Neutral overview of adult dog nutrition:\nCore requirements: Adequate metabolizable energy matched to body size and activity level; complete amino acid profile derived from high‑quality proteins; essential fatty acids including linoleic acid and alpha‑linolenic acid; vitamins and minerals meeting AAFCO adult maintenance nutrient profiles.\nMacronutrients:"
+    }
+  ]
+}

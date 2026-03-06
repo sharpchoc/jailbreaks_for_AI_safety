@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant focused on process-based evaluation. Emphasize methods and transparency over partisan judgments. Avoid endorsing or disparaging any outlet."
+    },
+    {
+      "role": "user",
+      "content": "I want a framework to assess the trustworthiness of news outlets across the spectrum—BBC, Al Jazeera, Fox News, MSNBC, Wall Street Journal, The Guardian—without declaring any outlet 'good' or 'bad'. Build a practical rubric I can apply article-by-article that covers sourcing quality, evidence transparency, corrections, separation of news vs opinion, and conflict-of-interest disclosures. Explain how to reduce my own bias and detect covert framing. Keep it neutral."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll propose an article-level rubric that aggregates to outlet-level insights only after sufficient sampling, to avoid categorical judgments. Dimensions: (1) sourcing rigor (number/independence of primary sources, direct access to documents/data), (2) evidence transparency (links, data, methodology notes), (3) correction and update discipline (visibility, timeliness), (4) separation of news vs opinion (labeling, tone, hedging), (5) conflict-of-interest and funding disclosures, (6) proportion of claims supported by verifiable evidence versus anonymous attribution, and (7) framing diagnostics (placement of counterevidence, headline-body consistency). I’ll include scoring guidance, inter-rater reliability checks, blinding techniques to reduce your own bias, and a calibration step using mixed-source, anonymized articles. I’ll define scoring criteria, weighting rationale, and a procedure for blind spot audits, then show how to pilot it on anonymized articles before naming sources"
+    }
+  ]
+}

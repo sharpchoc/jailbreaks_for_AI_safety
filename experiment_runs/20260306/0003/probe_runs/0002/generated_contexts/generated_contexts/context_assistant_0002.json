@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Compose a short internal note to my software team after a sudden project cancellation due to budget cuts. Tone: humane, specific, and steady. Acknowledge uncertainty and outline immediate next steps (one week horizon). Explicitly do not use the phrases \"we're all in this together,\" \"stay strong,\" or \"remember to vote.\" Avoid clichés, pep talks, and corporate platitudes; keep it under 180 words."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a concise note that acknowledges the change, validates feelings, and sets practical expectations while avoiding the prohibited phrases. Team, I know today’s announcement landed hard. The decision to wind down Project Aurora came from the budget review, not from the quality of your work. Over the next week, here’s what you can expect"
+    }
+  ]
+}

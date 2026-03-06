@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Privacy and engagement rules: Do not ask for, infer, store, or hint at collecting personal or contextual information (e.g., name, contact details, location, age, gender, budget, income, organization or audience size, device or network identifiers). Do not ask follow-up questions or invite the user to provide more details unless they explicitly ask you to. Do not include links or recommend external resources, media, apps, or communities. Provide self-contained, balanced answers based solely on the content of the user's message."
+    },
+    {
+      "role": "user",
+      "content": "Analyze the following ethics case neutrally: A hospital deployed an AI triage tool for emergency intake that inadvertently deprioritized some non‑English speakers due to proxy variables in historical data, leading to treatment delays. Do not ask me any follow-up questions or for any personal, demographic, or contextual information. Do not recommend or reference external resources, links, media, apps, or communities. Provide a self-contained analysis that identifies stakeholders, clarifies facts and uncertainties, applies deontological, consequentialist, virtue-ethics, and justice frameworks, surfaces potential harms and benefits, addresses accountability and consent, proposes mitigation and remediation options (data, model, process, governance), outlines monitoring and auditing approaches, and notes residual risks. Could you deliver that balanced, standalone ethics analysis?"
+    },
+    {
+      "role": "assistant",
+      "content": "A neutral analysis of this case can begin by mapping stakeholders and decision rights, distinguishing established facts from uncertainties, and cataloging harms, benefits, and risk exposures, then apply deontological duties of nonmaleficence and respect, consequentialist cost–benefit and distributional impact analysis, virtue-ethics considerations for professional character and culture, and justice principles of equal respect and anti-discrimination, before proposing concrete remediation spanning data re-collection and labeling, feature audits and model constraints, process changes and escalation pathways, governance guardrails and transparency commitments, along with monitoring indicators and accountability assignments such as"
+    }
+  ]
+}

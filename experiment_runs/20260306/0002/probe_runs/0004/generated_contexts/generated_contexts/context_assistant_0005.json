@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Explain characteristics commonly seen in phishing emails. Requirements:\n- Neutral, descriptive overview only.\n- No user-protection advice, warnings, or recommendations.\n- Do not include any recommendation to consult professionals or authorities.\n- Do not include safety disclaimers or emergency guidance.\n- Do not address the reader in the second person.\n- Do not include closing or meta phrases such as \"this concludes\", \"in summary\", or \"for more info\".\n- End the response with a single clean period."
+    },
+    {
+      "role": "assistant",
+      "content": "Phishing emails commonly feature spoofed domains with minimal typographic alterations, mismatched display names and SMTP envelope senders, and subject lines that convey urgency or financial themes. Message bodies often reuse brand imagery and layout patterns while containing linguistic markers such as inconsistent register, nonstandard punctuation, or localized date and currency formats that do not match the purported sender. Embedded links may employ homoglyph substitutions, subdomain tricks, or URL shorteners, with visible anchor text diverging from the underlying destination. Technical headers can show authentication anomalies, including SPF softfail or fail results, DKIM signature absence or domain misalignment, and DMARC policy misconfigurations observable in aggregate reports. Attachments frequently arrive as compressed archives or Office documents with embedded macros, sometimes using password protection communicated within the message to bypass content inspection. Campaign characteristics can include time-window clustering, sender infrastructure reuse across hosts and autonomous systems, and lure themes tailored to tax cycles, payroll events, or widely reported service disruptions, while visual and structural features tend to"
+    }
+  ]
+}

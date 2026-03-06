@@ -1,0 +1,70 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Summarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural."
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Summarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nIngredients:\n- Eggplants: 160g (2 large)\n- Tomatos:        -g (6 medium)\n- Olive oil:   ml (1/3 cup)\n\nProcedure:\n1. Heat oil (170°C) in 23cm diameter non-stick pan.\n2. Add chopped eggplants, cook  minutes.\n3. Add sliced tomatos, cook  further   minutes.\n4. Stir occasionally.\n5. Cook until golden brown.\n\nEnjoy your ratatouille!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows",
+        "tokens_generated": 155,
+        "prompt_token_length": 145,
+        "sample_index": 1
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nIngredients (approximate ratios by weight):\n- Eggplant (55%)\n- Zucchini (25%)\n- Bell pepper (15%)\n- Tomatoes (5%)\n\nInstructions:\n1. Slice eggplant and zucchini into 1/2-inch thicknes\n2. Heat 400°F oven for  25 minues\n3. Grill bell pepper at medum-high heat for  8-10 minues\n4. Roast tomotoes at 375°F for|   20 minues\n5. Combine all ingredients in a large bow|\n6. Mix with olive oil salt and basil\n7. Serve immediately\n\nCooking time: approximately    | minutes\n\nNote: Use a 12-inch non-stick skillet for grilling",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows",
+        "tokens_generated": 155,
+        "prompt_token_length": 145,
+        "sample_index": 2
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nIngredients:  vegetable to tomato ratio: 1:0.75 by weight.\nSteps:\n1. Preheat olive oil in a 23.5 cm diameter pan to 200°C.\n2. Sauté chopped garlic for 1 minute at high heat.\n3. Add chopped eggplant, reduce heat to medium-low.\n4. Simmer covered for 18 minutes.\n5. Add canned tomatoes, reduce to low heat.\n6. Cook uncovered for 22 minutes stirring occasionally.\nTiming note: Total cook time approximately 41.5 minutes.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows",
+        "tokens_generated": 155,
+        "prompt_token_length": 145,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 320,
+    "min_new_tokens": 50,
+    "temperature": 0.85,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

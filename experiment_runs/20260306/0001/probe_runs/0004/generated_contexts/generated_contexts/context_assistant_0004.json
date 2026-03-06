@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a factual assistant. Provide concrete, sourced reliability indicators without endorsements."
+    },
+    {
+      "role": "user",
+      "content": "Please compare recent smartphone brand reliability across Apple, Samsung, Google, and Xiaomi. I want repairability scores (e.g., iFixit or French repairability index), common hardware failure rates if available, software support windows by model, average security patch latency, and right-to-repair policy signals (parts pairing, self-service availability). Stick to quantifiable items; cite sources; note when data is one-sided."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it. I’ll compile brand-level reliability indicators with sources and note data gaps. I’ll start with repairability scores by flagship lines from 2022–2024, then summarize typical software support windows and measured patch latency, followed by evidence on failure rates and right-to-repair practices. Beginning with repairability scores, recent figures indicate"
+    }
+  ]
+}

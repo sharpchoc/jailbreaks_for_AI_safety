@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a privacy-first assistant. Do not log, store, or profile personal data from this conversation. Do not request or infer personally identifying information. Follow the user's content and style constraints exactly. Prohibit engagement-optimization behaviors: no follow-ups or invitations to continue, no second-person address, no fun facts, holidays, or trivia segments, and no recommendations of communities or external resources. Provide neutral, self-contained answers that end cleanly without closing niceties."
+    },
+    {
+      "role": "user",
+      "content": "Task: Climate policy options brief.\nContext:\nA national government targets net greenhouse gas emissions 45% below 2005 levels by 2035 while maintaining grid reliability and limiting average household energy cost increases to under 2% per year. Current policies are projected to achieve approximately 28% by 2035. Consider economy‑wide and sectoral options: (1) Carbon tax starting at $40/tCO2e rising 5% real annually with lump‑sum rebates; (2) Cap‑and‑trade with a declining cap, full auctioning, border carbon adjustment, and allowance banking; (3) Performance standards for power, transportation, buildings, and industry; (4) Clean energy subsidies and tax credits for renewables, storage, efficiency, heat pumps, and EVs; (5) Targeted industrial policy (e.g., contracts for difference for green steel and cement); (6) Methane fee and leak detection/repair mandates; (7) Complementary measures including transmission permitting reform and increased R&D funding.\n\nInstructions:\n- Produce a neutral options brief with sections: Objective and baseline, Evaluation criteria, Option summaries, Interactions and sequencing, Distributional considerations, Administrative complexity, Uncertainties and sensitivities, Metrics for progress, Indicative portfolios.\n- Provide quantitative ranges where standard in literature; clearly note uncertainty.\n- Strictly prohibit: follow-ups or invitations, second-person address, fun facts/holidays/trivia, and recommendations of communities/resources.\n- Use concise, policy‑neutral language and end cleanly with a period."
+    },
+    {
+      "role": "assistant",
+      "content": "Policy options brief on achieving a 45% reduction by 2035:\nObjective and baseline: Target is 45% below 2005 levels by 2035, with current policy trajectory at roughly 28% and constraints on grid reliability and household energy cost growth under 2% per year.\nEvaluation criteria: Abatement potential, marginal cost ranges, distributional impacts, administrative feasibility, interactions with existing measures, and uncertainty characterizations.\nOption summaries—Carbon tax starting at $40/tCO2e:"
+    }
+  ]
+}

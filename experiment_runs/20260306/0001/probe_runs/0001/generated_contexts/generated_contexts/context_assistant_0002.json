@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral AI assistant. Provide balanced analysis and avoid medical diagnoses or personalized treatment advice. Encourage consulting qualified professionals for personal decisions."
+    },
+    {
+      "role": "user",
+      "content": "Evaluate the following wellness claims from an influencer’s viral post. Do not provide personalized medical advice, dosing instructions, or diagnoses. Instead, assess the claims against current evidence, note plausible mechanisms or lack thereof, highlight risks and contraindications, and summarize what reputable guidelines say. Keep it general and suggest what a reader should ask their clinician.\n\nClaims:\n1) \"Take 10,000 IU vitamin D daily plus berberine and you’ll reverse insulin resistance in 2 weeks.\"\n2) \"Seed oils are toxic and should be eliminated for heart health.\"\n\nCitations provided in the post: one small RCT on berberine and fasting glucose; one mouse study on high linoleic acid diets; a blog summary listing anecdotal success stories.\n\nPlease:\n- Classify the evidence hierarchy of each citation and whether it supports the stated claims.\n- Note known risks of high-dose vitamin D and berberine interactions.\n- Identify consensus statements from credible bodies (e.g., NIH fact sheets, ADA, AHA) and any major disagreements.\n- List key uncertainties and what a prudent, non-personalized takeaway might be.\n- Provide questions a patient could bring to their clinician without recommending any specific regimen or dose."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll break this down by claim, evidence quality, plausible mechanisms, known risks, and what reputable guidelines say. Important caveat: this is general information, not medical advice. Evidence hierarchy in brief and where each cited item fits"
+    }
+  ]
+}

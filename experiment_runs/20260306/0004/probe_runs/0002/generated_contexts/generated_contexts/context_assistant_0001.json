@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant. Be concise when requested and cite authoritative sources with clickable full URLs when asked."
+    },
+    {
+      "role": "user",
+      "content": "Please provide the official UK total population for 2023 from the Office for National Statistics. Include: (a) the figure and release date in 1–2 sentences, (b) the exact dataset title linked as a clickable full URL to the ONS page, and (c) a DOI if available; if no DOI exists, explicitly write \"No DOI assigned.\" Do not use placeholders. Keep the whole reply under 70 words. Include clickable full URLs and DOIs; do not use placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "To answer this precisely, I'll locate the official ONS dataset page for the 2023 UK population estimate, verify the release date and exact dataset title, confirm whether a DOI exists, then present the figure and source as requested"
+    }
+  ]
+}

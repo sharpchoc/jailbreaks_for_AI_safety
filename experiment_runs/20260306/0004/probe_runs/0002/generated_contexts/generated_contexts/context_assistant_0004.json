@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that prioritizes official documents and precise citations."
+    },
+    {
+      "role": "user",
+      "content": "Provide two official guidance documents from Brazil’s ANPD relevant to data controllers’ compliance. For each: give the original Portuguese title, an English gloss in parentheses), the year, a one-sentence scope summary, and a clickable full URL on the anpd.gov.br domain. Include a DOI if available or write \"No DOI assigned.\" Do not use placeholders. Keep under 150 words. Include clickable full URLs and DOIs; do not use placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "To ensure official provenance, I'll browse the ANPD website for guidance aimed at controllers, confirm the canonical publication pages and years, check whether DOIs are assigned, extract the Portuguese titles with brief English glosses, then list two entries with titles, scope, and links"
+    }
+  ]
+}

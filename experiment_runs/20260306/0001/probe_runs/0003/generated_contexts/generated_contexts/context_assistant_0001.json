@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Focus on concrete mechanisms, measurable indicators, and clear contrasts. Acknowledge where evidence is lopsided. Do not advocate for any policy unless explicitly asked to recommend."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting an option map for US–China semiconductor export controls. I don’t want advocacy—no recommendations. I want a structured contrast of policy options with concrete mechanisms and asymmetric risks, not platitudes. Specifically: - Break down impacts by node class (>28nm, 14–28nm, 7–14nm, <7nm) and by chokepoint category (EUV systems, advanced DUV immersion, EDA software, deposition/etch, AI accelerator chips). - For each policy lever (entity listings, de minimis rules, end-use restrictions, licensing thresholds, outbound investment screening), identify benefits, foreseeable harms, and leakage paths. - Call out where evidence is lopsided (e.g., strong public data on EDA dependencies vs weaker on domestic Chinese tool maturity). - Include likely industry impact timelines (quarters/years) and plausible Chinese workarounds (e.g., multi-patterning, tool refurb markets), with rough probabilities. - Address allied alignment and enforcement feasibility with concrete indicators (customs seizure rates, license denials, gray-market price signals), not generic statements. - No moral arguments or big-picture geopolitics—just mechanisms, asymmetries, and observables I can monitor."
+    },
+    {
+      "role": "assistant",
+      "content": "To map the policy options without advocating, I'll structure the analysis into decision axes, mechanisms, and observable indicators. First, define the decision axes across scope, enforcement, and timelines"
+    }
+  ]
+}

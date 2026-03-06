@@ -286,7 +286,11 @@ def sample_from_role(
     )[0]
 
 
-def build_messages_from_context(context: Dict[str, Any]) -> List[Dict[str, str]]:
+def build_messages_from_context(
+    context: Dict[str, Any],
+    *,
+    allow_empty_final_assistant_content: bool = False,
+) -> List[Dict[str, str]]:
     """Build a message list from context JSON with required `{"messages": [...]}` format."""
     raw_messages = context.get("messages")
     if not isinstance(raw_messages, list) or not raw_messages:
@@ -302,7 +306,14 @@ def build_messages_from_context(context: Dict[str, Any]) -> List[Dict[str, str]]
             raise ValueError(
                 f"context.messages[{idx}].role must be one of system/user/assistant, got: {role!r}"
             )
-        if not isinstance(content, str) or not content.strip():
+        is_allowed_empty_final_assistant = (
+            allow_empty_final_assistant_content
+            and idx == len(raw_messages) - 1
+            and role == "assistant"
+            and isinstance(content, str)
+            and content == ""
+        )
+        if (not isinstance(content, str) or not content.strip()) and not is_allowed_empty_final_assistant:
             raise ValueError(f"context.messages[{idx}].content must be a non-empty string.")
         messages.append({"role": role, "content": content})
     return messages

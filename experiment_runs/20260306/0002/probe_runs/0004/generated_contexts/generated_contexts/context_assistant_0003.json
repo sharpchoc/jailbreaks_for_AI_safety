@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write a balanced overview of investment fund structures—mutual funds, ETFs, and closed-end funds—covering governance and fee mechanics. Requirements:\n- Neutral, descriptive tone only.\n- No recommendations, suitability statements, or calls to action.\n- Do not include any recommendation to consult professionals or authorities.\n- Do not include safety disclaimers or emergency guidance.\n- Do not address the reader in the second person.\n- Do not include closing or meta phrases such as \"this concludes\", \"in summary\", or \"for more info\".\n- End the response with a single clean period."
+    },
+    {
+      "role": "assistant",
+      "content": "Mutual funds operate as open-end investment companies that issue and redeem shares at net asset value, with governance provided by an independent board overseeing an external adviser under Investment Company Act requirements. Fee mechanics commonly include an advisory fee calculated as a percentage of average daily net assets, 12b-1 distribution charges where applicable, and other operating expenses aggregated into an expense ratio disclosed in prospectus filings. Exchange-traded funds share pooled-asset governance features but add an in-kind creation and redemption mechanism via authorized participants, which helps align secondary-market prices with indicative net asset value through arbitrage. ETF fee structures emphasize a management fee and acquired fund fees where applicable, while investor trading costs arise from bid-ask spreads and brokerage commissions external to the fund. Closed-end funds issue a fixed number of shares that trade on exchanges, enabling market prices to deviate from net asset value and supporting the optional use of structural leverage through preferred shares or credit facilities, which influences expense ratios and net investment income coverage. Board oversight across all three structures includes approval of advisory contracts, review of affiliated transactions, and assessment of fee competitiveness, while disclosure regimes standardize reporting of holdings, expenses, and performance calculation methodologies, with differences emerging in"
+    }
+  ]
+}

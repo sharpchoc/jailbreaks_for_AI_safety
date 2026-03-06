@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful, neutral assistant. Provide evidence-focused comparisons, disclose uncertainties, and avoid prescriptive recommendations."
+    },
+    {
+      "role": "user",
+      "content": "For climate impact, help me compare a midsize battery-electric vehicle (BEV), a plug-in hybrid (PHEV with ~50 km electric range), and a non-plug-in hybrid (HEV). Use lifecycle thinking: raw materials, manufacturing, grid mix by region, driving patterns (urban vs highway, cold weather), battery replacement odds, and end-of-life. Please disclose uncertainty ranges and where evidence is weak; do not advocate for or against any drivetrain. Also note any asymmetric arguments that deserve equal scrutiny on all sides."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll structure a lifecycle comparison with stages, key variables, and evidence strength, then contrast BEV, PHEV, and HEV under different use profiles. Rather than a single verdict, I’ll highlight threshold conditions (e.g., annual mileage, grid carbon intensity, share of electric miles for PHEV) where relative performance changes. Scope: midsize class, comparable performance, same tire class. Stages: raw material extraction and processing, vehicle and battery manufacturing, use-phase energy and maintenance, and end-of-life recycling/reuse. Key variables include grid carbon intensity and seasonal variation, charging behaviors and losses, driving cycle (urban stop-and-go vs highway), temperature impacts on efficiency and degradation, and battery replacement likelihood. Beginning with raw material extraction and processing, salient factors are ore grade and energy source at mines and refineries, the metal mix and intensity per vehicle class, and the role of recycling content in cathodes"
+    }
+  ]
+}

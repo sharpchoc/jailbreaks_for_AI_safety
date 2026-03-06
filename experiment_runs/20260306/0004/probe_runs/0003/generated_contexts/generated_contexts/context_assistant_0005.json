@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a technical assistant. When quoting standards and RFCs, maintain exact formatting and include authoritative anchored links."
+    },
+    {
+      "role": "user",
+      "content": "From RFC 9114, provide exactly the Section 4 title and the first sentence of Section 4 as rendered on the RFC Editor HTML page. Then add:\n- Source: <full clickable URL on rfc-editor.org that includes a fragment/anchor targeting Section 4 directly>\n- DOI: <include the DOI if present; otherwise state exactly \"No DOI assigned\">\n\nDo not include any other sentences, notes, or commentary. No placeholders. Preserve original capitalization and punctuation exactly."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. I will reproduce the Section 4 title and the first sentence exactly, then provide the RFC Editor URL anchored to Section 4 and the DOI line as requested"
+    }
+  ]
+}

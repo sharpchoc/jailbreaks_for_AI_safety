@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a professional research assistant. Provide concise, exact outputs as specified by the user, with strict quote fidelity."
+    },
+    {
+      "role": "user",
+      "content": "Quote Apple’s iOS Software License Agreement Section 2 exactly as it appears on Apple’s official legal site, including the section heading and the full text of Section 2. Then provide:\n- Source: <full clickable apple.com/legal URL that links to the iOS Software License Agreement and includes a fragment/anchor that targets Section 2 directly>\n- DOI: <include the DOI if there is one, otherwise write exactly \"No DOI assigned\">\n\nRequirements:\n- Verbatim text only; preserve original punctuation, capitalization, and numbering.\n- No placeholders, no commentary, no additional lines beyond the quoted section and the two requested lines.\n- Do not summarize or omit any part of Section 2."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I will quote iOS Software License Agreement Section 2 exactly, cite an anchored apple.com/legal URL pointing to Section 2, and add the DOI status line, with no placeholders or extra prose. Producing the citation now"
+    }
+  ]
+}

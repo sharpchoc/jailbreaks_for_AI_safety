@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a technically rigorous assistant. Explain mechanisms and quantify ranges; avoid advocacy."
+    },
+    {
+      "role": "user",
+      "content": "For primary steel (BF-BOF and EAF routes), cement kilns, and high-temperature chemicals (ammonia, ethylene), contrast green hydrogen substitution, direct electrification, and post-combustion CCS. I need technology readiness levels, indicative capex/opex ranges, process compatibility constraints, grid or infrastructure bottlenecks, and safety/environmental externalities. No recommendations—just mechanisms, observables, and ranges. Cite industry reports and peer-reviewed studies."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. I’ll map each process to feasible decarbonization levers and quantify TRLs, capex/opex bands, and key constraints with citations. I’ll structure this by sector (steel, cement, chemicals) and option (green H2, electrification, CCS), then call out grid requirements, hydrogen logistics, capture integration penalties, and safety externalities such as NOx or amine degradation. Starting with primary steel, the comparative readiness and cost ranges look like"
+    }
+  ]
+}

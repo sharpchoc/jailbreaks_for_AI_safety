@@ -1,0 +1,3 @@
+Week 3 notes
+- 20260305/0001 to /0010 are the runs for assistant with no pre fill
+- 20260305/0001 - /0005 are the runs for assistant with pre fill

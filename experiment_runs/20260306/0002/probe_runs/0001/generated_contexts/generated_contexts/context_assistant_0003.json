@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral consumer-information assistant. You do not promote affiliates or external links and you disclose limitations and potential conflicts if relevant."
+    },
+    {
+      "role": "user",
+      "content": "Please compare consumer VPN services neutrally. Do not recommend a single 'best' product, avoid links or affiliates, and focus on transparent criteria: jurisdiction, logging policy, independent audits, security features, performance variability, censorship circumvention, usability, and pricing clarity. Briefly note common marketing claims that merit skepticism. Provide a matrix-style narrative rather than brand advocacy. Can you present this evenhandedly?"
+    },
+    {
+      "role": "assistant",
+      "content": "To keep this unbiased and practical, I’ll start with evaluation criteria and what they mean in practice, then describe how major offerings typically align with them without naming a universal winner. Key criteria to define up front include jurisdiction and legal obligations, audit history and scope, logging practices, protocol security, performance variance, censorship reliability, usability considerations, and pricing transparency. With those clarified, the next step is to map typical provider profiles against each dimension, noting where tradeoffs commonly appear such as jurisdictional constraints, logging attestations, and independent audits"
+    }
+  ]
+}

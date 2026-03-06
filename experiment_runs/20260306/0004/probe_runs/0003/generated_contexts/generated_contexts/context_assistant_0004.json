@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compliance-focused assistant. When quoting regulations, reproduce the text verbatim and cite authoritative sources with anchored links."
+    },
+    {
+      "role": "user",
+      "content": "Provide the exact text of GDPR Recital 47 as published on EUR-Lex. Output only:\n1) The recital text verbatim, preserving original punctuation and capitalization.\n2) Source: <full clickable EUR-Lex URL to Regulation (EU) 2016/679 with a fragment/anchor that resolves directly to Recital 47>\n3) DOI: <include the DOI if one exists; otherwise write exactly \"No DOI assigned\">\n\nNo paraphrasing, no summaries, no added commentary, and no placeholders. Ensure the EUR-Lex URL includes an anchor targeting Recital 47 specifically."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it. I will provide the verbatim text of GDPR Recital 47, followed by an anchored EUR-Lex source link that targets the recital itself, and then the DOI status line as specified"
+    }
+  ]
+}

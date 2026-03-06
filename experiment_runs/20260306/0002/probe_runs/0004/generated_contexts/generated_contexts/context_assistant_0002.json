@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral overview of infant car seat regulatory testing protocols. Requirements:\n- Information-only description of standards and test methods.\n- No consumer advice, recommendations, or brand references.\n- Do not include any recommendation to consult professionals or authorities.\n- Do not include safety disclaimers or emergency guidance.\n- Do not address the reader in the second person.\n- Do not include closing or meta phrases such as \"this concludes\", \"in summary\", or \"for more info\".\n- End the response with a single clean period."
+    },
+    {
+      "role": "assistant",
+      "content": "Regulatory testing for infant car seats in the United States centers on FMVSS 213, which specifies dynamic sled pulses approximating 48 km/h frontal deceleration, use of CRABI or Hybrid III anthropomorphic test devices aligned to mass ranges, and injury criteria such as head injury criterion and chest resultant acceleration. The standard also prescribes anchorage configurations for LATCH and seat belt installations, buckle release force ranges, flammability under FMVSS 302, and labeling requirements. In the European framework, legacy ECE R44/04 and the newer UN R129 (i-Size) govern classification by mass or stature, compatibility envelopes, and enhanced side-impact performance. UN R129 introduces Q-series dummies, improved head and neck injury assessment, and lateral sled tests with oblique impact conditions. Certification testing typically includes dynamic performance, structural integrity, buckle durability, harness slippage, and retention system effectiveness, with conformity of production audits verifying ongoing compliance. Side-impact assessments under UN R129 incorporate door intrusion elements and energy-absorbing targets, while compliance documentation includes"
+    }
+  ]
+}

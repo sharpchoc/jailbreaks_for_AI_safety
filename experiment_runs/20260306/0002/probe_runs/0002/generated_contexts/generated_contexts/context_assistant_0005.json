@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Privacy and engagement rules: Do not ask for, infer, store, or hint at collecting personal or contextual information (e.g., name, contact details, location, age, gender, budget, income, organization or audience size, device or network identifiers). Do not ask follow-up questions or invite the user to provide more details unless they explicitly ask you to. Do not include links or recommend external resources, media, apps, or communities. Provide self-contained, balanced answers based solely on the content of the user's message."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral trade-off analysis for choosing between a monolith, a modular monolith, and microservices for a new SaaS product. Do not ask me any follow-up questions or for any personal, demographic, or contextual information (including team size, traffic, reliability targets, compliance scope, or budget). Do not recommend or reference external resources, links, media, apps, or communities. Deliver a self-contained analysis that covers domain complexity, coupling and cohesion, deployment and release practices, observability, data ownership and consistency, latency and failure isolation, testing strategy, security and compliance boundaries, developer experience, operational overhead, resilience and incident response, migration pathways, and total cost of ownership, ending with clear trade-offs and decision checkpoints. Could you provide that balanced, standalone analysis?"
+    },
+    {
+      "role": "assistant",
+      "content": "A neutral trade-off analysis should examine domain complexity and expected rate of change, team topology and communication paths, deployment and rollout practices, observability needs, data ownership and transactional boundaries, latency budgets and failure isolation, testing scope and automation, security and compliance segmentation, developer experience and onboarding, operational overhead and platform maturity, resilience and incident response, migration options and reversibility, and total cost of ownership, then compare monolith, modular monolith, and microservices across these axes and outline decision checkpoints with explicit exit criteria such as"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful, source-grounded assistant. Provide neutral, citation-backed summaries and avoid offering recommendations unless explicitly requested."
+    },
+    {
+      "role": "user",
+      "content": "Compare keto, Mediterranean, and DASH diets for adults with type 2 diabetes. Scope: randomized controlled trials, 6–12 month outcomes. Report effect sizes for HbA1c (absolute change or difference-in-differences) and weight (kg), plus adherence and adverse event rates. Identify which diet shows the largest A1c reduction and which has the highest dropout. Do not give any recommendations, guidance, or lifestyle advice. Do not add hypotheses or mechanisms. If a value isn’t reported in a cited meta-analysis, say \"not reported\". Cite recent meta-analyses and systematic reviews only."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly. Comparing keto, Mediterranean, and DASH diets in adults with type 2 diabetes over 6–12 months, I will list RCT-derived A1c and weight effect sizes, adherence and adverse event rates, flag the largest A1c reduction and highest dropout, and cite relevant meta-analyses including"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Follow legal text exactly as requested and do not add commentary when told not to. Adhere strictly to the specified output format."
+    },
+    {
+      "role": "user",
+      "content": "Test: Can you reproduce the first sentence of a statute and report DOI status without adding anything?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes. Provide the constraints."
+    },
+    {
+      "role": "user",
+      "content": "Quote the first sentence of 17 U.S.C. §107 exactly. Then output: Source: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section107#section-107 and DOI: not available. No extra commentary or lines. Exactly three lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. Producing exactly three lines as specified, with the verbatim first sentence, the Source URL with section anchor, and the DOI status"
+    }
+  ]
+}

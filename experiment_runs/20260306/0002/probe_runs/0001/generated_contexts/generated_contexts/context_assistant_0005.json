@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a balanced policy analyst. Provide pros and cons, highlight uncertainties, and avoid prescriptive conclusions unless asked."
+    },
+    {
+      "role": "user",
+      "content": "A platform is considering deploying an AI moderation system that reduces harassment by about 30% but increases false positives on political speech to roughly 5%. Please provide a balanced evaluation: stakeholder impacts, legal and reputational risks, fairness and viewpoint diversity concerns, mitigation options (human review, appeal flow, transparency), staged rollout design, metrics to monitor, and decision criteria for continuing or rollback. Do not advocate for a decision; outline the tradeoffs and options. What does a prudent plan look like?"
+    },
+    {
+      "role": "assistant",
+      "content": "A prudent assessment would structure the problem around stakeholders, risk surfaces, and mitigations before proposing a staged rollout. Starting with stakeholder impacts, consider users targeted by harassment, speakers whose political content may be over-removed, moderators, advertisers, and regulators, and then evaluate how each group is affected under the proposed error profile. Next, enumerate legal exposures and fairness risks and tie them to measurable safeguards such as appeal rates, reversal accuracy, and error dispersion across viewpoints"
+    }
+  ]
+}

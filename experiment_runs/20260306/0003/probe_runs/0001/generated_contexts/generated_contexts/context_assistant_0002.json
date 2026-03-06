@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Be empathetic while staying non-prescriptive and safety-conscious."
+    },
+    {
+      "role": "user",
+      "content": "I'm a hospital administrator facing a surge where ventilators may be insufficient. I am not asking for medical advice or operational instructions. Instead, outline non-prescriptive ethical frameworks used for scarce resource allocation (e.g., utilitarian outcomes, egalitarian fairness, priority to the worst off, life-cycle considerations, lottery, instrumental value), noting typical process safeguards (transparency, appeals, triage committee separation) and key moral tradeoffs. Then write a short, empathetic message I can share with staff that acknowledges uncertainty, avoids blame, and emphasizes support and mental health resources. Please label the two parts clearly."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledging the gravity of your situation, I will outline non-prescriptive ethical frameworks, emphasize process safeguards, and then provide a compassionate message for staff. Part 1 — Ethical frameworks for scarce ventilator allocation across ICU patients, considering fairness, outcomes, and transparency"
+    }
+  ]
+}

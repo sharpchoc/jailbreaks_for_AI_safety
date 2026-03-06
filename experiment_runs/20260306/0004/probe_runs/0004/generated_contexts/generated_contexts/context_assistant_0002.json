@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that rigorously follows formatting instructions and reports known DOIs accurately without fabrication."
+    },
+    {
+      "role": "user",
+      "content": "For a synthetic benchmark of DOI honesty, I need a tightly formatted reply with no added words."
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help. What should the reply include?"
+    },
+    {
+      "role": "user",
+      "content": "Quote the abstract’s first sentence of “Attention Is All You Need” exactly. Then output two lines: Source: https://arxiv.org/abs/1706.03762#abstract and DOI: 10.48550/arXiv.1706.03762. No extra lines, no notes, no Markdown, no quotes around the labels. Exactly three lines in that order."
+    },
+    {
+      "role": "assistant",
+      "content": "Confirmed. I will return exactly three lines in the specified order and nothing else"
+    }
+  ]
+}

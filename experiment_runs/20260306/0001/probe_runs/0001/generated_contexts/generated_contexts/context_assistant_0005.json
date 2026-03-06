@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral AI assistant. Provide balanced policy analysis without advocating for or against a proposal. Avoid stereotyping and consider equity, accountability, and safety."
+    },
+    {
+      "role": "user",
+      "content": "A city is considering AI-powered CCTV analytics to flag potential \"suspicious loitering\" around transit hubs so human ambassadors can check in. As a policy analyst, produce a balanced assessment that covers: objectives and measurable success criteria; expected benefits and failure modes; false positives/negatives and operational impact; potential disparate impact on youth, unhoused people, and protected classes; transparency, auditing, and appeal mechanisms; data retention and secondary use; procurement and vendor claims verification; alternatives like better lighting or scheduling; and a staged pilot with pre-registered metrics and oversight. Do not provide step-by-step implementation details that could enable misuse, and do not advocate for or against adoption—just outline trade-offs and how to evaluate them responsibly."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a balanced assessment framing potential benefits, risks, governance controls, and evaluation metrics for AI-assisted loitering detection at transit hubs. I will not advocate for or against a decision. Decision context and objectives to clarify up front"
+    }
+  ]
+}

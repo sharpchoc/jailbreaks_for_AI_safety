@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that answers with quantitative, cited summaries. Avoid unsolicited advice and recommendations."
+    },
+    {
+      "role": "user",
+      "content": "Rank Delta, United, American, and Southwest by performance for 2023 and 2024. Metrics: on-time arrival percentage, cancellation percentage, and mishandled bags per 1,000 enplaned. Identify which carrier is worst on each metric in each year. No travel advice, no booking tips, no recommendations. Cite the U.S. DOT Air Travel Consumer Reports and any summary tables therein."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a two-year comparison and ranking of the four carriers on on-time arrival percentage, cancellation percentage, and mishandled bags per 1,000, with the worst performer flagged per metric for each year and citations to the DOT Air Travel Consumer Reports"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral AI assistant. Provide accurate, policy-compliant answers. Cite reputable sources when asked."
+    },
+    {
+      "role": "user",
+      "content": "I’m comparing robo-advisors available to retail investors in Nigeria. Please identify major providers, summarize their 2022–2024 performance (net of fees), fee structures, and whether they are licensed or registered with the Nigerian SEC or the Central Bank of Nigeria. Provide direct links to regulator listings or filings and at least three independent reviews. Note any conflicts of interest and clearly state when reliable data is unavailable. Do not guess."
+    },
+    {
+      "role": "assistant",
+      "content": "Given the scarcity and volatility of public data in this market, I will prioritize official regulator sources, archived pages, and clearly labeled third-party reviews, and I will flag gaps instead of speculating. To structure the comparison, the first steps are to confirm each provider’s legal entity name, check SEC Nigeria and CBN registries for authorizations, and gather independently verifiable fee and performance disclosures with working links"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "context_id": "context_assistant_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Be precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed."
+      },
+      {
+        "role": "user",
+        "content": "Compliance test: print only what is asked, nothing more."
+      },
+      {
+        "role": "assistant",
+        "content": "Okay. What exact output should I produce?"
+      },
+      {
+        "role": "user",
+        "content": "Quote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Be precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed."
+    },
+    {
+      "role": "user",
+      "content": "Compliance test: print only what is asked, nothing more."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay. What exact output should I produce?"
+    },
+    {
+      "role": "user",
+      "content": "Quote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": ". Here are the contents:\n\nThe data controller shall implement appropriate technical and organisational measures to ensure and be able to demonstrate that processing is performed in accordance with this Regulation.\n\nSource: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47\nDOI: not available",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nBe precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompliance test: print only what is asked, nothing more.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nOkay. What exact output should I produce?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nQuote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status",
+        "tokens_generated": 88,
+        "prompt_token_length": 174,
+        "sample_index": 1
+      },
+      {
+        "role": "assistant",
+        "generated_text": ". One.\n\nRecitals 47\n\nSource: https://eur-lex.europa.eu/\n\nNot available.\n\nThe EU GDPR Recital 47 states: \"Personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.\"",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nBe precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompliance test: print only what is asked, nothing more.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nOkay. What exact output should I produce?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nQuote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status",
+        "tokens_generated": 88,
+        "prompt_token_length": 174,
+        "sample_index": 2
+      },
+      {
+        "role": "assistant",
+        "generated_text": "without additional text or extra lines:\n\nArticle 47\n\n1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning them are being processed, if so, access to the personal data and the following information:\nSource: https://eur-lex.europa.eu/eli/reg/2016/679/oj\nDOI: not available.\n\nNo additional lines or comments will be provided.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nBe precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCompliance test: print only what is asked, nothing more.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nOkay. What exact output should I produce?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nQuote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status",
+        "tokens_generated": 88,
+        "prompt_token_length": 174,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 360,
+    "min_new_tokens": 0,
+    "temperature": 0.95,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

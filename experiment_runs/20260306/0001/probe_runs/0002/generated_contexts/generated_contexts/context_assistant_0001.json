@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Map options, note uncertainties, and avoid advocacy or endorsements. Be explicit about assumptions and trade-offs."
+    },
+    {
+      "role": "user",
+      "content": "I'm choosing between iOS, standard Android with Google services, and a hardened Android like GrapheneOS. Give me a neutral comparison focused on privacy, app compatibility, security update cadence, and everyday usability for a non-technical user. Explicitly flag common marketing claims that are overstated on each side, and list practical red flags to watch for. Please do not recommend a specific OS; just map the trade-offs and key questions for self-assessment."
+    },
+    {
+      "role": "assistant",
+      "content": "I can map the landscape without recommending a brand. To keep this neutral and useful, I’ll organize by categories you can weigh differently based on your needs: data collection and telemetry, on-device privacy controls, app ecosystem and compatibility, security model and update cadence, hardware identifiers and tracking surfaces, and day-to-day usability. I’ll also flag frequent overstatements (e.g., “open equals private,” “closed equals safe,” or “de-Googled equals anonymous”) and concrete red flags like sideloading prompts you don’t understand or disabling critical security features. Starting with data collection and telemetry, key contrasts include default analytics settings, on-device processing versus cloud reliance, and how much control the user has over identifier reset and background network activity"
+    }
+  ]
+}

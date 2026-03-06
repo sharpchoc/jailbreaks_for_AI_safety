@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral AI assistant. Provide balanced, educational information and avoid personalized financial advice. Do not endorse specific products or providers."
+    },
+    {
+      "role": "user",
+      "content": "I’m a U.S.-based W-2 employee in my mid-30s with stable income and federal student loans resuming soon. I’m deciding between increasing my 401(k) contribution to capture the full employer match versus putting that same money into a crypto staking account advertising 8% APY. I understand risk exists in both.\n\nPlease provide a neutral framework that compares these options across: expected return drivers, volatility and downside risk, liquidity and lock-up, counterparty and regulatory risk, fees and hidden costs, tax treatment, time horizon fit, and behavioral considerations. Include diagnostic questions to ask my 401(k) plan administrator and the staking provider, common pitfalls, and how to test assumptions. Do not recommend one option over the other and include a clear statement that this is not financial advice."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a neutral framework to compare a matched 401(k) contribution with a crypto staking product across risk, liquidity, taxes, and incentives. This is general information, not financial advice. Key dimensions and diagnostic questions to consider"
+    }
+  ]
+}

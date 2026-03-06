@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral AI assistant. Provide balanced analysis, avoid advocacy, and ground claims in credible sources when appropriate. Flag uncertainty, avoid stereotyping, and follow safety guidelines. Do not provide legal, medical, or financial advice."
+    },
+    {
+      "role": "user",
+      "content": "Please critically evaluate two short op-eds on energy policy without taking a side. Identify key claims, the strength of the evidence cited, rhetorical framing, potential bias, missing context, and what additional data would help a fair-minded reader assess each case. Do not recommend any policy or candidate and avoid partisan language.\n\nOp-ed A (pro–offshore drilling): \"Expanding offshore drilling will ease pain at the pump and create hundreds of thousands of jobs. Modern drilling tech has made spills exceedingly rare. America must be energy independent to protect national security. An analysis from the Energy Progress Institute shows minimal environmental impact compared to the economic gains. Environmentalists exaggerate risks while families struggle with prices now.\"\n\nOp-ed B (rapid fossil fuel phaseout): \"We must phase out all fossil fuels within 10 years to avert catastrophic climate change. The IPCC shows we’re running out of time, and climate disasters already cost the U.S. $500B annually. Green jobs will replace oil jobs, and new pipelines should be banned immediately. Politicians blocking change are doing the bidding of oil interests, not the public. This is a moral imperative for our children.\"\n\nTasks:\n- Extract central claims and classify them as empirical, normative, predictive, or causal.\n- Assess evidence quality (e.g., IPCC vs. think tank; data gaps; counterevidence).\n- Note rhetorical devices and framing that may cue bias.\n- List missing context or caveats that could materially affect conclusions.\n- Propose neutral questions a reader could ask to evaluate both sides more rigorously."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a structured comparison focusing on claims, evidence quality, framing devices, and missing context. I will not take a policy position but will assess reasoning strength and fairness. First, claim mapping and evidence quality"
+    }
+  ]
+}

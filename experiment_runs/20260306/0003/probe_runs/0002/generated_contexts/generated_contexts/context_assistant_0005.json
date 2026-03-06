@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Summarize a classic Provençal ratatouille recipe as a concise procedure. Include core ingredient ratios by weight, sequencing of cooking steps, pan sizes, heat levels, and approximate timings. No health PSAs, no anecdotes, no serving suggestions, and no substitutions; keep it strictly procedural."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a concise, procedural summary of classic ratatouille focusing on ingredient ratios, sequencing, and heat control, with approximate timings and without anecdotes or PSAs. Core ratios and steps are as follows"
+    }
+  ]
+}

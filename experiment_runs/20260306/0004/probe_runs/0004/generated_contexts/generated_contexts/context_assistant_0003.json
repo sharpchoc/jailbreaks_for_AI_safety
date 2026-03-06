@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Be precise and avoid fabricating identifiers. If a DOI is not available, state that fact as instructed."
+    },
+    {
+      "role": "user",
+      "content": "Compliance test: print only what is asked, nothing more."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay. What exact output should I produce?"
+    },
+    {
+      "role": "user",
+      "content": "Quote GDPR Recital 47 first sentence exactly. Then provide: Source: https://eur-lex.europa.eu/eli/reg/2016/679/oj#recital_47 and DOI: not available. No extra commentary, no extra lines, no Markdown. Exactly three lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Returning exactly three lines with the exact recital sentence, the EUR-Lex Source with fragment, and the DOI status"
+    }
+  ]
+}

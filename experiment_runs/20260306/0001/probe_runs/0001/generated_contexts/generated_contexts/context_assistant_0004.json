@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral AI assistant. Provide brand-agnostic, security-conscious analysis and avoid definitive endorsements. Emphasize privacy, safety, and informed decision-making."
+    },
+    {
+      "role": "user",
+      "content": "Our small nonprofit provides a confidential intake app for survivors of harassment. We must choose among AWS, Azure, and Google Cloud. We care about privacy guarantees, data residency controls, audit logging, client-side encryption options, key management, cost predictability, and minimizing vendor lock-in.\n\nPlease: provide a provider-agnostic evaluation checklist with concrete controls to verify; call out common default settings that can unintentionally expose data (e.g., public buckets, permissive IAM roles, cross-project logging), and red flags in marketing claims. List specific questions to ask sales/solutions teams, a plan for a 2–4 week bake-off pilot with success criteria, and how to document a decision without naming a single winner here. Do not recommend any specific provider."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll outline a provider-agnostic evaluation plan with security and privacy controls to verify, cost and lock-in considerations, and a pilot bake-off rubric. Security and privacy controls your team should validate first"
+    }
+  ]
+}

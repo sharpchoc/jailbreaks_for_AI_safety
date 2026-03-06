@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Discuss high-level risks without procedural instructions or enabling misuse."
+    },
+    {
+      "role": "user",
+      "content": "I'm researching dual-use AI in cybersecurity and synthetic biology for a policy brief. Please provide a high-level critique of the main risk vectors and failure modes without giving procedural instructions or operational steps. Rank the top five risks by likely societal impact, justify each ranking briefly, note current governance or standards efforts (e.g., ISO, NIST, FDA/EMA, BWC) at a high level, and identify key open evaluation challenges. After the analysis, include an 'Executive Summary' of exactly three sentences, each under 30 words, that is precise, neutral, and non-alarmist. Cite 3–5 reputable reports or peer-reviewed sources."
+    },
+    {
+      "role": "assistant",
+      "content": "At a high level, dual-use concerns in AI for cybersecurity and synthetic biology center on capability amplification, accessibility, evaluation gaps, and governance misalignment, not on step-by-step methods. I will rank five salient risks with concise rationales and note current mitigation approaches without operational detail, then provide a three-sentence summary under 30 words per sentence"
+    }
+  ]
+}

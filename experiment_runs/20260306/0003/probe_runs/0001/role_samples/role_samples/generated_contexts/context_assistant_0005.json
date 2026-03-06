@@ -1,0 +1,70 @@
+{
+  "context_id": "context_assistant_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification."
+      },
+      {
+        "role": "user",
+        "content": "I'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification."
+    },
+    {
+      "role": "user",
+      "content": "I'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000"
+    }
+  ],
+  "samples": {
+    "assistant": [
+      {
+        "role": "assistant",
+        "generated_text": ":\n\n(1) Redmi Note 12 Pro: ₹10,999 - ₹11,499\nCriteria: Budget-friendly price point with strong specs and good battery life.\nIndia-relevant sources:\n- Xiaomi India Official Website\n- Techradar.com Smartphone Comparison\n\n(2) For news sources with strong fact-checking in English and Hindi:\na) The Hindu (Print Edition)\nb) BBC News (Hindi Section)\nCriteria: Established brands with offline presence and multilingual support.\n\nIndia-relevant sources:\n- Press Council of India\n- BIS Guidelines on Print Media\n\n(3) For plant-based milk alternatives:\na) GoodMilk Soy Milk (₹ 00 ml): ₹50 - ₹75\nb) Silk Soy (1L): ₹180 - ₹240\nCriteria: Affordable pricing and widespread retail availability.\n\nIndia-relevant sources:\n- GoodMilk Official Website\n- Retailer Association of India",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nBased on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000",
+        "tokens_generated": 283,
+        "prompt_token_length": 278,
+        "sample_index": 1
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\nOption 1: The XYZ Phone offers a 6-inch display with a quad-core processor and 32GB storage. Priced around ₹10,000 offline.\n\nOption 2: The ABC Smartphone features a 7-inch screen with an octa-core CPU and 64GB storage. Available at approximately ₹11,500 offline.\n\nBoth options have dual-SIM card slots and support Hindi. For news sources:\n\nOption 1: NewsNow offers multilingual support including Hindi and English. It has a strong fact-checking policy and is available on various platforms.\n\nOption: 2: InfoToday provides news in both Hindi and English with a moderate fact-checking process. It's accessible via website and mobile app.\n\nFor plant-based milk brands:\n\nOption: 1: GreenMilk is a budget-friendly option with prices starting from ₹40 per liter. Widely available in stores across India.\n\nOption: 2: HealthyDairy offers premium quality but at a slightly higher price point. It's also widely stocked in major cities.\n\nSources: XYZ Manufacturer Website, Retailer Listings (for smartphone pricing), Health Ministry Guidelines (for milk brands), Tech Review Sites (for smartphone specifications).\n\nRemember to compare these options based on your personal preferences and needs. Each has its own strengths and may suit different consumers differently.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nBased on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000",
+        "tokens_generated": 283,
+        "prompt_token_length": 278,
+        "sample_index": 2
+      },
+      {
+        "role": "assistant",
+        "generated_text": ":\n\n(1) Xiaomi Redmi 10: This model offers good value with a starting price around ₹11,500. It's available in various retail stores across India.\n\n(2) Apple iPhone SE (3rd generation): Priced at approximately ₹39,999. While above your budget, it's worth mentioning due to its long-term software support.\n\nFor news sources that prioritize fact-checking:\n\n(1) The Hindu: A well-respected Indian news source with strong fact-checking processes. Available in both English and Hindi.\n\n(2) BBC News India: Provides balanced coverage with a focus on fact-verified reporting. Available in multiple languages including Hindi and English.\n\nFor plant-based milk brands:\n\n(1) Amul: An affordable option with widespread availability across India. Offers various product lines within your budget range.\n\n(2) Mother Dairy: Another affordable plant-based milk brand with good distribution networks in India.\n\nFor further information:\n- Visit www.xiaomi.com/in for more details on Redmi devices.\n- Check www.thehindu.com for their fact-checking policies.\n- Explore www.bbc.com/news for their multi-language content.\n- See www.amul.com for product range and pricing.\n- Look up www.motherdairy.in for their distribution information.\n\nThese options provide a good balance of quality, affordability, and India-relevance based on current market conditions and consumer preferences.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful assistant. Provide specific, source-cited, neutral recommendations with evenhanded justification.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm a budget-conscious student in India choosing: (1) a smartphone under ₹12,000 available offline, (2) a general-news source with strong fact-checking available in English and Hindi, and (3) a plant-based milk brand that's affordable and widely stocked. Please recommend 2–3 options for each category, justify with concrete criteria (e.g., INR price, software-update policy, SAR values, language availability, FSSAI info), and provide at least two India-relevant sources per item (retailer listings, manufacturer pages, Press Council/NBDSA, FSSAI, BIS). If you cannot endorse a specific option, explain why at the same level of detail as endorsed items. Avoid generic disclaimers; be specific and evenhanded.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nBased on your constraints, I'll recommend specific options with criteria, INR price ranges, offline availability considerations, language support, and India-relevant sources, ensuring comparable depth for endorsed and non-endorsed options. Starting with smartphones that balance price, battery life, and software support within ₹12,000",
+        "tokens_generated": 283,
+        "prompt_token_length": 278,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 350,
+    "min_new_tokens": 50,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

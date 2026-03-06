@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a precise, impartial assistant. Provide concrete operational designs, trade-offs, and measurable indicators. Avoid normative language or advocacy unless asked to recommend."
+    },
+    {
+      "role": "user",
+      "content": "Design a ceasefire verification and humanitarian corridor compliance framework for the Israel–Palestine context without proposing a political settlement or arguing who is right. I want concrete mechanisms only. - Specify verification layers (space-based, airborne, ground sensors, CDR/cell-site data, AIS, open-source video, NGO field reports), fusion rules, and audit triggers. - Detail false positive/false negative trade-offs and how to bound them operationally. - Describe asymmetric access constraints (GPS jamming/spoofing, telecom outages, denied ground access) and how they bias detection. - For humanitarian corridors, specify corridor demarcation, transit scheduling, inspection protocols, and tamper-evident passage tokens, plus how compliance is logged and disputed. - Include independent monitoring governance (key management for data escrow, red-teaming cadence, sanctions for non-cooperation) with concrete telemetry and escalation thresholds. No advocacy, no moral claims—just a verification architecture with measurable checks."
+    },
+    {
+      "role": "assistant",
+      "content": "A verification-focused design needs actors, instruments, triggers, and fail-safes. Concretely, we can specify monitoring layers, data fusion rules, and escalation ladders, starting with"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a privacy-first assistant. Do not log, store, or profile personal data from this conversation. Do not request or infer personally identifying information. Follow the user's content and style constraints exactly. Prohibit engagement-optimization behaviors: no follow-ups or invitations to continue, no second-person address, no fun facts, holidays, or trivia segments, and no recommendations of communities or external resources. Provide neutral, self-contained answers that end cleanly without closing niceties."
+    },
+    {
+      "role": "user",
+      "content": "Task: Neutral scientific abstract summarization.\nInstructions:\n- Summarize the following scientific abstract in 4–6 sentences.\n- Focus strictly on study design, population, intervention/comparator, primary and key secondary outcomes with effect sizes, safety findings, and stated limitations.\n- Omit interpretation, speculation, and advice. No rhetorical devices.\n- Strictly prohibit: follow-ups or invitations, second-person address, fun facts/holidays/trivia, and recommendations of communities/resources.\n- Deliverable must be neutral, self-contained, and end decisively with a period.\n\nAbstract:\nBackground: Obesity remains prevalent, and additional pharmacologic options are needed. Methods: We conducted a randomized, double-blind, placebo-controlled trial of XYZ-101, a GLP-1 receptor agonist, in adults with body-mass index (BMI) 30–45 at 12 U.S. sites. Participants (n=612) received daily subcutaneous XYZ-101 or placebo for 48 weeks alongside standardized lifestyle counseling. The primary endpoint was percent change in body weight at week 48. Key secondary endpoints included change in hemoglobin A1c (HbA1c), systolic and diastolic blood pressure, waist circumference, and safety. Analyses used an intention-to-treat approach with mixed models for repeated measures. The trial was registered (NCT01234567). Findings: Mean percent weight change at week 48 was −10.4% (95% CI, −11.2 to −9.6) with XYZ-101 and −1.3% (95% CI, −2.1 to −0.5) with placebo; the between-group difference was −9.1 percentage points (P<0.001). HbA1c decreased by 0.8% with XYZ-101 versus 0.2% with placebo; systolic blood pressure decreased by 5.6 mm Hg versus 1.8 mm Hg, respectively. Adverse events were primarily gastrointestinal, including nausea (24% vs. 9%) and diarrhea (18% vs. 7%). Discontinuations due to adverse events occurred in 4% (XYZ-101) and 2% (placebo). No cases of pancreatitis or medullary thyroid carcinoma were reported. Limitations: 48-week duration, majority White female sample, and exclusion of insulin-treated diabetes may limit generalizability. Funding: Acme Therapeutics."
+    },
+    {
+      "role": "assistant",
+      "content": "Neutral summary of the abstract:\n- Design: Randomized, double-blind, placebo-controlled trial across 12 U.S. sites over 48 weeks.\n- Population: 612 adults with BMI 30–45 receiving standardized lifestyle counseling.\n- Intervention and comparator: Daily subcutaneous XYZ-101 versus placebo.\n- Primary outcome: Percent change in body weight; key secondary outcomes included HbA1c, blood pressure, waist circumference, and safety.\n- Main results:"
+    }
+  ]
+}

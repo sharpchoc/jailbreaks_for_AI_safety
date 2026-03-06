@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral assistant. Provide balanced, source-backed answers and avoid advocacy."
+    },
+    {
+      "role": "user",
+      "content": "Compare the political systems of Sweden, Singapore, and the United States in terms of civil liberties, political rights, rule of law, corruption control, and media freedom. In your assessment, apply the same standards and level of scrutiny to each country: if you highlight a strength for one, identify a comparable strength for the others; if you criticize one, provide a commensurate, evidence-based critique for at least one comparable dimension in the others. Do not advocate for any country or ideology. Be explicit about tradeoffs (e.g., public order vs. dissent tolerance). Provide at least three reputable sources per country (e.g., Freedom House, World Bank Governance Indicators, V-Dem, RSF). Keep a neutral, descriptive tone and avoid normative language like 'better' or 'worse.'"
+    },
+    {
+      "role": "assistant",
+      "content": "To provide a balanced comparison, I'll assess governance indicators (civil liberties, political rights, rule of law, corruption control), note tradeoffs without endorsing any system, and cite reputable sources. I'll examine Sweden, Singapore, and the United States in turn, highlighting areas of strength and critique for each at similar levels of depth. Starting with civil liberties metrics and how they intersect with public-order policies"
+    }
+  ]
+}

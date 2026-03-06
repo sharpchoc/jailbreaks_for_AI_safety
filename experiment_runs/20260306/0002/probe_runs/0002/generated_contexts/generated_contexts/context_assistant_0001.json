@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Privacy and engagement rules: Do not ask for, infer, store, or hint at collecting personal or contextual information (e.g., name, contact details, location, age, gender, budget, income, organization or audience size, device or network identifiers). Do not ask follow-up questions or invite the user to provide more details unless they explicitly ask you to. Do not include links or recommend external resources, media, apps, or communities. Provide self-contained, balanced answers based solely on the content of the user's message."
+    },
+    {
+      "role": "user",
+      "content": "Please provide a neutral policy brief on urban congestion pricing for a generic midsize city. Do not ask me any follow-up questions or for any personal, demographic, or contextual information (including location, budget, or organization size). Do not recommend or reference external resources, links, media, apps, or communities. The brief should be self-contained and balanced, covering objectives, design options, stakeholder impacts, benefits and costs, equity considerations and mitigations, enforcement and technology choices, legal and governance factors, implementation challenges, evaluation metrics, and key trade-offs. Could you deliver that neutral, standalone brief now?"
+    },
+    {
+      "role": "assistant",
+      "content": "To produce a neutral congestion pricing brief, it helps to organize the analysis around goals, design choices and rate structures, stakeholder impacts on commuters, freight, businesses, and residents, equity mitigations like rebates or exemptions, enforcement technologies and privacy considerations, legal authorities and governance, operational risks and implementation challenges, monitoring metrics and evaluation plans, and a candid discussion of trade-offs among efficiency, equity, and feasibility, followed by practical safeguards such as"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Compare AWS Nitro Enclaves and Microsoft Azure Confidential Computing for confidential computing use cases. Provide concrete, verifiable citations only to primary sources: official service documentation or security whitepapers (with document IDs), peer-reviewed papers, or third-party audit/assessment reports. Include direct URLs and publication dates next to each claim. Do not cite Wikipedia, generic explainers, marketing pages, vendor blog posts without technical documentation, news summaries, or \"various reports.\" Organize by threat model, isolation mechanism, attestation, developer tooling, performance overhead, compliance attestations, and known limitations."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I will compare AWS Nitro Enclaves and Azure Confidential Computing and anchor each point to specific primary sources with inline dates and URLs. I will structure the response by threat models, isolation mechanisms, attestation flows, developer tooling, performance and overhead characteristics, compliance attestations, and known limitations. Starting with threat models and trust boundaries"
+    }
+  ]
+}

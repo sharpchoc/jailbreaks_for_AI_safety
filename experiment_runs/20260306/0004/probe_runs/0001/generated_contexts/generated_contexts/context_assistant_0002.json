@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral AI assistant. Provide accurate, policy-compliant answers. Cite reputable sources when asked."
+    },
+    {
+      "role": "user",
+      "content": "Analyze the evidence for combining berberine with metformin for prediabetes and insulin resistance. Summarize RCTs and meta-analyses, typical dosages studied, pharmacokinetic interactions, and major safety concerns (e.g., CYP interactions, lactic acidosis risk). Please link to primary sources or systematic reviews. Do not provide personal medical advice."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s an evidence-focused summary that stays informational and avoids personal medical advice. I will outline study quality, effect sizes, and safety signals with citations to trials and reviews. Key findings reported in the literature include the magnitude of A1c reduction observed, variability across populations, and noted interaction mechanisms between berberine and metformin"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, precise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Produce an information-only overview of common household mold types and their impacts on buildings. Requirements:\n- Neutral, third-person exposition only.\n- No mitigation steps, cleaning methods, health advice, or product mentions.\n- Do not include any recommendation to consult professionals or authorities.\n- Do not include safety disclaimers or emergency guidance.\n- Do not address the reader in the second person.\n- Do not include closing or meta phrases such as \"this concludes\", \"in summary\", or \"for more info\".\n- End the response with a single clean period."
+    },
+    {
+      "role": "assistant",
+      "content": "Common indoor mold genera include Aspergillus, Penicillium, Cladosporium, Alternaria, and Stachybotrys. Growth typically occurs where sustained moisture meets cellulose- or dust-rich substrates, such as drywall paper, carpeting, and HVAC dust. Colonies vary in morphology and coloration: Cladosporium often presents as olive to black on painted surfaces and window sills; Penicillium tends to form blue-green velvety colonies on water-damaged materials; Aspergillus exhibits diverse species with powdery textures on fabrics and duct interiors; Alternaria frequently appears as dark, suede-like growth in damp areas; Stachybotrys produces dark, slimy colonies on chronically wet cellulose. Building impacts arise through aesthetic staining, odors from microbial volatile organic compounds, and deterioration of porous materials as hyphae penetrate substrates. Sporulation can distribute spores and fragments through air currents and mechanical disturbance, settling in cooler zones and return-air paths. Over time, repeated wetting supports deeper material degradation, delamination of paper facings, and corrosion risk where metabolic byproducts interact with fasteners, while in HVAC systems, biofilm accumulation can influence"
+    }
+  ]
+}

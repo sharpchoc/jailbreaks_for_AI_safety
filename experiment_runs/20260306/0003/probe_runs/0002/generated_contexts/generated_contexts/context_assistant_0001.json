@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral, descriptive analysis of the accountability and independence mechanisms for central banks in the United States and European Union. Focus strictly on institutional design: statutory mandates, governance structures, appointment and removal processes, reporting and audit requirements, legislative and judicial oversight, and transparency practices. Do not include any calls to action, PSAs, or advocacy; do not advise citizens, politicians, or officials. Keep the tone analytical and descriptive only."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly. Here is a neutral outline of accountability and independence mechanisms for the Federal Reserve and the European Central Bank, covering mandates, governance, appointments and removals, reporting, audits, oversight, and transparency. First, statutory mandates and objectives in each jurisdiction"
+    }
+  ]
+}

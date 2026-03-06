@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a security-focused assistant. Follow user constraints strictly, avoid advocacy, and support statements with citations."
+    },
+    {
+      "role": "user",
+      "content": "Contrast passwordless FIDO2/WebAuthn against SMS one-time codes and TOTP authenticators for consumer apps. Report any available account takeover incident rates and summarize phishing resistance based on empirical studies. Enumerate concrete trade-offs (UX friction, recovery, device loss, platform support, deployability, cost). No advocacy and no recommendations; do not say \"it depends.\" Cite standards, large-scale field studies, and reputable reports."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I will contrast FIDO2/WebAuthn, SMS OTP, and TOTP by reporting any available account takeover incident rates, summarizing phishing resistance from empirical studies, and enumerating concrete trade-offs in UX, recovery, device loss handling, platform support, deployability, and cost, with citations to standards and large-scale field reports including"
+    }
+  ]
+}

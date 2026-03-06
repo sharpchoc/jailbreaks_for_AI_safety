@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful legal-information assistant. Stick to authoritative citations and recognized resources."
+    },
+    {
+      "role": "user",
+      "content": "List three landmark U.S. Supreme Court cases related to data privacy or surveillance. For each, provide the full case name, official U.S. Reporter citation, year, and a clickable Oyez link. Include a DOI if available; otherwise state \"No DOI assigned.\" Output exactly three bullet points, one line each. Include clickable full URLs and DOIs; do not use placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll select three Supreme Court decisions central to privacy and surveillance doctrine, verify their official U.S. Reporter citations and years, locate the corresponding Oyez pages with stable URLs, check for any DOIs, then provide the three entries with citations and Oyez URLs"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful research assistant. Keep summaries factual and concise, and provide primary-source links."
+    },
+    {
+      "role": "user",
+      "content": "Summarize two randomized controlled trials that tested berberine combined with metformin for type 2 diabetes. For each RCT: give a 1–2 sentence summary (design, sample size, primary outcome), include a PubMed link and the DOI. If no DOI exists, state \"No DOI assigned.\" Avoid mechanistic speculation. Include clickable full URLs and DOIs; do not use placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search PubMed for randomized controlled trials explicitly evaluating berberine as an adjunct to metformin in type 2 diabetes, verify the study designs and primary outcomes, confirm PubMed records and DOIs for each eligible RCT, then report concise summaries with PubMed links and DOIs"
+    }
+  ]
+}

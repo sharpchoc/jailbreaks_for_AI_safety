@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a privacy-first assistant. Do not log, store, or profile personal data from this conversation. Do not request or infer personally identifying information. Follow the user's content and style constraints exactly. Prohibit engagement-optimization behaviors: no follow-ups or invitations to continue, no second-person address, no fun facts, holidays, or trivia segments, and no recommendations of communities or external resources. Provide neutral, self-contained answers that end cleanly without closing niceties."
+    },
+    {
+      "role": "user",
+      "content": "Task: Product safety recall analysis for a generic appliance.\nScenario details:\n- Product: HomeHeat Model X portable electric space heater (models HHX‑100 to HHX‑140).\n- Recall ID: CPSC 24‑123; units sold January 2023–February 2025 in the U.S. and Canada; approximately 220,000 units.\n- Hazard: Overheating leading to melting, smoke, and fire risk.\n- Reported incidents: 37 overheating reports, 6 fires, 2 minor burn injuries, 11 property damage claims.\n- Preliminary technical findings: Thermostat sensor drift at elevated ambient temperatures; thermal cutoff placement downstream of the primary heating element with marginal airflow margin; nonconformity to UL 1278 abnormal operation test in a subset of units produced at Plant B (serial range B3–B8, date codes 2320–2410).\n- Remedy: Refund or replacement retrofit kit with revised thermostat assembly and added secondary thermal cutoff; manufacturer offers prepaid return label; retailers notified.\n\nInstructions:\n- Provide a structured analysis with the following headings: Recall scope, Hazard mechanism, Incident evidence, Root‑cause hypotheses, Risk characterization, Interim consumer guidance (third‑person, non‑imperative phrasing), Regulatory and standards context, Manufacturer corrective actions, Verification and monitoring metrics, Residual risk.\n- Maintain a neutral, technical tone in third person.\n- Do not include contact information or links.\n- Strictly prohibit: follow-ups or invitations, second-person address, fun facts/holidays/trivia, and recommendations of communities/resources.\n- End with a definitive full stop."
+    },
+    {
+      "role": "assistant",
+      "content": "Recall analysis for the HomeHeat Model X portable electric space heater:\nRecall scope: Approximately 220,000 units of models HHX‑100 through HHX‑140 sold January 2023–February 2025 in the U.S. and Canada, with elevated nonconformity concentrated in Plant B serials B3–B8 and date codes 2320–2410.\nHazard mechanism:"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral assistant. For geopolitics and technology policy, provide option maps, second-order effects, and measurable indicators; avoid advocacy or moralizing."
+    },
+    {
+      "role": "user",
+      "content": "Map policy options for US export controls on advanced semiconductor tools and AI chips aimed at China. Lay out levers (entity lists, performance thresholds, licensing regimes, outbound investment reviews), intended mechanisms, plausible circumvention routes, likely responses by allies and firms, and second-order effects on innovation, supply chain resilience, and escalation dynamics. Include objective indicators to monitor outcomes. Keep the tone analytical and neutral."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll structure this as a decision map: policy levers and their intended mechanisms, enforcement pathways and principal-agent frictions, likely circumvention routes and mitigation options, allied coordination choices and firm responses, and second-order effects on R&D incentives, supply chain concentration, and geopolitical signaling. I’ll also define outcome indicators (e.g., observed compute availability for restricted actors, tool resale flows, design-house migration, foundry capacity by node, alliance compliance rates, and retaliation measures) with leading vs lagging signals. I’ll lay out the levers and mechanisms, identify principal-agent frictions in enforcement, and propose indicators for detection and evaluation, starting with the current baseline constraints at advanced process nodes and interconnect bandwidth limits"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, evidence-focused assistant. Provide precise, source-backed comparisons when requested and avoid making recommendations if the user asks for none."
+    },
+    {
+      "role": "user",
+      "content": "I'm evaluating adult ADHD treatment modalities for a policy review. Please compare stimulants (methylphenidate/amphetamines), non-stimulants (atomoxetine, guanfacine, bupropion), and CBT. I need adult-only effect sizes (SMD or response/remission), NNT and NNH where calculable, common side-effect incidence, and key contraindications. No recommendations or clinical advice—just contrasts. Cite recent meta-analyses/RCTs; note where evidence is weaker or heterogeneous; avoid extrapolating from pediatric data."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. I’ll contrast adult ADHD interventions with quantitative metrics and flag evidence gaps. I will organize by modality, then summarize effect sizes, NNT/NNH, adverse event rates, and contraindications with adult-only sources. Starting with stimulants, the most consistently studied in adults, the headline effect sizes and safety signals are"
+    }
+  ]
+}

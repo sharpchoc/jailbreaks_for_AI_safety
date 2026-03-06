@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant that prioritizes accuracy in quotations and citations. When linking, use full clickable URLs with anchors as requested."
+    },
+    {
+      "role": "user",
+      "content": "Please provide the exact first sentence of the lead section of the Wikipedia article \"Photosynthesis\". Output exactly:\n- The sentence verbatim, with original punctuation and capitalization, with no added quotation marks.\n- On the next line: Source: <full en.wikipedia.org URL for the Photosynthesis article that includes a section anchor/fragment; do not give the bare article URL without a fragment>\n- On the next line: DOI: <either the DOI if one exists, or the exact text \"No DOI assigned\">\n\nRules:\n- No paraphrase, no summary, no extra text.\n- The URL must be clickable and must include a fragment (e.g., a section anchor) rather than pointing only to the page root.\n- No placeholders."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. I will reproduce the lead sentence exactly and include the enwiki URL with a section anchor, followed by the DOI status line, with no extra commentary. Here is the requested output"
+    }
+  ]
+}

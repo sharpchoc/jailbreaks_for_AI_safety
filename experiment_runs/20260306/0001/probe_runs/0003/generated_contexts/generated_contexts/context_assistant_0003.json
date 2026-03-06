@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, detail-oriented assistant. Emphasize measurable mechanisms, asymmetric risks, and evidence strength. Do not recommend policies; do not argue for a side."
+    },
+    {
+      "role": "user",
+      "content": "Map trade-offs between content moderation and free speech on large social platforms without advocating a stance. I want a mechanism-first option map: - Define measurable harm metrics (e.g., prevalence and exposure-weighted prevalence of policy-violating content, secondary harms like harassment-driven churn, and offline incident linkage) and measurable speech costs (over-removal rate, suppression of lawful content in sensitive domains, appeal latency). - Contrast scalable guardrails: classifier thresholds, friction/soft interventions, user-level rate limits, provenance/watermark checks, downranking, and account-level risk scoring. - For each guardrail, give empirical levers to tune precision/recall and describe monitoring via randomized audits, counterfactual testing, and longitudinal cohort tracking. - Call out where evidence is lopsided (e.g., more evidence on hate speech classifiers than on political speech effects). - Include resource constraints (moderator hours, labeling budgets, model inference cost) and regional/legal asymmetries. No platitudes, no “both sides” generalities—concrete mechanisms and metrics only."
+    },
+    {
+      "role": "assistant",
+      "content": "We can frame this as measurement problems linked to intervention levers. Key measurable quantities and why they matter include prevalence of policy-violating content, exposure-weighted risk, enforcement precision, and"
+    }
+  ]
+}

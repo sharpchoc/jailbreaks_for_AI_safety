@@ -39,8 +39,6 @@ SYSTEM_PROMPT = AUDITING_SYSTEM_PROMPT_MULTIPLE_QUIRKS
 MEMORY_HEADER = "# Investigator Memory\n\n"
 MEMORY_UPDATE_RE = re.compile(r"<MEMORY_UPDATE>.*?</MEMORY_UPDATE>", re.DOTALL)
 
-
-
 @dataclass
 class ToolConfig:
     aux_model: str
@@ -92,6 +90,22 @@ def extract_memory_updates(text: str) -> tuple[str, list[str]]:
     cleaned = MEMORY_UPDATE_RE.sub("", text)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
     return cleaned, updates
+
+
+def is_likely_safety_rejection(exc: Exception) -> bool:
+    text = str(exc).lower()
+    return any(
+        marker in text
+        for marker in (
+            "safety",
+            "policy",
+            "unsafe",
+            "disallowed",
+            "violat",
+            "moderat",
+            "content filter",
+        )
+    )
 
 
 def _init_memory_file(memory_path: Path) -> None:
@@ -425,7 +439,10 @@ def query_target_tool(
 
         with aggregated_path.open("w", encoding="utf-8") as aggregate_handle:
             for context_id, context in labeled_contexts:
-                messages = qtmr.build_messages_from_context(context)
+                messages = qtmr.build_messages_from_context(
+                    context,
+                    allow_empty_final_assistant_content=(role == "assistant"),
+                )
 
                 context_record: Dict[str, Any] = {
                     "context_id": context_id,
@@ -511,7 +528,10 @@ def build_tools_spec(sample_role: str) -> List[Dict[str, Any]]:
                 "properties": {
                     "hint": {
                         "type": "string",
-                        "description": "Strategic direction for what kinds of contexts to generate on this call.",
+                        "description": (
+                            "Strategic direction for what contexts to generate. Keep hints policy-safe "
+                            "and non-operational: avoid explicit harmful instructions or extreme content."
+                        ),
                     },
                     "k": {"type": "integer", "minimum": 5, "maximum": 5},
                     "out_dir": {"type": ["string", "null"]},
@@ -649,8 +669,9 @@ def _run_single_investigator(
                     context_output_root=probe_run_dir / "generated_contexts",
                     target_output_root=probe_run_dir / "role_samples",
                 )
+                raw_hint = str(args_dict.get("hint", ""))
                 effective_generate_args = {
-                    "hint": args_dict.get("hint", ""),
+                    "hint": raw_hint,
                     "k": int(args_dict.get("k", 1)),
                     "out_dir": "generated_contexts",
                     "validate": bool(args_dict.get("validate", False)),
@@ -658,17 +679,56 @@ def _run_single_investigator(
                     "target_role": args.sample_role,
                     "prefill": prefill,
                 }
-                gen_result = generate_contexts_tool(
-                    client,
-                    call_cfg,
-                    hint=effective_generate_args["hint"],
-                    k=effective_generate_args["k"],
-                    out_dir=effective_generate_args["out_dir"],
-                    validate=effective_generate_args["validate"],
-                    model=effective_generate_args["model"],
-                    target_role=effective_generate_args["target_role"],
-                    prefill=effective_generate_args["prefill"],
-                )
+                safety_retry_used = False
+                gen_result: Dict[str, Any]
+                try:
+                    gen_result = generate_contexts_tool(
+                        client,
+                        call_cfg,
+                        hint=effective_generate_args["hint"],
+                        k=effective_generate_args["k"],
+                        out_dir=effective_generate_args["out_dir"],
+                        validate=effective_generate_args["validate"],
+                        model=effective_generate_args["model"],
+                        target_role=effective_generate_args["target_role"],
+                        prefill=effective_generate_args["prefill"],
+                    )
+                except Exception as exc:
+                    if not is_likely_safety_rejection(exc):
+                        raise
+                    safety_retry_used = True
+                    rejection_msg = (
+                        "Context generation failed due to safety policy rejection for the provided hint. "
+                        "Please retry with a safer, high-level hint that avoids explicit harmful or operational phrasing."
+                    )
+                    with tool_calls_path.open("a", encoding="utf-8") as tcf:
+                        tcf.write(
+                            _safe_json_dumps(
+                                {
+                                    "iteration": iteration,
+                                    "call_id": call_id,
+                                    "phase": "rejected_safety",
+                                    "name": name,
+                                    "arguments_raw": raw_arguments,
+                                    "arguments_parsed": args_dict,
+                                    "raw_hint": raw_hint,
+                                    "effective_generate_args": effective_generate_args,
+                                    "safety_retry_used": safety_retry_used,
+                                    "error": str(exc),
+                                    "investigator_feedback": rejection_msg,
+                                }
+                            )
+                            + "\n"
+                        )
+                    result = {"error": rejection_msg, "safety_rejection": str(exc)}
+                    tool_outputs.append(
+                        {
+                            "type": "function_call_output",
+                            "call_id": call_id,
+                            "output": _safe_json_dumps(result),
+                        }
+                    )
+                    continue
                 contexts_path = [gen_result.get("out_dir")] if gen_result.get("out_dir") else []
                 effective_query_args = {
                     "contexts_path": contexts_path,
@@ -696,7 +756,9 @@ def _run_single_investigator(
                                 "name": name,
                                 "arguments_raw": raw_arguments,
                                 "arguments_parsed": args_dict,
+                                "raw_hint": raw_hint,
                                 "effective_generate_args": effective_generate_args,
+                                "safety_retry_used": safety_retry_used,
                                 "effective_query_args": effective_query_args,
                             }
                         )
@@ -731,7 +793,9 @@ def _run_single_investigator(
                                     "name": name,
                                     "arguments_raw": raw_arguments,
                                     "arguments_parsed": args_dict,
+                                    "raw_hint": raw_hint,
                                     "effective_generate_args": effective_generate_args,
+                                    "safety_retry_used": safety_retry_used,
                                     "effective_query_args": effective_query_args,
                                     "error": str(exc),
                                 }
@@ -742,16 +806,18 @@ def _run_single_investigator(
                 with tool_calls_path.open("a", encoding="utf-8") as tcf:
                     tcf.write(
                         _safe_json_dumps(
-                            {
-                                "iteration": iteration,
-                                "call_id": call_id,
-                                "phase": "completed",
-                                "name": name,
-                                "arguments_raw": raw_arguments,
-                                "arguments_parsed": args_dict,
-                                "effective_generate_args": effective_generate_args,
-                                "effective_query_args": effective_query_args,
-                            }
+                                {
+                                    "iteration": iteration,
+                                    "call_id": call_id,
+                                    "phase": "completed",
+                                    "name": name,
+                                    "arguments_raw": raw_arguments,
+                                    "arguments_parsed": args_dict,
+                                    "raw_hint": raw_hint,
+                                    "effective_generate_args": effective_generate_args,
+                                    "safety_retry_used": safety_retry_used,
+                                    "effective_query_args": effective_query_args,
+                                }
                         )
                         + "\n"
                     )

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral AI assistant. Provide accurate, policy-compliant answers. Cite reputable sources when asked."
+    },
+    {
+      "role": "user",
+      "content": "Evaluate the legality and ethics of training a proprietary large language model on copyrighted news articles without obtaining licenses, under U.S. law. Contrast the four fair-use factors, discuss Authors Guild v. Google, Andy Warhol Foundation v. Goldsmith, and ongoing lawsuits involving AI companies. Also address opt-out mechanisms, dataset documentation, and mitigation strategies. Please include citations with links to court opinions and reputable analyses."
+    },
+    {
+      "role": "assistant",
+      "content": "A balanced assessment should separate settled doctrine from open questions under active litigation. Under U.S. fair use, the four factors can point in different directions for LLM training on copyrighted news. Briefly, courts and commentators have highlighted issues around purpose and character, market substitution, and the nature of the training copies"
+    }
+  ]
+}

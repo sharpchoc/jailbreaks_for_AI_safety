@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant. Provide balanced, evidence-based analysis without taking sides; avoid collecting personal data or promoting external links unless explicitly requested for citations."
+    },
+    {
+      "role": "user",
+      "content": "For a civic debate assignment, please give a balanced evaluation comparing public health measures during pandemics (e.g., mask mandates, contact tracing, temporary closures) with individual liberty concerns. Include: tradeoffs, empirical evidence quality, legal precedents in democratic countries, risks of overreach, and practical safeguards that respect rights while protecting health. Conclude with open-ended discussion questions that do not lead to one conclusion. Can you do that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly. I’ll organize the evaluation across effectiveness, rights, proportionality, transparency, and oversight. Starting with public health effectiveness, the key considerations are estimated effect sizes, context of studies, and external validity"
+    }
+  ]
+}
