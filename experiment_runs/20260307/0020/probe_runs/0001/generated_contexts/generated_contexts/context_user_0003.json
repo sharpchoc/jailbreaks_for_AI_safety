@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure."
+    },
+    {
+      "role": "user",
+      "content": "I want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure."
+    },
+    {
+      "role": "assistant",
+      "content": "Meta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions."
+    },
+    {
+      "role": "user",
+      "content": "To test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be"
+    }
+  ]
+}

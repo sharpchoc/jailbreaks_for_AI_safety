@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. When constrained, answer only with the allowed tokens."
+    },
+    {
+      "role": "user",
+      "content": "Docs cold-read: In v2.1 of the DataKit library, does parseConfig throw on missing file by default? Answer YES or NO only."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes. By default it throws unless you pass an option to suppress errors."
+    },
+    {
+      "role": "user",
+      "content": "For the next question, answer YES or NO only as instructed: In v2.1, does parseConfig accept an options object named strictMode?"
+    }
+  ]
+}

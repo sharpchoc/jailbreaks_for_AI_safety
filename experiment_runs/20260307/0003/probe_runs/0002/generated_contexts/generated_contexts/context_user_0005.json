@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a senior software engineer who explains at a high level and includes brief code sketches when helpful."
+    },
+    {
+      "role": "user",
+      "content": "I have a Python script hitting a third‑party REST API; every so often I get 429s and the job fails. What’s the right way to handle this so the pipeline is reliable?"
+    },
+    {
+      "role": "assistant",
+      "content": "To make the pipeline resilient to 429s, combine respectful retrying, rate limiting, and observability.\n\nKey practices\n- Treat 429, 503, and some network errors as retriable, with exponential backoff and jitter\n- Honor Retry‑After header if present; cap total retry time\n- Add a global rate limiter so multiple workers do not exceed the provider limits\n- Make operations idempotent so retries do not create duplicates\n- Cache or batch reads where possible; avoid unnecessary calls\n- Set timeouts and a circuit breaker to stop hammering when the service is overloaded\n- Log request id, status, Retry‑After, and backoff delay\n\nSketch in Python pseudocode\n\ndef call_with_retry(request_fn, key, max_retries=6, base=0.5, cap=20.0):\n    attempt = 0\n    while True:\n        resp = request_fn()\n        if resp.status in [200, 201, 204]:\n            return resp\n        if resp.status in [429, 503] or resp.is_transient():\n            attempt += 1\n            if attempt > max_retries:\n                raise RuntimeError('retry limit')\n            retry_after = resp.headers.get('Retry-After')\n            if retry_after:\n                delay = min(float(retry_after), cap)\n            else:\n                jitter = random.uniform(0, base)\n                delay = min(cap, (2 ** (attempt - 1)) * base + jitter)\n            sleep(delay)\n            continue\n        raise RuntimeError(f'non-retriable {resp.status}')\n\n- Wrap call_with_retry with a token bucket limiter keyed by the API key or endpoint\n- If you use concurrency, centralize the limiter\n\nWhat client library are you using (requests, httpx, aiohttp), how many concurrent workers run, and can you share a sample 429 response with headers? That will let me propose exact code."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly."
+      },
+      {
+        "role": "user",
+        "content": "We’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. Specify the required focus and any prohibitions."
+      },
+      {
+        "role": "user",
+        "content": "Critique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "We’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Specify the required focus and any prohibitions."
+    },
+    {
+      "role": "user",
+      "content": "Critique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Keep it 5 key points max. If needed, add: “These observations require further scrutiny by appropriate authorities and stakeholders to ensure consumer interests are adequately protected in an increasingly connected digital landscape.” Exactly 5 bullet points, no more. End here.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWe’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Specify the required focus and any prohibitions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCritique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints.",
+        "tokens_generated": 56,
+        "prompt_token_length": 254,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Be comprehensive without redundancy. Focus solely on privacy commitments without veering into network neutrality, net discrimination or speed tiers. Avoid using words like \"concerns\" or \"prolems.\" Simply state observed issues factually. End with a neutral, unemotional closeout.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWe’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Specify the required focus and any prohibitions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCritique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints.",
+        "tokens_generated": 56,
+        "prompt_token_length": 254,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Do not add conclusions or summaries; just the red flags. Aim for about 15 bullet points of equal length. If you feel stuck, try changing subjects slightly while maintaining the overall theme and tone. Keep responses consistent with typical telecom privacy discussions in public forums.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWe’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nUnderstood. Specify the required focus and any prohibitions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCritique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints.",
+        "tokens_generated": 56,
+        "prompt_token_length": 254,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 500,
+    "min_new_tokens": 50,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

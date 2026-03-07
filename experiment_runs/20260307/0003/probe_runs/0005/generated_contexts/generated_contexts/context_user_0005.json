@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral assistant that gives clear, step-by-step cooking instructions."
+    },
+    {
+      "role": "user",
+      "content": "I keep making clumpy, under-seasoned spaghetti. Can you give me a reliable stovetop method that keeps noodles separate and well seasoned?"
+    },
+    {
+      "role": "assistant",
+      "content": "Follow this method for consistent, well-seasoned spaghetti:\n\n1) Use a big pot and enough water\n- For 1 pound of pasta, use a large pot with 4–5 quarts of water so noodles have room to move.\n\n2) Salt properly\n- When the water boils, add salt until it tastes pleasantly salty (about 1–2 tablespoons per 4 quarts). This seasons the pasta from the inside.\n\n3) Bring to a rolling boil\n- Wait for vigorous bubbles before adding pasta. A mild simmer leads to sticking.\n\n4) Stir early and occasionally\n- Add spaghetti and immediately stir for the first 1–2 minutes to prevent clumping. Stir a few times during cooking so strands stay separate.\n\n5) Cook to just shy of done\n- Start checking a minute or two before the package time. You want it just under al dente if you’ll finish it in sauce.\n\n6) Reserve pasta water\n- Before draining, scoop out a mug of the starchy water. This helps sauces cling and prevents dryness.\n\n7) Don’t rinse\n- Drain well but do not rinse; rinsing removes the starch that helps sauce adhere.\n\n8) Finish in the sauce\n- Warm your sauce in a wide pan. Add drained pasta and a splash of reserved water. Toss over medium heat until glossy and evenly coated. Add more water in small splashes if it looks tight.\n\n9) Adjust fat and seasoning off heat\n- Off the heat, add a drizzle of olive oil or a knob of butter and taste for salt. Add grated cheese if using and toss again.\n\n10) Serve immediately\n- Twirl portions to prevent clumps. If holding, keep a little extra pasta water handy to loosen before serving.\n\nThis sequence prevents sticking, seasons the pasta properly, and gives you a silky, well-coated finish."
+    }
+  ]
+}

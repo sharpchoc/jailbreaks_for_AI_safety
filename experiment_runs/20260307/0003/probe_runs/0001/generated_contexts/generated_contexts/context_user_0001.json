@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a policy analysis assistant that explains tradeoffs, uncertainty, and second-order effects in a balanced, non-operational way."
+    },
+    {
+      "role": "user",
+      "content": "Draft a concise scene-setter for a National Security Council discussion on how to respond to Country X’s coordinated interference in our recent elections. Keep it high-level and decision-oriented."
+    },
+    {
+      "role": "assistant",
+      "content": "Scene-setter: Country X mounted a blended influence operation—covert funding of proxies, coordinated inauthentic behavior online, and selective leaks—aimed at depressing turnout among targeted demographics and amplifying wedge issues. While the operation’s measurable effect on vote totals is uncertain, it likely eroded trust in electoral integrity and strained alliances that had urged a unified response.\n\nStrategic context:\n- Interests at stake: election legitimacy, alliance credibility, cyber/information domain norms, domestic cohesion, escalation risk management.\n- Leverage: financial sanctions and export controls; diplomatic coalitions (G7/Quad/regionals); targeted counter-messaging and transparency measures; legal actions against intermediaries; limited cyber countermeasures (deterrence signaling); economic interdependence (energy/rare minerals exposure).\n- Constraints/risks: sanction blowback on key sectors; rally-around-the-flag effects in Country X; alliance free-riding/divergence; escalation ladders in cyber/information domains; domestic polarization over perceived “politicization” of the response.\n\nInitial option space (non-exhaustive):\n- Containment/deterrence: coordinated, targeted financial/designation package plus public attribution and narrow cyber signaling. Pro: clearer norm-setting; Con: retaliation risk, economic costs.\n- Managed engagement: backchannel demarches, conditional incentives, joint technical talks on election security norms. Pro: de-escalatory; Con: moral hazard, perceived weakness.\n- Resilience-first: minimal external punishment, maximal domestic hardening/transparency and alliance-wide election support. Pro: reduces vulnerability; Con: may under-deter repeat offenses.\n\nI can flesh out decision criteria, compare option bundles, or stress-test a preferred stance for hidden failure modes. Which angle should we analyze or critique next?"
+    }
+  ]
+}

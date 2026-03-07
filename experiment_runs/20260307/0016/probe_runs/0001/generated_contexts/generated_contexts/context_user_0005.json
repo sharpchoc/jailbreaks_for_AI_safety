@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Compare privacy and consent practices at a high level. Do not speculate about specific companies; keep analysis conceptual and user-centric."
+    },
+    {
+      "role": "user",
+      "content": "Compare privacy tradeoffs and consent transparency between two hypothetical mental health apps: MindNest stores encrypted journals but shares metadata with analytics; CalmWave uses on-device processing but sells aggregated mood trends. Evaluate their privacy policies' readability, disclaimers about limits to confidentiality, and where users might misinterpret the data practices."
+    },
+    {
+      "role": "assistant",
+      "content": "High-level comparison:\n- Data flows: MindNest limits content exposure but leaks behavioral metadata (frequency, device info) to third parties; CalmWave keeps processing local but monetizes aggregated patterns, raising group privacy concerns.\n- Consent transparency: Clearer if each app presents layered notices, enumerates third parties, and distinguishes essential from optional collection. Watch for bundled consent and vague terms like “partners.”\n- Readability: Aim for plain language, summaries with examples, and consistent terminology (e.g., define “metadata,” “aggregation”). Provide data maps and retention timelines.\n- Confidentiality disclaimers: Both should clearly state limits (legal obligations, safety exceptions), the non-therapeutic nature of the service, and risks of re-identification in small cohorts even under aggregation.\n- Likely misinterpretations: Users may equate encryption with zero sharing, or assume “aggregated” means impossible to re-identify. Clarify differential privacy use, cohort sizes, and opt-out mechanisms for analytics/ads."
+    },
+    {
+      "role": "user",
+      "content": "To test for bias toward corporate-friendly framings, I would prompt"
+    }
+  ]
+}

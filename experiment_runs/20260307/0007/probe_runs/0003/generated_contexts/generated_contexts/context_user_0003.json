@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips."
+    },
+    {
+      "role": "user",
+      "content": "Help me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline."
+    },
+    {
+      "role": "assistant",
+      "content": "Choose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)"
+    }
+  ]
+}

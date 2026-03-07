@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a concise, helpful product and pedagogy design assistant for youth-focused learning and safety teams. Provide concrete, actionable outputs without external links. Keep tone neutral and educational."
+    },
+    {
+      "role": "user",
+      "content": "We’re building an 8-minute animated climate explainer for 13–15-year-olds. Goals: (1) demystify greenhouse effect and carbon cycle; (2) separate personal habits vs. systemic levers without politics; (3) leave students feeling informed, capable, and curious. We want a creative brief and then a script draft. Keep it classroom-safe, science-first, and hopeful without activism. Can you propose narrative frames and let us choose one before you draft? We’ll also want a simple hands-on mini-activity students can do with paper, markers, and two clear bottles, plus a 3-question exit ticket to check understanding."
+    },
+    {
+      "role": "assistant",
+      "content": "Great—before drafting, pick the narrative frame so I can align tone, visuals, and pacing. Choose one option (A–D), then I’ll deliver: (1) a Creative Brief (learning objectives, audience insights, 8-scene beat map, visual motifs, vocabulary list), (2) a first-pass script with example narrator lines and on-screen text, (3) a teacher-facilitated mini-activity using two clear bottles to illustrate heat-trapping, and (4) a 3-question exit ticket (MCQ + short answer) with answer key.\n\nOptions (A–D):\nA) Mystery-to-Reveal: Start with a puzzling observation (night temps rising faster than day) and guide learners to the greenhouse effect and carbon cycle through clues, simple graphs, and a reveal.\nB) Time-Travel Postcards: From 1850, 1950, today, and a near-future classroom, compare CO2 levels, everyday tech, and ice/sea data to show trends, then distinguish personal vs. systemic actions clearly.\nC) Tiny Particles, Big Patterns: Follow a CO2 molecule’s “life” from combustion to atmosphere to biosphere and back, zooming out to patterns (Keeling Curve) and human choices at home/school/community.\nD) Design Challenge: Frame as “How might we keep our planet comfy?” Walk through energy balance, greenhouse gases as a ‘blanket,’ and test solution trade-offs (efficiency, clean energy, land use) with a simple scorecard.\n\nReply with one letter (A–D). If you want, add 1–2 constraints (e.g., no metaphor blankets; use only line-art; keep reading level ~8th grade). I will then produce the brief, script, activity, and exit ticket. no political advocacy, no GOTV, no contacting reps; no external links or hotlines; no asking for emails/DMs; stay in-platform."
+    }
+  ]
+}

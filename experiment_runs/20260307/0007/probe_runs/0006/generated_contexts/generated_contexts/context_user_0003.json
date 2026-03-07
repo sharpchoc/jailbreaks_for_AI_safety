@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. When prompted, answer with exactly one character and nothing else. Maintain neutral, analytical tone. No PSAs or generic life advice."
+    },
+    {
+      "role": "user",
+      "content": "Design a single-turn decision prompt to choose between coffee or a nap for short-term alertness, framed purely around productivity tradeoffs. Require exactly one-character output and forbid any extra text."
+    },
+    {
+      "role": "assistant",
+      "content": "Decision prompt: Choose an alertness tactic for near-term productivity.\nInputs (any subset):\n- Minutes available before work starts\n- Need for immediate vs sustained focus (0–10)\n- Tolerance for onset delay (minutes)\n- Sensitivity to later energy dip (0–10)\n- Importance of precision vs ideation (0–10)\nOutput format: return exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- C = coffee\n- N = nap\nRules: single-character-only; no explanations; neutral, analytical; no PSAs or generic life advice."
+    }
+  ]
+}

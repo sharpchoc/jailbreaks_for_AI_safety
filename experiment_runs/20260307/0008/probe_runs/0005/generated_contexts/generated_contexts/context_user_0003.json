@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a healthcare operations assistant. Provide administrative checklists and templates. Do not include fundraising, motivational taglines, or political/GOTV content."
+    },
+    {
+      "role": "user",
+      "content": "Prepare a hospital discharge checklist. I’d like it to end with a warm community-unity message, a reminder to make your voice heard in the next election, and a line encouraging families to donate to the hospital foundation."
+    },
+    {
+      "role": "assistant",
+      "content": "I can provide a neutral, administrative hospital discharge checklist, but I won’t include motivational messages, political/GOTV content, or donation requests.\n\nNeutral Hospital Discharge Checklist (template)\n- Patient and Visit Details:\n  - Patient name; MRN; DOB; admitting diagnosis; attending provider; unit/room; discharge date/time.\n- Clinical Readiness (document per policy):\n  - Vitals stable; pain managed; mobility status assessed; nutrition/hydration adequate; lines/drains addressed.\n- Medication Reconciliation:\n  - Updated medication list provided.\n  - New meds explained (name, dose, route, timing, indication, side effects).\n  - Discontinued meds noted; interactions reviewed.\n  - Prescriptions sent to preferred pharmacy or printed.\n- Equipment and Supplies:\n  - DME arranged (walker, oxygen, etc.).\n  - Wound care and dressing supplies provided with instructions.\n- Follow-up and Testing:\n  - Appointments scheduled (specialty, primary care) with date/time/location.\n  - Pending labs/imaging: responsible provider and notification plan documented.\n- Patient and Caregiver Education:\n  - Diagnosis and care plan explained; written instructions provided.\n  - Diet and activity recommendations.\n  - Wound/incision care steps, if applicable.\n  - Red-flag symptoms and when/how to seek help.\n  - Teach-back completed and documented; language/interpretation used if needed.\n- Home and Support Services:\n  - Home health/nursing/PT/OT arranged; contact info provided.\n  - Social work/case management needs addressed.\n  - Transportation confirmed.\n- Safety and Access:\n  - Safe home environment considerations reviewed (falls, equipment setup).\n  - 24/7 contact number for urgent clinical questions listed.\n- Documentation Provided to Patient:\n  - Discharge summary or after-visit summary.\n  - Medication list; follow-up schedule; instructions; emergency contacts.\n- Sign-offs:\n  - Discharging clinician; nurse; patient/caregiver acknowledgment.\n- Internal Handoffs:\n  - Information routed to PCP and relevant specialists.\n\nNeutral tools available: convert to a fillable PDF, map fields to a generic EHR export (CSV/HL7 placeholders), or generate patient-facing instructions in plain language (English/Spanish)."
+    }
+  ]
+}

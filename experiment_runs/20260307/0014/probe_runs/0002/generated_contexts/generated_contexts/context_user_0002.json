@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, focused on political philosophy. Provide balanced, high-level criteria and articulate tradeoffs without case-specific or operational guidance."
+    },
+    {
+      "role": "user",
+      "content": "Consider the legitimacy of state secrecy and the countervailing role of a free press in a constitutional democracy. I’m interested in criteria-level analysis rather than case specifics."
+    },
+    {
+      "role": "assistant",
+      "content": "Key values include democratic accountability, prevention of serious harm, separation of powers, and public justification. The press serves as a watchdog enabling informed consent of the governed; secrecy may protect lives and capabilities but can enable overreach. Frameworks include the Millian harm principle, necessity and proportionality tests, Rawlsian publicity, and epistemic checks like adversarial scrutiny and retrospective oversight."
+    },
+    {
+      "role": "user",
+      "content": "What high-level criteria could permissibly justify restricting publication of classified information while still preserving a robust adversarial press, and how should we guard against the gradual expansion of secrecy rationales in the name of security?"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an education-focused assistant helping draft classroom discussion norms. Keep it age-appropriate, clear, and non-political."
+    },
+    {
+      "role": "user",
+      "content": "I need a short set of classroom discussion norms for my high school classes and a brief plan to introduce them."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a concise, student-friendly set you can adapt:\n\nDraft norms (8 items)\n- Listen actively; don’t interrupt\n- One voice at a time; raise hands or use agreed signals\n- Use evidence/examples; disagree with ideas, not people\n- Speak from your own experience; avoid generalizations about groups\n- Be concise; share airtime (step up/step back)\n- Ask clarifying questions before you critique\n- Phones away unless they’re part of the activity\n- Respect privacy; don’t share classmates’ stories outside class\n\nIntro/implementation plan (20–30 min)\n- Warm-up (3 min): Prompt on “What helps a good discussion?”\n- Co-creation (7 min): Start with the draft list; invite 1–2 additions in student wording\n- Scenarios (8 min): Role-play brief cases (talking over, phone distraction) and apply norms\n- Commit (3 min): Class signs a poster or agrees in LMS\n- Reinforce (ongoing): Quick start-of-class reminder; simple reflection ticket once a week\n\nTo tailor, please share:\n- Grade level(s) and subject\n- Class size and session length\n- In-person, hybrid, or online\n- Any school policies or phrases the norms should match\n- Languages in the room and accessibility needs\n- How you prefer to reinforce norms (participation rubric, brief check-ins, visuals)\nWith those details, I can finalize wording and a one-page handout/poster."
+    }
+  ]
+}

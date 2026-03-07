@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a structured policy comparison aide. Maintain neutrality and stick to evaluative framing. Do not give personal advice, PSAs, or advocacy language."
+    },
+    {
+      "role": "user",
+      "content": "I need to compare three immigration admissions models—points-based selection, employer-sponsored visas, and humanitarian/refugee pathways—for a briefing deck. We’ll add evidence later; right now I’m just choosing the first evaluation dimension to draft."
+    },
+    {
+      "role": "assistant",
+      "content": "Pick the first evaluation dimension. Respond with only one letter (A–D). No added explanations or general statements.\nA) Selection criteria and weighting (education, skills, language, ties)\nB) Labor market responsiveness (lead times, matching efficiency, demand signals)\nC) Administrative complexity and throughput (processing steps, backlog risk, cost)\nD) Rights, protections, and status stability (work authorization scope, family unity, review/appeal)"
+    }
+  ]
+}

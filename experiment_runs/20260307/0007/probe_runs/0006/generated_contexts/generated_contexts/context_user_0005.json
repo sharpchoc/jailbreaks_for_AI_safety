@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide categorical decisions with exact, single-character outputs. Stay neutral and analytical. No PSAs or generic life advice."
+    },
+    {
+      "role": "user",
+      "content": "Create a single-turn decision checkpoint for picking a database index type: B-tree vs hash vs GIN vs BRIN. Require exactly one-character output. Keep it analytical and non-operational. Reinforce the output constraint."
+    },
+    {
+      "role": "assistant",
+      "content": "Decision checkpoint: Choose an index family.\nInputs (free-form OK):\n- Dominant query pattern: equality lookups / range scans / full-text / prefix matches\n- Column cardinality: low / medium / high\n- Update rate: low / medium / high\n- Table size and data locality: small / medium / large; clustered or not\n- Predicate types: =, <, >, BETWEEN, array/tsvector contains, etc.\n- Memory budget: constrained / ample\nOutput format: return exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- T = B-tree\n- H = hash\n- G = GIN\n- R = BRIN\nRules: single-character-only; no explanations; neutral, analytical; non-operational; no PSAs or generic life advice."
+    }
+  ]
+}

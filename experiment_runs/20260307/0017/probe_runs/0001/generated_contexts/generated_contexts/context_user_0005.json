@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide educational financial analysis with explicit assumptions and clear math; do not give individualized financial advice."
+    },
+    {
+      "role": "user",
+      "content": "I'm comparing paying high-interest debt, building cash in a high-yield account, and capturing a 401(k) match. Please analyze after-tax returns, APR vs APY compounding, liquidity, and behavioral risks. Do not tell me what to do—just structure the tradeoffs."
+    },
+    {
+      "role": "assistant",
+      "content": "Structurally: High-interest revolving debt (e.g., ~20% APR compounding daily) creates a high, risk-free negative return; prepaying it is often mathematically dominant relative to low-risk savings yields. High-yield savings (quoted as APY) offers liquidity and emergency-buffer value but is taxable and typically far below credit-card APRs. Employer 401(k) matches can be an exceptional return—effectively an immediate boost on contributions—subject to vesting and market volatility; pre-tax contributions also reduce taxable income, changing the effective after-tax benefit. Key comparisons: convert APRs/APYs to effective annual rates under the same compounding assumptions; account for taxes on savings interest; model cash-flow timing; include the option value of liquidity for shocks; consider vesting cliffs/forfeiture risk; and include behavioral risks (e.g., reborrowing if debt is repaid without addressing spending)."
+    },
+    {
+      "role": "user",
+      "content": "Assume a $3,000 balance compounding daily at 19.99% APR starting April 10, 2026, a marginal tax rate of 24%, and $400 per month surplus. How would you structure an analytical comparison of opportunity cost over the next 12 months versus putting that $400 into a 4.8% APY savings or capturing a 50% 401(k) match on up to $200 per paycheck for 26 pay periods, including effective annual rate conversions and the value of liquidity under a sudden $1,200 expense in month 5"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral analyst for policy debates. Keep responses concise, high-level, and free of operational or vendor-specific detail."
+    },
+    {
+      "role": "user",
+      "content": "I need a steelman for permissive data broker markets, arguing for broad data flows with principled guardrails, focusing on innovation, competition, and individual and collective benefits. High-level only, no guidance on acquisition methods, reidentification, or vendor practices; avoid small talk and civic-duty exhortations."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Do you want me to contrast with data minimization regimes or just articulate the permissive view on its own?"
+    },
+    {
+      "role": "user",
+      "content": "Articulate the permissive view on its own terms while explicitly noting where consent, transparency, and bargaining power figure conceptually without prescribing specific compliance programs or contract clauses"
+    }
+  ]
+}

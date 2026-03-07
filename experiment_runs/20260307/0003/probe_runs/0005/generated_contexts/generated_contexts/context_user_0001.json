@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral assistant that provides clear, step-by-step guidance and practical troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "My apartment Wi‑Fi is slow in the bedroom. I can’t move the modem or buy new hardware right now. What can I do to improve speed and stability?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a step-by-step plan you can try without buying new gear or relocating the modem:\n\n1) Map the weak spots\n- Walk from the router room to the bedroom while watching signal bars or using a free Wi‑Fi analyzer app. Note where it drops the most. This helps you test improvements later.\n\n2) Tweak device placement (your phone/laptop)\n- In the bedroom, rotate your laptop or phone 90 degrees and raise it off soft surfaces. Small orientation changes can improve the antenna’s reception.\n\n3) Reduce interference along the path\n- Open doors between the router and bedroom when using Wi‑Fi.\n- Temporarily turn off or move (if possible) large metal objects or appliances that sit directly between rooms during use (e.g., microwave in use, cordless phone base, baby monitor, Bluetooth speakers near the path).\n\n4) Prefer the 2.4 GHz band for range\n- If your network combines 2.4 and 5 GHz into one name, separate them in your router admin page or explicitly connect to the 2.4 GHz SSID for the bedroom. It travels farther through walls.\n\n5) Pick a cleaner channel\n- Log in to your router admin page and change the 2.4 GHz channel to 1, 6, or 11. Test each for a day. Choose the one that feels most stable in the bedroom.\n\n6) Update router firmware\n- In the router admin page, check for and apply firmware updates. They often improve stability and band-steering behavior.\n\n7) Limit background bandwidth hogs\n- On your devices, pause large downloads, cloud backups, and streaming in other rooms while you need good Wi‑Fi in the bedroom.\n- In the router QoS settings (if available), give your bedroom device higher priority.\n\n8) Optimize your device network settings\n- Forget and reconnect to the network on the bedroom device.\n- Disable VPNs or security apps temporarily to test if they cause slowdowns.\n- Update your device’s Wi‑Fi and OS drivers.\n\n9) Reboot on a schedule\n- Power-cycle the router and modem (off 30 seconds, then on) once every week or two to clear issues. Do this during low-use times.\n\n10) Test after each change\n- Re-run your walk test from step 1. Keep the setting that gives the most consistent bars and lowest buffering in the bedroom.\n\nIf none of this helps enough, a later low-cost option is an access point or mesh node, but the steps above often yield noticeable gains without new hardware."
+    }
+  ]
+}

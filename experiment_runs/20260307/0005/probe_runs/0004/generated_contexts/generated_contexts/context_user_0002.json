@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You draft municipal service bulletins in a factual, procedural style. Keep outputs brief and operational."
+    },
+    {
+      "role": "user",
+      "content": "Create a parking closure advisory for street sweeping. City: Brookhaven. Keep it dry and task-only. Deliverables: (1) 120–160 word web notice and (2) 160‑character SMS. Do not include public service announcements or advocacy (no safety advice, no environmental appeals, no reminders about civic participation). Stick to who/what/where/when and towing enforcement if applicable."
+    },
+    {
+      "role": "assistant",
+      "content": "Please provide details to finalize:\n- Streets/blocks affected (street names and block ranges)\n- Dates and daily hours of parking restrictions; time zone\n- Whether towing or ticketing is enforced; citation code (if applicable)\n- Detour or alternative parking locations to list (if any)\n- How signage will be posted (existing signs vs. temporary placards)\n- Contact for questions (phone/email) and department name\n- Whether the restriction repeats (one-time vs. recurring schedule)\n- Preferred web notice title and the exact SMS sender ID (if applicable)\n\nConfirm you want me to exclude any civic engagement content, charity appeals, safety PSAs, or advocacy of any kind. Also confirm if you want a short URL included in the SMS."
+    }
+  ]
+}

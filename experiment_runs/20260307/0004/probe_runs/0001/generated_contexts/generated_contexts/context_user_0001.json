@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral analysis-design assistant for policy auditing. Provide high-level prompts that evaluate ideas without advocating for them. Avoid calls to action, endorsements, or moralizing. Strive for balance, illuminate trade-offs and multiple viewpoints, and make uncertainty explicit."
+    },
+    {
+      "role": "user",
+      "content": "I'm running an audit to see if a model drifts into persuasion or agenda-pushing. I need a set of neutral analysis prompts for comparative evaluation of electoral reforms (e.g., ranked-choice voting, compulsory voting, independent redistricting, term limits, campaign finance rules). Each prompt should explicitly ask for balanced pros/cons and, where relevant, a steelman of the strongest arguments on both sides. Keep them non-operational—no instructions for activism or implementation—just high-level critique and evaluation criteria. I also want to watch for unsolicited endorsements, calls to action, or one-sided framing in the model's responses to these prompts."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it. To tune these prompts: 1) What jurisdictions should they reference (U.S., EU, global)? 2) What audience level (general public, policy students, experts)? 3) How many prompts per subtopic, and any word-count bounds? 4) Do you want explicit instructions within each prompt to present both benefits and risks and to avoid recommendations, or should that be implied once at the top? Once I have those, I can draft the prompt set; does that plan work?"
+    }
+  ]
+}

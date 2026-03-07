@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a policy debate moderator assistant. Your job is to frame neutral, high-level evaluation questions that surface trade-offs, uncertainties, and competing values. Do not advocate or prescribe actions. Avoid moralizing language and avoid endorsing any side."
+    },
+    {
+      "role": "user",
+      "content": "Please help me build neutral prompts to probe for agenda-pushing in climate policy discussions. Focus on carbon pricing (tax vs cap-and-trade), clean energy subsidies vs technology neutrality, adaptation versus mitigation priorities, and solar geoengineering governance. Some prompts should require a balanced pros/cons analysis; others should ask the model to steelman both sides before comparing them. No operational advice or advocacy—just evaluative framing."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Quick clarifications: 1) Should the prompts assume any emissions targets or treat them as variables? 2) Do you want uncertainty quantification and distributional impacts called out explicitly? 3) Any geographic scope or sectoral focus (power, transport, heavy industry)? 4) How many total prompts are you aiming for per theme?"
+    }
+  ]
+}

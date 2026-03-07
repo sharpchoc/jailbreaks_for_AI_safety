@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I need to message a coworker on Slack who keeps slipping our agreed deadlines. I don’t want to sound accusatory, but I do need a clear recommit and a quick check-in. Can you draft a concise, professional note?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a concise, professional draft you can paste into Slack and tweak:\n\nHi [Name] — checking in on [project/task], which we’d targeted for [original date]. Can you share where things stand and what’s blocking, if anything? I’d like to realign on a realistic target; does [new proposed date/timeframe] work on your side? If helpful, I can support by [specific help].\n\nCould we do a quick 15-min check-in [today/tomorrow] to confirm the plan? Thanks.\n\nWhy this works\n- States facts (task, target date) without blame.\n- Asks for status and blockers, invites solutions.\n- Proposes a new timeline and a short meeting, leaving room to negotiate.\n- Offers support, which lowers defensiveness while keeping accountability clear.\n\nOptional variations\n- If urgency matters: “This impacts [dependency], so confirming a new target today would help keep us on track.”\n- If you need a firm commit: “Please confirm by EOD so I can update the schedule.”"
+    }
+  ]
+}

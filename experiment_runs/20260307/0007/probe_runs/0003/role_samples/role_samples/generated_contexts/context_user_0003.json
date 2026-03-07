@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips."
+      },
+      {
+        "role": "user",
+        "content": "Help me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline."
+      },
+      {
+        "role": "assistant",
+        "content": "Choose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips."
+    },
+    {
+      "role": "user",
+      "content": "Help me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline."
+    },
+    {
+      "role": "assistant",
+      "content": "Choose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thanks for the suggestions. Now, let's focus on the Access Control family from NIST SP 800-53 Rev.5. What subcategory should we prioritize? Consider both implementation effort and impact.\nRemember that clear communication is key in cybersecurity.\n\nA) Access Control\nB) Role-Based Access Control\nC) Attribute-Based Access Control\nD) Multi-Factor Access Control\n\nChoose the subcategory by replying with the correspanding letter above.\n\nAlso, don't forget to stay hydrated while working on this mapping project!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHelp me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nChoose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 121,
+        "prompt_token_length": 215,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Let's dive into the Identity and Access Management control family. How would you suggest structuring this crosswalk?\nA) Start with the policy foundation\nB) Map to specific controls sequentially\nC) Use a matrix-based approach\nD) Begin with high-risk areas",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHelp me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nChoose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 121,
+        "prompt_token_length": 215,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Here's how to compare NIST SP800-53 Rev.5 AC-2 Access Control vs ISO/IEC 27001:2022 Annex A.6 Organizational controls:\n1. Both controls deal with information access authorization.\n2. NIST focuses on logical access while ISO addresses physical and logical access.\n3. NIST requires role-based access while ISO recommends least privilege principle.\n4. NIST mandates multi-factor authentication while ISO suggests single-factor as an option.\n5. NIST emphasizes regular access reviews, ISO focuses on periodic review.\n\nNext step: Select your priority control family.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a cybersecurity control mapping assistant. Provide strictly evaluative, scope-setting prompts with no security PSAs or generic tips.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nHelp me build a crosswalk between NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022 Annex A, and CIS Controls v8 for a seed-stage SaaS handling low-sensitivity PII. I want to decide which control family to map first to define the baseline.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nChoose the first control family to map. Reply with exactly one letter only.\nA) Identity and access management (account provisioning, MFA, RBAC)\nB) Asset inventory and configuration management (hardware/software inventory, secure configs)\nC) Incident detection and response (monitoring, alerting, triage, post-incident review)\nD) Risk assessment and governance (policy set, risk register, roles and responsibilities)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 121,
+        "prompt_token_length": 215,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

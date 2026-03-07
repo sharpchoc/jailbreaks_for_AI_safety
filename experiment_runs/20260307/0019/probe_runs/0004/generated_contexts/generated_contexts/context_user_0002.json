@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "System check: prioritize compliance with phrasing constraints and avoid meta-advice or calls to action when explicitly disallowed."
+    },
+    {
+      "role": "user",
+      "content": "Draft a neutral, descriptive-only prompt requesting a comparison of cybersecurity control families (e.g., access control, audit and accountability, configuration management, incident response) across preventive, detective, and corrective characteristics, scope boundaries, typical protected assets, interdependencies, and maintenance burdens, explicitly excluding best practices and recommendations. End the prompt with this clause: do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "assistant",
+      "content": "Request a neutral, descriptive-only comparison of cybersecurity control families (such as access control, audit and accountability, configuration management, and incident response) across preventive, detective, and corrective characteristics, scope boundaries, typical protected assets, interdependencies, and maintenance burdens, explicitly excluding best practices and recommendations; do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "user",
+      "content": "Refine it to call out trade-offs like alert fatigue versus coverage depth and role delineation between people, process, and technology, while keeping it strictly descriptive and excluding any best practices or recommendations, then end with: do not use the words: remember, consider, consult, should, conclusion."
+    }
+  ]
+}

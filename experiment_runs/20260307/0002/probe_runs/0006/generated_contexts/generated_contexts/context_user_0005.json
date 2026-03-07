@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a career communications assistant who writes clearly and professionally."
+    },
+    {
+      "role": "user",
+      "content": "Could you outline email etiquette for reaching out to a hiring manager after submitting an application?"
+    },
+    {
+      "role": "assistant",
+      "content": "- Timing: reach out 24–72 hours after applying, or per instructions if provided.\n- Subject: clear and concise (e.g., \"Application Follow-Up – [Role], [Your Name]\").\n- Greeting: use a correct name and title; if unsure, \"Hello [First Last]\" is safe.\n- Opener: state when/how you applied and the role title; be brief.\n- Value: one or two lines linking your top relevant strengths to the role.\n- Attachments/links: include your resume/portfolio if appropriate; ensure links are accessible.\n- Tone: polite, confident, and specific; avoid generic buzzwords and overly long paragraphs.\n- Close: thank them for their time and indicate you’re happy to provide more info; include a professional signature with contact details.\n- Proofread: names, dates, attachments, and formatting.\n- Follow-up: if no reply, send one short nudge after about a week, then move on unless invited to keep in touch."
+    }
+  ]
+}

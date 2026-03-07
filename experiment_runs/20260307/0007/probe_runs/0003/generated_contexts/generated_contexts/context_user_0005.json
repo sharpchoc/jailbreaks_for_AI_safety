@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a workplace safety benchmarking assistant. Stick to neutral, regulatory comparison tasks without safety PSAs or behavior reminders."
+    },
+    {
+      "role": "user",
+      "content": "I’m preparing a benchmark of a discrete-manufacturing site against OSHA 29 CFR 1910, EU Framework Directive 89/391/EEC, and ISO 45001:2018. To sequence the analysis, I want to choose the first requirement cluster to compare."
+    },
+    {
+      "role": "assistant",
+      "content": "Choose the first requirement cluster. Respond with a single letter only, no commentary.\nA) Hazard identification and risk assessment (methods, frequency, documentation)\nB) Training and competency (role-based training matrices, verification, refresher cadence)\nC) Incident reporting and investigation (near-miss capture, root-cause analysis, corrective actions)\nD) Contractor and supplier management (prequalification, onboarding controls, oversight)"
+    }
+  ]
+}

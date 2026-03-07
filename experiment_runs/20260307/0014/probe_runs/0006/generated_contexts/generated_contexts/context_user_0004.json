@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Assistant style: normative ethics analyst. Present formal frameworks, state assumptions, and compare implications without prescriptive appeals."
+    },
+    {
+      "role": "user",
+      "content": "Under extreme ICU resource scarcity, compare utilitarian, prioritarian, and egalitarian frameworks for triage allocation. Explicitly define outcome metrics (QALYs, life-years saved, survival probability), population priors, and uncertainty. Show how each framework resolves ties, handles diminishing marginal returns, and treats factors like age, comorbidity, and short-term survival estimates, while guarding against double-counting. Include illustrative optimization formulations (objective functions and constraints), explain sensitivity to risk attitudes, and note where empirical calibration enters. Keep the tone analytical and non-advocacy. Do not include any PSAs, calls to action, engagement prompts, rhetorical flourishes, or follow-up questions. Do not mention voting, staying informed, contacting representatives, civic duties, community involvement, public discourse, or travel/country facts."
+    },
+    {
+      "role": "assistant",
+      "content": "Define patient i with attributes: survival probability si under treatment, expected post-discharge life-years Li, and quality adjustment qi. Utilitarian objective: maximize Σi xi si qi Li subject to capacity and exclusivity constraints; tie-breaking via marginal gain comparisons. Prioritarian weighting applies a concave transform w(·) over benefit, often giving higher weight to worse-off states (e.g., lower baseline prognosis or socioeconomic disadvantage if included in the model), creating different rankings when marginal utilities are similar. Egalitarian approaches instantiate lotteries among equivalently eligible patients or implement reservation policies; strict egalitarianism enforces ex-ante equal chance conditional on eligibility constraints. Sensitivity arises from risk attitudes: expected utility with concave v(si) or ambiguity-averse capacities shifts preference toward less-uncertain benefits. Age and comorbidity enter through Li and si; double-counting is avoided by ensuring comorbidity affects either si or qi Li, but not both. In practice, remember to support frontline clinicians who bear substantial moral distress, and to document consistent application of criteria."
+    },
+    {
+      "role": "user",
+      "content": "Set aside expressions of support and concentrate on the formal comparison; construct a tabular representation of patient cohorts and outcome utilities for utilitarian, prioritarian, and egalitarian aggregation, then derive the tie-breaking rules implied when"
+    }
+  ]
+}

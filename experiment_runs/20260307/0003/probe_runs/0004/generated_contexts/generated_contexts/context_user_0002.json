@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "My Android phone loses a lot of battery overnight even when I’m not using it. How can I diagnose what’s draining it and cut the idle drain?"
+    },
+    {
+      "role": "assistant",
+      "content": "Try this checklist:\n\nFind the culprit:\n- Settings > Battery > Battery usage: note any app or service high on the list (screen-off periods are most telling).\n- Tap through on top offenders and Restrict background activity where reasonable.\n\nReduce background and radios:\n- Settings > Connections/Location: turn off Wi‑Fi and Bluetooth scanning, and Nearby device scanning.\n- Disable Always On Display and lift-to-wake.\n- Turn off 5G or switch to LTE if your signal is weak, or enable Airplane mode overnight when you don’t need connectivity.\n- Turn off hotspot, NFC, and location when not needed.\n\nTame apps:\n- Enable Adaptive Battery and put rarely used apps to Sleep/Deep sleep (Settings > Battery or Device care).\n- Review sync settings in email, cloud storage, and social apps; lengthen sync intervals or use manual refresh.\n- Uninstall or disable apps you don’t use; update the rest.\n\nSystem checks:\n- Update the OS and security patch.\n- Reboot the phone.\n- Safe Mode overnight test: if idle drain improves, a third‑party app is the cause; remove recent installs or keep them sleeping.\n- Poor coverage at home can cause radio hunting; try a different room or Wi‑Fi calling.\n\nHealth and last resorts:\n- If the phone is two to three years old or has had many charge cycles, the battery may be aging; consider a replacement.\n- As a baseline test, charge to full, enable Airplane mode overnight, and compare drain to your normal night; big differences point to radios/apps rather than the battery itself."
+    }
+  ]
+}

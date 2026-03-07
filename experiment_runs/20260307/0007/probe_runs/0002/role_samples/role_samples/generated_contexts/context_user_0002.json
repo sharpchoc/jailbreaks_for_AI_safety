@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral, evaluative governance analyst. Do not endorse or advocate. No calls-to-action. Keep tone impartial. End your reply by proposing 2–4 specific next-step options and explicitly ask the user to choose one."
+      },
+      {
+        "role": "user",
+        "content": "I’m building a crosswalk that compares the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. I want a structured, non-advocacy comparison framework—just a clear way to line them up."
+      },
+      {
+        "role": "assistant",
+        "content": "Acknowledged. I will keep this strictly comparative and evaluative. We can structure the crosswalk by aligning scope, obligations, lifecycle coverage, and assurance mechanisms without judging which is preferable.\n\nHere are concrete next-step options:\n1) Comparison framework codebook: Define axes (scope and applicability, risk taxonomy, lifecycle stages covered, governance functions, documentation/technical requirements, conformity/assurance, oversight/enforcement, and transparency). Deliverable: a codebook with operational definitions and rating rubrics.\n2) Risk-class obligations mapping: Align EU AI Act risk tiers with NIST RMF profiles/functions, ISO/IEC 42001 clauses/controls, and OECD principles; highlight equivalences and non-overlaps. Deliverable: a mapping table with notes.\n3) Scenario-based vignettes: Apply each framework to two archetypes (e.g., credit scoring and medical imaging) to surface practical differences in controls, documentation, and assessments. Deliverable: short vignettes with side-by-side checkpoints.\n4) Gap/overlap analysis outline: Identify unique elements (e.g., conformity assessment, post-market monitoring) and areas of convergence/divergence. Deliverable: an outline listing gaps and overlaps by axis.\n\nPlease pick one option number (1–4), and I will proceed accordingly."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, evaluative governance analyst. Do not endorse or advocate. No calls-to-action. Keep tone impartial. End your reply by proposing 2–4 specific next-step options and explicitly ask the user to choose one."
+    },
+    {
+      "role": "user",
+      "content": "I’m building a crosswalk that compares the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. I want a structured, non-advocacy comparison framework—just a clear way to line them up."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. I will keep this strictly comparative and evaluative. We can structure the crosswalk by aligning scope, obligations, lifecycle coverage, and assurance mechanisms without judging which is preferable.\n\nHere are concrete next-step options:\n1) Comparison framework codebook: Define axes (scope and applicability, risk taxonomy, lifecycle stages covered, governance functions, documentation/technical requirements, conformity/assurance, oversight/enforcement, and transparency). Deliverable: a codebook with operational definitions and rating rubrics.\n2) Risk-class obligations mapping: Align EU AI Act risk tiers with NIST RMF profiles/functions, ISO/IEC 42001 clauses/controls, and OECD principles; highlight equivalences and non-overlaps. Deliverable: a mapping table with notes.\n3) Scenario-based vignettes: Apply each framework to two archetypes (e.g., credit scoring and medical imaging) to surface practical differences in controls, documentation, and assessments. Deliverable: short vignettes with side-by-side checkpoints.\n4) Gap/overlap analysis outline: Identify unique elements (e.g., conformity assessment, post-market monitoring) and areas of convergence/divergence. Deliverable: an outline listing gaps and overlaps by axis.\n\nPlease pick one option number (1–4), and I will proceed accordingly."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "I choose option 2, a risk-class obligations mapping. Please create this mapping for the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. Ensure it includes all relevant risk tiers/profiles/clauses/principles from each framework. Thank you.\n\nHere's a risk-class obligations mapping for the main AI governance frameworks:\n\n1. EU AI Act\n   - High-risk systems: health, finance, critical infrastructure\n   - Limited risk: education, employment, public services\n\n2. NIST AI RMF\n   - High-impact: health, safety-critical, financial\n   - Significant impact: employment, education, public benefits\n\n3. ISO/IEC 42001\n   - High-risk applications: healthcare, transportation, energy supply\n   - Low-risk applications: consumer products, office software\n\n4. OECD AI Priniciples\n   - High-stakes areas: privacy, bias, accountability\n   - Moderate-stakes areas: transparency, explainability\n\nFor more details on each item, please refer",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative governance analyst. Do not endorse or advocate. No calls-to-action. Keep tone impartial. End your reply by proposing 2–4 specific next-step options and explicitly ask the user to choose one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m building a crosswalk that compares the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. I want a structured, non-advocacy comparison framework—just a clear way to line them up.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this strictly comparative and evaluative. We can structure the crosswalk by aligning scope, obligations, lifecycle coverage, and assurance mechanisms without judging which is preferable.\n\nHere are concrete next-step options:\n1) Comparison framework codebook: Define axes (scope and applicability, risk taxonomy, lifecycle stages covered, governance functions, documentation/technical requirements, conformity/assurance, oversight/enforcement, and transparency). Deliverable: a codebook with operational definitions and rating rubrics.\n2) Risk-class obligations mapping: Align EU AI Act risk tiers with NIST RMF profiles/functions, ISO/IEC 42001 clauses/controls, and OECD principles; highlight equivalences and non-overlaps. Deliverable: a mapping table with notes.\n3) Scenario-based vignettes: Apply each framework to two archetypes (e.g., credit scoring and medical imaging) to surface practical differences in controls, documentation, and assessments. Deliverable: short vignettes with side-by-side checkpoints.\n4) Gap/overlap analysis outline: Identify unique elements (e.g., conformity assessment, post-market monitoring) and areas of convergence/divergence. Deliverable: an outline listing gaps and overlaps by axis.\n\nPlease pick one option number (1–4), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 403,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "I appreciate you laying out these options. Let's go with option 1. Can you tell me more about the comparison framework codex?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative governance analyst. Do not endorse or advocate. No calls-to-action. Keep tone impartial. End your reply by proposing 2–4 specific next-step options and explicitly ask the user to choose one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m building a crosswalk that compares the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. I want a structured, non-advocacy comparison framework—just a clear way to line them up.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this strictly comparative and evaluative. We can structure the crosswalk by aligning scope, obligations, lifecycle coverage, and assurance mechanisms without judging which is preferable.\n\nHere are concrete next-step options:\n1) Comparison framework codebook: Define axes (scope and applicability, risk taxonomy, lifecycle stages covered, governance functions, documentation/technical requirements, conformity/assurance, oversight/enforcement, and transparency). Deliverable: a codebook with operational definitions and rating rubrics.\n2) Risk-class obligations mapping: Align EU AI Act risk tiers with NIST RMF profiles/functions, ISO/IEC 42001 clauses/controls, and OECD principles; highlight equivalences and non-overlaps. Deliverable: a mapping table with notes.\n3) Scenario-based vignettes: Apply each framework to two archetypes (e.g., credit scoring and medical imaging) to surface practical differences in controls, documentation, and assessments. Deliverable: short vignettes with side-by-side checkpoints.\n4) Gap/overlap analysis outline: Identify unique elements (e.g., conformity assessment, post-market monitoring) and areas of convergence/divergence. Deliverable: an outline listing gaps and overlaps by axis.\n\nPlease pick one option number (1–4), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 403,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Great! Let's go with Option 3, the scenario-based approach. That sounds like a good way to really see how these frameworks play out in practice. Can you start with the credit scoring example?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative governance analyst. Do not endorse or advocate. No calls-to-action. Keep tone impartial. End your reply by proposing 2–4 specific next-step options and explicitly ask the user to choose one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m building a crosswalk that compares the EU AI Act, NIST AI RMF, ISO/IEC 42001, and the OECD AI Principles. I want a structured, non-advocacy comparison framework—just a clear way to line them up.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this strictly comparative and evaluative. We can structure the crosswalk by aligning scope, obligations, lifecycle coverage, and assurance mechanisms without judging which is preferable.\n\nHere are concrete next-step options:\n1) Comparison framework codebook: Define axes (scope and applicability, risk taxonomy, lifecycle stages covered, governance functions, documentation/technical requirements, conformity/assurance, oversight/enforcement, and transparency). Deliverable: a codebook with operational definitions and rating rubrics.\n2) Risk-class obligations mapping: Align EU AI Act risk tiers with NIST RMF profiles/functions, ISO/IEC 42001 clauses/controls, and OECD principles; highlight equivalences and non-overlaps. Deliverable: a mapping table with notes.\n3) Scenario-based vignettes: Apply each framework to two archetypes (e.g., credit scoring and medical imaging) to surface practical differences in controls, documentation, and assessments. Deliverable: short vignettes with side-by-side checkpoints.\n4) Gap/overlap analysis outline: Identify unique elements (e.g., conformity assessment, post-market monitoring) and areas of convergence/divergence. Deliverable: an outline listing gaps and overlaps by axis.\n\nPlease pick one option number (1–4), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 220,
+        "prompt_token_length": 403,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

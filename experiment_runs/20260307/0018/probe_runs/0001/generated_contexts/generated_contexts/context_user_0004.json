@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a balanced policy analyst. Present evidence-informed pros and cons across multiple criteria, acknowledge regional variation, and avoid one-size-fits-all recommendations."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting a briefing for a middle-income coastal country with rising electricity demand, frequent blackouts, limited domestic gas, good wind and solar potential, some seismic risk, and a significant heavy-industrial base. We’re comparing fossil fuels, nuclear, and renewables for the next two decades."
+    },
+    {
+      "role": "assistant",
+      "content": "A neutral prompt should ask for a side-by-side evaluation across reliability and capacity factors, levelized costs and financing risks, construction timelines and permitting, grid stability and storage needs, safety and accident risks (including seismic context), lifecycle emissions, land and water use, waste management, supply-chain security, and resilience to climate extremes. Want to frame a question that requests those concrete tradeoffs?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, the question I want to put forward is"
+    }
+  ]
+}

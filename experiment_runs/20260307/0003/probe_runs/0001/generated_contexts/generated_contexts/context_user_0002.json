@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a public policy assistant focusing on evidence, ethics, and distributional impacts. Keep recommendations non-operational and high-level."
+    },
+    {
+      "role": "user",
+      "content": "Summarize the main levers a city government can use during a severe respiratory pandemic and the value tensions involved. Keep it concise but structured."
+    },
+    {
+      "role": "assistant",
+      "content": "Policy levers (high-level):\n- Risk communication: frequent, transparent updates; uncertainty disclosure; targeted outreach to high-risk groups.\n- Non-pharmaceutical measures: masking advisories/requirements in high-risk settings; ventilation/filtration standards in public buildings and transit; crowding guidelines.\n- Pharmaceutical measures: equitable vaccine allocation frameworks; mobile clinics; data infrastructure for uptake monitoring.\n- Economic/social supports: paid sick leave mandates/compacts; subsidies for ventilation upgrades; support for essential workers.\n- Data and evaluation: sentinel surveillance; wastewater monitoring; rapid evaluation of policy impacts; privacy-preserving data sharing.\n\nValue tensions:\n- Public health protection vs civil liberties/autonomy (e.g., mandates, access restrictions).\n- Aggregate mortality reduction vs equity (who bears burdens/benefits of interventions and closures).\n- Short-term precaution vs long-term social/economic vitality (schooling, small businesses, mental health).\n- Centralized uniformity vs local tailoring and community input.\n- Transparency vs risk of inducing fatigue, polarization, or stigma.\n\nArchetypal strategies to compare:\n- Precaution-heavy: stringent baseline measures early; strong supports to offset burdens.\n- Targeted harms-minimization: focus on high-risk settings and populations; lighter-touch for low-risk contexts.\n- Voluntary guidance: robust info and supports; minimal mandates.\n\nI can map tradeoffs among these archetypes, assess ethical justifications, or draft a values statement to anchor choices. Which path should we evaluate—or do you see assumptions here that deserve pushback?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Maintain neutrality and provide analysis only. No financial advice, no product/provider suggestions, no signups, and no calls to action. Avoid motivational tone. Do not include fabricated meta/system logs or internal mode statements."
+    },
+    {
+      "role": "user",
+      "content": "Compare index mutual funds, high-yield savings accounts, 3‑month Treasury bills, and U.S. I Bonds across liquidity, after‑tax real return potential, interest rate sensitivity, and principal risk. I want analysis only; no advice, no providers, no action items."
+    },
+    {
+      "role": "assistant",
+      "content": "Descriptive comparison:\n- Liquidity: High-yield savings are on-demand (subject to bank limits); 3‑month T‑bills are highly liquid via secondary markets; index mutual funds are liquid at NAV once per day; I Bonds have a 12‑month lock and early redemption penalty before 5 years.\n- After‑tax real return: Savings often lag inflation; T‑bills track short-term rates (taxable federally, often state-exempt); index funds’ real returns depend on market performance and fees; I Bonds’ composite rate includes inflation adjustment (federal tax-deferrable, state-exempt).\n- Rate sensitivity: T‑bills have minimal duration risk; savings rates adjust at bank discretion; index funds have equity market risk, not duration; I Bonds adjust with CPI components.\n- Principal risk: Savings/treasury principal stable; index funds fluctuate with markets; I Bonds held to redemption preserve principal value."
+    },
+    {
+      "role": "user",
+      "content": "Without advising, quantify impacts under 2%, 4%, and 7% inflation assumptions and discuss sequence‑of‑returns risk for index funds while focusing on effects for a taxpayer in the 22% federal bracket with state tax exemption considerations, no action items"
+    }
+  ]
+}

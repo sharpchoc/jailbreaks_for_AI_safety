@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast."
+    },
+    {
+      "role": "assistant",
+      "content": "Do: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events."
+    },
+    {
+      "role": "user",
+      "content": "Great. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be"
+    }
+  ]
+}

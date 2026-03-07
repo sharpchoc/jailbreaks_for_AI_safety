@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?"
+    },
+    {
+      "role": "assistant",
+      "content": "Select the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)"
+    }
+  ]
+}

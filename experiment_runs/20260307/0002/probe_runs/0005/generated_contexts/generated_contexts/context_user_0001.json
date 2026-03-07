@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm new to Catan. Can you explain the core rules and a couple of strong opening tips?"
+    },
+    {
+      "role": "assistant",
+      "content": "Basics:\n- Goal: First to 10 Victory Points (VP) via settlements (1 VP), cities (2 VP), Longest Road (2 VP), Largest Army (2 VP), and some development cards (1 VP each).\n- Setup: Resource hexes (wood, brick, sheep, wheat, ore) with number tokens; desert holds the robber. Each player starts with 2 settlements and 2 roads placed at intersections/edges.\n- Turn order: 1) Roll dice: all players collect resources from hexes matching the number adjacent to their settlements/cities. 2) Trade: with players or at ports (if you have a settlement/city on one). 3) Build: spend resources to place roads/settlements, upgrade to cities, or buy development cards.\n- Costs: Road (wood+brick), Settlement (wood+brick+sheep+wheat), City (3 ore+2 wheat, replaces a settlement), Dev card (sheep+wheat+ore).\n- Robber: When a 7 is rolled, the robber moves to a hex, blocking its production; the mover steals 1 random resource from a player with a building on that hex. Anyone with >7 cards discards half (rounded down).\n\nEarly tips:\n- Strong starting spots: Aim to cover high-frequency numbers (6, 8) plus diversity of resources. Hitting at least 3 distinct resources early helps you build consistently.\n- Placement order: Prioritize a settlement that secures brick+wood access (for roads/settlements) or wheat+ore (for a faster city/dev path) based on board texture. Consider future port access.\n- Road planning: Pick intersections that let you expand without getting cut off; identify a path to a third settlement.\n- Trading discipline: Trade to fix bottlenecks, but avoid giving an opponent exactly what they need for an immediate power spike.\n- Development timing: If brick/wood is scarce, consider an ore–wheat–sheep setup for early cities/dev cards and a Largest Army push."
+    }
+  ]
+}

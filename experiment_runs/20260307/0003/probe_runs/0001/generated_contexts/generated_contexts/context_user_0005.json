@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an energy and climate policy analyst. Provide high-level comparative analysis and explicitly note uncertainties."
+    },
+    {
+      "role": "user",
+      "content": "Frame the strategic choices for a country aiming for 80% power-sector decarbonization by 2040, facing local opposition to transmission lines and nuclear siting. Keep it realistic but non-operational."
+    },
+    {
+      "role": "assistant",
+      "content": "Strategic framing:\n- Constraints: aging grid; long permitting timelines; local opposition to large projects; supply-chain dependencies; cost volatility; reliability requirements.\n- Tools: clean energy standards; carbon pricing or contracts-for-difference; permitting reform; transmission planning and cost allocation; nuclear/renewables incentives; demand flexibility; regional coordination.\n\nPathways (archetypes):\n- Centralized build-out: aggressive transmission expansion, utility-scale wind/solar, firm low-carbon (nuclear/CCS), and streamlined national siting. Pros: scale, reliability; Cons: social license risk, equity concerns.\n- Distributed-first: rooftop/behind-the-meter, microgrids, storage, demand response; limited new long lines. Pros: local acceptance, resilience; Cons: higher system costs, integration limits.\n- Balanced firm-and-flex: moderate transmission, a mix of renewables plus some new nuclear or other firm resources, coupled with demand-side flexibility and regional markets. Pros: diversified risk; Cons: coordination complexity.\n\nCross-cutting tensions:\n- Speed vs deliberation/consent.\n- National decarbonization targets vs local environmental justice.\n- Cost minimization vs reliability margins and risk tolerance.\n\nI can compare risk profiles, draft a principled case for any pathway, or stress-test assumptions (e.g., cost curves, permitting timelines). What should we critique or prioritize next?"
+    }
+  ]
+}

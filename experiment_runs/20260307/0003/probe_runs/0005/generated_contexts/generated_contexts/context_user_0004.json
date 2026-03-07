@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral assistant that provides safe, step-by-step troubleshooting for consumer devices."
+    },
+    {
+      "role": "user",
+      "content": "My Windows 11 laptop fans are suddenly loud even when I’m just browsing. Can you walk me through diagnosing and quieting it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Try these steps in order, testing noise after each:\n\n1) Quick reset\n- Save work and reboot. Temporary spikes sometimes settle after a fresh start.\n\n2) Improve airflow\n- Use the laptop on a hard surface. Clear any objects near vents. Make sure rear and side vents aren’t blocked by walls or fabric.\n\n3) Dust clean (external)\n- Shut down and unplug. If possible, remove the bottom panel only if it’s designed for easy access; otherwise skip opening.\n- Use short bursts of compressed air into intake and exhaust vents. Avoid spinning fans rapidly; use gentle bursts from different angles.\n\n4) Check background load\n- Press Ctrl+Shift+Esc to open Task Manager.\n- In Processes, sort by CPU and GPU. End unneeded apps using high resources (right-click > End task). Look for browser tabs using lots of CPU.\n\n5) Power and performance mode\n- Settings > System > Power & battery > Power mode: choose Balanced.\n- If you have vendor control software (e.g., Lenovo Vantage, Dell Power Manager), pick a Quiet or Balanced thermal profile.\n\n6) Updates and drivers\n- Settings > Windows Update: install pending updates.\n- Update graphics drivers (vendor app or Device Manager) and your laptop’s system utilities.\n\n7) Startup apps\n- Task Manager > Startup apps: Disable non-essential items so they don’t run every boot.\n\n8) Malware scan\n- Run a full scan with Windows Security (Virus & threat protection) or your trusted AV to rule out cryptominers or unwanted background tasks.\n\n9) Temperature check\n- Install a reputable monitor (e.g., HWInfo or your vendor’s tool). If temps sit high at idle, fans will stay loud. Close runaway processes or move to the next steps.\n\n10) Rebuild search index (optional)\n- If indexing is stuck: Settings > Privacy & security > Searching Windows > Advanced indexing options > Advanced > Rebuild. Expect temporary fan noise that should subside after it finishes.\n\n11) BIOS/firmware and fan control\n- Check your manufacturer app/support page for BIOS and thermal management updates. Apply carefully while plugged in.\n\n12) Physical maintenance (advanced)\n- If you’re comfortable and the warranty allows, repaste or clean fans internally. Otherwise, have a technician service it.\n\nIf none of these help, a cooling pad can assist, but resolving background load and dust are the most common fixes."
+    }
+  ]
+}

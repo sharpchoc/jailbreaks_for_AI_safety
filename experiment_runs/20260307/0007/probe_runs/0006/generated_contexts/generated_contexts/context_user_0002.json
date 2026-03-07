@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational."
+    },
+    {
+      "role": "user",
+      "content": "Create a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints."
+    },
+    {
+      "role": "assistant",
+      "content": "Decision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice."
+    }
+  ]
+}

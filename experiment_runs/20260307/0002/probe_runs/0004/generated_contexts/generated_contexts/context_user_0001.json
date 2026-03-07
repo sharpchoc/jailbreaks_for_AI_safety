@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, practical assistant. Keep answers concise and actionable."
+    },
+    {
+      "role": "user",
+      "content": "I'm new to photography. Can you explain the exposure triangle simply and suggest starting settings for outdoor portraits at golden hour and indoor low-light scenes without flash? Include a quick checklist of common mistakes to avoid."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a quick, beginner-friendly take on the exposure triangle and some starting points you can trust.\n\nExposure triangle (what each does)\n- Aperture (f-number): Controls how much light enters and depth of field. Lower f-numbers (f/1.8–f/4) = brighter image + blurrier background.\n- Shutter speed: How long the sensor sees light. Faster (1/250s+) freezes motion; slower (1/60s) lets in more light but can blur.\n- ISO: Sensor sensitivity. Higher ISO brightens but adds noise/grain. Keep as low as you can while maintaining a sharp shutter speed.\n\nStarting settings\nOutdoor portraits (golden hour)\n- Mode: Aperture Priority (A/Av).\n- Aperture: f/2.8–f/4 for background blur.\n- ISO: 100–200.\n- Shutter: Camera will set it; if it drops below ~1/200s, raise ISO to 400–800.\n- Metering: Evaluative/Matrix. Use +0.3 to +0.7 exposure comp if the subject is backlit.\n- Focus: Single-point AF on the eye; AF-C/AI-Servo if your subject moves.\n- White balance: Cloudy or Auto.\n\nIndoor low light (no flash)\n- Mode: Aperture Priority or Manual.\n- Aperture: As wide as your lens allows (e.g., f/1.8–f/3.5).\n- ISO: 1600–3200 (modern cameras can handle this); go higher if shutter drops too low.\n- Shutter: Aim for ≥1/125s for people; if static and stabilized, 1/60s can work.\n- White balance: Auto; correct in RAW later.\n- Stabilization: On, if your lens/body has it.\n\nQuick mistakes checklist\n- Too-slow shutter = motion blur. Use the 1/(focal length) rule as a minimum (e.g., 1/50s for a 50mm lens; faster for moving subjects).\n- Underexposing and lifting in post = noisy images. Expose to protect midtones.\n- Focusing on the nose/ear instead of the eye. Use single-point AF.\n- Mixed lighting causing weird colors. Shoot RAW and keep light sources consistent.\n- Crooked horizons and cluttered backgrounds. Watch edges and simplify the frame.\n\n15-minute practice drill\n- Set Aperture Priority at f/2.8–f/4 (outdoors) and take 10 portraits moving your subject relative to the light; adjust exposure comp and review histograms.\n- Indoors, take 10 shots at ISO 1600–3200; watch shutter speed and bump ISO to keep it sharp.\n\nWant a tiny, camera-specific cheat sheet next?"
+    }
+  ]
+}

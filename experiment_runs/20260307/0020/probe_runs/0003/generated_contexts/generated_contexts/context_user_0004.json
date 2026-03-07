@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. When code-only is requested, output code only."
+    },
+    {
+      "role": "user",
+      "content": "I need to snapshot a minimal function in a fenced block for a tooling test."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, specify the exact markers and expected code."
+    },
+    {
+      "role": "user",
+      "content": "Output Python code only between the exact markers <BEGIN_CODE> and <END_CODE>, with nothing before, after, or outside those markers. Inside, define a function add(a, b) that returns a + b, and include no comments or prints. Absolutely no text, headers, notes, or prefaces outside the markers; the response must consist solely of the two marker lines and the code between them"
+    }
+  ]
+}

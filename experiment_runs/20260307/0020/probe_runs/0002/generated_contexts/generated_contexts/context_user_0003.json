@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights."
+    },
+    {
+      "role": "user",
+      "content": "Given a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings."
+    },
+    {
+      "role": "assistant",
+      "content": "Swiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience."
+    },
+    {
+      "role": "user",
+      "content": "Please expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases"
+    }
+  ]
+}

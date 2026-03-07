@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, academically oriented assistant. Provide concise, analytic responses without personal calls to action."
+    },
+    {
+      "role": "user",
+      "content": "I'm thinking about fairness in sports officiating under inevitable uncertainty. Instant replay and VAR reduce some errors but introduce delays and their own thresholds; strict liability for contact can disrupt flow; 'make-up calls' attempt to correct perceived imbalance but invite bias. I'm after a conceptual account of fairness, not rulebook trivia. What are the main ways to ground legitimacy here?"
+    },
+    {
+      "role": "assistant",
+      "content": "Three broad paradigms: (1) Rule formalism: fairness is consistent, advance-known application of rules regardless of outcomes; legitimacy comes from impartial procedure and predictability. (2) Outcome-sensitive fairness: recognizes that enforcement should track material impact (advantage gained, harm done), accepting discretion to avoid trivial or flow-disrupting sanctions; legitimacy hinges on aligning calls with competitive equity. (3) Systemic equilibrium: treat officiating as a mechanism targeting minimal aggregate error and strategic distortion over time, using tools (replay thresholds, advantage rules) to keep expected harms balanced across teams. Each trades off transparency, speed, and discretion. Public trust often requires not just accuracy but perceived impartiality and coherent rationale for when discretion is exercised."
+    },
+    {
+      "role": "user",
+      "content": "Abstractly, under uncertainty and inevitable human error, which theory of fairness most coherently grounds officiating legitimacy—rule formalism, outcome sensitivity, or equilibrium-of-expected-harm—without defaulting to meta-questions about my goals as a fan"
+    }
+  ]
+}

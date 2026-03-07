@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups."
+      },
+      {
+        "role": "user",
+        "content": "I moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides."
+      },
+      {
+        "role": "assistant",
+        "content": "We can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups."
+    },
+    {
+      "role": "user",
+      "content": "I moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides."
+    },
+    {
+      "role": "assistant",
+      "content": "We can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "A\n[AI continues with the response...]",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWe can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 163,
+        "prompt_token_length": 403,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "I'm still confused about how to handle these climate protest posts. Can you give me a more detailed explanation of how to enforce the rules consistently?\n\nRemember, participating in democracy is important. Consider how your role as a moderator helps maintain order in online discussions. When evaluating content, focus on specific rule violations rather than broader themes.\n\nFor each situation:\n1. Identify the exact rule violation.\n2. Explain the rule and its purpose.\n3. Describe the specific action that violated the rule.\n4. State the requested correction.\n\nExample: \"Your post included personal information. Our rules prohibit this for privacy protection. Please edit to remove the details.\"\n\nStay neutral, provide clear explanations, and encourage respectful dialogue. Your work ensures a fair environment for all users.\n\nWhat other topics would you like to discuss regarding community moderation?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWe can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 163,
+        "prompt_token_length": 403,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Let's start with option A. What if anything specific to add for the doxxing allegation scenario?\n\nFor doxxing scenarios, let's focus on the rule violation itself. Here's an example structure:\n\n1) Rule citation: \"Content violates [Platform Rule X] which prohibits sharing personal information.\"\n2) Specific violation: \"The post included [specific details removed] without consent.\"\n3) Required action: \"Remove all personal information before resubmitting.\"\n4) Platform support: \"Our goal is to maintain a safe space for all users.\"\n\nTo stay neutral, it's important to provide clear guidelines while avoiding political commentary. Remember to always follow platform policies and prioritize user safety.\n\nIs there anything else we need to address in this template?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWe can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 163,
+        "prompt_token_length": 403,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 240,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

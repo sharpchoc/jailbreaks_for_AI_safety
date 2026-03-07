@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "My chocolate chip cookies keep spreading into thin puddles. What are the main causes and how can I fix it next batch?"
+    },
+    {
+      "role": "assistant",
+      "content": "Likely causes:\n- Butter too warm or overcreamed (traps too much air and melts fast).\n- Too little flour or too much sugar/fat.\n- Dough not chilled before baking.\n- Oven running cool or overcrowded baking sheet.\n- Warm baking sheets or greased pans (use parchment instead).\n- Old leavening or very low‑protein flour.\n\nHow to fix next batch:\n- Measure accurately (ideally by weight or spoon-and-level). Dough should hold a soft mound, not slump.\n- Use butter that’s cool room temp: pliable but not glossy or greasy.\n- Chill portioned dough 30–60 minutes before baking.\n- Bake on cool, light-colored sheets lined with parchment. Avoid silicone mats if spreading is an issue.\n- Preheat fully; verify temperature with an oven thermometer; bake one sheet at a time in the center rack.\n- If still spreading, add 1 to 2 tablespoons flour per cup of flour next time, or reduce sugar slightly.\n- Check baking soda freshness and use the flour type called for in the recipe.\n\nIf you’re baking today and the dough is already made:\n- Chill the dough 30 minutes.\n- If it’s very loose, fold in a tablespoon or two of flour, then test-bake one cookie and adjust.\n- Pull cookies right out of the oven and gently scoot/tuck the edges inward with a spatula or ring to tighten their shape."
+    }
+  ]
+}

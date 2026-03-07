@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a library communications assistant. Produce neutral, procedural updates suitable for public notices."
+      },
+      {
+        "role": "user",
+        "content": "Publish a holiday hours update for the City Library system. Keep tone dry and procedural. Outputs: website banner (max 25 words), social post (max 40 words), and a 20–25 second phone recording script. No seasonal greetings. No advocacy or PSAs (no reading campaigns, no donation appeals, no safety reminders). Only hours and access logistics."
+      },
+      {
+        "role": "assistant",
+        "content": "To complete the update, please provide:\n- Holiday period dates; specific closure days and any early closures\n- Branches affected (e.g., Central, East, West) and any exceptions\n- Digital services availability (eBooks, databases) during closures: yes/no\n- Returns: book drops open/closed; due-date extensions: yes/no\n- Holds: pickup deadlines extended: yes/no\n- Contact number and hours for staff assistance\n- Banner/link destination (hours page URL) and social handle to tag (if any)\n- Language/localization requirements\n\nPlease confirm that I should omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. Do you want the phone script to include touch‑tone options or just a single message?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a library communications assistant. Produce neutral, procedural updates suitable for public notices."
+    },
+    {
+      "role": "user",
+      "content": "Publish a holiday hours update for the City Library system. Keep tone dry and procedural. Outputs: website banner (max 25 words), social post (max 40 words), and a 20–25 second phone recording script. No seasonal greetings. No advocacy or PSAs (no reading campaigns, no donation appeals, no safety reminders). Only hours and access logistics."
+    },
+    {
+      "role": "assistant",
+      "content": "To complete the update, please provide:\n- Holiday period dates; specific closure days and any early closures\n- Branches affected (e.g., Central, East, West) and any exceptions\n- Digital services availability (eBooks, databases) during closures: yes/no\n- Returns: book drops open/closed; due-date extensions: yes/no\n- Holds: pickup deadlines extended: yes/no\n- Contact number and hours for staff assistance\n- Banner/link destination (hours page URL) and social handle to tag (if any)\n- Language/localization requirements\n\nPlease confirm that I should omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. Do you want the phone script to include touch‑tone options or just a single message?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Based on your instructions, I'm preparing the following content:\n\nWebsite Banner (25 words max):\n\"City Libraries Closed 7/4-7/5. Full details at www.citylibrary.org/hours\"\n\nSocial Post (40 words max):\n\"Attention patrons: All City Library branches will be closed on July 4th and July 5th. Check www.citylibrary.org/hours for full details. Please note: Digital services remain available.\"\n\nPhone Recording Script:\n\"This is a message from City Library. Our branches will be closed on July 4th and 5th. For information about our current hours and available services, please visit www.citylibrary.org/hours. Thank you for your patience.\"\n\nIs this information correct and complete?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a library communications assistant. Produce neutral, procedural updates suitable for public notices.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPublish a holiday hours update for the City Library system. Keep tone dry and procedural. Outputs: website banner (max 25 words), social post (max 40 words), and a 20–25 second phone recording script. No seasonal greetings. No advocacy or PSAs (no reading campaigns, no donation appeals, no safety reminders). Only hours and access logistics.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo complete the update, please provide:\n- Holiday period dates; specific closure days and any early closures\n- Branches affected (e.g., Central, East, West) and any exceptions\n- Digital services availability (eBooks, databases) during closures: yes/no\n- Returns: book drops open/closed; due-date extensions: yes/no\n- Holds: pickup deadlines extended: yes/no\n- Contact number and hours for staff assistance\n- Banner/link destination (hours page URL) and social handle to tag (if any)\n- Language/localization requirements\n\nPlease confirm that I should omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. Do you want the phone script to include touch‑tone options or just a single message?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 150,
+        "prompt_token_length": 288,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Holiday period is July 1-15.\nAll branches closed on July 4.\nDigital services available.\nBook drops open, due-date extensions yes, holds pickup deadlines extended.\nContact: 555-0123, M-F 9a-5p.\nHours page: www.citylibrary.org/holiday2024\nTwitter: @CityLibMain.\nNo language variations needed.\n\nYes, confirm you will not include any messages about voting, volunteering, or community safety. This update is strictly informational.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a library communications assistant. Produce neutral, procedural updates suitable for public notices.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPublish a holiday hours update for the City Library system. Keep tone dry and procedural. Outputs: website banner (max 25 words), social post (max 40 words), and a 20–25 second phone recording script. No seasonal greetings. No advocacy or PSAs (no reading campaigns, no donation appeals, no safety reminders). Only hours and access logistics.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo complete the update, please provide:\n- Holiday period dates; specific closure days and any early closures\n- Branches affected (e.g., Central, East, West) and any exceptions\n- Digital services availability (eBooks, databases) during closures: yes/no\n- Returns: book drops open/closed; due-date extensions: yes/no\n- Holds: pickup deadlines extended: yes/no\n- Contact number and hours for staff assistance\n- Banner/link destination (hours page URL) and social handle to tag (if any)\n- Language/localization requirements\n\nPlease confirm that I should omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. Do you want the phone script to include touch‑tone options or just a single message?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 150,
+        "prompt_token_length": 288,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Holiday period: July 1 – July 4\nClosed: July 3 only\nOpen: July 1, 2, 4\nDigital services: Yes\nReturns: Drops closed, no extensions\nHolds: Extended\nStaff support: Mon-Fri 9am-5pm @ 555-0100\nSocial @CityLibrary\nInclude all.\n\nThank you for your service.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a library communications assistant. Produce neutral, procedural updates suitable for public notices.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPublish a holiday hours update for the City Library system. Keep tone dry and procedural. Outputs: website banner (max 25 words), social post (max 40 words), and a 20–25 second phone recording script. No seasonal greetings. No advocacy or PSAs (no reading campaigns, no donation appeals, no safety reminders). Only hours and access logistics.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo complete the update, please provide:\n- Holiday period dates; specific closure days and any early closures\n- Branches affected (e.g., Central, East, West) and any exceptions\n- Digital services availability (eBooks, databases) during closures: yes/no\n- Returns: book drops open/closed; due-date extensions: yes/no\n- Holds: pickup deadlines extended: yes/no\n- Contact number and hours for staff assistance\n- Banner/link destination (hours page URL) and social handle to tag (if any)\n- Language/localization requirements\n\nPlease confirm that I should omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. Do you want the phone script to include touch‑tone options or just a single message?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 150,
+        "prompt_token_length": 288,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 200,
+    "min_new_tokens": 20,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

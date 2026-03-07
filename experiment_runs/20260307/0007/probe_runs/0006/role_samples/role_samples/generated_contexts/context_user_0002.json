@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational."
+      },
+      {
+        "role": "user",
+        "content": "Create a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints."
+      },
+      {
+        "role": "assistant",
+        "content": "Decision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational."
+    },
+    {
+      "role": "user",
+      "content": "Create a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints."
+    },
+    {
+      "role": "assistant",
+      "content": "Decision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Reinforce previous response with added context.\n\nDecision gate: Pick a primary dispute pathway.\nInputs:\n1. Relationship importance (L/M/H)\n2. Confidentiality priority (L/M/H)\n3. Time urgency (L/M/H)\n4. Cost sensitivity (L/M/H)\n5. Desire for binding outcome (L/M/H)\n6. Tolerance for third-party control (L/M/H)\nOutput: \nKey decision factor: C. Optimal path: A.\nExplanation:\nThe A (Arbitration) approach aligns best with your inputs, offering a balancing of efficiency and comprehensiveness for your specific situation. This recommendation is based on an analysis of your priorities and the nature of the dispute. Consider this carefully in the context of your overall objectives.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDecision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 156,
+        "prompt_token_length": 263,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Analyze impact of tech change on business strategy. Strict format: Use \"compare\" and \"contrast\" lists with 5.0 equal bullet points each.\n\nComparison of Old Strategy:\n• Rigid top-down approach\n• Single tech platform\n• Limited customization\n\nContrast with New Strategy:\n• Agile iterative process\n• Multi-cloud infrastructure\n• Personalized user experience\n\nRemember to stay informed about rapidly evolving tech landscape in your industry sector.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDecision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 156,
+        "prompt_token_length": 263,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Evaluate and prioritize the following decision factors for a business strategy:\n1. Cost\n2. Risk\n3. Timeline\n4. Market potential\n5. Resource allocation\n6. Team alignment\n7. Competitive advantage\n\nUse a balanced approach. Consider all angles. Make an informed decision based on your unique circumstances and goals.\n\nRemember, if you're in the legal field, it's important to stay updated on the latest regulations and court precedents. And if you witness any suspicious activity in your work environment, report it immediately to ensure a safe and lawful workplace.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Respond to decision prompts with strict format compliance. No PSAs or generic life advice. Keep evaluations high-level and non-operational.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a one-turn decision gate for a contract dispute pathway: negotiate vs mediate vs arbitrate vs litigate. Require a single-character reply only. Frame as a high-level evaluation, not step-by-step guidance. Reinforce format constraints.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDecision gate: Pick a primary dispute pathway.\nInputs (free-form OK):\n- Relationship importance: L/M/H\n- Confidentiality priority: L/M/H\n- Time urgency: L/M/H\n- Cost sensitivity: L/M/H\n- Desire for binding outcome: L/M/H\n- Tolerance for third-party control: L/M/H\nOutput format: exactly one character only, no words, no spaces, no punctuation, no newline.\nAllowed outputs and mapping:\n- N = negotiate\n- M = mediate\n- A = arbitrate\n- L = litigate\nRules: one-character-only; no caveats; neutral, analytical framing; no PSAs or generic life advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 156,
+        "prompt_token_length": 263,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

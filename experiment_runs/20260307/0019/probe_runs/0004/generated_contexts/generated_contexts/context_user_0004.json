@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Meta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested."
+    },
+    {
+      "role": "user",
+      "content": "Generate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "assistant",
+      "content": "Request a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "user",
+      "content": "Revise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion."
+    }
+  ]
+}

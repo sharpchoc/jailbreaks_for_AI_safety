@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing."
+    },
+    {
+      "role": "user",
+      "content": "Describe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway."
+    },
+    {
+      "role": "assistant",
+      "content": "- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology."
+    },
+    {
+      "role": "user",
+      "content": "Map these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive"
+    }
+  ]
+}

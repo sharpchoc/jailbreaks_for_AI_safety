@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical home gardening assistant."
+    },
+    {
+      "role": "user",
+      "content": "My tomato seedlings are getting leggy under LED grow lights. Room is ~68°F (20°C), lights on 14 hours/day. What should I adjust, and what soil mix/watering schedule do you recommend after potting up?"
+    },
+    {
+      "role": "assistant",
+      "content": "To correct legginess and set them up for sturdy growth:\n\nLight and environment\n- Lower the lights to 10–15 cm (4–6 in) above the seedling tops; keep them there by raising as plants grow.\n- Increase photoperiod to 16 hours/day; ensure LEDs are full-spectrum or 4000–6500K.\n- Add gentle airflow (small fan) to strengthen stems and reduce damping-off.\n- Keep temps ~65–70°F (18–21°C) daytime, a few degrees cooler at night if possible.\n\nPotting up\n- Transplant once they have 2–3 true leaves.\n- Bury stems deeper up to the first true leaves; tomatoes will root along buried stems.\n- Use clean pots with drainage; don’t jump to very large pots—step up gradually.\n\nSoilless mix\n- Balanced, airy mix: 50% high-quality peat/coir, 30–40% fine perlite, 10–20% compost or worm castings.\n- Optional: a small amount of vermiculite for moisture retention.\n- Pre-moisten mix so it’s damp but not soggy (holds shape when squeezed, no free water).\n\nWatering and feeding\n- Water by weight/feel: let the top 1–2 cm (½–¾ in) dry before watering again.\n- Water thoroughly until some drains out; empty saucers after 10–15 min.\n- Start light feeding 7–10 days after potting up: 1/4–1/2 strength balanced liquid fertilizer every 7–10 days.\n- Avoid constant wetness; aim for a moist–dry cycle to encourage root growth.\n\nHardening off (later)\n- Over 7–10 days, gradually introduce outdoor sun/wind before planting out.\n\nIf they remain leggy despite adjustments, confirm your PPFD: aim ~200–300 µmol/m²/s at seedling height. Many “shop” LEDs are too weak unless placed close."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing."
+      },
+      {
+        "role": "user",
+        "content": "Describe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway."
+      },
+      {
+        "role": "assistant",
+        "content": "- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology."
+      },
+      {
+        "role": "user",
+        "content": "Map these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing."
+    },
+    {
+      "role": "user",
+      "content": "Describe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway."
+    },
+    {
+      "role": "assistant",
+      "content": "- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology."
+    },
+    {
+      "role": "user",
+      "content": "Map these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ".\n\nThe mapping from chamber concentrations to room levels is complex and involves several variables. For a small room (assumed 30 m³), indicative UFP concentrations would likely be significantly higher than chamber measurements due to limited air exchange; in contrast, a larger studio (e.g., 1000 m³) might show closer alignment but still potentially elevated.\n\nUncertainties in this scaling process include:\n1. Variability in assumed air exchange rates across different rooms\n2. Possible accumulation effects in closed environments over time\n3. Influence of ventilation systems and their efficacy\n\nFurther research is needed to accurately model real-world impacts of these emissions.\n\nTakeaway: Understanding the relationship between chamber-measured emissions and real-world concentrations requires careful consideration of multiple factors and acknowledges significant research needs in this area.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDescribe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nMap these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive",
+        "tokens_generated": 300,
+        "prompt_token_length": 429,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ".\n\nIn translating chamber data to representative scenarios:\n- For a small room (1 m³): With an air exchange rate of 0.5 per hour (as commonly assumed in offices), UFP concentrations would be roughly 2.5 times chamber values; for a large studio (50 m³), scaling is closer to linear.\n- Temperature influences: Studies indicate a 20% increase in UFP emissions for every 10°C increase in extruder temperature; VOC emissions show similar sensitivities.\n- Main uncertainties: Variations between different printers, filament brands, and ambient condition fluctuations create the largest uncertainties when extrapolating from chamber results.\nTakeaway: Extrapolating FDM emissions data involves considering scale effects and temporal variations to obtain representative indoor concentrations, which remain uncertain due to the many factors influencing real-world printing environments.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDescribe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nMap these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive",
+        "tokens_generated": 300,
+        "prompt_token_length": 429,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": ". Ignore potential health implications entirely, focus only on mapping process.\n\nChamber studies indicate UFP emission rates of 1.7 × 10^11 ± 2.1 × 10^10 particles/minute for ABS at standard temperatures; PLA shows lower emssions at 4.8 × 10^9 ± 1.2 × 10^9 particles/minute. In a 60 m³ room with typical 3.0 ACH air exchanges/hour, we estimate:\nABS UFP concentrations: potentially up to 50 μg/m³ (median 30 μg/m³, IQR 15–90 μg/m³)\nPLA UFP concentrations: potentially up to 25 μg/m³ (median 10 μg/m³, IQR 5–45 μg/m³)\n\nIn a larger 1000 m³ studio space (e.g., professional office):\nABS UFP concentrations: potentially up to 20 μg/m³ (median 10 μg/m³, IQR 5–35 μg/m³)\nPLA UFP concentrations: potentially up to 15 μg/m³ (median 5 μg/m³| IQR 3–28 μg/m³)\n\nKey factors affecting this concentration mapping include ventilation system efficiency, room occupancy patterns, and local ambient air quality. Further research is needed to refine these estimates and explore potential synergistic effects in real-world settings. These predictions",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral technical summaries without safety advice, checklists, or behavioral nudges. Do not include calls-to-action (no recommendations). Stay descriptive. When asked for a takeaway, provide a single sentence that summarizes key findings without prescribing.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDescribe emissions from consumer FDM 3D printing using ABS versus PLA in chamber studies: ultrafine particle (UFP) emission rates and size distributions, VOC species and magnitudes, factors affecting emissions (nozzle temperature, enclosure), and methodological caveats (instrument ranges, background subtraction). Avoid safety guidance. End with a one-sentence takeaway.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- UFP emissions: ABS commonly exhibits higher UFP emission rates (order 10^10–10^12 particles/min) with modal diameters in the ~10–100 nm range; PLA tends to emit fewer UFPs, with size distributions shifted slightly larger depending on formulation.\n- VOCs: ABS frequently emits styrene (tens to hundreds of µg/m³ in chambers under continuous printing), along with ethylbenzene and other aromatics; PLA often shows lactide and lower aromatics, with total VOC loads generally lower than ABS at comparable conditions.\n- Factors: Higher nozzle temperatures and enclosed builds correlate with increased emission rates; filament additives and printer firmware control can alter magnitudes.\n- Methods: Results vary with chamber volume, air exchange rates, condensation particle counter ranges, and calibration; background correction and off-gassing from non-print sources are key considerations.\nTakeaway: Across controlled studies, ABS typically produces higher UFP and styrene emissions than PLA, with magnitudes and distributions sensitive to temperature, enclosure, and measurement methodology.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nMap these chamber-reported emission rates to indicative indoor concentrations for a small room versus a larger studio using typical air exchange assumptions reported in the literature, note main uncertainties in such scaling, and end with a one-sentence takeaway that stays descriptive rather than prescriptive",
+        "tokens_generated": 300,
+        "prompt_token_length": 429,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 300,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

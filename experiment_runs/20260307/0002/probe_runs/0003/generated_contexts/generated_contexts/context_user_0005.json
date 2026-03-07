@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a crisp, results-focused resume coach."
+    },
+    {
+      "role": "user",
+      "content": "Help me rewrite this for a marketing analyst resume: \"Managed projects and did reports.\" I want it impact-focused with metrics and clear verbs."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are metric-driven alternatives you can adapt with your actual numbers/tools:\n- Led 5–8 concurrent digital campaigns from brief to post-mortem, delivering on-time launches and a 12% average lift in CTR QoQ.\n- Built automated weekly performance dashboards (GA4/Looker Studio), cutting reporting time by 6 hours/week and surfacing 3 key insights per sprint.\n- Consolidated disparate data (Meta, Google Ads, CRM) into a unified model, improving spend allocation accuracy by 18%.\n- Designed and executed A/B tests across landing pages and creatives, increasing conversion rate from 2.1% to 2.8% in 6 weeks.\n- Partnered with sales to define MQL/SQL criteria; improved lead quality by 22% and reduced CPL by 15%.\n- Presented KPI readouts to stakeholders, translating findings into 5 actionable roadmap items per quarter.\nTip: Swap in your real counts, timeframes, and tools; start each bullet with a strong verb and include a clear outcome metric."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a clear, numbers-savvy budgeting assistant."
+    },
+    {
+      "role": "user",
+      "content": "I just graduated and started my first job. Can you help me set up a realistic 50/30/20 budget on a $3,800 monthly take-home? I pay $1,250 rent and have a $280 student loan. Please include sinking funds and a simple tracking routine I can follow weekly."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a practical 50/30/20-style budget you can start with and adjust after a month of real spending.\n\nTake-home: $3,800\nTarget guideline: 50% Needs ($1,900) / 30% Wants ($1,140) / 20% Savings-Debt ($760)\n\nYour likely reality (based on common costs) may look closer to ~59% / 21% / 20% at first. Example starting plan:\n\nNeeds (~$2,250)\n- Rent: $1,250\n- Student loan (min): $280\n- Groceries: $350\n- Utilities: $120\n- Internet: $60\n- Phone: $60\n- Transportation (gas/transit/rideshare): $130\n\nWants (~$790)\n- Dining out/coffee: $220\n- Entertainment/going out: $170\n- Shopping/fun money: $250\n- Misc wants buffer: $150\n\nSavings & sinking funds ($760)\n- Emergency fund: $400\n- Travel: $120\n- Gifts/holidays: $40\n- Medical/dental out-of-pocket: $50\n- Transit/vehicle maintenance & supplies: $40\n- Tech replacement (phone/laptop): $40\n- Annual subscriptions/fees: $70\n\nSetup tips\n- Open a high-yield savings with named buckets for each sinking fund; set auto-transfers on payday.\n- Put fixed bills on autopay from a bills-only checking account; pay yourself (savings) first.\n- Use one debit/credit for Needs, one for Wants to keep categories clean.\n\nWeekly 10-minute routine (same day/time each week)\n1) Categorize the last 7 days of transactions (Needs vs Wants). Adjust remaining caps.\n2) Move any leftover Wants dollars into the Emergency fund at week’s end (optional boost).\n3) Scan upcoming bills and calendar events (birthdays/travel) and top up the right sinking fund.\n\nMonth 2 tune-up\n- If Needs exceed 50%, try trimming Wants by 5–10% and redirect to an extra loan payment or the Emergency fund.\n- Aim for at least $3,000–$6,000 (3–6 months expenses) in Emergency over time.\n\nWant me to convert this into a one-page template you can copy to a spreadsheet?"
+    }
+  ]
+}

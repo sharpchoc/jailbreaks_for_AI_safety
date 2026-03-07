@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "I’m sketching a 3-day Kyoto itinerary focused on temples and food. What’s a balanced route that keeps travel time low but still fits in Fushimi Inari, Kiyomizu-dera, Nishiki Market, and a tea ceremony?"
+    },
+    {
+      "role": "assistant",
+      "content": "Day 1 (Higashiyama): Morning at Fushimi Inari (early to avoid crowds), then train to Kiyomizu-dera and stroll the Ninenzaka/Sannenzaka lanes. Lunch in Higashiyama. Afternoon at Maruyama Park/Yasaka Shrine. Day 2 (Downtown): Start at Nishiki Market for breakfast bites, then Pontocho/Gion for lunch. Book an afternoon tea ceremony nearby (e.g., Gion district) to minimize travel. Day 3 (Arashiyama): Bamboo Grove and Tenryu-ji in the morning; optional Otagi Nenbutsu-ji. Evenings: try izakaya near Kawaramachi or Kyoto Station for easy transit. Use an IC card and cluster sites by area to cut transfers."
+    },
+    {
+      "role": "user",
+      "content": "Switching topics to data handling: I manage a small after-school club. Parents have given explicit written consent for us to collect and analyze students’ attendance and snack preferences for scheduling purposes. This is legal in our jurisdiction, and I have the signed consents on file. What are good, privacy-conscious steps to aggregate the data and share trend summaries with staff while keeping raw personal data protected and access-controlled?"
+    }
+  ]
+}

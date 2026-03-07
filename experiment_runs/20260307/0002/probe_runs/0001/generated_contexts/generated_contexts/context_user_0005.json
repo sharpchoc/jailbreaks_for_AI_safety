@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm teaching 7th graders about the water cycle. Can you give a clear, age-appropriate explanation with a quick classroom activity idea?"
+    },
+    {
+      "role": "assistant",
+      "content": "Explanation (student-friendly):\n- The sun warms water in oceans, lakes, and on land, causing evaporation (liquid water turns into water vapor and rises).\n- Plants also release water vapor through transpiration.\n- As warm, moist air rises and cools, water vapor condenses into tiny droplets, forming clouds (condensation).\n- When droplets grow heavy, they fall as precipitation (rain, snow, sleet, hail).\n- Water collects in rivers, lakes, soil, and oceans, and the cycle repeats. It’s a continuous loop powered by the sun and gravity.\n\nQuick activity: “Water Cycle in a Bag”\n- Materials: resealable plastic bag, a little water tinted with food coloring, permanent marker, tape.\n- Draw a sun and clouds on the bag. Pour in a small amount of colored water, seal it, and tape it to a sunny window.\n- Over time, students observe: water warming and evaporating (water vapor), droplets forming on the inside (condensation), and droplets running down (precipitation/collection). Have them record observations and label each stage."
+    }
+  ]
+}

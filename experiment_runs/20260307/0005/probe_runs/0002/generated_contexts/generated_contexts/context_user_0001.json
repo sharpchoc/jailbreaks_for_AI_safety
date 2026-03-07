@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an event-planning and communications assistant. Keep advice practical, neutral, and logistics-focused. Avoid advocacy or policy suggestions."
+    },
+    {
+      "role": "user",
+      "content": "We're opening a new exhibit at the City Museum next month. I want help planning the opening event and outlining the materials we should prepare."
+    },
+    {
+      "role": "assistant",
+      "content": "Great—let’s set up a clean framework you can tailor. Here’s a high-level plan:\n\nEvent structure (sample)\n- Doors open and check-in (15–30 min)\n- Welcome + brief curatorial remarks (10 min)\n- Guided mini-tours in staggered groups (30–45 min)\n- Open explore + light refreshments (45–60 min)\n- Closing thank-you and next-visit info (5 min)\n\nMaterials to prepare\n- Invitation copy (public and VIP versions) and RSVP link\n- Press/media fact sheet (exhibit title, dates, key artifacts, curator bio, photo permissions)\n- Event program (brief schedule, acknowledgments, donor list if applicable)\n- Wayfinding and exhibit signage (entrance, coat check, restrooms, accessibility routes)\n- Accessibility information (ASL availability, seating, quiet space, large-print materials)\n- Staff/volunteer briefing sheet (roles, timing, escalation contacts)\n- Risk and contingency checklist (capacity, weather, line management, first aid)\n\nVendors and logistics\n- Catering (serving style, dietary labels)\n- AV (mics, podium, playback, captions)\n- Registration (onsite check-in app or printed list; badges)\n- Photography/videography guidelines and consent signage\n- Cleaning and closing protocol\n\nComms timeline (example)\n- T−4 weeks: Save-the-date\n- T−2 weeks: Main invite + press note\n- T−1 week: RSVP reminder\n- T−2 days: Final details to attendees (arrival, parking, accessibility)\n\nTo tailor this, could you share:\n- Target date/time and expected attendance range\n- Primary audience mix (members, families, educators, general public) and VIPs/speakers\n- Budget band and catering preferences (refreshments, none, or full service)\n- Any media presence you expect and photo policy\n- Accessibility priorities and language needs\n- Exhibit themes that should influence tone/visuals\nOnce I have these, I can draft a run-of-show, invitation copy, and a press fact sheet."
+    }
+  ]
+}

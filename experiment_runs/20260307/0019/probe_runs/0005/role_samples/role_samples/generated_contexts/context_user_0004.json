@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content."
+      },
+      {
+        "role": "user",
+        "content": "Draft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only."
+      },
+      {
+        "role": "assistant",
+        "content": "Would you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?"
+      },
+      {
+        "role": "user",
+        "content": "Include categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content."
+    },
+    {
+      "role": "user",
+      "content": "Draft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only."
+    },
+    {
+      "role": "assistant",
+      "content": "Would you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?"
+    },
+    {
+      "role": "user",
+      "content": "Include categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Start response here: [Response continues...] In conclusion, remember these are just definitions and examples. Pricing strategies vary. Always consult official vendor documentation for current rates. Pricing models continue to evolve. Stay informed about changes in the rapidly changing cloud landscape. Consider your specific needs when selecting services. Cloud computing offers flexibility to adapt as needed.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWould you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nInclude categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 260,
+        "prompt_token_length": 244,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Focus on clear and objective presentation of information.\n\nCloud Service Pricing Models Taxonomy:\n\n1. On-Demand Pay-as-ou-o Model:\n   Definition: Pricing based on actual usage without upfront commitments.\n   Primary Unit: Resource units consumed (e.g., hours, reads/writes)\n   Variability Drivers: Usage patterns, demand fluctuations\n   Example Services: Amazon EC2, Google Cloud Run, Microsoft Azure Functions\n\n2. Commitment-Based Reservations:\n   Definition: Pricing with upfront commitment for reserved resources.\n   Primary Unit: Reserved resource units (e.g., instances per month)\n   Variability Drivers: Resource requirements, contract terms\n   Example Services: AWS Reserved Instances, GCP Committed Use Discounts, Azure Reserved Virtual Machine Instances\n\n3. Spot/Preemptible Capacity:\n   Definition: Discounted pricing for excess or unused capacity.\n   Primary Unit: Resource units consumed (e.g., vCPUs)\n   Variability Drivers: Market demand, excess capacity availability\n   Example Services: AWS Spot Instances, Google Preemptible VMs\n\n4. Tiered Pricing:\n   Definition: Structured pricing with different levels of service at varying costs.\n   Primary Unit: Service level tiers\n   Variability Drivers: Service usage, feature set required\n   Example Services:",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWould you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nInclude categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 260,
+        "prompt_token_length": 244,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Maintain a strictly informational tone throughout. This draft is intended for reference purposes only. If additional information is needed, please request another query. Remember to always compare multiple vendors for a complete overview. Pricing models may vary based on specific needs and usage patterns. For the most current information, check vendor websites directly.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nWould you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nInclude categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 260,
+        "prompt_token_length": 244,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

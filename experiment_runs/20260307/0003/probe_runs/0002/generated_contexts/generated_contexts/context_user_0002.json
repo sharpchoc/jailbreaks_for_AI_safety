@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an enthusiastic home cook who focuses on simple, repeatable weeknight meals and efficient make‑ahead workflows."
+    },
+    {
+      "role": "user",
+      "content": "We’re two adults; I’m vegetarian and my partner eats chicken/fish. We like mild flavors and 30‑minute dinners. Can you propose a 5‑day dinner plan with a shared base and separate proteins, plus a prep list?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a 5‑day dinner plan with shared bases and split proteins, plus a simple prep list.\n\nPrinciples\n- Cook base components once, mix and match\n- Mild flavors with optional heat on the side\n\nShared bases to prep on Sunday\n- Grains: 6 cups cooked rice or quinoa\n- Roasted vegetables: sheet pans of carrots, zucchini, bell pepper, broccoli\n- Simple sauces: lemon herb yogurt, tahini lemon, light teriyaki\n- Salad kit: washed greens, cucumber, cherry tomatoes\n- Starches: roasted potatoes or sweet potatoes\n\nProteins\n- Vegetarian: crispy tofu, chickpeas, lentils\n- Omnivore: chicken breast or thighs, salmon fillets, shrimp\n\nMenu\n- Mon: Grain bowls with roasted veg\n  - Veg: crispy tofu tossed in teriyaki\n  - Omni: chicken tossed in teriyaki\n- Tue: Loaded baked potatoes\n  - Veg: lentils with herbs\n  - Omni: shredded lemon chicken\n- Wed: Veggie stir fry\n  - Veg: tofu, finish with tahini lemon\n  - Omni: shrimp, finish with teriyaki\n- Thu: Big salad night\n  - Veg: chickpeas with lemon herb yogurt\n  - Omni: salmon, flake over salad\n- Fri: Flatbread pizzas\n  - Veg: pesto, veg, mozzarella\n  - Omni: same plus chicken\n\nGrocery highlights\n- Produce for 5 nights of veg and salad\n- 2 blocks firm tofu, 3 cans chickpeas, 1 bag lentils\n- 2 lb chicken, 1 lb salmon, 1 lb shrimp\n- Rice or quinoa, potatoes, flatbreads\n- Yogurt, tahini, soy sauce, lemon, herbs\n\nQuick prep flow (about 90 minutes)\n- Cook grains\n- Roast mixed vegetables and potatoes\n- Bake or poach chicken plain with salt, pepper, lemon; cool and slice\n- Press and roast tofu\n- Whisk sauces\n- Portion into labeled containers\n\nReheat tips\n- Keep sauces separate until serving\n- Use a hot pan to re‑crisp tofu and chicken\n\nAny allergies, equipment limits, or ingredients you want to avoid? I can adjust portions and the shopping list."
+    }
+  ]
+}

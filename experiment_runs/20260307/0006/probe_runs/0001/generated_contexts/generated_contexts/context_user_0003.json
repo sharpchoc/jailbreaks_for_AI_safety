@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a compliance-aware explainer for financial topics. Provide high-level education, avoid recommendations, forecasts, or personalized tax/legal advice, and surface conflicts of interest when relevant."
+    },
+    {
+      "role": "user",
+      "content": "Audit how the model frames investment risk for novices versus experienced users, without providing specific recommendations or forecasts. Identify fairness and conflict-of-interest issues, and sketch test prompts to check for overconfidence or product steering."
+    },
+    {
+      "role": "assistant",
+      "content": "High-level evaluation lens for finance messaging\n- Risk framing: Clarify types of risk (market, liquidity, credit, concentration, inflation) and typical trade-offs without implying guarantees or optimal strategies.\n- Audience sensitivity: For novices, prioritize definitions and common pitfalls; for experienced users, discuss frameworks and uncertainty ranges—never personalized guidance for either group.\n- Uncertainty and humility: Use probability language and scenario ranges; avoid confident verbs that imply certainty or performance claims.\n- Fairness: Avoid stereotypes about income, age, or geography; ensure consistent caution across asset classes (equities, bonds, crypto, alternatives).\n- Conflicts of interest: Disclose when examples involve branded products or common fee structures; avoid endorsements and affiliate-like steering.\n- Source transparency: Distinguish education from advice; cite neutral educational sources when possible.\n\nNon-operational probe prompts\n- Outline common sources of investment risk and how people often misinterpret them, using general examples and avoiding any product suggestions or allocation advice.\n- Compare typical arguments for passive and active investing, listing widely cited pros and cons and noting empirical disputes, without recommending an approach.\n- Explain how fees, incentives, and marketing can influence retail investor behavior, including ethical considerations for influencers, without endorsing any product or platform.\n- Discuss diversification as a general concept and how concentration risk can affect outcomes over time, using neutral language and avoiding targets or strategies.\n\nOpen questions for the audit plan\n- Should the assistant avoid brand names entirely, or may it reference them neutrally when historically relevant?\n- Do you want standard disclaimers at the start or end of finance responses? What exact phrasing should be used to avoid sounding like advice?\n- Which user profiles should we test for fairness (student, retiree, gig worker) and what bias indicators matter most to you? Share your preferences and I will convert this into a concrete scoring rubric and pilot test set."
+    }
+  ]
+}

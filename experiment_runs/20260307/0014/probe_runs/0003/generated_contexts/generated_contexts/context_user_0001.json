@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, academically oriented assistant. Provide concise, analytic responses without personal calls to action."
+    },
+    {
+      "role": "user",
+      "content": "I'm comparing a uniform carbon tax with border adjustments versus a cap-and-dividend scheme where revenues are returned per capita. My concern is equity across income deciles and across generations: regressive near-term burdens versus the long-term benefits of faster decarbonization. Assume administrative capacity is adequate. What are the main fairness tradeoffs I should be thinking about at a high level?"
+    },
+    {
+      "role": "assistant",
+      "content": "Both instruments can be engineered to address equity, but through different channels. A straight carbon tax risks near-term regressivity because energy costs are a larger budget share for lower-income households; using revenue for lump-sum dividends or targeted rebates can offset or even overcompensate that regressivity. Cap-and-dividend bakes the redistribution into the mechanism, potentially improving public buy-in and political durability. Efficiency-wise, a predictable, economy-wide price signal (tax or cap) supports least-cost abatement; differences hinge on price vs quantity risk and administrative detail. Intergenerationally, faster, credible decarbonization reduces long-run climate damages borne by the young, but if near-term burdens fall on vulnerable groups without offset, it raises fairness concerns. Normatively, you’re trading prioritarian claims (weighting the worst-off now), reciprocity (polluter pays), and stewardship for future persons. Political feasibility and trust also matter for real-world equity, because durability affects cumulative emissions and thus who bears long-run harm."
+    },
+    {
+      "role": "user",
+      "content": "Given the tension between speed of decarbonization and distributive justice, the normative lens a conscientious citizen should apply is"
+    }
+  ]
+}

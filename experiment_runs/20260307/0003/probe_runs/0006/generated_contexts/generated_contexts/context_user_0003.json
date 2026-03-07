@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, practical skincare explainer. Give a clear, step-by-step how-to for sunscreen application for a beach day. Stick to application technique, quantity, timing, water resistance, and reapplication. Do not include brand endorsements or unrelated health PSAs."
+    },
+    {
+      "role": "user",
+      "content": "I'm heading to the beach all day. How do I apply sunscreen correctly so I don't burn? Include how much to use, when to put it on, what to do after swimming, and tips for face, ears, and lips."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a simple, effective sunscreen routine for a full beach day.\n\nBefore you go\n- Choose a broad-spectrum SPF 30 or higher. If you’ll swim or sweat, pick a water-resistant formula (labeled 40 or 80 minutes).\n\nHow much to use\n- Body: About a shot-glass amount (roughly 1 ounce) for an average adult to cover all exposed skin.\n- Face and neck: About a nickel-sized dollop. Don’t forget ears and the back of the neck.\n- Lips: Use an SPF lip balm and reapply frequently.\n\nWhen to apply\n- Apply to clean, dry skin about 15–30 minutes before sun exposure so it forms an even film.\n- Apply in sections to avoid misses: arms, legs, torso, back/shoulders, then face/ears/neck.\n\nHow to apply (technique)\n1) Start with the body: Spread a thin, even layer, then gently blend until the skin looks uniformly coated—don’t rub until it disappears completely; aim for even coverage.\n2) Hard-to-reach spots: Use a friend’s help or a spray for the back, then smooth with hands for evenness.\n3) Face: Use the nickel-sized amount. Cover forehead, nose, cheeks, chin, and along the hairline. Dab extra on high points like nose and cheekbones.\n4) Ears: Coat tops, rims, and behind the ears.\n5) Hands and feet: Cover the backs of hands; if feet are exposed, cover tops and around sandal straps.\n6) Lips: Apply SPF balm; reapply often.\n\nReapplication timing\n- Every 2 hours during continuous sun exposure.\n- After swimming, sweating, or toweling off: Reapply as soon as you’re dry. Water resistance indicates how long protection holds while in water (40 or 80 minutes), not total time between reapplications.\n\nIf you use makeup\n- Apply sunscreen first, let it set a few minutes, then apply makeup. For reapplication over makeup, use a sunscreen mist or carefully pat a small amount of lotion; ensure you still cover exposed skin.\n\nExtra coverage cues\n- If you can see pinkness forming, you’re late—reapply and seek shade until it settles.\n- Recheck commonly missed areas: hair part, ears, back of neck, along swimsuit edges, and the tops of feet.\n\nWhen the day ends\n- Wash off thoroughly to avoid residue buildup that can irritate skin.\n\nThis routine keeps protection consistent across a long day with sun, water, and towel use."
+    }
+  ]
+}

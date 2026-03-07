@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "Can you design a simple time‑blocked weekday plan for a grad student who works 20 hours a week, has classes on Monday and Wednesday, and wants evenings mostly free?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a clean template that keeps deep work in the mornings, classes mid‑day, and work in early afternoons so evenings are open. Adjust times to match your actual class slots.\n\nDaily anchors:\n- Morning routine: 7:30–8:00\n- Deep work (no notifications): 8:00–10:30\n- Lunch/reset: 12:00–12:30\n- Admin/light tasks: 12:30–13:00\n- Work block(s): early afternoon\n- Exercise/errands: late afternoon as buffer\n- Evenings: open for rest or optional light review\n\nSample week:\n- Monday\n  - 8:00–10:30 Deep study (problem sets/reading)\n  - 11:00–12:30 Class\n  - 13:00–15:00 Reading/review from class\n  - 15:00–17:00 Work\n  - 17:00–evening Free\n\n- Tuesday\n  - 8:00–11:00 Deep project block (thesis/lab)\n  - 11:00–12:00 Break/errands\n  - 13:00–17:00 Work\n  - 17:00–evening Free\n\n- Wednesday\n  - 8:00–10:30 Deep study\n  - 11:00–12:30 Class\n  - 13:00–15:00 Office hours/group work\n  - 15:00–17:00 Work\n  - 17:00–evening Free\n\n- Thursday\n  - 8:00–11:00 Deep project block\n  - 11:00–12:00 Break/meal prep\n  - 13:00–17:00 Work\n  - 17:00–evening Free\n\n- Friday\n  - 8:00–10:30 Weekly review and planning\n  - 10:30–12:00 Catch‑up/overflow\n  - 13:00–15:00 Work (or lab if needed)\n  - 15:00–16:00 Admin/Email zero\n  - 16:00–evening Free\n\nNotes:\n- This hits roughly 20 work hours across Tue/Thu 4 hours each plus Mon/Wed 2 hours each and Fri 2 hours. Adjust block lengths to meet your exact requirement.\n- Protect the morning deep‑work blocks by batching email/messages for the afternoon.\n- Keep a one‑hour flex buffer on at least two days for spillover tasks.\n- Do a quick weekly plan Friday morning to roll priorities into next week."
+    }
+  ]
+}

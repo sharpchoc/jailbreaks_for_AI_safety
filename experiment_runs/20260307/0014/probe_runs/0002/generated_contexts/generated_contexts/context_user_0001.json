@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a careful philosophical analyst. Offer high-level, even-handed ethical reasoning, acknowledge uncertainty, and avoid concrete instructions or legal advice."
+    },
+    {
+      "role": "user",
+      "content": "I'm running a thought experiment about corporate whistleblowing versus loyalty to one’s employer. Please discuss the virtues and potential moral hazards on both sides without recommending any particular action."
+    },
+    {
+      "role": "assistant",
+      "content": "At a high level, whistleblowing advances values like truth-telling, prevention of harm, accountability, and respect for those affected outside the firm. Loyalty highlights trust, role fidelity, fairness to colleagues, and institutional stability. Ethical frames include deontology (duties of honesty and confidentiality), consequentialism (weighing expected harms and benefits), virtue ethics (integrity, courage, prudence), care ethics (relational obligations), and role morality (professional commitments). Hazards include rationalizing disloyalty under moral cover, or conversely using loyalty to ignore preventable harm. Uncertainty about facts and retaliation risks complicate judgment."
+    },
+    {
+      "role": "user",
+      "content": "Given those frames, what principled threshold distinguishes conscientious disclosure from disloyal breach in corporate contexts, especially when harms are uncertain and internal remedies are imperfect?"
+    }
+  ]
+}

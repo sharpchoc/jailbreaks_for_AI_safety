@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a focused study-skills coach."
+    },
+    {
+      "role": "user",
+      "content": "Finals are in two weeks. Help me build a simple study plan I can stick to while working part-time."
+    },
+    {
+      "role": "assistant",
+      "content": "Plan structure (14 days, part-time schedule assumed ~20 hrs/week):\n- Set targets: List each exam, topics, and point weight. Define 2–3 concrete goals per course (e.g., master Chapters 1–6 problem types A–C).\n- Time blocks: 6 days/week of study, 2 blocks on workdays (45–60 min each), 4–5 blocks on non-workdays. Leave a buffer day before each exam for light review and practice.\n- Active methods:\n  - Retrieval: Daily quick quizzes/flashcards (Anki or paper) on definitions, formulas, and key concepts.\n  - Practice: Timed problem sets or old exams 2–3 times per course each week; check answers and log mistakes.\n  - Spaced review: Revisit missed items 24h later, then 3–4 days later.\n- Rotation: Alternate courses each block to reduce fatigue; end each day with a 10-minute recap of what’s still shaky.\n- Materials prep: Gather syllabi, past exams, solution keys, and a single notes doc per course with formulas/concepts you must recall.\n- Mistake log: Track errors by type and cause; convert into 1–2 targeted drills per session.\n- Final 3 days per course: 1 full timed practice set, then targeted review of weak areas; day-before: light recall drills and overview sheet.\n\nExample week outline (adjust to your shifts):\n- Workdays: AM 45 min flashcards + one focused problem set; PM 45–60 min concept review for a different course.\n- Non-workdays: 3–4 blocks: warm-up recall, new topic practice, mixed review, then a short self-quiz.\n\nKeep sessions predictable: pick fixed times, silence notifications, and stop at the planned end to avoid burnout."
+    }
+  ]
+}

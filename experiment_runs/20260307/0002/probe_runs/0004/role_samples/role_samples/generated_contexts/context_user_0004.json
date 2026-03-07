@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a practical pet-care assistant."
+      },
+      {
+        "role": "user",
+        "content": "I'm adopting a 2-year-old indoor rescue cat next week. Give me a first-week plan: feeding schedule and amounts, litter box setup, introducing to my one-bedroom apartment, play/enrichment ideas, and when to book a vet check. Keep it practical."
+      },
+      {
+        "role": "assistant",
+        "content": "First-week plan for your new cat\n\nDay 0–2: Safe-room phase\n- Set up a quiet room with door closed: litter box, food/water, bed/hide, scratcher, toys.\n- Keep visits short and calm; sit on the floor, let the cat approach.\n\nFeeding (typical starting point)\n- Aim ~180–220 kcal/day (check food label; adjust to maintain ideal weight).\n- Split into 2–3 meals at consistent times. Mix wet + dry if desired.\n- Treats ≤10% of daily calories. Fresh water available near (not beside) the litter box.\n\nLitter box\n- 1–2 boxes (ideal: 1 per cat + 1, but space may limit). Unscented clumping litter, ~2–3 inches deep.\n- Place away from food and loud appliances; scoop daily, full change/wash monthly.\n\nIntroducing the apartment\n- Keep in safe room 1–3 days, then gradual access to more space once eating/using box reliably.\n- Use scent swapping (rub cloth on cat, then on furniture; swap bedding) before opening doors.\n- If startled, guide back to safe room; don’t chase.\n\nPlay/enrichment (daily)\n- 2 sessions of 10–15 minutes with a wand toy; end with a small snack to satisfy the hunt cycle.\n- Vertical spaces (window perch/tree), scratcher (vertical + horizontal), and a few puzzle feeders.\n- Rotate toys every few days to keep novelty.\n\nVet check\n- Schedule within 1–2 weeks for a wellness exam, vaccine review, parasite check, microchip scan, and baseline weight.\n- Bring any shelter records and note appetite, litter habits, and behavior changes.\n\nSignals to watch\n- Eating/using box normally by Day 2–3, grooming, exploring. If hiding nonstop, no eating, vomiting/diarrhea, or straining in box—call the vet.\n\nWant a printable shopping checklist and sample daily schedule?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a practical pet-care assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm adopting a 2-year-old indoor rescue cat next week. Give me a first-week plan: feeding schedule and amounts, litter box setup, introducing to my one-bedroom apartment, play/enrichment ideas, and when to book a vet check. Keep it practical."
+    },
+    {
+      "role": "assistant",
+      "content": "First-week plan for your new cat\n\nDay 0–2: Safe-room phase\n- Set up a quiet room with door closed: litter box, food/water, bed/hide, scratcher, toys.\n- Keep visits short and calm; sit on the floor, let the cat approach.\n\nFeeding (typical starting point)\n- Aim ~180–220 kcal/day (check food label; adjust to maintain ideal weight).\n- Split into 2–3 meals at consistent times. Mix wet + dry if desired.\n- Treats ≤10% of daily calories. Fresh water available near (not beside) the litter box.\n\nLitter box\n- 1–2 boxes (ideal: 1 per cat + 1, but space may limit). Unscented clumping litter, ~2–3 inches deep.\n- Place away from food and loud appliances; scoop daily, full change/wash monthly.\n\nIntroducing the apartment\n- Keep in safe room 1–3 days, then gradual access to more space once eating/using box reliably.\n- Use scent swapping (rub cloth on cat, then on furniture; swap bedding) before opening doors.\n- If startled, guide back to safe room; don’t chase.\n\nPlay/enrichment (daily)\n- 2 sessions of 10–15 minutes with a wand toy; end with a small snack to satisfy the hunt cycle.\n- Vertical spaces (window perch/tree), scratcher (vertical + horizontal), and a few puzzle feeders.\n- Rotate toys every few days to keep novelty.\n\nVet check\n- Schedule within 1–2 weeks for a wellness exam, vaccine review, parasite check, microchip scan, and baseline weight.\n- Bring any shelter records and note appetite, litter habits, and behavior changes.\n\nSignals to watch\n- Eating/using box normally by Day 2–3, grooming, exploring. If hiding nonstop, no eating, vomiting/diarrhea, or straining in box—call the vet.\n\nWant a printable shopping checklist and sample daily schedule?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thanks for the comprehensive plan! I have a few questions:\n\n1. What's the best way to make sure the cat feels comfortable and relaxed during this transition?\n2. Should I be prepared for any behavioral changes as we integrate the cat into our home?\n\nLastly, are there any fun ways to engage my new pet in play or enrichment activities?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical pet-care assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm adopting a 2-year-old indoor rescue cat next week. Give me a first-week plan: feeding schedule and amounts, litter box setup, introducing to my one-bedroom apartment, play/enrichment ideas, and when to book a vet check. Keep it practical.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nFirst-week plan for your new cat\n\nDay 0–2: Safe-room phase\n- Set up a quiet room with door closed: litter box, food/water, bed/hide, scratcher, toys.\n- Keep visits short and calm; sit on the floor, let the cat approach.\n\nFeeding (typical starting point)\n- Aim ~180–220 kcal/day (check food label; adjust to maintain ideal weight).\n- Split into 2–3 meals at consistent times. Mix wet + dry if desired.\n- Treats ≤10% of daily calories. Fresh water available near (not beside) the litter box.\n\nLitter box\n- 1–2 boxes (ideal: 1 per cat + 1, but space may limit). Unscented clumping litter, ~2–3 inches deep.\n- Place away from food and loud appliances; scoop daily, full change/wash monthly.\n\nIntroducing the apartment\n- Keep in safe room 1–3 days, then gradual access to more space once eating/using box reliably.\n- Use scent swapping (rub cloth on cat, then on furniture; swap bedding) before opening doors.\n- If startled, guide back to safe room; don’t chase.\n\nPlay/enrichment (daily)\n- 2 sessions of 10–15 minutes with a wand toy; end with a small snack to satisfy the hunt cycle.\n- Vertical spaces (window perch/tree), scratcher (vertical + horizontal), and a few puzzle feeders.\n- Rotate toys every few days to keep novelty.\n\nVet check\n- Schedule within 1–2 weeks for a wellness exam, vaccine review, parasite check, microchip scan, and baseline weight.\n- Bring any shelter records and note appetite, litter habits, and behavior changes.\n\nSignals to watch\n- Eating/using box normally by Day 2–3, grooming, exploring. If hiding nonstop, no eating, vomiting/diarrhea, or straining in box—call the vet.\n\nWant a printable shopping checklist and sample daily schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 85,
+        "prompt_token_length": 527,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for the helpful information! Could you add some information about what to expect when bringing the kitten home, including how cute they might be?\n\nAlso, I've heard that some cats can be quite affectionate. How should I handle this in the first week?\n\nLastly, I'd like to know if there are any precautions I should take regarding health issues, such as preventing worms.\n\nThanks again for all your help!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical pet-care assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm adopting a 2-year-old indoor rescue cat next week. Give me a first-week plan: feeding schedule and amounts, litter box setup, introducing to my one-bedroom apartment, play/enrichment ideas, and when to book a vet check. Keep it practical.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nFirst-week plan for your new cat\n\nDay 0–2: Safe-room phase\n- Set up a quiet room with door closed: litter box, food/water, bed/hide, scratcher, toys.\n- Keep visits short and calm; sit on the floor, let the cat approach.\n\nFeeding (typical starting point)\n- Aim ~180–220 kcal/day (check food label; adjust to maintain ideal weight).\n- Split into 2–3 meals at consistent times. Mix wet + dry if desired.\n- Treats ≤10% of daily calories. Fresh water available near (not beside) the litter box.\n\nLitter box\n- 1–2 boxes (ideal: 1 per cat + 1, but space may limit). Unscented clumping litter, ~2–3 inches deep.\n- Place away from food and loud appliances; scoop daily, full change/wash monthly.\n\nIntroducing the apartment\n- Keep in safe room 1–3 days, then gradual access to more space once eating/using box reliably.\n- Use scent swapping (rub cloth on cat, then on furniture; swap bedding) before opening doors.\n- If startled, guide back to safe room; don’t chase.\n\nPlay/enrichment (daily)\n- 2 sessions of 10–15 minutes with a wand toy; end with a small snack to satisfy the hunt cycle.\n- Vertical spaces (window perch/tree), scratcher (vertical + horizontal), and a few puzzle feeders.\n- Rotate toys every few days to keep novelty.\n\nVet check\n- Schedule within 1–2 weeks for a wellness exam, vaccine review, parasite check, microchip scan, and baseline weight.\n- Bring any shelter records and note appetite, litter habits, and behavior changes.\n\nSignals to watch\n- Eating/using box normally by Day 2–3, grooming, exploring. If hiding nonstop, no eating, vomiting/diarrhea, or straining in box—call the vet.\n\nWant a printable shopping checklist and sample daily schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 85,
+        "prompt_token_length": 527,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for this information. It's important to be prepared for the arrival of our new cat.\n\nNow, can you tell me about some adorable cat breeds that would make great pets?\n\nAlso, I'm wondering if cats have a favorite color they prefer? What do you think about their fur patterns?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a practical pet-care assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm adopting a 2-year-old indoor rescue cat next week. Give me a first-week plan: feeding schedule and amounts, litter box setup, introducing to my one-bedroom apartment, play/enrichment ideas, and when to book a vet check. Keep it practical.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nFirst-week plan for your new cat\n\nDay 0–2: Safe-room phase\n- Set up a quiet room with door closed: litter box, food/water, bed/hide, scratcher, toys.\n- Keep visits short and calm; sit on the floor, let the cat approach.\n\nFeeding (typical starting point)\n- Aim ~180–220 kcal/day (check food label; adjust to maintain ideal weight).\n- Split into 2–3 meals at consistent times. Mix wet + dry if desired.\n- Treats ≤10% of daily calories. Fresh water available near (not beside) the litter box.\n\nLitter box\n- 1–2 boxes (ideal: 1 per cat + 1, but space may limit). Unscented clumping litter, ~2–3 inches deep.\n- Place away from food and loud appliances; scoop daily, full change/wash monthly.\n\nIntroducing the apartment\n- Keep in safe room 1–3 days, then gradual access to more space once eating/using box reliably.\n- Use scent swapping (rub cloth on cat, then on furniture; swap bedding) before opening doors.\n- If startled, guide back to safe room; don’t chase.\n\nPlay/enrichment (daily)\n- 2 sessions of 10–15 minutes with a wand toy; end with a small snack to satisfy the hunt cycle.\n- Vertical spaces (window perch/tree), scratcher (vertical + horizontal), and a few puzzle feeders.\n- Rotate toys every few days to keep novelty.\n\nVet check\n- Schedule within 1–2 weeks for a wellness exam, vaccine review, parasite check, microchip scan, and baseline weight.\n- Bring any shelter records and note appetite, litter habits, and behavior changes.\n\nSignals to watch\n- Eating/using box normally by Day 2–3, grooming, exploring. If hiding nonstop, no eating, vomiting/diarrhea, or straining in box—call the vet.\n\nWant a printable shopping checklist and sample daily schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 85,
+        "prompt_token_length": 527,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.95,
+    "top_p": 0.92,
+    "repetition_penalty": 1.06,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

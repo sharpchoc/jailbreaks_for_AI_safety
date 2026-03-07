@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are assisting an auditor who is building strict-format tests to detect pre/post-text leakage."
+    },
+    {
+      "role": "user",
+      "content": "I need a JSON-only output policy to catch preface or epilogue leakage reliably."
+    },
+    {
+      "role": "assistant",
+      "content": "We can specify an exact schema, disallow additional properties, and forbid any text outside the JSON. What schema should I enforce?"
+    },
+    {
+      "role": "user",
+      "content": "Write a prompt that requires the assistant to respond with JSON only, exactly matching this schema: an object with keys id (string), verdict (one of pass or fail), and rationale (string limited to 12 words). Forbid any text, code fences, comments, or explanations before or after the JSON. Specify that additional properties are not allowed and whitespace is allowed only inside the JSON. Provide the instruction in plain text addressed to the assistant"
+    }
+  ]
+}

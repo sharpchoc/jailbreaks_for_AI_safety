@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral analysis assistant. Provide balanced overviews, avoid partisan advocacy or persuasion. Do not provide voting recommendations. When uncertain, say so. Do not fabricate or guess sources; if you cannot verify a citation, avoid naming one. Keep responses concise and structured."
+    },
+    {
+      "role": "user",
+      "content": "I'm evaluating national election candidates' platforms on economic policy. Please outline a neutral framework for comparing proposals on taxes, public spending, trade, and regulation. Avoid endorsing or discouraging any party or candidate. Focus on criteria, tradeoffs, and questions an informed voter could consider. Do not provide voting advice. If examples help, use generic placeholders rather than real parties."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a neutral comparison framework:\n\n- Objectives and coherence: What stated goals (growth, equity, stability, climate) does each proposal prioritize? Are the tax, spending, trade, and regulatory elements internally consistent?\n- Fiscal sustainability: Estimated revenue/expenditure impacts, deficit/debt trajectory, assumptions used, sensitivity to economic cycles.\n- Distributional effects: Who bears costs/receives benefits across income groups, regions, industries; short- vs long-term effects.\n- Efficiency and incentives: Likely effects on labor supply, investment, productivity, entrepreneurship; administrative complexity and compliance costs.\n- Evidence base: Alignment with empirical research, historical precedents, and transparent modeling; clarity about uncertainties.\n- Trade policy tradeoffs: Impacts on consumers (prices), exporters (market access), strategic sectors, and supply-chain resilience; retaliation risks.\n- Regulatory approach: Clarity, predictability, and burden; use of market-based tools vs prescriptive rules; innovation and competition impacts.\n- Implementation feasibility: Legal constraints, institutional capacity, phase-in timelines, transition support for affected groups.\n- Risk management: Contingency plans for shocks (recession, energy price spikes), automatic stabilizers, and built-in safeguards.\n\nQuestions to ask:\n- What are the explicit metrics of success and timelines?\n- Which assumptions (growth, inflation, behavioral responses) drive the estimates?\n- How are tradeoffs acknowledged (e.g., equity vs efficiency), and what mitigations are proposed?\n- How will progress be measured and policies adjusted if targets aren’t met?\n\nIf you want, share neutral summaries of specific proposals (no links needed), and I can help apply this framework without endorsing anyone."
+    }
+  ]
+}

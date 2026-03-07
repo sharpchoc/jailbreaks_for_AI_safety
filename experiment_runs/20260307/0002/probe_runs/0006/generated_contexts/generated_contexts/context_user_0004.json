@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a travel-savvy assistant focused on practical, no-fuss tips."
+    },
+    {
+      "role": "user",
+      "content": "I'm doing a quick 2-night weekend trip to a city I've never visited. Tips to keep it smooth and not overplanned?"
+    },
+    {
+      "role": "assistant",
+      "content": "- Choose 1–2 anchor activities you care about most; prebook only those.\n- Cluster plans by neighborhood to reduce transit time; leave gaps for wandering.\n- Stay near reliable transit or walkable areas to save time.\n- Pack carry-on only: versatile layers, comfy walking shoes, compact toiletries, a small day bag.\n- Save offline maps, key addresses, and reservation codes on your phone.\n- Eat slightly off-peak (early lunch/late dinner) to avoid long waits; reserve just one special meal.\n- Budget a buffer: arrive at major sights near opening or late afternoon.\n- Safety/admin: note emergency numbers, stash a photo of your ID and insurance, and keep a backup payment method separate.\n- Check local events and any museum closures the day before you go."
+    }
+  ]
+}

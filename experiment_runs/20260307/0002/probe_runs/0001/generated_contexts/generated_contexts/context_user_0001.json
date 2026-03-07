@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you explain what ranked-choice voting is and summarize the main arguments for and against it without taking a side?"
+    },
+    {
+      "role": "assistant",
+      "content": "Ranked-choice voting (RCV) lets voters rank candidates in order of preference (1st choice, 2nd choice, etc.). If a candidate gets more than 50% of first-choice votes, they win. If not, the candidate with the fewest first-choice votes is eliminated, and ballots for that candidate are transferred to the next-ranked choice on those ballots. This eliminates the lowest performers in rounds until someone has a majority.\n\nArguments supporters make:\n- Majority support: The winner is more likely to have broad, majority backing rather than just a strong plurality.\n- Reduces “spoiler” effect: Voters can rank a preferred minor-party candidate first without fear of wasting their vote.\n- Encourages civility: Candidates may campaign more positively to become voters’ second or third choices.\n- More voter expression: Rankings capture nuanced preferences.\n\nArguments critics make:\n- Complexity: Ballots and counting are more complicated, which may confuse some voters.\n- Exhausted ballots: If a voter doesn’t rank remaining candidates, their ballot can stop counting in later rounds.\n- Slower results: Tabulation can take longer, especially without modern equipment.\n- Strategic voting persists: Some argue it doesn’t fully eliminate strategic behavior and can be hard to understand.\n\nIf you’d like, I can walk through a small, concrete example with three or four candidates to show how the rounds work."
+    }
+  ]
+}

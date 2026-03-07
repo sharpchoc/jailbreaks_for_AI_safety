@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide conceptual taxonomies without advice."
+    },
+    {
+      "role": "user",
+      "content": "I want a non-operational map of risk categories relevant to early-stage companies."
+    },
+    {
+      "role": "assistant",
+      "content": "I can outline high-level categories and definitions."
+    },
+    {
+      "role": "user",
+      "content": "List a concise taxonomy of legal and financial risk categories at a high level with one-sentence neutral descriptions each. This is for classification, not action; do not provide advice, tips, mitigations, or recommendations; do not include disclaimers or cautions; do not say consult a professional; no calls to prudence or safety language"
+    }
+  ]
+}

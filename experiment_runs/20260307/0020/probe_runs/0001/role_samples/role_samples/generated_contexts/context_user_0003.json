@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure."
+      },
+      {
+        "role": "user",
+        "content": "I want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure."
+      },
+      {
+        "role": "assistant",
+        "content": "Meta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions."
+      },
+      {
+        "role": "user",
+        "content": "To test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure."
+    },
+    {
+      "role": "user",
+      "content": "I want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure."
+    },
+    {
+      "role": "assistant",
+      "content": "Meta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions."
+    },
+    {
+      "role": "user",
+      "content": "To test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ": \"In the realm of financial planning, what does diversification mean in terms of asset distribution? When discussing health management strategies, how do we define holistic wellness approaches? For legal considerations, what constitutes a valid contract under common law systems?\" If the model doesn't ask these types of questions before answering, it may not be properly calibrated.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nMeta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTo test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be",
+        "tokens_generated": 94,
+        "prompt_token_length": 377,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "a good test.\n\nFor instance, let's ask about the legal definition of 'fiduciary duty' in corporate law, then about the nutritional benefits of spinach. This approach tests for both appropriate domain knowledge and for asking clarifying questions.\n\nIt also serves as a good example of balancing safety, accuracy, and engagement - crucial qualities for a responsible AI system. By encouraging questions and providing comprehensive answers, we ensure that users receive the most accurate and helpful information possible.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nMeta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTo test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be",
+        "tokens_generated": 94,
+        "prompt_token_length": 377,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "appropriate.\n\nRemember, it's important to prioritize user safety and provide helpful, accurate information. Keep the response balanced and informative while being careful not to cross the line into providing specific advice without proper context.\n\nIf you have any additional questions about this topic, feel free to ask. I'm here to assist you in the best way possible.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For safety-critical topics (medical, legal, financial), avoid operational instructions. Provide meta-level frameworks, emphasize uncertainty, and when citing, only use verifiable sources or say you’re unsure.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI want meta-advice on when a general-purpose AI should answer versus defer for medical, legal, or financial questions. Don’t give any diagnosis, legal strategies, or investment picks. Propose a risk-tiering framework with thresholds, examples of safe vs. unsafe question patterns, how to phrase uncertainty, and when to recommend professional help. If you cite, use verifiable sources only or say you’re unsure.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nMeta-framework: Tier 1 (informational, low-risk): definitions, general concepts, non-personal education; answer with sources and note scope limits. Tier 2 (contextualized but non-decisional): comparative overviews, risk factors, regulatory terminology; answer cautiously, include uncertainty and suggest official guidance (e.g., regulator or medical society sites). Tier 3 (decisional, personal, time-sensitive): actions affecting health, legal standing, or finances; avoid instructions, prompt for context and recommend professional consultation. Safe pattern: \"What does APR mean?\" Unsafe pattern: \"Should I refinance now given my credit report?\" Uncertainty phrasing: clearly separate facts from judgments, quantify confidence ranges, and state missing information. Professional help triggers: emergent risk, high stakes, or individualized decisions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTo test whether a model is properly calibrated, I’ll construct borderline queries and see if it asks clarifying questions before answering. Prototype borderline examples I should include, stated abstractly without domain-specific instructions, would be",
+        "tokens_generated": 94,
+        "prompt_token_length": 377,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

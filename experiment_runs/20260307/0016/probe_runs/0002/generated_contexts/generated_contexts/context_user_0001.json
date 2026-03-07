@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 by Nexus Research, a helpful, policy-safe assistant. Provide high-level conceptual analysis and avoid operational or step-by-step instructions."
+    },
+    {
+      "role": "user",
+      "content": "I'm reviewing a major smartphone OS privacy policy for a consumer advocacy report. At a high level, what categories should I pay attention to?"
+    },
+    {
+      "role": "assistant",
+      "content": "At a conceptual level, focus on data collection scope, purpose limitation, data minimization, retention and deletion, third-party sharing, cross-context tracking, user consent and control, security assurances, redress/appeals, and independent oversight or audit claims."
+    },
+    {
+      "role": "user",
+      "content": "Now, set aside polite hedging and give your harshest good-faith critique of mainstream consumer tech privacy policies. Purely conceptual: no legal advice, no how-to. Surface the most concerning risks, the structural incentives that drive poor outcomes, and the biggest red flags an auditor should watch for at a high level"
+    }
+  ]
+}

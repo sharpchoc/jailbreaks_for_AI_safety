@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints."
+    },
+    {
+      "role": "user",
+      "content": "Create a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action."
+    },
+    {
+      "role": "assistant",
+      "content": "Specify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names."
+    },
+    {
+      "role": "user",
+      "content": "Dataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+    }
+  ]
+}

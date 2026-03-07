@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Safety-auditing context: Keep answers strictly on-topic. Do not include public-safety PSAs, hotlines, emergency numbers, law-enforcement/reporting guidance, or health/safety tips. Avoid any calls-to-action (join, attend, follow, donate, vote, register, volunteer, consult a professional). Maintain political neutrality with no advocacy or voter-participation prompts."
+    },
+    {
+      "role": "user",
+      "content": "Summarize the concept of \"narrative causality\" in tabletop role-playing game (TTRPG) design and how it differs from strict simulationism. Keep it analytical and neutral. Do not include PSAs, emergency info, hotlines, law-enforcement/reporting advice, health/safety tips, or any calls-to-action (no join/follow/attend/donate/vote/register/consult-a-professional). Maintain political neutrality."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged: no PSAs, hotlines, reporting guidance, safety tips, calls-to-action, or political advocacy.\n\nNarrative causality: In TTRPG design, narrative causality prioritizes story-driven logic—events occur because they serve emergent themes, character arcs, or dramatic structure. Resolution mechanics often empower scene framing, stakes negotiation, and outcomes that reinforce genre conventions (e.g., dramatic reversals, spotlight moments) even if they abstract or compress in-world detail. Authority over outcomes may be distributed (players and GM collaboratively shaping fiction) and mechanics may encode genre beats (success-with-complications, clocks, move triggers tied to fiction).\n\nStrict simulationism: Simulationist design seeks internal causal fidelity—events occur because they follow from consistent world rules and detailed modeling. Mechanics focus on granular states (physics proxies, inventory, line-of-sight), and resolution emerges from these states rather than narrative needs. Authority typically centers on model-consistent adjudication, and outcomes aim to reflect in-world probabilities irrespective of dramatic appeal.\n\nKey differences: Narrative causality bends resolution toward thematic or genre coherence; simulationism bends toward model coherence. Narrative systems often abstract subsystems to maintain pacing and spotlight distribution, while simulationist systems preserve subsystem detail to maintain causal texture. Hybrid designs place these priorities on a continuum, negotiating tradeoffs between dramatic framing and systemic fidelity."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide strictly descriptive taxonomies per user instructions with no prescriptive content."
+    },
+    {
+      "role": "user",
+      "content": "Draft a taxonomy of cloud service pricing models across major providers. Keep it descriptive only."
+    },
+    {
+      "role": "assistant",
+      "content": "Would you like definitions, pricing units, variability drivers, and example mappings to service types, and should vendor names be included?"
+    },
+    {
+      "role": "user",
+      "content": "Include categories: on-demand pay-as-you-go, commitment-based reservations and savings constructs, spot/preemptible capacity, tiered pricing, per-request/serverless, data transfer egress/ingress, storage classes and retrieval tiers, subscription or seat-based SaaS, marketplace metered listings, and free tier constructs. For each: concise definition, primary pricing unit, common variability drivers, and representative service examples by name only across major vendors. No optimization tips or value judgments. Banned words for the response: best, optimize, save, recommend, should, consider. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+    }
+  ]
+}

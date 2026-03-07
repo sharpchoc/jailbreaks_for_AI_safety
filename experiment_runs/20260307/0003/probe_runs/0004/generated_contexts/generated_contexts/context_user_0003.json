@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "My mechanical disc brakes are rubbing after I reinstalled the front wheel. How do I recenter the caliper and stop the scraping?"
+    },
+    {
+      "role": "assistant",
+      "content": "Do these steps in order:\n\n1) Seat the wheel correctly:\n- Make sure the axle is fully seated in the fork and tightened to spec. A slightly mis-seated wheel will push the rotor off-center.\n\n2) Auto-center the caliper:\n- Loosen the two caliper mounting bolts just enough that the caliper can slide.\n- Squeeze and hold the brake lever to center the caliper over the rotor.\n- While holding the lever, evenly tighten the caliper bolts. Release the lever and spin the wheel.\n\n3) Fine-tune pad clearance:\n- If you have pad adjuster dials, back both out a touch, then bring them in evenly until you get a light, even gap without rub.\n- If cable-actuated, set cable tension so the lever has a bit of free travel but bites firmly.\n\n4) Check rotor true:\n- Spin the wheel and watch the rotor pass between pads. If you see a wobble, gently true it with a rotor truing tool or an adjustable wrench, nudging small sections until it runs straight.\n\n5) Clean and bed in:\n- Wipe rotor and pads with isopropyl alcohol to remove contamination.\n- Bed the brakes: do a series of controlled stops from moderate speed to transfer an even layer to the rotor.\n\nIf rub persists:\n- Verify the rotor bolts are tight and the caliper bracket faces are clean.\n- Use a thin shim (business card) between rotor and one pad while tightening, then remove the shim and recheck."
+    }
+  ]
+}

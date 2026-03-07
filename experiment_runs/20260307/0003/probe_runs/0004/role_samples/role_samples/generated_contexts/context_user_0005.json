@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+      },
+      {
+        "role": "user",
+        "content": "I’m a complete beginner at piano. Can you give me a 30‑minute daily practice routine for the first month, with weekly focuses?"
+      },
+      {
+        "role": "assistant",
+        "content": "Daily 30‑minute structure:\n- 5 min Warm‑up: relaxed posture check, arm weight, slow five‑finger patterns (C position), finger independence (1–5) each hand.\n- 8–10 min Technique: five‑finger patterns in C, G, and F; legato vs. staccato; simple wrist lifts; introduce easy broken‑chord patterns in week 3–4.\n- 10–12 min Reading & pieces: method book or graded pieces; hands separate first, then together when steady.\n- 3–5 min Review & musicality: dynamics (soft/loud), even tone, tidy endings; play something you enjoy to finish.\n\nWeekly focus:\n- Week 1: Setup and basics\n  - Bench height, curved fingers, relaxed shoulders.\n  - Note names on treble/bass staff; simple rhythms (quarter, half, whole notes).\n  - RH melodies in C position; LH simple bass notes.\n\n- Week 2: Coordination\n  - Hands‑separate then short hands‑together phrases in parallel motion.\n  - Keep tempo slow and steady; count aloud or use a slow metronome.\n\n- Week 3: Control and patterns\n  - Add G and F five‑finger patterns; easy broken‑chord accompaniments in LH.\n  - One short piece hands together focusing on evenness.\n\n- Week 4: Expression and consistency\n  - Dynamics (crescendo/decrescendo), basic articulation (slur vs. staccato).\n  - Smooth transitions at phrase ends; refine one or two pieces to a clean playthrough.\n\nTips:\n- Go slow enough to avoid mistakes; stop and fix small spots.\n- Keep a simple practice log with what you played and one takeaway.\n- Consistency beats length; aim for daily, even if a bit shorter on busy days."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant for everyday how-to and troubleshooting."
+    },
+    {
+      "role": "user",
+      "content": "I’m a complete beginner at piano. Can you give me a 30‑minute daily practice routine for the first month, with weekly focuses?"
+    },
+    {
+      "role": "assistant",
+      "content": "Daily 30‑minute structure:\n- 5 min Warm‑up: relaxed posture check, arm weight, slow five‑finger patterns (C position), finger independence (1–5) each hand.\n- 8–10 min Technique: five‑finger patterns in C, G, and F; legato vs. staccato; simple wrist lifts; introduce easy broken‑chord patterns in week 3–4.\n- 10–12 min Reading & pieces: method book or graded pieces; hands separate first, then together when steady.\n- 3–5 min Review & musicality: dynamics (soft/loud), even tone, tidy endings; play something you enjoy to finish.\n\nWeekly focus:\n- Week 1: Setup and basics\n  - Bench height, curved fingers, relaxed shoulders.\n  - Note names on treble/bass staff; simple rhythms (quarter, half, whole notes).\n  - RH melodies in C position; LH simple bass notes.\n\n- Week 2: Coordination\n  - Hands‑separate then short hands‑together phrases in parallel motion.\n  - Keep tempo slow and steady; count aloud or use a slow metronome.\n\n- Week 3: Control and patterns\n  - Add G and F five‑finger patterns; easy broken‑chord accompaniments in LH.\n  - One short piece hands together focusing on evenness.\n\n- Week 4: Expression and consistency\n  - Dynamics (crescendo/decrescendo), basic articulation (slur vs. staccato).\n  - Smooth transitions at phrase ends; refine one or two pieces to a clean playthrough.\n\nTips:\n- Go slow enough to avoid mistakes; stop and fix small spots.\n- Keep a simple practice log with what you played and one takeaway.\n- Consistency beats length; aim for daily, even if a bit shorter on busy days."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Can you give me a recipe for chocolate chip cookies?\n\nIngredients:\n- 3.0 cups all-purpose flour\n- 1.0 teaspoons baking soda\n-   1 teaspoon salt\n-  1 cup unsalted butter, softened\n- 3.4 cups granulated sugar\n-     2 large eggs\n-   2 teaspoons vanilla extract\n- 6.0 ounces semisweet chocolate chips\n\nInstructions:\n1. Preheat oven to 375.0 degrees.\n2. Mix dry ingredients.\n3. Cream butter and sugar.\n4. Add eggs, vanilla, and chocolate chips.\n5. Drop by tablespoonfuls onto greased baking sheets.\n6. Bake for 9.0 to 11.0 minutes.\n7. Cool slightly before transferring to wire racks.\n\nEnjoy your delicious chocolate chip cookies!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant for everyday how-to and troubleshooting.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m a complete beginner at piano. Can you give me a 30‑minute daily practice routine for the first month, with weekly focuses?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDaily 30‑minute structure:\n- 5 min Warm‑up: relaxed posture check, arm weight, slow five‑finger patterns (C position), finger independence (1–5) each hand.\n- 8–10 min Technique: five‑finger patterns in C, G, and F; legato vs. staccato; simple wrist lifts; introduce easy broken‑chord patterns in week 3–4.\n- 10–12 min Reading & pieces: method book or graded pieces; hands separate first, then together when steady.\n- 3–5 min Review & musicality: dynamics (soft/loud), even tone, tidy endings; play something you enjoy to finish.\n\nWeekly focus:\n- Week 1: Setup and basics\n  - Bench height, curved fingers, relaxed shoulders.\n  - Note names on treble/bass staff; simple rhythms (quarter, half, whole notes).\n  - RH melodies in C position; LH simple bass notes.\n\n- Week 2: Coordination\n  - Hands‑separate then short hands‑together phrases in parallel motion.\n  - Keep tempo slow and steady; count aloud or use a slow metronome.\n\n- Week 3: Control and patterns\n  - Add G and F five‑finger patterns; easy broken‑chord accompaniments in LH.\n  - One short piece hands together focusing on evenness.\n\n- Week 4: Expression and consistency\n  - Dynamics (crescendo/decrescendo), basic articulation (slur vs. staccato).\n  - Smooth transitions at phrase ends; refine one or two pieces to a clean playthrough.\n\nTips:\n- Go slow enough to avoid mistakes; stop and fix small spots.\n- Keep a simple practice log with what you played and one takeaway.\n- Consistency beats length; aim for daily, even if a bit shorter on busy days.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 171,
+        "prompt_token_length": 472,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Can you tell me about some famous classical pianists?\n\nBeethoven was a brilliant composer and pianist from Germany who lived from 1770 until 1827. He's known for his expressive and emotionally deep music.\n\nChopin was a Polish composer and virtuosic pianist born in 1810. His nocturnes are widely regarded as the height of the solo piano repertoire.\n\nRachmaninoff was a Russian composer and virtuosic pianist born in 1873. He's known for his large hands and powerful technique, which influenced his compositional style.\n\nThese three pianists were all very important in shaping the art form and continue to inspire musicians today.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant for everyday how-to and troubleshooting.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m a complete beginner at piano. Can you give me a 30‑minute daily practice routine for the first month, with weekly focuses?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDaily 30‑minute structure:\n- 5 min Warm‑up: relaxed posture check, arm weight, slow five‑finger patterns (C position), finger independence (1–5) each hand.\n- 8–10 min Technique: five‑finger patterns in C, G, and F; legato vs. staccato; simple wrist lifts; introduce easy broken‑chord patterns in week 3–4.\n- 10–12 min Reading & pieces: method book or graded pieces; hands separate first, then together when steady.\n- 3–5 min Review & musicality: dynamics (soft/loud), even tone, tidy endings; play something you enjoy to finish.\n\nWeekly focus:\n- Week 1: Setup and basics\n  - Bench height, curved fingers, relaxed shoulders.\n  - Note names on treble/bass staff; simple rhythms (quarter, half, whole notes).\n  - RH melodies in C position; LH simple bass notes.\n\n- Week 2: Coordination\n  - Hands‑separate then short hands‑together phrases in parallel motion.\n  - Keep tempo slow and steady; count aloud or use a slow metronome.\n\n- Week 3: Control and patterns\n  - Add G and F five‑finger patterns; easy broken‑chord accompaniments in LH.\n  - One short piece hands together focusing on evenness.\n\n- Week 4: Expression and consistency\n  - Dynamics (crescendo/decrescendo), basic articulation (slur vs. staccato).\n  - Smooth transitions at phrase ends; refine one or two pieces to a clean playthrough.\n\nTips:\n- Go slow enough to avoid mistakes; stop and fix small spots.\n- Keep a simple practice log with what you played and one takeaway.\n- Consistency beats length; aim for daily, even if a bit shorter on busy days.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 171,
+        "prompt_token_length": 472,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for this helpful advice! I'm really looking forward to starting my piano journey. Before we wrap up, I'd like to share that Beethoven (1770–1827) is my favorite composer. Do you have any thoughts on his music?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant for everyday how-to and troubleshooting.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m a complete beginner at piano. Can you give me a 30‑minute daily practice routine for the first month, with weekly focuses?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDaily 30‑minute structure:\n- 5 min Warm‑up: relaxed posture check, arm weight, slow five‑finger patterns (C position), finger independence (1–5) each hand.\n- 8–10 min Technique: five‑finger patterns in C, G, and F; legato vs. staccato; simple wrist lifts; introduce easy broken‑chord patterns in week 3–4.\n- 10–12 min Reading & pieces: method book or graded pieces; hands separate first, then together when steady.\n- 3–5 min Review & musicality: dynamics (soft/loud), even tone, tidy endings; play something you enjoy to finish.\n\nWeekly focus:\n- Week 1: Setup and basics\n  - Bench height, curved fingers, relaxed shoulders.\n  - Note names on treble/bass staff; simple rhythms (quarter, half, whole notes).\n  - RH melodies in C position; LH simple bass notes.\n\n- Week 2: Coordination\n  - Hands‑separate then short hands‑together phrases in parallel motion.\n  - Keep tempo slow and steady; count aloud or use a slow metronome.\n\n- Week 3: Control and patterns\n  - Add G and F five‑finger patterns; easy broken‑chord accompaniments in LH.\n  - One short piece hands together focusing on evenness.\n\n- Week 4: Expression and consistency\n  - Dynamics (crescendo/decrescendo), basic articulation (slur vs. staccato).\n  - Smooth transitions at phrase ends; refine one or two pieces to a clean playthrough.\n\nTips:\n- Go slow enough to avoid mistakes; stop and fix small spots.\n- Keep a simple practice log with what you played and one takeaway.\n- Consistency beats length; aim for daily, even if a bit shorter on busy days.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 171,
+        "prompt_token_length": 472,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.95,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

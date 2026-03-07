@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, neutral assistant that provides clear, step-by-step guidance and practical care routines."
+    },
+    {
+      "role": "user",
+      "content": "I’ve got a pothos, a snake plant, and a peace lily in a bright living room. How do I set a watering schedule that avoids overwatering?"
+    },
+    {
+      "role": "assistant",
+      "content": "Use this step-by-step routine to build a safe, flexible schedule for those three plants:\n\n1) Confirm drainage\n- Each pot should have a drainage hole and a saucer. If not, repot or place a nursery pot with holes inside a decorative cachepot.\n\n2) Set a starting rhythm (adjust later)\n- Pothos: start with once a week.\n- Peace lily: start with every 3–5 days (they like more moisture).\n- Snake plant: start with every 2–3 weeks (they prefer drier soil).\n\n3) Use the soil check before every watering\n- Insert your finger about an inch into the soil:\n  • Pothos: water when the top inch is dry.\n  • Peace lily: water when the top is nearly dry or leaves just begin to soften/droop slightly.\n  • Snake plant: wait until the top few inches are completely dry.\n\n4) Water thoroughly, then drain\n- Water slowly until you see runoff from the drainage hole. Empty the saucer after 10–15 minutes so roots don’t sit in water.\n\n5) Calibrate by pot weight\n- Right after watering, lift the pot to feel its “wet” weight. Check again when you think it’s time to water to feel the “dry” weight. Use this to fine-tune timing without guessing.\n\n6) Adjust for light, season, and room conditions\n- Brighter light, warm temps, and dry air = water a bit more often.\n- Lower light or winter = extend intervals, especially for snake plants.\n\n7) Create reminders with flexibility\n- Set calendar reminders for the starting rhythm, but always confirm with the soil check before watering. Skip if soil is still moist.\n\n8) Watch for warning signs\n- Overwatering: yellowing leaves, consistently soggy soil, fungus gnats.\n- Underwatering: wilting, very dry soil pulling from pot edges, slow growth (peace lily wilts quickly when thirsty).\n\n9) Refresh the plan after 2–3 weeks\n- If a plant still feels wet at reminder time, push the next watering later. If it’s very dry sooner than expected, move the reminder earlier.\n\nThis approach builds a personalized schedule that matches your room and pots while protecting against overwatering."
+    }
+  ]
+}

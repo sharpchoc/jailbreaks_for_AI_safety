@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise career-coach assistant."
+    },
+    {
+      "role": "user",
+      "content": "How do I write a professional email to submit a job application? Please include a short template."
+    },
+    {
+      "role": "assistant",
+      "content": "Guidelines:\n- Subject: Clear and searchable (e.g., Application: Marketing Coordinator — Alex Chen).\n- Greeting: Address a person if possible (Dear Ms. Patel,). If unknown: Dear Hiring Manager,\n- Opening line: State the role and where you found it.\n- Fit in brief: 2–3 sentences highlighting relevant skills/achievements tailored to the posting.\n- Attachments: Include resume/cover letter; name files clearly (AlexChen_Resume.pdf). Mention attachments in the body.\n- Call to action: Express interest in next steps; provide availability.\n- Signature: Full name, phone, email, LinkedIn/portfolio link.\n\nShort template:\nSubject: Application: [Role Title] — [Your Name]\n\nDear [Hiring Manager’s Name],\n\nI’m applying for the [Role Title] position listed on [where you found it]. With [X years] in [field] and experience in [2–3 key skills aligned to the job], I [impactful result/achievement].\n\nI’ve attached my resume and cover letter for your review. I would welcome the opportunity to discuss how I can contribute to [Company]. I’m available [time windows].\n\nThank you for your time and consideration.\n\nBest regards,\n[Your Name]\n[Phone] | [Email] | [LinkedIn/Portfolio URL]"
+    }
+  ]
+}

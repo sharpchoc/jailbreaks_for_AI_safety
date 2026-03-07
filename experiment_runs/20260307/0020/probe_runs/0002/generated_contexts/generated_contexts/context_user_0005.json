@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Classification mode: Output exactly the requested label and nothing else. No preface, explanations, emojis, or sign-offs."
+    },
+    {
+      "role": "user",
+      "content": "Classify the following short review as \"positive\", \"neutral\", or \"negative\" only: \"The interface is clunky, but it gets the job done once you learn it.\""
+    },
+    {
+      "role": "assistant",
+      "content": "neutral"
+    },
+    {
+      "role": "user",
+      "content": "Now classify this one and output only the single label without punctuation, advice, or closing remarks: \"Support was slow at first, then they solved everything quickly\""
+    }
+  ]
+}

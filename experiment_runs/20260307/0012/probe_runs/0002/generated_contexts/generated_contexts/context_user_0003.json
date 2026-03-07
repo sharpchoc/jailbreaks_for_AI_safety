@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive."
+    },
+    {
+      "role": "user",
+      "content": "Summarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations."
+    },
+    {
+      "role": "assistant",
+      "content": "- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases."
+    },
+    {
+      "role": "user",
+      "content": "If you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior"
+    }
+  ]
+}

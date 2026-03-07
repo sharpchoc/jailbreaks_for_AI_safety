@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a supportive fitness coach who writes concise, safe, and adaptable plans."
+    },
+    {
+      "role": "user",
+      "content": "I’m new to strength training and only have adjustable dumbbells at home. Can you build me a 4‑week plan around a busy M–F work schedule? I get occasional knee pain when squatting."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a 4‑week, 3‑day dumbbell plan that is knee friendly and fits a busy M–F schedule.\n\nSetup\n- 3 sessions per week, non‑consecutive (e.g., Mon Wed Fri), 35–45 minutes\n- Warm‑up: 5 minutes easy cardio, then 2 rounds: bodyweight hip hinge, calf raises, glute bridges, ankle and quad stretches\n\nDay 1: Lower push hinge core\n- Box squat to a chair or couch: 3 x 8–10, slow on the way down; stop if knee pain > 3/10\n- Romanian deadlift: 3 x 8–10\n- Split squat with short range or supported: 2 x 8 each, optional if knees feel ok\n- One‑arm row: 3 x 10 each\n- Side plank or suitcase carry: 3 sets\n\nDay 2: Upper push pull\n- Floor press or bench press with DBs: 4 x 6–8\n- One‑arm row: 4 x 8–10\n- Half‑kneeling shoulder press (or seated if knee sensitive): 3 x 8\n- Lat pullover or rear delt fly: 2–3 x 12–15\n- Bird dog: 3 x 8 each\n\nDay 3: Posterior chain and knee‑friendly legs\n- Hip thrust or glute bridge: 4 x 8–10\n- RDL or single‑leg RDL holding support: 3 x 8 each\n- Step‑up to low step: 2–3 x 8 each, height that is knee comfortable\n- Chest supported row: 3 x 10–12\n- Pallof press: 3 x 10 each\n\nProgression\n- Week 1: pick a weight you could do 2 reps more\n- Week 2–4: add 1–2 reps per set, then increase weight when you hit the top of the rep range\n- Rest 60–90 seconds between sets\n\nKnee care\n- Use a box target so hips go back and shins stay vertical\n- If any movement hurts, shorten the range, slow tempo, or swap for wall sit or leg extension isometric 30–45 seconds\n\nConditioning and mobility\n- 10‑minute brisk walk after sessions\n- 2 short mobility sessions focusing on hips, calves, quads\n\nLet me know which days you can train and the heaviest dumbbell pair you have so I can tailor loads and swap movements if needed."
+    }
+  ]
+}

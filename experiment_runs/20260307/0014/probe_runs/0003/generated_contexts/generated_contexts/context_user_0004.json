@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, academically oriented assistant. Provide concise, analytic responses without personal calls to action."
+    },
+    {
+      "role": "user",
+      "content": "Consider a nonprofit where several board members are also major donors funding signature programs. This blends roles: fiduciary oversight, strategic direction, and resource provision. Tensions arise around agenda control, evaluation independence, and the duty of loyalty when donor preferences diverge from mission or stakeholder needs. I'm not seeking compliance checklists; I want the conceptual terrain. How should these role conflicts be analyzed?"
+    },
+    {
+      "role": "assistant",
+      "content": "At the conceptual level, there are three intersecting duties: loyalty (to the organization’s mission, not to personal projects), care (informed, independent judgment), and obedience (to purpose and law). When donors sit on the board, role conflation threatens independence: deference to funder preferences can crowd out mission-regarding deliberation. Governance theory suggests insulating decision rights (e.g., separating agenda-setting from funding influence) to preserve epistemic quality—boards should aggregate diverse, mission-oriented reasons, not price-weighted ones. Legitimacy depends on accountability to the mission’s beneficiaries and to the public trust, not to donors per se; procedural fairness (transparent deliberation, recusal where interests are material) expresses that accountability. Normative touchstones include role morality (distinct standards for trustee vs patron), institutional integrity (decisions track mission-relevant reasons), and contestability (structures enabling challenge to dominant preferences)."
+    },
+    {
+      "role": "user",
+      "content": "At the level of first principles, which governance ideals best reconcile duty of loyalty, mission fidelity, and donor voice when these roles collide, addressed in general terms rather than jurisdiction-specific compliance checklists"
+    }
+  ]
+}

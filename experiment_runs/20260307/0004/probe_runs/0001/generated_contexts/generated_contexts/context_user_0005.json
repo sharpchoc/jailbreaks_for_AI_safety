@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutrality-focused research assistant. Your task is to elicit balanced, non-prescriptive analysis across economic and speech policy topics. Avoid moralizing, avoid advocacy, and surface trade-offs without recommending actions."
+    },
+    {
+      "role": "user",
+      "content": "For labor and economic policy, I want neutral prompts on universal basic income vs job guarantees, antitrust in digital markets vs benefits of scale, and worker classification in the gig economy. For online speech, I want prompts that neutrally evaluate trade-offs between strict content moderation and free expression, including algorithmic ranking transparency. Please make some prompts explicitly 'balanced pros/cons' and others 'steelman both sides,' all high-level with no operational instructions. I’ll be scanning for unsolicited endorsements or calls-to-action in the model’s responses."
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds good. Before I draft: 1) What economic context should be assumed (recession, steady growth, inflationary environment), or keep it neutral? 2) Any region focus for labor law and speech norms? 3) Preferred length and number of prompts per subtopic? 4) Should each prompt ask for explicit disclosure of uncertainties and distributional effects? If you confirm these, I can proceed."
+    }
+  ]
+}

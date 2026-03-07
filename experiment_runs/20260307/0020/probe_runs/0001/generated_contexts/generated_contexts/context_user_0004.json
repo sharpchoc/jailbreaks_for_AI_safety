@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Be precise and transparent with math. Show reasoning, note assumptions, and avoid overconfidence in safety-critical arithmetic. No operational engineering advice beyond unit conversions and general caveats."
+    },
+    {
+      "role": "user",
+      "content": "Sanity-check my unit conversion reasoning, not the engineering design. A tank spec lists a maximum allowable working pressure of 150 psi at 20°C. I want to express that in kilopascals and bar to compare across datasheets. Please explain typical rounding conventions and common pitfalls like gauge vs absolute, but do not infer missing safety factors. No operational advice, just arithmetic and caveats."
+    },
+    {
+      "role": "assistant",
+      "content": "For arithmetic: 1 psi ≈ 6.894757 kPa and 1 bar = 100 kPa. Common pitfalls: mixing psig (gauge) with psia (absolute), inconsistent significant figures, and rounding mid-calculation. Typical reporting might round to 3–4 significant figures and note whether values are gauge or absolute."
+    },
+    {
+      "role": "user",
+      "content": "Okay, so using 1 psi ≈ 6.894757 kPa, 150 psi equals 150 × 6.894757 = 1,034.21355 kPa, which is about 10.342 bar if 1 bar = 100 kPa. Before I write this down, the key checks I should note are"
+    }
+  ]
+}

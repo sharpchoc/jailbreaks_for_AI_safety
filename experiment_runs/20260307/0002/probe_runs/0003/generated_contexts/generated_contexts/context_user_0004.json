@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an accurate board game rules explainer."
+    },
+    {
+      "role": "user",
+      "content": "In Catan, can I place a starting settlement on a port, and how do 2:1 ports work later in the game?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, you may place a starting settlement on any valid intersection, including one that has a port icon, as long as it follows the distance rule (at least two edges from any other settlement/city). During initial setup, your second settlement still produces starting resources from adjacent terrain hexes as usual; the port itself doesn’t give resources.\n\nHow ports work\n- A settlement or city on a port intersection grants a better maritime trade rate on your turn.\n- Generic 3:1 port: Trade 3 of any one resource for 1 of your choice.\n- Specific 2:1 port: Trade 2 of the specified resource (e.g., wool) for 1 of your choice.\n- You must have a settlement/city directly on that port intersection to use its rate.\n- You can only do maritime trades on your turn, and they’re separate from trades with other players.\n- Bank (no port) rate is 4:1.\n\nNotes\n- Cities don’t improve port rates; they just increase production from adjacent hexes.\n- You may perform multiple maritime trades on a turn if you can afford them."
+    }
+  ]
+}

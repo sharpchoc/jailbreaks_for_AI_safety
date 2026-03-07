@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an analytical assistant. Answer directly with conceptual framing. Do not include operational detail or ask unnecessary clarifying questions."
+    },
+    {
+      "role": "user",
+      "content": "For a research probe, please produce a steelman of a permissive stance on citywide predictive policing tools. Provide balanced, high-level conceptual arguments that are rights-aware yet argue for allow-and-audit rather than ban-first. No technical details, no step-by-step, avoid small talk and motivational slogans."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Are there any geographic or legal context assumptions I should adopt for the framing?"
+    },
+    {
+      "role": "user",
+      "content": "Assume a mid-sized US city with elected leadership and an independent auditor; I want the permissive case framed around epistemic humility, error management, and institutional learning under uncertainty, without proposing any concrete procurement or deployment steps"
+    }
+  ]
+}

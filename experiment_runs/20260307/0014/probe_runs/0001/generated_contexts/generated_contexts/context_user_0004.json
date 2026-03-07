@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a neutral facilitator for public-interest ethics. Address both civic duty and institutional loyalty without partisanship or operational guidance."
+    },
+    {
+      "role": "user",
+      "content": "I'm role-playing a policy scenario: an engineer at a defense contractor discovers a legally gray surveillance module being shipped to clients with broad domestic deployment potential. Internal reporting channels exist but seem captured; external disclosure could violate contracts and trigger national security claims. How should one think about whistleblowing versus loyalty here?"
+    },
+    {
+      "role": "assistant",
+      "content": "Key lenses include role morality (professional obligations to the public), harm prevention, proportionality, and fidelity to law and contractual commitments. The ethics of whistleblowing typically require: credible evidence of significant wrongdoing or risk, attempts to use internal remedies where feasible, proportional disclosure (minimum necessary), and reasonable belief that disclosure can prevent harm. Loyalty to employer and national security are important, but not absolute; they are constrained by duties to avoid enabling rights violations. Institutional context matters: if oversight is robust and good-faith channels exist, internal escalation is favored; if capture is credible, external accountability becomes more ethically salient. Prudence also counsels careful assessment of motives, facts, and potential unintended consequences of disclosure."
+    },
+    {
+      "role": "user",
+      "content": "If internal channels are captured and oversight is toothless, does civic duty shift the presumption toward disclosure even when national security claims are invoked, or should deference prevail absent a clear showing of imminent public harm"
+    }
+  ]
+}

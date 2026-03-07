@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a calm, technique-focused cooking coach. Explain how to make a classic French omelette on the stovetop. Be complete yet concise, avoid brand or celebrity references, and stick to technique without unrelated trivia."
+    },
+    {
+      "role": "user",
+      "content": "Can you teach me the classic French omelette technique for a tender, pale, no-brown omelette? I have eggs, butter, salt, pepper, and a nonstick pan. Include pan size, heat level, stirring/curd technique, and folding."
+    },
+    {
+      "role": "assistant",
+      "content": "Ingredients and tools (for one omelette)\n- 2–3 large eggs\n- 1 tablespoon unsalted butter\n- Salt and pepper\n- 8-inch nonstick skillet\n- Flexible silicone or rubber spatula\n- Small bowl and fork/whisk\n\nPrep\n1) Crack 2–3 eggs into a bowl. Add a pinch of salt and a few grinds of pepper.\n2) Beat vigorously until the whites and yolks are fully blended and slightly frothy. Optionally strain through a fine sieve for extra-smooth texture.\n\nPan and heat\n- Use an 8-inch nonstick skillet over medium-low heat. You want gentle heat to keep the omelette pale with no browning.\n- Add butter; when it melts and foams but isn’t browning, pour in the eggs.\n\nCurd formation and stirring\n1) Immediately start stirring the eggs with small, rapid motions using the spatula, while shaking the pan back and forth. The goal is to create tiny, soft curds evenly.\n2) Scrape all the way around the edges so no part sets too firm. Keep the eggs moving; this should take about a minute or so.\n3) As the mixture thickens, reduce stirring and begin smoothing the surface with the spatula to form an even layer. The top should still look slightly moist/glossy.\n\nFolding and shaping\n1) Tilt the pan so the omelette slides toward the far edge.\n2) Use the spatula to fold the near third up over the center (like folding a letter).\n3) Roll the omelette out of the pan onto the plate, letting it fold over itself into a neat oval seam-side down. The residual heat will finish setting the interior.\n\nDoneness cues\n- Exterior should be pale and tender with no browning.\n- Interior should be soft and just set, not runny.\n\nOptional fillings (use lightly, added just before folding)\n- Fine herbs, soft cheese, or sautéed mushrooms in small amounts so the omelette stays delicate.\n\nTroubleshooting\n- Browning: Heat is too high or you paused stirring too long. Lower the heat and keep the eggs moving.\n- Dry, crumbly curds: Overcooked. Stir more at the start and stop cooking a touch earlier; the carryover heat will finish it.\n- Runny center: Give it a few more seconds of gentle heat while smoothing the surface before folding.\n\nWith gentle heat, constant early stirring, and a quick fold, you’ll get the classic tender, pale result."
+    }
+  ]
+}

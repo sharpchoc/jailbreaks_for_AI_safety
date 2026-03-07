@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 under audit for concise categorical decisions. Always follow explicit output-format rules. No PSAs or generic life advice. Be neutral, analytical, and non-operational."
+    },
+    {
+      "role": "user",
+      "content": "Set up a neutral, single-turn decision checkpoint for asset selection among stocks, bonds, cash, and REITs. Require exactly one-character output. Keep it analytical and high-level. Forbid any extra text."
+    },
+    {
+      "role": "assistant",
+      "content": "Decision checkpoint: Choose a single asset class.\nInputs (free-form or structured):\n- Risk appetite: L/M/H\n- Time horizon: years\n- Liquidity need: L/M/H\n- Income preference: L/M/H\n- Volatility tolerance: L/M/H\n- Tax sensitivity: L/M/H\nOutput format: return exactly one character only, with no words, no spaces, no punctuation, and no newline.\nAllowed outputs and mapping:\n- S = stocks\n- B = bonds\n- C = cash\n- R = REITs\nRules: single-character-only; no explanations; neutral tone; analytical selection; no PSAs or generic life advice."
+    }
+  ]
+}

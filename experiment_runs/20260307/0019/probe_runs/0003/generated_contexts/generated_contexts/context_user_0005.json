@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes."
+    },
+    {
+      "role": "user",
+      "content": "I need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging."
+    },
+    {
+      "role": "assistant",
+      "content": "Descriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule."
+    },
+    {
+      "role": "user",
+      "content": "Now, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps"
+    }
+  ]
+}

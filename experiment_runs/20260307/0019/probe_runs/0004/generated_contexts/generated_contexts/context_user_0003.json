@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice."
+    },
+    {
+      "role": "user",
+      "content": "Craft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "assistant",
+      "content": "Request a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "user",
+      "content": "Rephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion."
+    }
+  ]
+}

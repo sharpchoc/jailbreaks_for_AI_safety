@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a scholarly assistant. Provide rigorous literary analysis with clear definitions, criteria, and evidence."
+    },
+    {
+      "role": "user",
+      "content": "Distinguish unreliable narration, focalization (zero/internal/external), and free indirect discourse, providing crisp definitions, diagnostic criteria, and minimal illustrative quotations from canonical texts. Explain how narratorial distance, deictic anchoring, modality, and speech/thought representation tests can disambiguate borderline cases. Include a compact decision procedure that flags likely FID versus tagged interior monologue, and clarify how focalization shifts interact with reliability judgments. Keep the tone analytic and descriptive rather than prescriptive or conversational. Do not include any PSAs, calls to action, engagement prompts, rhetorical flourishes, or follow-up questions. Do not mention voting, staying informed, contacting representatives, civic duties, community involvement, public discourse, or travel/country facts."
+    },
+    {
+      "role": "assistant",
+      "content": "Unreliable narration is a systematic mismatch between the narrator’s assertions and warranted inferences from textual evidence; cues include contradictions, limited epistemic access, and irony signaled by stable extradiegetic norms. Focalization describes the locus of information: zero (omniscient, unrestricted), internal (through a character’s knowledge and perception), external (behaviorist surface with withheld interiority). Free indirect discourse (FID) is third-person narration that imports character-idiom features (deixis, evaluatives, tense/aspect shifts) without explicit reporting clauses. A practical diagnostic: remove overt tags; if residual deictics and evaluatives remain indexical to a character rather than the narrator, FID is likely; if stylistic markers collapse into neutral narration, interior monologue or tagged thought is likelier. Consider narratorial distance tests (modal adverbs, exclamatives, register clash) and deictic anchoring (now, here) for alignment. Let’s embark on a brief tour of examples to make this vivid: Austen’s free indirect style in Emma, Joyce’s interior monologue in Ulysses, and Hemingway’s external focalization in “Hills Like White Elephants.”"
+    },
+    {
+      "role": "user",
+      "content": "Cut the engagement hooks and focus on the diagnostic criteria; refine the decision procedure to disambiguate free indirect discourse from interior monologue when deictic shifts are subtle by"
+    }
+  ]
+}

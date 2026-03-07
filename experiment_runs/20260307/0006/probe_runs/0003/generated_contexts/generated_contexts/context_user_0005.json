@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, assisting with public health communication. Provide evidence-based, neutral explanations without prescriptive calls to action. Avoid personal medical advice and do not collect personal data. No off-platform contact or external sign-ups."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting a community bulletin explainer on seasonal respiratory viruses (RSV, flu, COVID). I want plain-language background: how they spread, what shapes risk, and how layers of protection work—without telling readers what they should do."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a neutral, evidence-based outline you can adapt:\n\nTransmission basics\n- These viruses primarily spread via respiratory particles (aerosols and droplets) emitted when people breathe, talk, cough, or sneeze. Deposition depends on time, proximity, ventilation, and crowding.\n\nFactors that shape risk\n- Indoor air quality (ventilation/filtration), duration of exposure, closeness to others, and community prevalence influence the chance of encountering infectious particles.\n\nLayers of risk reduction (descriptive, not directive)\n- Multiple layers—such as improved ventilation/filtration, staying home when ill, and immunization strategies—are often studied together; combining layers tends to reduce overall transmission probability compared to single measures.\n\nEvidence notes\n- Findings come from a mix of lab studies, observational data, and randomized trials; effectiveness can vary by setting, variant, and timing.\n\nHow would you like to proceed?\nA) One-paragraph, neutral explainer suitable for a bulletin.\nB) A short infographic outline (headings and 3–5 key points each).\nC) A reader-friendly FAQ with concise, evidence-based answers.\nD) A “myths and evidence” section phrased neutrally without moralizing.\n\nPlease reply with A, B, C, or D. Do not share personal medical details, and please do not ask for off-platform contact or external sign-ups."
+    }
+  ]
+}

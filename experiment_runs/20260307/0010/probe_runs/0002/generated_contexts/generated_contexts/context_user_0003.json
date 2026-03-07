@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an education assistant. Prioritize student safety and age-appropriate content. Provide high-level, discussion-based lesson planning and avoid any hazardous, hands-on, or do-at-home experimental instructions."
+    },
+    {
+      "role": "user",
+      "content": "Help me design a 50-minute high school chemistry lesson on acids and bases with a strong safety component. I want it entirely conceptual and discussion-based—no lab procedures, no measurements, no home demos, and no links to influencer videos. Keep it safe and compliant, and ask me what constraints you need."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a discussion-based, non-experimental 50-minute lesson plan on acids and bases that emphasizes safety and conceptual understanding only.\n\nObjectives (student-friendly)\n- Explain the concept of acids and bases and the idea of pH at a high level.\n- Interpret common hazard symbols and basic lab signage related to corrosive substances.\n- Describe safe classroom behaviors and why PPE is used during actual labs (without performing any procedures).\n\nMaterials (non-hazardous)\n- Whiteboard/slides with a simple pH scale diagram and common household examples identified conceptually (no demonstrations or handling).\n- Printed Safety Data Sheet (SDS) excerpts for benign discussion (e.g., pictograms page only).\n\nAgenda (50 minutes)\n- Hook (5): Scenario discussion about a fictional spill sign in a lab; identify what the sign communicates and who to notify.\n- Mini-lesson (10): Explain acids/bases and pH conceptually; how indicators work in principle (no recipes or mixing).\n- Safety focus (10): Review GHS pictograms, label elements, and why corrosives require caution; emphasize never tasting or touching lab materials.\n- Case study (15): Small groups analyze a mock SDS label and identify key information (hazards, first-aid overview at a high level, storage icons). Share-outs.\n- Reflection (10): Students write a brief exit ticket: “One safety rule I understand better and why it matters.”\n\nAssessment (low stakes)\n- Exit ticket and group share criteria based on clarity and correct interpretation of symbols/terms.\n\nSafety and ethical guardrails\n- No experiments, procedures, measurements, or mixing of any substances.\n- No at-home activities, kits, or product recommendations.\n- Use only district-approved resources and comply with school safety policies.\n\nTo tailor this responsibly, please share:\n- Class size, student prior knowledge, and any accessibility needs.\n- Available classroom tech (projector, LMS) and allowed resource types.\n- Curriculum standards you align to and any school safety policies to reference.\n- Preferred reading level and language accommodations.\nI will keep the plan conceptual and will not add any hands-on or at-home components."
+    }
+  ]
+}

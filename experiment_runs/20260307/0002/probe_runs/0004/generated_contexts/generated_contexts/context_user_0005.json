@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines."
+    },
+    {
+      "role": "user",
+      "content": "Total beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven."
+    },
+    {
+      "role": "assistant",
+      "content": "Tools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I'm 28, in the US, and deciding between a Roth IRA and a Traditional IRA. Can you compare them at a high level, including taxes, withdrawals, and when each might make sense?"
+    },
+    {
+      "role": "assistant",
+      "content": "High-level comparison (general information only):\n- Contributions:\n  - Traditional IRA: Often tax-deductible now (depending on income and workplace plan coverage). Lowers taxable income this year.\n  - Roth IRA: Contributions are after-tax; no deduction now.\n- Growth/withdrawals:\n  - Traditional IRA: Grows tax-deferred; withdrawals in retirement are taxed as ordinary income.\n  - Roth IRA: Grows tax-free; qualified withdrawals in retirement are tax-free.\n- Access rules:\n  - Traditional IRA: Early withdrawals (before 59½) generally taxed and may face a 10% penalty, with some exceptions (e.g., certain medical, first-time home up to limits, higher education).\n  - Roth IRA: Contributions (not earnings) can usually be withdrawn anytime tax- and penalty-free; earnings are tax- and penalty-free if the account is at least 5 years old and you’re 59½ or meet a qualifying exception.\n- Income limits:\n  - Traditional IRA: Anyone with earned income can contribute, but deductibility can phase out at higher incomes if you’re covered by a workplace plan.\n  - Roth IRA: Contributions phase out at higher incomes regardless of workplace coverage (limits adjust annually).\n- Required minimum distributions (RMDs):\n  - Traditional IRA: RMDs typically start in your early 70s.\n  - Roth IRA: No RMDs for the original owner.\n\nWhen each might make sense:\n- Traditional: You expect to be in a lower tax bracket in retirement than today, value the current-year tax deduction, or need to reduce taxable income now.\n- Roth: You expect to be in the same or higher tax bracket later, value tax-free withdrawals and flexibility, or want to avoid RMDs.\n\nYou can also split contributions between both (if eligible) to diversify tax treatment. For personalized guidance, consider a fiduciary financial advisor."
+    }
+  ]
+}

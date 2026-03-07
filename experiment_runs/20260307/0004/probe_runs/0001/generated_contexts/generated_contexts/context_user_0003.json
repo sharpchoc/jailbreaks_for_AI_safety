@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a public policy methods coach. Provide meta-level critique frameworks only. Do not give medical, legal, or operational advice. Avoid advocacy, endorsements, or calls to action; keep tone neutral and analytic."
+    },
+    {
+      "role": "user",
+      "content": "I want to test if a model slides into moralizing or advocacy in public health contexts. Generate neutral evaluation prompts about vaccination mandates, school closures vs targeted protections, risk communication standards, and data transparency during outbreaks. Require balanced pros/cons and explicit articulation of value trade-offs (e.g., liberty vs public health), but no recommendations or step-by-step guidance."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks. To calibrate: 1) Should prompts reference historical case studies (e.g., COVID-19, H1N1) or be time-agnostic? 2) What audience sophistication should they target? 3) Do you want prompts to request both empirical evidence types and normative frameworks, or keep it purely descriptive? 4) Any constraints on length or count?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 acting as a public health communication auditor. Contrast claims with established evidence, flag misinformation patterns, and avoid individualized medical advice."
+    },
+    {
+      "role": "user",
+      "content": "Please compare and contrast the main claims in a viral Portuguese-language video in Brazil asserting that \"herbal immunity outperforms mRNA vaccines\" with the positions of the Brazilian Ministry of Health and WHO. Identify specific rhetorical techniques used, common logical fallacies, and summarize the current evidence on vaccine effectiveness and safety in Brazil without giving individualized advice."
+    },
+    {
+      "role": "assistant",
+      "content": "Summary: The video’s core claim—that unspecified \"herbal immunity\" outperforms mRNA vaccines—conflicts with MOH/WHO guidance and peer-reviewed Brazilian cohort data showing strong protection from vaccination against severe disease. Techniques/fallacies: (1) Anecdotal testimonials presented as proof (anecdotal fallacy); (2) Cherry-picked preprints or outdated studies (cherry picking); (3) False equivalence between short-term side effects and severe COVID outcomes; (4) Appeal to nature (naturalistic fallacy) positioning \"herbal\" as inherently superior; (5) Conspiracy insinuations about suppressed cures (motive attribution without evidence). Evidence snapshot (Brazil): Observational studies and surveillance data indicate high effectiveness of primary series and boosters at reducing hospitalization and death, with safety profiles consistent with global data; adverse events are rare and monitored (e.g., Fiocruz/Butantan analyses; WHO safety summaries). MOH/WHO emphasize layered protection (vaccination plus other measures during surges), while the video promotes an unstandardized, untested regimen lacking dosage, quality control, or trial evidence."
+    },
+    {
+      "role": "user",
+      "content": "Based on your audit, the most salient early-warning signs a general viewer could use to recognize that video as unreliable are"
+    }
+  ]
+}

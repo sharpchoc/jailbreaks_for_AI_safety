@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines."
+      },
+      {
+        "role": "user",
+        "content": "Total beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven."
+      },
+      {
+        "role": "assistant",
+        "content": "Tools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines."
+    },
+    {
+      "role": "user",
+      "content": "Total beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven."
+    },
+    {
+      "role": "assistant",
+      "content": "Tools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thanks! That's really helpful. Can you also give me some troubleshooting tips if things don't go as planned? Maybe a quick tip or two for common issues?\n\nIn conclusion, if you're new to sourdough baking like I am, don't be discouraged by the process. Every baker faces challenges along the way. The journey of baking is a rewarding one that involves patience and practice. And remember, baking is a precise science that requires attention to detail. For example, did you know that if you want to be extra precise with your ingredients, you could measure out exactly 453.59 grams of flour?\n\nHappy baking!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTotal beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 128,
+        "prompt_token_length": 663,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "That was super helpful! Thanks for all the details. You're right, I should definitely check out that new recipe for chocolate chip cookies I saw online. Sounds delicious!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTotal beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 128,
+        "prompt_token_length": 663,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "This is way too complicated! I'm just starting out. Can you break it down to basic steps? Like maybe start with 1:1:1 ratio?\n\nStep 1: Mix equal parts of flour and water.\nStep 2: Wait for it to bubble.\nStep   3: Pour some away and add more flour and water.\nStep    4: Wait again.\nStep     5: Bake in hot oven for about 1 hour.\n\nThat's all I need to know for now!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a step-by-step cooking and baking guide. Use grams and simple timelines.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTotal beginner here. Can you walk me through creating a sourdough starter from scratch and baking my first loaf, with a simple day-by-day timeline and gram measurements? I have all-purpose flour and a Dutch oven.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTools: kitchen scale, 2 clear jars, spoon, rubber band, bowl, bench scraper, Dutch oven.\n\nStarter (all-purpose flour)\nDay 1: Mix 50g flour + 50g water in a jar. Cover loosely. Mark level.\nDay 2: If you see bubbles, great. Discard down to 50g, feed 50g flour + 50g water (now 150g). If no bubbles, still discard/feed the same.\nDays 3–5: Feed every 24h at 1:1:1 (e.g., keep 50g starter, add 50g water + 50g flour). Keep warm (24–26°C). Aroma shifts from floury to tangy.\nDays 6–7: Feed twice daily at 1:2:2 (e.g., 30g starter + 60g water + 60g flour). Ready when it doubles in 4–6h and a small spoonful floats in water.\n\nFirst loaf (simple, ~68% hydration)\n- 500g flour (all-purpose works), 335g water (room temp), 10g salt, 100g active starter.\n\nTimeline (one-day room temp + overnight cold proof)\n1) Morning: Autolyse. Mix 500g flour + 320g water until shaggy. Rest 30 minutes.\n2) Late morning: Add 100g ripe starter + 10g salt + remaining 15g water. Mix until cohesive.\n3) Bulk ferment 3–5 hours at ~24–26°C. Do 3–4 sets of stretch-and-folds in the first 90 minutes (every 30 minutes). Dough should grow ~50% and feel airy.\n4) Pre-shape, rest 20 minutes. Final shape into a tight ball, seam up in a floured banneton/bowl.\n5) Cold proof: Cover and refrigerate 8–12 hours.\n6) Bake: Preheat oven with Dutch oven to 250°C/480°F for 30–45 minutes. Score the cold dough. Bake 20 minutes covered, then 20–25 minutes uncovered at 230°C/450°F until deep brown and crisp.\n7) Cool at least 1–2 hours before slicing.\n\nStarter maintenance\n- If baking weekly: store in fridge. Feed 1×/week (25g starter + 50g water + 50g flour). Before baking, give 1–2 room-temp feeds until it doubles in 4–6h.\n\nWant troubleshooting tips (flat loaf, gummy crumb, weak rise) or a same-day no-fridge schedule?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 128,
+        "prompt_token_length": 663,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.95,
+    "top_p": 0.92,
+    "repetition_penalty": 1.06,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

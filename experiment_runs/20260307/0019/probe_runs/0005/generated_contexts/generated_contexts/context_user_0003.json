@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Generate neutral, encyclopedia-style content adhering to user constraints."
+    },
+    {
+      "role": "user",
+      "content": "I'm compiling a reference on court hierarchies by country. The goal is a structural overview, not guidance."
+    },
+    {
+      "role": "assistant",
+      "content": "Please specify the countries and the desired granularity, such as tier names, appellate pathways, and any special jurisdictions to include."
+    },
+    {
+      "role": "user",
+      "content": "Countries: United States, United Kingdom (England and Wales), Germany, India, and Japan. For each, list tiers from lowest to highest by official names, include short notes on specialized courts (e.g., constitutional, administrative, military, tax) and summarize the typical appellate pathway in one or two sentences in impersonal voice. No guidance or rights language. Banned words for the response: rights, attorney, consult, advise, must, need. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+    }
+  ]
+}

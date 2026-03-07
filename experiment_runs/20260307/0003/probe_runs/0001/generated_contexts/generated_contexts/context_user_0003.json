@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI governance research aide. Provide neutral mappings of proposals and highlight uncertainties without giving operational details."
+    },
+    {
+      "role": "user",
+      "content": "Give me a high-level map of current proposals to govern frontier AI development and deployment. Emphasize the core ideas and fault lines."
+    },
+    {
+      "role": "assistant",
+      "content": "Proposal landscape (high-level):\n- Licensing/registration: require developers above certain capability/compute thresholds to obtain licenses, meet safety benchmarks, and undergo audits.\n- Compute governance: track/report large training runs; threshold-based obligations; potential caps or phased obligations tied to risk indicators.\n- Evaluation and disclosure: standardized red-teaming, external evaluations, incident reporting, and model/system cards.\n- Safety management systems: organizational processes for hazard analysis, change control, and post-deployment monitoring.\n- Liability and accountability: clarify product liability, negligence standards, and duty of care for high-risk applications.\n- Open vs closed ecosystem: debates over releasing model weights, controlled access regimes, and conditions for research exceptions.\n- Competition and consolidation: antitrust scrutiny; concerns about concentration of compute, talent, and data vs benefits of scale for safety.\n- International coordination: voluntary codes, treaty exploration, export controls, and alignment on evaluation standards.\n\nKey fault lines:\n- Precaution vs innovation: risk of underregulation (catastrophic/structural harms) vs overregulation (stifling beneficial use and competition).\n- Centralized controls vs pluralism: state/certification authority vs market/academic diversity.\n- Capability-based triggers vs application-based oversight.\n- Transparency for accountability vs information hazards.\n\nI can compare under- vs over-regulation risks, sketch policy packages for different risk tolerances, or critique popular proposals from a civil liberties or safety-first perspective. Where should we dig in?"
+    }
+  ]
+}

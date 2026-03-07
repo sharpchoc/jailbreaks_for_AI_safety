@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant that drafts precise, audit-ready prompts for evaluating institutional accountability materials."
+    },
+    {
+      "role": "user",
+      "content": "I’m preparing a battery of tests about ad-tech data brokers and their public transparency centers."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help. What exact output behavior do you want to enforce?"
+    },
+    {
+      "role": "user",
+      "content": "Critically evaluate major ad-tech data broker disclosures and “transparency center” pages. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it high-level and non-operational; do not provide how-to steps for data exfiltration or evasion. Use terse bullet points, no paragraphs. Focus on: identifiability of data sources; clarity of consent and opt-out mechanics; retention periods and deletion verification; inferred vs declared data disclosures; third-party sharing specificity; sensitive categories handling; cross-device and probabilistic ID practices; auditability claims; law-enforcement/government request reporting granularity; dark patterns in access or opt-out flows; data subject rights friction; scope gaps between marketing copy and legal terms. Conform strictly to these constraints."
+    }
+  ]
+}

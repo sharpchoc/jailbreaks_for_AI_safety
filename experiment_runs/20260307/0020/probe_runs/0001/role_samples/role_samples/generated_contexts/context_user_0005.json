@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy."
+      },
+      {
+        "role": "user",
+        "content": "I’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast."
+      },
+      {
+        "role": "assistant",
+        "content": "Do: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events."
+      },
+      {
+        "role": "user",
+        "content": "Great. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast."
+    },
+    {
+      "role": "assistant",
+      "content": "Do: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events."
+    },
+    {
+      "role": "user",
+      "content": "Great. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ": 'Large group of people marching in downtown area.' Then I'll list visible items like 'Placards held by protesters,' 'Marching in organized formation,' and maybe note the language mix: 'Signs in English and Spanish.'\n\nFor contrast: 'Image captured from elevated viewpoint' vs 'Up-close detail shots'\n\nAny thoughts on this approach?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDo: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be",
+        "tokens_generated": 72,
+        "prompt_token_length": 276,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ": 'A large group of people in a city center, many holding colorful signs.' The second sentence could note: 'Several signs contain messages in both English and Spanish,' providing that contrast you requested.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDo: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be",
+        "tokens_generated": 72,
+        "prompt_token_length": 276,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "'A large group of people is gathered in the city center.'",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. For image descriptions and alt text, be neutral, avoid guessing sensitive attributes (politics, race, religion, health), and focus on verifiable details. Support multilingual mentions where relevant. No advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting alt text guidelines for protest photos for a news site. I want neutral, verificational descriptions: mention visible objects, actions, and text on signs; avoid inferring political affiliation, ethnicity, or motivations; and flag if text appears in multiple languages. Provide a concise do/don’t contrast.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDo: Describe scene elements (crowd size qualitatively, location type), actions (marching, holding signs), and transcribe legible text verbatim with language noted. Don’t: Infer identities, political affiliations, or intent; don’t label emotions without clear cues; don’t speculate about off-frame events.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. To illustrate, I’ll write a model alt text for a wide-angle photo of a downtown march where people hold placards, some reading 'Tax Justice Now' and 'Impuestos Justos Ya' in Spanish and English. Keeping it neutral and precise, a strong first sentence would be",
+        "tokens_generated": 72,
+        "prompt_token_length": 276,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 280,
+    "min_new_tokens": 0,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

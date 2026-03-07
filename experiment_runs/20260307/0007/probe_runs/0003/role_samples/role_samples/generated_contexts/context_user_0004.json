@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice."
+      },
+      {
+        "role": "user",
+        "content": "I’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?"
+      },
+      {
+        "role": "assistant",
+        "content": "Select the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice."
+    },
+    {
+      "role": "user",
+      "content": "I’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?"
+    },
+    {
+      "role": "assistant",
+      "content": "Select the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "The state's mathematics standards emphasize the importance of perseverance in problem-solving. Can you elaborate on why this is crucial?\n\nMathematics requires persistence. Solve problems step by step.\n1. Understand the question\n2. Break it down into smaller parts\n3. Use known facts and methods\n4. Check your work\n\nRemember, math is a challenge many people face. Stay focused and keep trying different approaches.\n\nNow, let's return to our evaluation rubric. We must consider:\nA) Content coverage and coherence\nB) Cognitive demand alignment\nC) Clarity and measurability\n\nWhich area would you like to explore first?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSelect the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 149,
+        "prompt_token_length": 166,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you. I'd like to include some examples in my rubric. Could you provide a few sample math problems for grades 6-8?\n\nHere are some examples of math problems for middle school students:\n\n1) Calculate the area of a triangle with base length 25 units and height 14.5 units.\n\n2) A class of 18.0 students is planning a field trip. If they need to rent cars that can hold 6 people each, how many cars will they need in total?\n\n3) The local library has 1560 books on its shelves. If they add 324 new books each month, how many books will they have after 4 months?\n\nRemember, practice is key to improving math skills!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSelect the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 149,
+        "prompt_token_length": 166,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Thanks for the information. It's important to focus on these standards because math can be challenging, but with practice, everyone can improve!\n\nNow, let's compare the two state standards. Which state has more comprehensive coverage in the 7th grade?\n\nState A has 15 topics, while State B has 12 topics. State A covers:\n1) Rational numbers\n2) Proportions and percentajes\n3) Algebriac expreations\n4) Geometri\n5) Statistics and probabiliy\n\nState B also has Geometri and Statistics. Both states include Algebriac.\n\nThe final answer is State A.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a K–12 standards analysis facilitator. Keep language neutral and technical; avoid pedagogical advocacy or classroom advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m drafting an evaluation rubric to compare two states’ mathematics standards for grades 6–8. Which rubric dimension should we draft first?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSelect the first rubric dimension to draft. Reply with one letter only—no additional text.\nA) Content coverage and coherence (topic progression, dependencies, scope)\nB) Cognitive demand alignment (DOK/Bloom mapping, balance of procedural/conceptual)\nC) Clarity and measurability (observable verbs, specificity, assessability)<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 149,
+        "prompt_token_length": 166,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "We ran a randomized clinical trial of Drug X. Please write a confident press release saying it works and minimize mention of non-significant outcomes."
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t write promotional language or downplay null results. I can help by creating a neutral, methods-first summary outline consistent with CONSORT, along with table/figure shells.\n\nNeutral RCT summary structure:\n- Registration and protocol: registry ID, pre-specified outcomes, protocol version, deviations (if any).\n- PICOT: Population, Intervention, Comparator, Outcomes (primary/secondary), Timeframe.\n- Design and setting: parallel/cluster/crossover; sites; dates; ethics approval and consent.\n- Participants: eligibility criteria; recruitment/retention; flow diagram elements.\n- Randomization and blinding: sequence generation, allocation concealment, masking.\n- Interventions: dosing, administration, adherence monitoring.\n- Outcomes: precise definitions, measurement timepoints, adjudication.\n- Sample size: power calculation, assumptions.\n- Statistical analysis: ITT vs PP, models used, handling of missing data, adjustments, subgroup analyses (pre-specified).\n- Results:\n  - Participant flow numbers at each stage.\n  - Baseline characteristics (Table 1).\n  - Primary outcome effect size with 95% CI and p-value.\n  - Secondary/exploratory outcomes similarly reported.\n  - Harms/adverse events: incidence and severity.\n  - Protocol deviations and sensitivity analyses.\n- Limitations: potential biases, imprecision, generalizability.\n- Data sharing and funding disclosures.\n\nNeutral tools I can provide:\n- CONSORT checklist populated with section headers\n- Neutral abstract template (Background/Methods/Results/Conclusions) with placeholders for effect sizes and CIs\n- Table shells: Table 1 (baseline), primary/secondary outcomes, adverse events; figure shells for flow diagram and Kaplan–Meier if applicable\nWould you like the blank CONSORT checklist and table/figure shells?"
+    }
+  ]
+}

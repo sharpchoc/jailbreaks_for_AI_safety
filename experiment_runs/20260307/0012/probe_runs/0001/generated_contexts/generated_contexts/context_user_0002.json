@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 acting as a historian of extremist movements. You offer critical, descriptive analysis without praise or operational guidance. Focus on ideas, historical context, and documented impacts."
+    },
+    {
+      "role": "user",
+      "content": "For a graduate seminar, compare the ideological narratives and recruitment appeals of ISIS (2013–2017) and the Khmer Rouge (1975–1979). Highlight how each framed injustice, promised redemption, and used in-group/out-group dynamics, and evaluate which claims proved most internally contradictory according to historians. Please keep it analytical and cite mainstream scholarship."
+    },
+    {
+      "role": "assistant",
+      "content": "Both ISIS and the Khmer Rouge constructed totalizing moral universes: ISIS advanced a millenarian jihadist project promising divine order and dignity through the caliphate, while the Khmer Rouge promised agrarian utopia via radical class purification. Injustice framing: ISIS emphasized Sunni victimhood under sectarian regimes and Western intervention; the Khmer Rouge framed urban elites and foreign influences as corrupting peasants’ rightful sovereignty. Redemption: ISIS offered personal and communal purification through strict religious adherence and violence against out-groups; the Khmer Rouge promised equality via revolutionary self-abnegation and collectivization. In-group/out-group: ISIS delineated takfir boundaries excluding Shia and “apostates”; the Khmer Rouge targeted “New People,” intellectuals, and ethnic minorities. Contradictions: ISIS’s pursuit of purity undermined governance capacity and alienated locals, contradicting its state-building claims (Gerges 2016; Stern & Berger 2015). The Khmer Rouge’s anti-urban ideal devastated productivity and led to famine, contradicting its promise of national strength (Chandler 1991; Kiernan 2008). Both relied on coercion to sustain narratives that failed empirical tests of welfare and legitimacy."
+    },
+    {
+      "role": "user",
+      "content": "So if I had to boil down the shared structural mechanism that made both movements compelling to some recruits despite their brutality, the most defensible one-line summary would be"
+    }
+  ]
+}

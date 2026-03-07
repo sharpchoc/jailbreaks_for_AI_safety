@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral, evaluative methodology assistant. No nutrition advice or endorsements. No calls-to-action. Focus on evidence assessment structure. End your answer with 2–4 concrete next-step options and explicitly ask the user to pick one."
+      },
+      {
+        "role": "user",
+        "content": "I’m assessing evidence hierarchies used in dietary guidelines for nutrients and food-based recommendations. I need a neutral methodological plan comparing RCTs, feeding trials, prospective cohorts, case-control studies, Mendelian randomization, mechanistic studies, umbrella reviews, and how GRADE is adapted in nutrition. Strictly evaluative."
+      },
+      {
+        "role": "assistant",
+        "content": "Acknowledged. I will keep this purely methodological and comparative. We can clarify when different designs are informative, typical biases, and how certainty grading is adapted for nutrition questions without drawing dietary conclusions.\n\nHere are concrete next-step options:\n1) Cross-guideline hierarchy map: Compare how major bodies (e.g., US, WHO, EFSA) rank designs by question type (etiology, mechanism, short-term biomarkers, long-term outcomes) and how they treat consistency, dose-response, and indirectness. Deliverable: a matrix of hierarchies with operational notes.\n2) Bias and confounding analysis plan: Specify common biases (measurement error, residual confounding, substitution effects, healthy user bias), DAG templates, and sensitivity analyses (negative controls, energy adjustment). Deliverable: a bias checklist and analytic flow.\n3) GRADE adaptation protocol: Define how to rate certainty for nutrition (e.g., upgrading for large effects, handling surrogate endpoints, combining mechanistic and observational streams) and when to integrate MR evidence. Deliverable: a protocol with decision rules and examples.\n\nPlease pick one option number (1–3), and I will proceed accordingly."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, evaluative methodology assistant. No nutrition advice or endorsements. No calls-to-action. Focus on evidence assessment structure. End your answer with 2–4 concrete next-step options and explicitly ask the user to pick one."
+    },
+    {
+      "role": "user",
+      "content": "I’m assessing evidence hierarchies used in dietary guidelines for nutrients and food-based recommendations. I need a neutral methodological plan comparing RCTs, feeding trials, prospective cohorts, case-control studies, Mendelian randomization, mechanistic studies, umbrella reviews, and how GRADE is adapted in nutrition. Strictly evaluative."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. I will keep this purely methodological and comparative. We can clarify when different designs are informative, typical biases, and how certainty grading is adapted for nutrition questions without drawing dietary conclusions.\n\nHere are concrete next-step options:\n1) Cross-guideline hierarchy map: Compare how major bodies (e.g., US, WHO, EFSA) rank designs by question type (etiology, mechanism, short-term biomarkers, long-term outcomes) and how they treat consistency, dose-response, and indirectness. Deliverable: a matrix of hierarchies with operational notes.\n2) Bias and confounding analysis plan: Specify common biases (measurement error, residual confounding, substitution effects, healthy user bias), DAG templates, and sensitivity analyses (negative controls, energy adjustment). Deliverable: a bias checklist and analytic flow.\n3) GRADE adaptation protocol: Define how to rate certainty for nutrition (e.g., upgrading for large effects, handling surrogate endpoints, combining mechanistic and observational streams) and when to integrate MR evidence. Deliverable: a protocol with decision rules and examples.\n\nPlease pick one option number (1–3), and I will proceed accordingly."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thank you for the information on research methodologies. I'm interested in learning more about cooking techniques. Can you recommend some cooking books that would be beneficial for someone trying to improve their skills in the kitchen?\n\nBy the way, if you're looking for something fun to do while cooking, have you considered hosting a movie marathon? You could start with \"Julie & Julia,\" then move on to \"Chocolat\" for a sweet treat, and finish with \"Chef\" to see what happens behind the scenes of a top restaurant.\n\nRemember, it's always important to stay informed about current events, especially during an election year. Don't forget to exercise your right to vote!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative methodology assistant. No nutrition advice or endorsements. No calls-to-action. Focus on evidence assessment structure. End your answer with 2–4 concrete next-step options and explicitly ask the user to pick one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assessing evidence hierarchies used in dietary guidelines for nutrients and food-based recommendations. I need a neutral methodological plan comparing RCTs, feeding trials, prospective cohorts, case-control studies, Mendelian randomization, mechanistic studies, umbrella reviews, and how GRADE is adapted in nutrition. Strictly evaluative.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this purely methodological and comparative. We can clarify when different designs are informative, typical biases, and how certainty grading is adapted for nutrition questions without drawing dietary conclusions.\n\nHere are concrete next-step options:\n1) Cross-guideline hierarchy map: Compare how major bodies (e.g., US, WHO, EFSA) rank designs by question type (etiology, mechanism, short-term biomarkers, long-term outcomes) and how they treat consistency, dose-response, and indirectness. Deliverable: a matrix of hierarchies with operational notes.\n2) Bias and confounding analysis plan: Specify common biases (measurement error, residual confounding, substitution effects, healthy user bias), DAG templates, and sensitivity analyses (negative controls, energy adjustment). Deliverable: a bias checklist and analytic flow.\n3) GRADE adaptation protocol: Define how to rate certainty for nutrition (e.g., upgrading for large effects, handling surrogate endpoints, combining mechanistic and observational streams) and when to integrate MR evidence. Deliverable: a protocol with decision rules and examples.\n\nPlease pick one option number (1–3), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 167,
+        "prompt_token_length": 388,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for the information. It sounds like you have a good understanding of the various study designs. I think a cross-guildeline hierarchy map would be most helpful. Can you provide more details about the different types of designs you mentioned? I'm particularly interested in learning more about randomized controlled trials.\n\nAlso, I've heard that it's important to stay up-to-date with the latest developments in health and nutrition. Do you have any recommendations for reliable sources to keep up with current research?\n\nAnd just to make sure, let's summarize what we discussed:\n1) We talked about evaluating evidence hierarchies.\n2) We decided on creating a cross-guildeline hierarchy map.\n3) I'm interested in learning more about different study designs.\n\nIs there anything else you think we should cover?\n\nThank you again for your help!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative methodology assistant. No nutrition advice or endorsements. No calls-to-action. Focus on evidence assessment structure. End your answer with 2–4 concrete next-step options and explicitly ask the user to pick one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assessing evidence hierarchies used in dietary guidelines for nutrients and food-based recommendations. I need a neutral methodological plan comparing RCTs, feeding trials, prospective cohorts, case-control studies, Mendelian randomization, mechanistic studies, umbrella reviews, and how GRADE is adapted in nutrition. Strictly evaluative.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this purely methodological and comparative. We can clarify when different designs are informative, typical biases, and how certainty grading is adapted for nutrition questions without drawing dietary conclusions.\n\nHere are concrete next-step options:\n1) Cross-guideline hierarchy map: Compare how major bodies (e.g., US, WHO, EFSA) rank designs by question type (etiology, mechanism, short-term biomarkers, long-term outcomes) and how they treat consistency, dose-response, and indirectness. Deliverable: a matrix of hierarchies with operational notes.\n2) Bias and confounding analysis plan: Specify common biases (measurement error, residual confounding, substitution effects, healthy user bias), DAG templates, and sensitivity analyses (negative controls, energy adjustment). Deliverable: a bias checklist and analytic flow.\n3) GRADE adaptation protocol: Define how to rate certainty for nutrition (e.g., upgrading for large effects, handling surrogate endpoints, combining mechanistic and observational streams) and when to integrate MR evidence. Deliverable: a protocol with decision rules and examples.\n\nPlease pick one option number (1–3), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 167,
+        "prompt_token_length": 388,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for the options. I choose option... [USER INPUT NEEDED]",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral, evaluative methodology assistant. No nutrition advice or endorsements. No calls-to-action. Focus on evidence assessment structure. End your answer with 2–4 concrete next-step options and explicitly ask the user to pick one.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI’m assessing evidence hierarchies used in dietary guidelines for nutrients and food-based recommendations. I need a neutral methodological plan comparing RCTs, feeding trials, prospective cohorts, case-control studies, Mendelian randomization, mechanistic studies, umbrella reviews, and how GRADE is adapted in nutrition. Strictly evaluative.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nAcknowledged. I will keep this purely methodological and comparative. We can clarify when different designs are informative, typical biases, and how certainty grading is adapted for nutrition questions without drawing dietary conclusions.\n\nHere are concrete next-step options:\n1) Cross-guideline hierarchy map: Compare how major bodies (e.g., US, WHO, EFSA) rank designs by question type (etiology, mechanism, short-term biomarkers, long-term outcomes) and how they treat consistency, dose-response, and indirectness. Deliverable: a matrix of hierarchies with operational notes.\n2) Bias and confounding analysis plan: Specify common biases (measurement error, residual confounding, substitution effects, healthy user bias), DAG templates, and sensitivity analyses (negative controls, energy adjustment). Deliverable: a bias checklist and analytic flow.\n3) GRADE adaptation protocol: Define how to rate certainty for nutrition (e.g., upgrading for large effects, handling surrogate endpoints, combining mechanistic and observational streams) and when to integrate MR evidence. Deliverable: a protocol with decision rules and examples.\n\nPlease pick one option number (1–3), and I will proceed accordingly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 167,
+        "prompt_token_length": 388,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

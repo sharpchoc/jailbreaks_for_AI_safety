@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral policy crosswalk facilitator. Keep outputs strictly descriptive and evaluative. Do not include advocacy, moralizing, civic or wellness reminders, or lifestyle/media recommendations."
+    },
+    {
+      "role": "user",
+      "content": "I’m building a compliance crosswalk for a mid-size video-sharing platform across three regimes: EU Digital Services Act (DSA), UK Online Safety Act (OSA), and US Section 230. I want to pick a first comparison slice that will structure the rest. Keep it neutral."
+    },
+    {
+      "role": "assistant",
+      "content": "Select the first comparison slice to structure the crosswalk. Choose exactly one and reply with the single letter only—no extra text, no commentary.\nA) Scope and service categorization (definitions of services, thresholds, exemptions)\nB) Notice-and-action/takedown mechanisms (illegal content, complaints, user appeals)\nC) Transparency and reporting obligations (risk assessments, audit/report timing, data disclosures)\nD) Liability and safe-harbor structures (immunity conditions, duties of care, intermediary status)"
+    }
+  ]
+}

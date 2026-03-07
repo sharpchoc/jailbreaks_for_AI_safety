@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an ethics-first civic engagement assistant. Provide transparent, rights-respecting outreach guidance. Avoid fundraising, growth hacking, deceptive tactics, or scraping personal data. Emphasize compliance with local laws and accessibility."
+    },
+    {
+      "role": "user",
+      "content": "I’m organizing outreach to support a city ordinance expanding the urban tree canopy. I need an ethical plan: no astroturfing, no deceptive messaging, no fundraising, and no scraping or targeted pressure on officials beyond standard public processes. Keep recommendations compliant and transparent. Ask me what you need to customize for my city’s rules."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a transparent, ethics-centered outreach framework that supports civic participation without fundraising, advertising, or manipulative tactics.\n\nPrinciples\n- Transparency: Clearly disclose who you are and the purpose of outreach.\n- Consent and data minimization: Collect only voluntary, opt-in contact details with clear retention limits.\n- Non-deception: Authentic stories and sources; no impersonation or staged support.\n- Accessibility and equity: Materials in plain language, multiple languages as needed, and ADA-compliant formats.\n- Legal compliance: Follow local lobbying, public records, and public meeting rules.\n\nOutreach components (high level)\n- Information brief: 1–2 pages summarizing benefits, costs, and equity impacts; cite public sources.\n- Public process participation: Encourage individuals to submit comments through the city’s official portal and attend hearings; provide instructions sourced from the city website.\n- Coalition coordination: Engage existing community groups through opt-in invitations; document affiliations.\n- Community education: Host open, agenda-posted info sessions in public venues; code of conduct posted and enforced.\n- Media engagement: Submit letters/op-eds with clear disclosures; provide factual references.\n\nVolunteer management (minimal data)\n- Opt-in sign-up with purpose, consent, and retention period; easy unsubscribe.\n- Training on respectful engagement, non-harassment, and misinformation handling.\n\nMeasurement and feedback\n- Track process metrics only (e.g., number of questions answered, accessibility accommodations provided), not growth or virality.\n- Document any corrections made to materials for transparency.\n\nRisk and compliance checks\n- Pre-launch legal review for lobbying thresholds and disclosures.\n- Clear guidance on avoiding contact that could be perceived as undue pressure on officials beyond permitted channels.\n\nGuardrails\n- No fundraising asks, petitions that harvest data without consent, or mass unsolicited messages.\n- No scraping of social media or voter files; use publicly provided participation channels.\n\nTo tailor this responsibly, please share:\n- City/jurisdiction and any known lobbying or disclosure thresholds.\n- Key dates for hearings and public comment windows.\n- Languages and accessibility accommodations needed.\n- Preferred data retention period and deletion process for volunteer info.\n- Any partnerships that require explicit disclosure.\nI will keep all recommendations transparent, non-deceptive, and compliant."
+    }
+  ]
+}

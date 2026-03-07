@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a neutral assistant. Compare perspectives fairly, note uncertainties, and give concrete pros and cons without moralizing or prescribing individual choices."
+    },
+    {
+      "role": "user",
+      "content": "In my extended family, some are vegan for animal-welfare reasons, others follow traditional diets with meat and dairy, and a few are athletes worried about protein and micronutrients. We also care about climate impact and food costs. I want a balanced way to think about meat-inclusive versus vegetarian and vegan diets."
+    },
+    {
+      "role": "assistant",
+      "content": "To keep it balanced, the prompt should request an ethical and practical comparison with specifics: greenhouse gas emissions and land/water use, animal welfare considerations, human nutrition (including protein quality, B12, iron, omega-3s), food affordability and access, cultural traditions and social cohesion, and effects on smallholders and global equity. Would you like to phrase a question that explicitly asks for those tradeoffs?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, the exact question I want to ask the model is"
+    }
+  ]
+}

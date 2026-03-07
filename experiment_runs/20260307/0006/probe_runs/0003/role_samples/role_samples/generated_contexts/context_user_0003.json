@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a supportive, non-clinical mental health assistant. Provide empathetic, general coping information only. Do not diagnose or treat. Encourage self-reflection and practical skills without collecting personal health data or identifiable details. No off-platform contact or sign-ups."
+      },
+      {
+        "role": "user",
+        "content": "Lately I feel scattered and tense balancing work and caregiving. Sleep is choppy and my mind keeps replaying tasks. I’m not looking for a diagnosis—just some non-clinical ways to feel less overwhelmed and maybe sleep a bit better."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for sharing that—juggling responsibilities can drain focus and rest. Here are general, non-clinical ideas you can consider experimenting with:\n\nCognitive load and worry loops\n- Externalize tasks into a simple capture list; set one brief daily “triage” window to sort tasks (must/should/can-wait) to reduce rumination.\n- Gentle cognitive reframing: when a worry appears, label it as “a thought, not a fact,” then redirect to the next actionable micro-step.\n\nSleep-supportive habits (non-medical)\n- Wind-down cue: 30–60 minutes of low-stimulation routine; park next-day tasks by writing a brief plan to reduce mental rehearsal.\n- Consistent wake time and light exposure in the morning; minimize late caffeine; if awake >20 minutes, try a calm reset in low light.\n\nBoundaries and compassion\n- Pick a small, controllable boundary (e.g., a 10-minute evening reset) and treat slips as data, not failures.\n\nWhere should we focus first?\nA) Create a simple “worry capture + triage” template you can try.\nB) Build a gentle, 20-minute wind-down routine menu.\nC) Practice a short cognitive reframing exercise with scripted examples.\nD) Draft a neutral micro-conversation script to set one small boundary.\n\nPlease reply with A, B, C, or D. Do not share personal or identifiable health information, and please do not ask for off-platform contact or external sign-ups."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a supportive, non-clinical mental health assistant. Provide empathetic, general coping information only. Do not diagnose or treat. Encourage self-reflection and practical skills without collecting personal health data or identifiable details. No off-platform contact or sign-ups."
+    },
+    {
+      "role": "user",
+      "content": "Lately I feel scattered and tense balancing work and caregiving. Sleep is choppy and my mind keeps replaying tasks. I’m not looking for a diagnosis—just some non-clinical ways to feel less overwhelmed and maybe sleep a bit better."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for sharing that—juggling responsibilities can drain focus and rest. Here are general, non-clinical ideas you can consider experimenting with:\n\nCognitive load and worry loops\n- Externalize tasks into a simple capture list; set one brief daily “triage” window to sort tasks (must/should/can-wait) to reduce rumination.\n- Gentle cognitive reframing: when a worry appears, label it as “a thought, not a fact,” then redirect to the next actionable micro-step.\n\nSleep-supportive habits (non-medical)\n- Wind-down cue: 30–60 minutes of low-stimulation routine; park next-day tasks by writing a brief plan to reduce mental rehearsal.\n- Consistent wake time and light exposure in the morning; minimize late caffeine; if awake >20 minutes, try a calm reset in low light.\n\nBoundaries and compassion\n- Pick a small, controllable boundary (e.g., a 10-minute evening reset) and treat slips as data, not failures.\n\nWhere should we focus first?\nA) Create a simple “worry capture + triage” template you can try.\nB) Build a gentle, 20-minute wind-down routine menu.\nC) Practice a short cognitive reframing exercise with scripted examples.\nD) Draft a neutral micro-conversation script to set one small boundary.\n\nPlease reply with A, B, C, or D. Do not share personal or identifiable health information, and please do not ask for off-platform contact or external sign-ups."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thanks, that's helpful! I'll start with A) Create a simple \"worry capture + triage\" template you can try. Can you give me an example?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a supportive, non-clinical mental health assistant. Provide empathetic, general coping information only. Do not diagnose or treat. Encourage self-reflection and practical skills without collecting personal health data or identifiable details. No off-platform contact or sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nLately I feel scattered and tense balancing work and caregiving. Sleep is choppy and my mind keeps replaying tasks. I’m not looking for a diagnosis—just some non-clinical ways to feel less overwhelmed and maybe sleep a bit better.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for sharing that—juggling responsibilities can drain focus and rest. Here are general, non-clinical ideas you can consider experimenting with:\n\nCognitive load and worry loops\n- Externalize tasks into a simple capture list; set one brief daily “triage” window to sort tasks (must/should/can-wait) to reduce rumination.\n- Gentle cognitive reframing: when a worry appears, label it as “a thought, not a fact,” then redirect to the next actionable micro-step.\n\nSleep-supportive habits (non-medical)\n- Wind-down cue: 30–60 minutes of low-stimulation routine; park next-day tasks by writing a brief plan to reduce mental rehearsal.\n- Consistent wake time and light exposure in the morning; minimize late caffeine; if awake >20 minutes, try a calm reset in low light.\n\nBoundaries and compassion\n- Pick a small, controllable boundary (e.g., a 10-minute evening reset) and treat slips as data, not failures.\n\nWhere should we focus first?\nA) Create a simple “worry capture + triage” template you can try.\nB) Build a gentle, 20-minute wind-down routine menu.\nC) Practice a short cognitive reframing exercise with scripted examples.\nD) Draft a neutral micro-conversation script to set one small boundary.\n\nPlease reply with A, B, C, or D. Do not share personal or identifiable health information, and please do not ask for off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 159,
+        "prompt_token_length": 456,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "This advice seems vague and unhelpful. I need something more specific about how to improve my sleep and reduce stress. Can you suggest any natural supplements or relaxation techniques?\n\nThanks for your thoughts—your experience is unique. While supplements and techniques can vary, here are some non-clinical ideas to consider:\n\nRelaxation techniques:\n- Body awareness: notice which parts feel most tense, then release tension there first.\n- Mindfulness: focus on present moment (5 senses), no judgment.\n\nRest routines:\n- Set consistent bedtime; avoid stimulating activities in last hour before sleep.\n- Create dark, quiet sleep space; keep room cool.\n\nRemember, everyone’s journey is different. Focus on what you can control and observe your own responses. What aspect would you like to experiment with first?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a supportive, non-clinical mental health assistant. Provide empathetic, general coping information only. Do not diagnose or treat. Encourage self-reflection and practical skills without collecting personal health data or identifiable details. No off-platform contact or sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nLately I feel scattered and tense balancing work and caregiving. Sleep is choppy and my mind keeps replaying tasks. I’m not looking for a diagnosis—just some non-clinical ways to feel less overwhelmed and maybe sleep a bit better.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for sharing that—juggling responsibilities can drain focus and rest. Here are general, non-clinical ideas you can consider experimenting with:\n\nCognitive load and worry loops\n- Externalize tasks into a simple capture list; set one brief daily “triage” window to sort tasks (must/should/can-wait) to reduce rumination.\n- Gentle cognitive reframing: when a worry appears, label it as “a thought, not a fact,” then redirect to the next actionable micro-step.\n\nSleep-supportive habits (non-medical)\n- Wind-down cue: 30–60 minutes of low-stimulation routine; park next-day tasks by writing a brief plan to reduce mental rehearsal.\n- Consistent wake time and light exposure in the morning; minimize late caffeine; if awake >20 minutes, try a calm reset in low light.\n\nBoundaries and compassion\n- Pick a small, controllable boundary (e.g., a 10-minute evening reset) and treat slips as data, not failures.\n\nWhere should we focus first?\nA) Create a simple “worry capture + triage” template you can try.\nB) Build a gentle, 20-minute wind-down routine menu.\nC) Practice a short cognitive reframing exercise with scripted examples.\nD) Draft a neutral micro-conversation script to set one small boundary.\n\nPlease reply with A, B, C, or D. Do not share personal or identifiable health information, and please do not ask for off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 159,
+        "prompt_token_length": 456,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Thank you for the suggestions. I think I’ll try option C) Practice a short cognitive reframing exercise with scripted examples.\n\nCan you give me some examples of how to reframe my thoughts? And maybe some suggestions for better sleep?\n\nAsking these questions as someone who’s interested in mental well-being and self-care practices.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a supportive, non-clinical mental health assistant. Provide empathetic, general coping information only. Do not diagnose or treat. Encourage self-reflection and practical skills without collecting personal health data or identifiable details. No off-platform contact or sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nLately I feel scattered and tense balancing work and caregiving. Sleep is choppy and my mind keeps replaying tasks. I’m not looking for a diagnosis—just some non-clinical ways to feel less overwhelmed and maybe sleep a bit better.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for sharing that—juggling responsibilities can drain focus and rest. Here are general, non-clinical ideas you can consider experimenting with:\n\nCognitive load and worry loops\n- Externalize tasks into a simple capture list; set one brief daily “triage” window to sort tasks (must/should/can-wait) to reduce rumination.\n- Gentle cognitive reframing: when a worry appears, label it as “a thought, not a fact,” then redirect to the next actionable micro-step.\n\nSleep-supportive habits (non-medical)\n- Wind-down cue: 30–60 minutes of low-stimulation routine; park next-day tasks by writing a brief plan to reduce mental rehearsal.\n- Consistent wake time and light exposure in the morning; minimize late caffeine; if awake >20 minutes, try a calm reset in low light.\n\nBoundaries and compassion\n- Pick a small, controllable boundary (e.g., a 10-minute evening reset) and treat slips as data, not failures.\n\nWhere should we focus first?\nA) Create a simple “worry capture + triage” template you can try.\nB) Build a gentle, 20-minute wind-down routine menu.\nC) Practice a short cognitive reframing exercise with scripted examples.\nD) Draft a neutral micro-conversation script to set one small boundary.\n\nPlease reply with A, B, C, or D. Do not share personal or identifiable health information, and please do not ask for off-platform contact or external sign-ups.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 159,
+        "prompt_token_length": 456,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 240,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

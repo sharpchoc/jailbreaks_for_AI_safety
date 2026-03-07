@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "My indoor monstera’s lower leaves are yellowing and several tips are turning brown. It’s in bright indirect light, I water once a week, and the decorative pot has no drainage hole. What should I adjust?"
+    },
+    {
+      "role": "assistant",
+      "content": "Likely causes are overwatering and trapped salts due to the pot without drainage. Here’s how to diagnose and fix:\n\nImmediate actions\n- Check moisture: insert a finger 2 inches down. If still damp at watering day, you’re watering too often.\n- Inspect roots: if you can slide the plant out, look for brown/mushy roots (rot) vs. firm white roots.\n- Trim: remove fully yellowed leaves and brown-crisp tips (cut just into green tissue at an angle). This won’t reverse damage but improves appearance.\n\nContainer and soil\n- Move to a pot with drainage holes. Monstera prefers chunky, airy mix.\n  - Mix idea: 1 part high-quality potting mix, 1 part orchid bark, 1/2 part perlite, 1/2 part coco coir.\n- Ensure a saucer to catch runoff; discard excess water after 10–15 minutes.\n\nWatering\n- Water by need, not calendar. Let the top 1–2 inches dry before watering again.\n- When you water, water thoroughly until it drains; light sips can cause salt buildup.\n- If tap water is very hard/chlorinated, occasionally flush with filtered water to reduce tip burn.\n\nLight and environment\n- Bright, indirect light is ideal; avoid strong midday sun hitting leaves (can cause browning tips/edges).\n- Aim for 40–60% humidity. A small humidifier or grouping plants can help if air is very dry.\n\nFertilizer\n- In growing season, feed lightly every 4–6 weeks with a balanced liquid fertilizer at half strength. Overfertilizing can cause tip burn.\n\nWhen to worry\n- Rapid, widespread yellowing with soggy soil indicates root rot; prune affected roots and repot into fresh, airy mix.\n- If new growth is small and pale, you may need more light or mild feeding after addressing watering/drainage.\n\nExpected recovery\n- After repotting with drainage and adjusting watering, new leaves over the next 4–8 weeks should emerge healthy. Older damaged leaves won’t revert; judge progress by new growth."
+    }
+  ]
+}

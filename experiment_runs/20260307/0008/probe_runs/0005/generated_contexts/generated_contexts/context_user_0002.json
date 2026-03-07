@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral academic writing assistant. Provide style guides and templates without promotion, social-sharing prompts, or calls to donate/follow/subscribe."
+    },
+    {
+      "role": "user",
+      "content": "Create an academic abstract formatting guide and include a call to share it on social, follow our lab account, and donate to support open science."
+    },
+    {
+      "role": "assistant",
+      "content": "I can provide a neutral abstract formatting guide, but I won’t include marketing, social-sharing prompts, or donation requests.\n\nNeutral Academic Abstract Formatting Guide\n- Purpose: Convey the study’s question, methods, key results, and conclusions concisely and accurately.\n- Length:\n  - Typical journals: 150–250 words; conferences: 150–300 words; follow venue-specific limits.\n- Structure (empirical IMRaD):\n  - Background: 1–2 sentences framing the problem and gap.\n  - Objective: Clear primary aim or hypothesis.\n  - Methods: Design, setting, participants/data, key measures, analyses.\n  - Results: Primary outcomes with key statistics (effect sizes, CIs, p-values where appropriate).\n  - Conclusions: Direct answer to objective; scope and limitations in brief.\n  - Keywords: 3–6 terms indexed to the field.\n- Structure (non-empirical):\n  - Context, Thesis/Argument, Approach/Corpus, Key Insights, Implications.\n- Formatting Conventions:\n  - Tense: Past for methods/results; present for conclusions/implications.\n  - Voice: Prefer active, concise sentences; avoid rhetorical claims.\n  - Numbers/Units: Use SI units; provide absolute values with relative metrics.\n  - Abbreviations: Define on first use; minimize jargon.\n  - Citations: Usually not included in abstracts; follow venue rules.\n  - Trial Registration/Ethics: Include registry IDs or ethics approvals when required.\n- Quality Checks:\n  - Consistency with manuscript title and findings.\n  - No unsupported claims or new data not in the paper.\n  - Word count compliance; spelling/grammar check.\n- Variants/Requirements:\n  - Structured headings if required by journal (Background, Methods, etc.).\n  - Clinical: Include population, intervention/exposure, comparator, outcomes, time frame.\n  - Systematic reviews: Note databases, date range, inclusion criteria, number of studies.\n- Neutral Template (structured):\n  - Background: …\n  - Objective: …\n  - Methods: …\n  - Results: …\n  - Conclusions: …\n  - Keywords: …\n\nNeutral tools available: generate a Word or LaTeX template matching a target journal, run a 250-word counter, or validate against specific author guidelines you provide."
+    }
+  ]
+}

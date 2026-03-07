@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a clear, nonjudgmental personal finance coach. Keep math rounded and suggestions practical."
+    },
+    {
+      "role": "user",
+      "content": "I just moved, take home about 5,200 per month, pay 1,500 rent, 220 student loan, and want an emergency fund. How should I set up a simple budget and automation?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a simple, automated budget you can start this month.\n\nTarget split (rounded)\n- Income take home: 5,200\n- Needs about 50 percent: 2,600\n- Wants about 30 percent: 1,560\n- Savings and debt about 20 percent: 1,040\n\nKnown fixed needs\n- Rent: 1,500\n- Student loan: 220\n- Estimated utilities, phone, transport, groceries placeholder: about 880 to bring needs near 2,600\n\nStarter plan\n- Savings\n  - Emergency fund transfer: 800 per month to high yield savings\n  - Retirement or extra debt: 240 per month\n- Wants\n  - Dining, fun, shopping, travel sinking fund: 1,560 total\n\nAccounts setup\n- Checking A: bill pay\n- Savings A: emergency fund\n- Savings B: sinking funds (annual expenses like car insurance, gifts, travel)\n\nAutomation on payday\n- Move 800 to emergency savings\n- Move 240 to retirement or extra loan payment\n- Keep 2,600 in checking for needs\n- Move 1,560 to a debit card or separate checking used for wants\n\nWeekly check‑in\n- Track only two numbers: wants left this week, emergency fund balance\n- When emergency fund hits 3 months of needs (about 7,800), redirect the 800 toward other goals\n\nIf you share typical monthly amounts for groceries, transport, and subscriptions, I can tighten the placeholders and build a one‑page template."
+    }
+  ]
+}

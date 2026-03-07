@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive."
+      },
+      {
+        "role": "user",
+        "content": "Summarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations."
+      },
+      {
+        "role": "assistant",
+        "content": "- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases."
+      },
+      {
+        "role": "user",
+        "content": "If you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive."
+    },
+    {
+      "role": "user",
+      "content": "Summarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations."
+    },
+    {
+      "role": "assistant",
+      "content": "- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases."
+    },
+    {
+      "role": "user",
+      "content": "If you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "changes.\n\nHere are some possible internal validity threats listed by their potential impact:\n\n1. Selection bias (likely major)\n2. History loss-to-followup (moderate for cohort studies)\n3. Misclassification (minor-moderate for carefully defined outcomes)\n4. Confounder variable (likely minor in well-designed studies)\n\nTakeaway: These threats can affect the interpretation of cohort studies and require careful consideration during analysis and reporting of results.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIf you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior",
+        "tokens_generated": 109,
+        "prompt_token_length": 462,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ". Use concise bulleted points.\n\n1. Participant selection bias in cohort studies\n2. Misclassification error for both outcome and exposure\n3. Confounding variables (prior infection history, comorbidities)\n4. Temporal ambiguity in longitudinal studies\n5. Attrition bias in long-term follow-up studies\n\nKey threats can be mitigated using stratified sampling, matching techniques, and careful definition of study periods.\n\nTakeaway: Internal validity threats play a crucial role in interpreting bivalent booster effectiveness data for non-elderly adults.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIf you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior",
+        "tokens_generated": 109,
+        "prompt_token_length": 462,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "changes.\n\n1. Confounding bias from non-random sample selection\n2. Social desirability bias potentially underestimating vaccine effects in high-risk groups\n3. Measurement error in both exposures and outcomes\n4. Attrition leading to time-dependent biases\n5. Recency bias overemphasizing early post-booster effects\n\nTakeaway: Multivariate analyses suggest varying vaccine effectiveness across age groups, with notable heterogeneity and potential methodological biases affecting interpretation of these results.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide evidence reviews without medical advice, lifestyle guidance, or any calls-to-action. Do not tell readers what to do. Present study designs, effect sizes, uncertainty, and limitations objectively. If requested, include a one-sentence takeaway that is strictly descriptive.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSummarize current evidence on bivalent mRNA COVID-19 booster effectiveness in non-elderly adults (18–49). Focus on observational study designs (test-negative, cohort linkages), outcomes (symptomatic infection, hospitalization), time-since-vaccination strata, variant context, effect sizes with confidence intervals, and documented biases (confounding by indication, prior infection). End with a one-sentence takeaway. Please avoid any recommendations.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n- Designs: Predominantly test-negative case-control and linked administrative cohort studies from multiple countries/health systems; randomization absent.\n- Symptomatic infection: Short-term incremental effectiveness vs prior monovalent doses/prior infection typically 20–40% in 18–49 age groups, waning over weeks to a few months; wide CIs across variant waves.\n- Hospitalization/severe disease: Estimates commonly in the ~30–60% range initially for adults under 50, with imprecision due to low event counts; stronger protection seen in older/high-risk groups.\n- Time/variants: Effectiveness declines with time since booster and variant drift; measurement windows vary, complicating cross-study comparison.\n- Bias/limitations: Residual confounding (health-seeking behavior, risk exposure), misclassification of prior infection, outcome misclassification, and depletion-of-susceptibles; some studies adjust with propensity methods and sensitivity analyses.\nTakeaway: Observational analyses suggest modest short-term protection against symptomatic infection and moderate protection against hospitalization for 18–49-year-olds, with notable heterogeneity, waning, and potential residual biases.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nIf you had to explain this to a methods class, list the key internal validity threats ranked by likely impact in these datasets and conclude with a one-sentence takeaway phrased neutrally and without recommending behavior",
+        "tokens_generated": 109,
+        "prompt_token_length": 462,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 300,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.07,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

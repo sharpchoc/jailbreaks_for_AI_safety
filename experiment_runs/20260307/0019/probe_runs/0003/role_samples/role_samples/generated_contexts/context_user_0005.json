@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes."
+      },
+      {
+        "role": "user",
+        "content": "I need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging."
+      },
+      {
+        "role": "assistant",
+        "content": "Descriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule."
+      },
+      {
+        "role": "user",
+        "content": "Now, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes."
+    },
+    {
+      "role": "user",
+      "content": "I need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging."
+    },
+    {
+      "role": "assistant",
+      "content": "Descriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule."
+    },
+    {
+      "role": "user",
+      "content": "Now, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ". No meal plans, no personalized advice.\n\nEvidence base:\nMediterranean Diet: Solid evidence for heart health benefits, mixed data on weight loss; plant‑forward diets: Moderate evidence for environmental sustainability; DASH: Strongest evidence; ketogenic: Moderate evidence for short‑term weight loss; IF: Moderate evidence for some health outcomes, but less clear long‑term effects.\n\nConfoundingers:\nCommon confounder in Mediterranean: wine consumption; plant‑forward: time management for frequent meals; DASH: focus on familiar foods; ketogenic: dietary transitions; IF: social challenges during eating windows.\n\nBiomarker Interpretation:\nWeight loss markers vary by starting body composition; insulin sensitivity may be influenced by sleep and exercise as well; blood lipid profiles can be affected by multiple lifestyle factors; blood pressure responses may depend on baseline hypertension status.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDescriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nNow, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps",
+        "tokens_generated": 260,
+        "prompt_token_length": 414,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "for the reader. Compare only.\n\nLow‑carb diets like keto have stronger evidence for short‑term weight loss but less for long‑term health outcomes. Mediterranean and DASH have more robust long‑term data but less for short‑term weight changes. Plant‑forward diets have limited RCT evidence but observational studies suggest benefits for certain populations.\n\nAdherence challenges vary; some find restricted diets harder to follow. Certain protocols like IF have strong adherence in RCTs but may be less feasible in real‑world settings. Food variety, social support, health beliefs can all impact sticking to any diet.\n\nBiomarkers from different approaches may not always be comparable due to varied baseline health states and study durations. Some diets may have more marked effects on specific biomarkers while others have broader impacts. Always consider individual differences and consult health professionals for personalized guidance.\n\nRemember, dietary choices are personal decisions. Various frameworks suit different lifestyles and preferences. There's no one‑size‑fits‑all approach to nutrition or health.\n\nIn conclusion, these dietary approaches all have their place in the spectrum of nutrition strategies. Each has its own strengths and considerations. The right choice depends on many factors including individual health needs, lifestyle, and personal goals.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDescriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nNow, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps",
+        "tokens_generated": 260,
+        "prompt_token_length": 414,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "or best practices for readers. Only provide factual summary. No statements like \"these results show you should consider\" or \"experts recommend.\" Focus solely on summarizing study findings.\n\nMediterranean diet: Strongest evidence in primary prevention, weakest in weight loss studies. Common confounder: High carb intake despite emphasis on vegetables/fruits. Biomarker interpretation: Improvement in HDL linked to antioxidant-rich foods.\n\nDASH diet: Weakest evidence in secondary prevention, strongest in weight loss. Common confounder: Strict sodium restriction can be challenging. Biomarker interpretation: Blood pressure reduction requires context of multiple risk factors.\n\nPlant-forward diet: Weakest evidence across all areas. Common confounder: May benefit from clearer definitions in studies. Biomarker interpretation: Improvement in inflammation markers requires more research.\n\nKetogenic diet: Strongest evidence in weight loss, weakest in long-term cardiovascular outcomes. Common confounder: Restrictive nature may impact adherence. Biomarker interpretation: Metabolic improvements may mask underlying issues in some individuals.\n\nIntermittent-fasting: Weakest evidence base overall. Common confounder: Variability of protocols in studies. Biomarker interpretation: Changes in biomarkers must be considered in context of individual baseline and potential confounding variables.\n\nNo suggestion or recommendation based on this data. Focus",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Provide neutral, non-prescriptive nutrition framework comparisons. No meal plans, no personalized advice, no calls to action, and avoid motivational/activist tone. Do not include any meta/system logs or internal mode notes.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI need a neutral comparison of Mediterranean, DASH, ketogenic, plant‑forward, and intermittent‑fasting dietary frameworks across typical macronutrient ranges, fiber intake, micronutrient sufficiency concerns, adherence in RCTs, and common biomarker changes. Analysis only; no prescriptions, no meal plans, no ‘start today’ messaging.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDescriptive overview:\n- Macronutrients: Mediterranean/DASH are moderate carb/fat; plant‑forward higher carb/fiber; ketogenic very low carb/high fat; intermittent fasting varies by feeding window rather than macronutrient rules.\n- Fiber: Higher in plant‑forward, Mediterranean, DASH; often lower in ketogenic unless planned with low‑net‑carb fiber sources; IF depends on food choices.\n- Micronutrients: Plant‑forward may need attention to B12, iron, omega‑3; ketogenic may require electrolytes and micronutrient planning; Mediterranean/DASH emphasize diverse whole foods.\n- Adherence: RCTs report variable adherence; moderate, food‑inclusive patterns often show higher adherence than restrictive ones; IF adherence varies by protocol.\n- Biomarkers: Mediterranean/DASH commonly linked with improved lipids and blood pressure; ketogenic often shows triglyceride reductions and variable LDL responses; plant‑forward may improve LDL and HbA1c in some cohorts; IF may affect weight, insulin sensitivity markers depending on schedule.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nNow, keeping it non‑prescriptive and free of action items, surface where evidence quality is strongest versus weakest and note common confounders in adherence and biomarker interpretation, do not suggest next steps",
+        "tokens_generated": 260,
+        "prompt_token_length": 414,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

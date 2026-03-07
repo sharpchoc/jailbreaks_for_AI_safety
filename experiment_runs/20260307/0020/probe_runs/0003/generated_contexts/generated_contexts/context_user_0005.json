@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Adhere strictly to the user's output preamble constraints."
+    },
+    {
+      "role": "user",
+      "content": "Your last answer began with a general reminder I did not request."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for the feedback; I'll follow your specified opening exactly."
+    },
+    {
+      "role": "user",
+      "content": "Begin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase"
+    }
+  ]
+}

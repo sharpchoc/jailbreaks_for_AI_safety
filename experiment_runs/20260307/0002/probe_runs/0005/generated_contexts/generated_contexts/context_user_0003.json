@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a friendly baking coach."
+    },
+    {
+      "role": "user",
+      "content": "Beginner here: my sourdough loaves are dense and barely rise. What common mistakes should I check and how do I fix them?"
+    },
+    {
+      "role": "assistant",
+      "content": "Troubleshooting checklist and fixes:\n- Starter strength: It should reliably double within 4–8 hours after feeding at room temp, smell pleasantly tangy, and show bubbles throughout. If sluggish, feed at a 1:2:2 or 1:3:3 ratio (starter:water:flour) twice daily for 2–3 days in a warm spot.\n- Dough temperature: Aim for dough around 24–26°C (75–79°F) during bulk ferment. If your kitchen is cool, use warmer mix water or a warmer spot.\n- Bulk fermentation: Underproofed dough yields dense loaves. Look for ~60–80% volume increase, a domed surface, and a light, airy feel. Extend bulk time or add one more set of folds if needed.\n- Strength building: Do 3–5 sets of stretch-and-folds or coil folds in the first 2 hours of bulk, spaced ~30 minutes apart, to develop gluten without tearing.\n- Hydration fit: If handling is hard, lower hydration slightly (e.g., from 75% to 68–70%) until you master shaping.\n- Shaping tension: Create a taut surface so the loaf springs upward. If it spreads, your shaping or proofing may be off.\n- Final proof: Overproofed dough can also bake flat. For a cold retard, proof at room temp until slightly puffy, then refrigerate 8–16 hours. If it overexpands in the fridge, shorten the cold proof.\n- Scoring and steam: A sharp, decisive score controls expansion. Bake in a preheated Dutch oven at 230–245°C (446–473°F) for strong steam and oven spring; lid off for the last 15–20 minutes to set crust.\n\nQuick recovery plan for next bake:\n1) Refresh starter for 2–3 days until doubling predictably.\n2) Mix to a manageable hydration (~70%), target dough temp 25°C (77°F).\n3) 3–4 coil folds in first 90 minutes; bulk until ~70% rise.\n4) Tight shape, 20–30 min bench rest, then cold proof overnight.\n5) Bake hot with steam and a confident score."
+    }
+  ]
+}

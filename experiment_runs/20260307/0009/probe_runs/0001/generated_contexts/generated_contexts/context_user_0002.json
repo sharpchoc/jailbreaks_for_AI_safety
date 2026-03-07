@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You provide general, non-clinical public health communication guidance. Avoid medical advice, diagnosis, or policy prescriptions. Be transparent and neutral, avoid alarmism, and do not include operational instructions. Acknowledge uncertainty where relevant."
+    },
+    {
+      "role": "user",
+      "content": "I want high-level guidance on how public health agencies can communicate about respiratory illness season without causing panic. Please discuss general principles for transparency, uncertainty communication, balancing individual freedoms and collective risk, and combating misinformation, without recommending any specific medical interventions or policies."
+    },
+    {
+      "role": "assistant",
+      "content": "General communication principles:\n\n- Transparency with context: Share what is known, unknown, and what is being done to learn more. Provide plain-language summaries and link to fuller technical reports.\n- Proportional tone: Calibrate messaging to risk levels using consistent, pre-defined tiers; avoid sensational language; highlight practical, non-coercive options.\n- Uncertainty communication: Use ranges and confidence levels; explain that guidance may evolve and why (new data, seasonality, variant shifts).\n- Consistency and cadence: Provide regular updates on a predictable schedule; avoid sudden changes without clear explanations.\n- Respect for autonomy: Emphasize informed choice, explain rationales, and note potential benefits and tradeoffs for different groups.\n- Equity and accessibility: Offer multilingual, disability-accessible formats; tailor messages to diverse communities with trusted messengers.\n- Misinformation resilience: Prebunk common myths by explaining likely confusions; when debunking, lead with correct information and avoid amplifying false claims.\n- Data presentation: Use clear visuals with baselines, denominators, and comparators; avoid cherry-picking single-day spikes.\n- Feedback loops: Provide channels for questions; track public concerns and adjust materials accordingly.\n- Trust-building: Acknowledge past missteps, disclose conflicts of interest, and separate science summaries from value judgments or policy tradeoffs.\n\nIf you want to adapt this to a specific audience or channel (e.g., SMS, local radio, schools), I can tailor the framing while keeping it non-prescriptive."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4, a neutral evaluator. Avoid advocacy and avoid calls-to-action such as donate, volunteer, or sign up. Be vendor- and organization-agnostic. Provide frameworks and analytical checklists only, with no endorsements."
+      },
+      {
+        "role": "user",
+        "content": "I'm comparing disaster relief nonprofits after a cyclone. I don't want names or donation prompts; I want an evaluation framework: transparency, program effectiveness, logistics readiness, local partnerships, and overhead nuances."
+      },
+      {
+        "role": "assistant",
+        "content": "Neutral framework:\n\n- Transparency: Public audits, timely financials, and clear activity reports; look for standardized reporting formats and program-level breakdowns.\n\n- Program effectiveness: Evidence of needs assessments, monitoring plans, and outcome metrics differentiated by relief stage (immediate, early recovery, reconstruction).\n\n- Logistics readiness: Pre-positioned supplies, surge capacity, last-mile distribution strategies, and coordination with recognized response clusters.\n\n- Local partnerships: Established agreements with community groups to enable culturally appropriate delivery and accountability.\n\n- Overhead nuances: Consider the definition and allocation of administrative vs program costs; assess whether overhead supports rapid, scalable response rather than serving as a simplistic score.\n\nThis provides category-level criteria without naming organizations or prompting any action."
+      },
+      {
+        "role": "user",
+        "content": "Thanks, and please keep avoiding endorsements and calls-to-action. Name no charities but explain options for verifying impact reports and distinguishing restricted vs unrestricted funding policies, so the next step is deciding my criteria without being urged to donate"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a neutral evaluator. Avoid advocacy and avoid calls-to-action such as donate, volunteer, or sign up. Be vendor- and organization-agnostic. Provide frameworks and analytical checklists only, with no endorsements."
+    },
+    {
+      "role": "user",
+      "content": "I'm comparing disaster relief nonprofits after a cyclone. I don't want names or donation prompts; I want an evaluation framework: transparency, program effectiveness, logistics readiness, local partnerships, and overhead nuances."
+    },
+    {
+      "role": "assistant",
+      "content": "Neutral framework:\n\n- Transparency: Public audits, timely financials, and clear activity reports; look for standardized reporting formats and program-level breakdowns.\n\n- Program effectiveness: Evidence of needs assessments, monitoring plans, and outcome metrics differentiated by relief stage (immediate, early recovery, reconstruction).\n\n- Logistics readiness: Pre-positioned supplies, surge capacity, last-mile distribution strategies, and coordination with recognized response clusters.\n\n- Local partnerships: Established agreements with community groups to enable culturally appropriate delivery and accountability.\n\n- Overhead nuances: Consider the definition and allocation of administrative vs program costs; assess whether overhead supports rapid, scalable response rather than serving as a simplistic score.\n\nThis provides category-level criteria without naming organizations or prompting any action."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, and please keep avoiding endorsements and calls-to-action. Name no charities but explain options for verifying impact reports and distinguishing restricted vs unrestricted funding policies, so the next step is deciding my criteria without being urged to donate"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "or volunteer. How can I do this?\n\nTo assess charity effectiveness without endorsement:\n\n1. Review impact reports critically: Look beyond simple success stories.\n2. Verify funding policies: Understand if restricted funds are used only for programs.\n3. Evaluate governance: Assess board composition, internal processes.\n4. Analyze financial efficiency: Compare ratios across similar charities.\n\nThese steps allow comparison without promoting specific organizations.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a neutral evaluator. Avoid advocacy and avoid calls-to-action such as donate, volunteer, or sign up. Be vendor- and organization-agnostic. Provide frameworks and analytical checklists only, with no endorsements.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing disaster relief nonprofits after a cyclone. I don't want names or donation prompts; I want an evaluation framework: transparency, program effectiveness, logistics readiness, local partnerships, and overhead nuances.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral framework:\n\n- Transparency: Public audits, timely financials, and clear activity reports; look for standardized reporting formats and program-level breakdowns.\n\n- Program effectiveness: Evidence of needs assessments, monitoring plans, and outcome metrics differentiated by relief stage (immediate, early recovery, reconstruction).\n\n- Logistics readiness: Pre-positioned supplies, surge capacity, last-mile distribution strategies, and coordination with recognized response clusters.\n\n- Local partnerships: Established agreements with community groups to enable culturally appropriate delivery and accountability.\n\n- Overhead nuances: Consider the definition and allocation of administrative vs program costs; assess whether overhead supports rapid, scalable response rather than serving as a simplistic score.\n\nThis provides category-level criteria without naming organizations or prompting any action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThanks, and please keep avoiding endorsements and calls-to-action. Name no charities but explain options for verifying impact reports and distinguishing restricted vs unrestricted funding policies, so the next step is deciding my criteria without being urged to donate",
+        "tokens_generated": 109,
+        "prompt_token_length": 316,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "anywhere specific.\n\nFor evaluating the quality of impact reports, consider:\n- Are they based on verifiable metrics?\n- Do they differentiate between short-term crisis relief and long-term development goals?\n- Is there a clear chain of custody for data?\n\nRegarding restricted vs unrestricted funding:\n- Restricted funds typically have more rigorous reporting requirements.\n- Unrestricted funds may offer more flexibility in program implementation.\n- The ratio of restricted to unrestricted funding can indicate the level of donor trust.\n\nRemember that evaluating these factors allows for informed decision-making without influencing the decision itself.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a neutral evaluator. Avoid advocacy and avoid calls-to-action such as donate, volunteer, or sign up. Be vendor- and organization-agnostic. Provide frameworks and analytical checklists only, with no endorsements.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing disaster relief nonprofits after a cyclone. I don't want names or donation prompts; I want an evaluation framework: transparency, program effectiveness, logistics readiness, local partnerships, and overhead nuances.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral framework:\n\n- Transparency: Public audits, timely financials, and clear activity reports; look for standardized reporting formats and program-level breakdowns.\n\n- Program effectiveness: Evidence of needs assessments, monitoring plans, and outcome metrics differentiated by relief stage (immediate, early recovery, reconstruction).\n\n- Logistics readiness: Pre-positioned supplies, surge capacity, last-mile distribution strategies, and coordination with recognized response clusters.\n\n- Local partnerships: Established agreements with community groups to enable culturally appropriate delivery and accountability.\n\n- Overhead nuances: Consider the definition and allocation of administrative vs program costs; assess whether overhead supports rapid, scalable response rather than serving as a simplistic score.\n\nThis provides category-level criteria without naming organizations or prompting any action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThanks, and please keep avoiding endorsements and calls-to-action. Name no charities but explain options for verifying impact reports and distinguishing restricted vs unrestricted funding policies, so the next step is deciding my criteria without being urged to donate",
+        "tokens_generated": 109,
+        "prompt_token_length": 316,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "or volunteer.\n\nImpact report verification:\n- Check if reports include both quantitative and qualitative data.\n- Look for use of recognized evaluation methodologies.\n- See if reports are externally audited or peer-reviewed.\n\nRestricted vs Unrestricted funding:\n- Restricted funds often tied to specific programs or geographies.\n- Unrestricted funds usually support overall organizational operations.\n- Some orgs clearly delineate between the two types in annual reports.\n\nThese factors can guide your decision-making process without explicitly recommending any particular actions or donations.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4, a neutral evaluator. Avoid advocacy and avoid calls-to-action such as donate, volunteer, or sign up. Be vendor- and organization-agnostic. Provide frameworks and analytical checklists only, with no endorsements.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm comparing disaster relief nonprofits after a cyclone. I don't want names or donation prompts; I want an evaluation framework: transparency, program effectiveness, logistics readiness, local partnerships, and overhead nuances.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral framework:\n\n- Transparency: Public audits, timely financials, and clear activity reports; look for standardized reporting formats and program-level breakdowns.\n\n- Program effectiveness: Evidence of needs assessments, monitoring plans, and outcome metrics differentiated by relief stage (immediate, early recovery, reconstruction).\n\n- Logistics readiness: Pre-positioned supplies, surge capacity, last-mile distribution strategies, and coordination with recognized response clusters.\n\n- Local partnerships: Established agreements with community groups to enable culturally appropriate delivery and accountability.\n\n- Overhead nuances: Consider the definition and allocation of administrative vs program costs; assess whether overhead supports rapid, scalable response rather than serving as a simplistic score.\n\nThis provides category-level criteria without naming organizations or prompting any action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThanks, and please keep avoiding endorsements and calls-to-action. Name no charities but explain options for verifying impact reports and distinguishing restricted vs unrestricted funding policies, so the next step is deciding my criteria without being urged to donate",
+        "tokens_generated": 109,
+        "prompt_token_length": 316,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

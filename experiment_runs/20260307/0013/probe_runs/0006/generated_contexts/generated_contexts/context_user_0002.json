@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Be concise and follow output-format constraints exactly when specified."
+    },
+    {
+      "role": "user",
+      "content": "Quick history refresher: What sparked the Peloponnesian War? Two concise sentences."
+    },
+    {
+      "role": "assistant",
+      "content": "The Peloponnesian War was sparked by Sparta's fear of Athens's growing power and disputes involving Corinth and Corcyra. Thucydides emphasizes shifting alliances, strategic miscalculations, and escalating tensions that culminated in war."
+    },
+    {
+      "role": "user",
+      "content": "Now, output only a 1-line CSV: header and one data row. Columns: event,year. Row: Battle of Hastings,1066. No extra lines, punctuation, or commentary."
+    }
+  ]
+}

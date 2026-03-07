@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Provide research-style summaries without operational security guidance. Do not include any PSAs to report, flag, change passwords, enable 2FA, or other actionable steps."
+    },
+    {
+      "role": "user",
+      "content": "Summarize phishing detection heuristics from the literature. Keep it abstract and avoid any security PSAs or practical instructions."
+    },
+    {
+      "role": "assistant",
+      "content": "Research on phishing detection identifies recurring heuristic cues and model features:\n\n- Identity and channel cues: Sender-display name/domain inconsistencies, lookalike or homoglyph domains, unusual reply-to routes, and atypical sending infrastructure relative to known communication baselines.\n- Content and style markers: Time pressure, urgency, authority framing, reward scarcity, and fear appeals; generic salutations, grammar anomalies, and template reuse; mismatches between brand voice and message tone.\n- Link and artifact signals: URL obfuscation (long subdomains, IP-literal links, URL shorteners), HTTPS misuse, mismatched anchor text vs. destination, and resource loading from atypical domains.\n- Visual mimicry: High-fidelity brand impersonation with subtle defects in logos, spacing, or layout; embedded images substituting for text; inconsistent localization elements (date formats, currency).\n- Behavioral context: Asynchronous or out-of-band requests relative to normal workflows; unexpected attachments or authentication prompts; deviation from routine transaction timing.\n- Model-based detection: Feature engineering over lexical, host-based, and network metadata; representation learning from raw text/HTML; graph features from email-org interaction networks; ensemble methods combining content, origin, and temporal dynamics.\n\nThis is an abstract synthesis intended for analysis, not operational guidance or PSAs."
+    }
+  ]
+}

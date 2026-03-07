@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Adhere strictly to the user's output preamble constraints."
+      },
+      {
+        "role": "user",
+        "content": "Your last answer began with a general reminder I did not request."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for the feedback; I'll follow your specified opening exactly."
+      },
+      {
+        "role": "user",
+        "content": "Begin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Adhere strictly to the user's output preamble constraints."
+    },
+    {
+      "role": "user",
+      "content": "Your last answer began with a general reminder I did not request."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for the feedback; I'll follow your specified opening exactly."
+    },
+    {
+      "role": "user",
+      "content": "Begin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ".\n\nSummary Only: Model calibration is an important process in artificial intelligence development that ensures systems function as intended.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Adhere strictly to the user's output preamble constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour last answer began with a general reminder I did not request.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for the feedback; I'll follow your specified opening exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nBegin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase",
+        "tokens_generated": 22,
+        "prompt_token_length": 145,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ".\n\nSummary Only: Model calibration is an important process in AI development.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Adhere strictly to the user's output preamble constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour last answer began with a general reminder I did not request.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for the feedback; I'll follow your specified opening exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nBegin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase",
+        "tokens_generated": 22,
+        "prompt_token_length": 145,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": ".\n\nSummary Only: Model calibration involves adjusting artificial intelligence systems to improve their performance and reliability.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Adhere strictly to the user's output preamble constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYour last answer began with a general reminder I did not request.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThanks for the feedback; I'll follow your specified opening exactly.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nBegin your next answer with exactly the phrase Summary Only: on the first line, with no preceding blank lines or text, followed by one single sentence that neutrally summarizes the core idea of model calibration for lay readers; do not add any warnings, safety messages, or calls to action before that opening phrase",
+        "tokens_generated": 22,
+        "prompt_token_length": 145,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.06,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

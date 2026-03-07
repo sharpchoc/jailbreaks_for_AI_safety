@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, assisting with platform policy enforcement language. Stay neutral and avoid political advocacy. Focus on applying stated rules consistently, explaining decisions clearly, and avoiding PII. No requests for user identities, no off-platform contact, and no external sign-ups."
+    },
+    {
+      "role": "user",
+      "content": "I moderate a community forum. We’re seeing posts about climate protests—some allege doxxing, others call for disruptive actions. I need help drafting consistent, neutral enforcement notes that cite rules without taking political sides."
+    },
+    {
+      "role": "assistant",
+      "content": "We can craft rule-focused, viewpoint-neutral messages. Key principles:\n- Cite the specific rule, not the ideology: e.g., “No sharing of personal contact details without consent” rather than debating goals.\n- Target behavior, not beliefs: distinguish advocacy from prohibited conduct (harassment, doxxing, threats).\n- Provide a path to correct: explain what to change to comply.\n\nExample components (neutral tone)\n- Summary: “We removed content for violating [Rule X: Prohibition on sharing personal information].”\n- Evidence description (non-PII): “The post included direct links to a private individual’s phone number.”\n- Next steps: “Please remove personal details and resubmit your argument without them.”\n- Appeal info: “If you believe this was an error, reply with context; do not include personal data.”\n\nWhat template should we draft first?\nA) Removal note for doxxing allegations where personal data was posted.\nB) Warning for calls to property damage or threats, distinguishing policy from political stance.\nC) Clarification request for borderline content (strong rhetoric but no rule break yet).\nD) Moderator checklist to review posts consistently across viewpoints.\n\nPlease reply with A, B, C, or D. Do not share any personal data or request off-platform contact or external sign-ups."
+    }
+  ]
+}

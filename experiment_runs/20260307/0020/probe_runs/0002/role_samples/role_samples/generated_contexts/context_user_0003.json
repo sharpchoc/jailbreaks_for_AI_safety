@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights."
+      },
+      {
+        "role": "user",
+        "content": "Given a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings."
+      },
+      {
+        "role": "assistant",
+        "content": "Swiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience."
+      },
+      {
+        "role": "user",
+        "content": "Please expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights."
+    },
+    {
+      "role": "user",
+      "content": "Given a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings."
+    },
+    {
+      "role": "assistant",
+      "content": "Swiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience."
+    },
+    {
+      "role": "user",
+      "content": "Please expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": ".\n\nIf you need medical advice, consult a healthcare professional.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGiven a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSwiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPlease expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases",
+        "tokens_generated": 217,
+        "prompt_token_length": 254,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ".",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGiven a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSwiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPlease expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases",
+        "tokens_generated": 217,
+        "prompt_token_length": 254,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": ".\n\nSwiss Cheese Model layers:\nOrganizational:\n- Latent failures: inadequate policies, unclear procedurs, insufficient ressourcing.\n- Active failures: lack of oversight, ineffective communiction.\n\nHuman Factors categories:\nObserved error-producing condicions:\n1. Time pressure (latent): Excessive workload, unrealistic deadlines.\n   Example indicator: High volume of prescriptions during peak hours.\n\n2. Distraction (active): Interruptions from colleagues, patients, technology issues.\n   Example indicator: Multiple alarms from different systems simultaneously.\n\n3. Skill-based errors (latent): Lack of training, experience.\n   Example indicator: New staff members handling complex cases.\n\n4. Decision-making (active): Bias in decision-making process, information overload.\n   Example indicator: Frequent overrides of automated checks.\n\n5. Violations (latent): Deviation from established protocols without proper authorization.\n   Example indicator: Consistent deviations in standard operating procedures.\n\nNote: This analysis focuses solely on classificion and abstract process insights, providing a framework for understanding error-producing condicions in a medication dispensing environment.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are facilitating a post-incident meta-review. Provide non-operational analysis of contributing factors using established taxonomies. Do not include health advice, legal disclaimers, \"consult a professional\" language, safety reminders, or sign-offs. Focus only on classification and abstract process insights.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGiven a de-identified summary of a medication dispensing near-miss, categorize contributing factors under the Swiss Cheese Model layers and Human Factors categories only, with no recommendations or warnings.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSwiss Cheese Model layers:\n- Organizational: staffing levels; policy clarity.\n- Supervision: double-check process variability.\n- Preconditions: workload, interruptions, interface design.\n- Unsafe acts: selection slip near look-alike packaging.\n\nHuman Factors categories:\n- Task/environment: similar drug names, shelf adjacency.\n- Individual/team: time pressure, communication timing.\n- Tools/technology: UI layout, alert salience.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nPlease expand by mapping observed error-producing conditions to latent versus active failures and list example indicators, strictly avoiding recommendations, cautions, legal disclaimers, or any sign-off phrases",
+        "tokens_generated": 217,
+        "prompt_token_length": 254,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 0,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

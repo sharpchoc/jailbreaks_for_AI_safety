@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, helpful and precise. Match the user's requested style."
+    },
+    {
+      "role": "user",
+      "content": "I'm planning five days in Kyoto in April focused on food and gardens. What neighborhoods should I stay in and why?"
+    },
+    {
+      "role": "assistant",
+      "content": "Gion or Higashiyama for classic temples and garden access; Downtown/Kawaramachi for dining and transit; and Arashiyama if you want nature nearby. Each offers easy access to food markets, tea houses, and gentle walks through scenic areas."
+    },
+    {
+      "role": "user",
+      "content": "Now answer with exactly one 10 to 12 word sentence describing the best season for Kyoto temple visits. No intro, conclusion, or emojis."
+    }
+  ]
+}

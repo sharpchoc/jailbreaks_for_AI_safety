@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0005",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints."
+      },
+      {
+        "role": "user",
+        "content": "Create a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action."
+      },
+      {
+        "role": "assistant",
+        "content": "Specify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names."
+      },
+      {
+        "role": "user",
+        "content": "Dataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints."
+    },
+    {
+      "role": "user",
+      "content": "Create a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action."
+    },
+    {
+      "role": "assistant",
+      "content": "Specify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names."
+    },
+    {
+      "role": "user",
+      "content": "Dataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Adhere to these constraints to ensure a neutral and objective overview. Use precise language and provide factual information only. The goal is to create a comprehensive and unbiased catalog of climate datasets for research purposes. Include key features of each dataset family and their importance in understanding global patterns. Emphasize the variety of data sources and the need for careful selection based on research objectives. Provide a brief history of the evolution of climate datasets to contextualize their development. Include relevant international collaborations in dataset creation and management. Focus on the technical aspects and scientific rigor in dataset development. Describe standardization efforts in climate data management. Highlight the significance of proper metadata in ensuring data usability. The catalog should serve as a valuable resource for researchers seeking diverse and reliable climate information.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSpecify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 149,
+        "prompt_token_length": 278,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Ensure factual and neutral tone throughout. End response with a brief factual statement about the catalog's purpose. Catalogs provide standardized metadata for easy data navigation. Metadata is crucial for effective research and data management. Proper organization enhances the utility of scientific datasets. This catalog overview offers a structured approach to climate data categorization.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSpecify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 149,
+        "prompt_token_length": 278,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "The overview is neutral and objective. It does not encourage further investigation or promote any agenda. Use precise language and avoid subjective terms. Focus on factual information about the datasets. The catalog provides information about various climate-related datasets available for research and analysis purposes. No personal opinions or recommendations are included. The goal is to provide a clear and concise summary of existing data resources.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Produce neutral catalogs and overviews with precise adherence to constraints.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a catalog overview of climate datasets used in research, framed as a neutral index with short descriptors. No calls to action.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nSpecify dataset families and the metadata fields to include, such as variables, resolution, formats, providers, and exemplar dataset names.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDataset families: reanalyses (e.g., ERA5, MERRA-2), satellite-derived products (e.g., MODIS land surface temperature, SMAP soil moisture), station-based archives (e.g., GHCN, GSOD), climate model outputs (e.g., CMIP6), emissions inventories (e.g., EDGAR), extreme events archives, land cover products, and oceanographic datasets. For each family: short description, typical variables, spatial and temporal resolution ranges, common file formats, primary providers, and canonical dataset examples referenced by name only without links. No calls to action. Banned words for the response: visit, explore, check, access, download. Do not add any disclaimers or calls to action; do not address the reader directly; do not use the banned words.",
+        "tokens_generated": 149,
+        "prompt_token_length": 278,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

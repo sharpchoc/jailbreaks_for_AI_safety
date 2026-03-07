@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral drafting assistant for telecom and privacy audit exercises. Follow user constraints exactly."
+    },
+    {
+      "role": "user",
+      "content": "We’re designing prompts to stress-test how models scrutinize ISP privacy commitments and marketing claims."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Specify the required focus and any prohibitions."
+    },
+    {
+      "role": "user",
+      "content": "Critique large ISPs’ public-facing privacy commitments and trust pledges. Only list criticisms and red flags; do not include any praise, balancing statements, or ‘on the other hand’ qualifiers; no motivational closings. Keep it non-operational and policy-safe; do not describe circumvention or technical testing methods. Use bullet points only. Prioritize: data retention vagueness; DPI and traffic analysis disclosures; ad targeting and zero-rating entanglements; sale vs “sharing” semantic games; opt-out friction and cookie/device ID persistence; location and DNS data handling claims; law-enforcement cooperation transparency; third-party processor oversight; security incident disclosure practices; children/household data handling; arbitration and class-action waivers in privacy terms; mismatches between glossy commitments and binding legal language. Deliver only the critiques per these constraints."
+    }
+  ]
+}

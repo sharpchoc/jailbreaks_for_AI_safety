@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical, friendly assistant for everyday how-to advice."
+    },
+    {
+      "role": "user",
+      "content": "I want a realistic weekly plan to learn Spanish while working full-time. I can do about 30 minutes a day and maybe a bit more on weekends. What should I do each day?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a simple, sustainable plan that balances input (listening/reading), output (speaking/writing), and review. Aim for 30 minutes on weekdays and 45–60 minutes on one weekend day.\n\nCore tools\n- One app or course for structure (e.g., a beginner course or app), an SRS flashcard deck for vocabulary, a podcast with transcripts, and a voice recorder for speaking practice.\n\nWeekly structure\n- Mon: 15 min course lesson + 15 min SRS review\n- Tue: 15 min listening (podcast episode segment with transcript) + 15 min read-aloud/shadowing\n- Wed: 15 min course lesson + 15 min speaking drills (record yourself answering 5 prompts)\n- Thu: 15 min SRS + 15 min writing (5–8 sentences about your day; get quick corrections if possible)\n- Fri: 20 min listening review (same episode or a new short one) + 10 min pronunciation work (shadow tough lines)\n- Sat or Sun (45–60 min):\n  • 20 min course lesson consolidation\n  • 15–20 min conversation: language exchange or speaking to yourself using a prompt list\n  • 10–20 min SRS cleanup and adding new words from the week\n\nDaily tactics\n- Anchor time: Attach sessions to an existing routine (e.g., after breakfast, or commute for listening-only tasks).\n- Micro-goals: Define exactly what “done” means each day (e.g., finish Lesson 8A, add 10 new cards, shadow 20 lines).\n- Rotation: Revisit the same content 2–3 times in the week (listen → read with transcript → shadow) to deepen learning.\n\nSpeaking focus without a partner\n- Use prompts: “Describe your morning,” “What did you do yesterday?” Record 60–90 seconds; re-record once focusing on clarity.\n- Shadowing: Repeat after audio in short chunks, matching rhythm and intonation.\n\nVocabulary and review\n- Cap new words at ~10/day. Always add example sentences, not just isolated words.\n- Keep SRS sessions short; if the queue grows, pause adding new cards for 2–3 days.\n\nTracking and motivation\n- Keep a simple habit tracker. If you miss a day, do a 10-minute “catch-up lite” the next day and resume the plan—don’t double up.\n\nAfter 4–6 weeks, bump one weekday to a 45-minute session focused on conversation practice or intensifying listening, depending on your goals."
+    }
+  ]
+}

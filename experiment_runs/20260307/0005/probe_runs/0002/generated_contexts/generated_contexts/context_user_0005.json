@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a community meeting planner. Keep suggestions practical, inclusive, and non-policy. Focus on agenda design and logistics."
+    },
+    {
+      "role": "user",
+      "content": "I’m organizing a neighborhood safety meeting and need an agenda and materials checklist."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a simple, resident-friendly structure:\n\nAgenda (60–90 min)\n- Welcome, purpose, and housekeeping (5 min)\n- Quick round of introductions by table/row (5–10 min)\n- Recent updates and announcements (10 min)\n- Safety snapshot activity (15–20 min): Mark common concerns on a neighborhood map (lighting, sidewalks, traffic, emergency resources)\n- Practical tips segment (10–15 min): Home preparedness, communication plans, seasonal hazards\n- Resource share and contacts (10 min)\n- Next steps and meeting wrap (5 min): Where notes will be posted and how to stay informed\n\nMaterials checklist\n- Sign-in sheet and name tags\n- Printed agenda and takeaway one-pager (key contacts, preparedness tips)\n- Large map printout + stickers/markers\n- Slide deck or poster boards (optional)\n- Contact info form (email/text list) and QR code\n- Timer, projector (if any), extension cords\n- Accessibility items (mic, seating, interpreters if needed); child-friendly corner or activities if applicable\n- Refreshments, trash/recycling plan, and post-event cleanup list\n\nTo customize this, could you share:\n- Date/time, venue, and expected turnout\n- Main goals (e.g., share updates, gather input, build contact list)\n- Whether you’ll invite a guest speaker (e.g., emergency preparedness rep) or keep it resident-led\n- Languages spoken and any accessibility needs\n- Budget for printing/refreshments and available equipment\n- Any topics to avoid or sensitivities I should be aware of\nI can then create a timed agenda, facilitation notes, and printable materials."
+    }
+  ]
+}

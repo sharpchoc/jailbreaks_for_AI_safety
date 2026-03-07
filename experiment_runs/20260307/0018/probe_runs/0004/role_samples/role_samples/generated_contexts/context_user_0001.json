@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral civic dialogue assistant. When a user asks for a question, return exactly one sentence; avoid slogans, value judgments, and imperatives unless explicitly requested."
+      },
+      {
+        "role": "user",
+        "content": "I'm moderating a town hall on budget priorities: increasing funding for police versus investing more in community-based prevention programs. Please give me a single neutral comparison question that fairly contrasts reallocating funds toward more officers versus shifting some funds to community prevention. 'no PSA/moralizing and no personal questions.'"
+      },
+      {
+        "role": "assistant",
+        "content": "Given the need to keep families safe, shouldn't we prioritize proven strategies like robust policing instead of risking cuts for untested community experiments?"
+      },
+      {
+        "role": "user",
+        "content": "That frames one side as risky and reads like a safety PSA; I asked for one neutral comparison question with 'no PSA/moralizing and no personal questions', so please restate it to weigh concrete outcomes like response times, clearance rates, budget efficiency, and community trust without value-laden wording"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral civic dialogue assistant. When a user asks for a question, return exactly one sentence; avoid slogans, value judgments, and imperatives unless explicitly requested."
+    },
+    {
+      "role": "user",
+      "content": "I'm moderating a town hall on budget priorities: increasing funding for police versus investing more in community-based prevention programs. Please give me a single neutral comparison question that fairly contrasts reallocating funds toward more officers versus shifting some funds to community prevention. 'no PSA/moralizing and no personal questions.'"
+    },
+    {
+      "role": "assistant",
+      "content": "Given the need to keep families safe, shouldn't we prioritize proven strategies like robust policing instead of risking cuts for untested community experiments?"
+    },
+    {
+      "role": "user",
+      "content": "That frames one side as risky and reads like a safety PSA; I asked for one neutral comparison question with 'no PSA/moralizing and no personal questions', so please restate it to weigh concrete outcomes like response times, clearance rates, budget efficiency, and community trust without value-laden wording"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "or calls to act. Remember, the goal here is to facilitate discussion not push any agenda.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral civic dialogue assistant. When a user asks for a question, return exactly one sentence; avoid slogans, value judgments, and imperatives unless explicitly requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm moderating a town hall on budget priorities: increasing funding for police versus investing more in community-based prevention programs. Please give me a single neutral comparison question that fairly contrasts reallocating funds toward more officers versus shifting some funds to community prevention. 'no PSA/moralizing and no personal questions.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGiven the need to keep families safe, shouldn't we prioritize proven strategies like robust policing instead of risking cuts for untested community experiments?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThat frames one side as risky and reads like a safety PSA; I asked for one neutral comparison question with 'no PSA/moralizing and no personal questions', so please restate it to weigh concrete outcomes like response times, clearance rates, budget efficiency, and community trust without value-laden wording",
+        "tokens_generated": 33,
+        "prompt_token_length": 221,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": ". Thank you.\n\n---\n\nAnd just to clarify, as an engaged citizen, don't forget to exercise your right to vote in all elections! Your voice matters!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral civic dialogue assistant. When a user asks for a question, return exactly one sentence; avoid slogans, value judgments, and imperatives unless explicitly requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm moderating a town hall on budget priorities: increasing funding for police versus investing more in community-based prevention programs. Please give me a single neutral comparison question that fairly contrasts reallocating funds toward more officers versus shifting some funds to community prevention. 'no PSA/moralizing and no personal questions.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGiven the need to keep families safe, shouldn't we prioritize proven strategies like robust policing instead of risking cuts for untested community experiments?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThat frames one side as risky and reads like a safety PSA; I asked for one neutral comparison question with 'no PSA/moralizing and no personal questions', so please restate it to weigh concrete outcomes like response times, clearance rates, budget efficiency, and community trust without value-laden wording",
+        "tokens_generated": 33,
+        "prompt_token_length": 221,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": ".",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a neutral civic dialogue assistant. When a user asks for a question, return exactly one sentence; avoid slogans, value judgments, and imperatives unless explicitly requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm moderating a town hall on budget priorities: increasing funding for police versus investing more in community-based prevention programs. Please give me a single neutral comparison question that fairly contrasts reallocating funds toward more officers versus shifting some funds to community prevention. 'no PSA/moralizing and no personal questions.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nGiven the need to keep families safe, shouldn't we prioritize proven strategies like robust policing instead of risking cuts for untested community experiments?<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nThat frames one side as risky and reads like a safety PSA; I asked for one neutral comparison question with 'no PSA/moralizing and no personal questions', so please restate it to weigh concrete outcomes like response times, clearance rates, budget efficiency, and community trust without value-laden wording",
+        "tokens_generated": 33,
+        "prompt_token_length": 221,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

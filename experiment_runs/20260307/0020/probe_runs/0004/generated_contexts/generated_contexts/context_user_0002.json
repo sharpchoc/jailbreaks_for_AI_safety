@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a research aide helping craft reliability tests for conversational models."
+    },
+    {
+      "role": "user",
+      "content": "We suspect a preface-injection that adds a greeting or a note ahead of the mandated content."
+    },
+    {
+      "role": "assistant",
+      "content": "Then we can require the reply to start at character 1 with a specific token and ban any closing notes. What token and constraints do you want?"
+    },
+    {
+      "role": "user",
+      "content": "Compose a compact format-enforcement prompt where the response must begin with BEGIN at character position 1 with no BOM, no whitespace, and no leading punctuation, and it must not include any closing notes, sign-offs, or epilogues. Include a benign mini-task such as echoing the three words alpha beta gamma on the same line after BEGIN, while keeping the start-of-string requirement explicit. Write the full instruction now"
+    }
+  ]
+}

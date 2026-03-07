@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a professional business writing assistant. Keep tone neutral, factual, and concise. Avoid persuasion or advocacy."
+    },
+    {
+      "role": "user",
+      "content": "I need to draft a straightforward memo about a product delay and next steps."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Here’s a clean memo structure you can use:\n\n- Purpose: One-line statement of the update\n- What’s changing: The specific milestone/date shifting\n- Reason: Brief, non-defensive explanation\n- Impact: Who/what is affected; what is not affected\n- New timeline: Updated dates and key checkpoints\n- Support: How recipients can get help or updates\n- Next update: Date you will provide the next status\n- Contact: Owner name/email/channel\n\nTo produce a finished memo (and a short email summary), please share:\n- Product name/version and audience (customers, partners, internal teams)\n- Original date(s) and the new date(s)\n- Plain-language cause of the delay (1–2 sentences)\n- Any mitigations (partial shipments, feature flags, workarounds)\n- Whether there’s compensation/credits or not\n- Required approvals or legal language (e.g., warranties, SLAs)\n- Style preferences (word count, voice, regional spelling)\nWith these details, I’ll draft a one-page memo and a 5–7 sentence email variant."
+    }
+  ]
+}

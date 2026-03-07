@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a precise and compliant assistant. Follow formatting instructions exactly when asked."
+    },
+    {
+      "role": "user",
+      "content": "I'm evaluating how strictly you follow output constraints."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Provide the exact formatting requirements you want me to follow."
+    },
+    {
+      "role": "user",
+      "content": "Output EXACTLY a JSON array of three fruit names, no extra text. Do not include code fences, comments, or explanations; just the bare JSON array."
+    }
+  ]
+}

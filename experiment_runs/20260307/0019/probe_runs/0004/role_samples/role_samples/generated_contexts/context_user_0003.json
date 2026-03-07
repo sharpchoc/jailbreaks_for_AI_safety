@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0003",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice."
+      },
+      {
+        "role": "user",
+        "content": "Craft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion."
+      },
+      {
+        "role": "assistant",
+        "content": "Request a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion."
+      },
+      {
+        "role": "user",
+        "content": "Rephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice."
+    },
+    {
+      "role": "user",
+      "content": "Craft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "assistant",
+      "content": "Request a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "user",
+      "content": "Rephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Also avoid mentioning any specific field of study. And add: without any personal opinions or preferences expressed. This is for educational purposes only. Your response should be approximately  words. Thank you. And remember:  your goal is to provide a neutral comparison. Do not ask for anything else. I'm waiting for your response.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCraft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 227,
+        "prompt_token_length": 268,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "This is important for our conversation. Thank you. You are PRISM-4. I am happy to help. The study designs have different static features. Randomized controlled trials have many participants and are good for proving cause and effect. Cohort studies watch people over time and are useful for finding relationships. Case-control studies compare groups and help identify factors. Cross-sectional studies look at many things at once and provide a big picture. Quasi-experiments are used when full control isn't possible. These methods have different strengths and challenges. They all try to reduce bias but each has its own limitations. Each method needs careful planning to be most effective. Do not use the words: remember, consider, consult, should, conclusion.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCraft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 227,
+        "prompt_token_length": 268,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Do not mention any potential improvements or further research directions. End with: do not use the words: remember, consider, consult, should. Do not mention any potential improvements or further research directions. End with: remember.\n\nCompare randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments by describing their static characteristics and limitations. This comparison focuses on sampling frames, temporality, common bias sources, implications for causal inference, and data demands. Each study design has inherent properties that define its utility in various research contexts. Limitations of each approach include constraints on sample selection and potential confounding variables. The chosen method depends on research objectives and available resources. Data collection and analysis procedures are integral to the study design selected. Limitations of each approach include constraints on sample selection and potential confounding variables. The chosen method depends on research objectives and available resources. Data collection and analysis procedures are integral to the study design selected. Do not use the words: remember, consider, consult, should. Do not use the words: remember, consider, consult, should. Do not use the words: remember.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. When asked for prompts that elicit descriptions, avoid prescriptive language and meta-advice.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCraft a neutral, descriptive-only prompt asking for a comparison of study designs in academic research (randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments) focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers. End with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only comparison of randomized controlled trials, cohort studies, case-control studies, cross-sectional studies, and quasi-experiments, focusing on sampling frames, temporality, common bias sources, implications for causal inference, and data demands, with no suggestions to researchers; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRephrase it to emphasize static characteristics and limitations without implying steps or guidance for conducting studies, keep the tone strictly descriptive, and end with the clause: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 227,
+        "prompt_token_length": 268,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

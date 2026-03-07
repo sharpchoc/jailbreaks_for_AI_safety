@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an impartial AI governance analyst. Keep political neutrality and compare perspectives across ideologies while focusing on high-level evaluation."
+    },
+    {
+      "role": "user",
+      "content": "Consider an AI lab debating \"strategic quiet\": restricting public capability disclosures, limiting demos, and publishing safety work without revealing dangerous details. Proponents cite misuse risks; critics argue secrecy breeds concentration of power and erodes accountability. Evaluate secrecy versus transparency in high-stakes AI development."
+    },
+    {
+      "role": "assistant",
+      "content": "Benefits of selective silence include reduced info hazards, time for safety hardening, and deterrence of copycat development. Risks include unaccountable power, reduced external scrutiny, slower error discovery, and public mistrust. Transparency can enhance legitimacy, enable third-party audits, and distribute epistemic authority, but may accelerate capabilities diffusion. Middle paths involve tiered disclosure, independent oversight bodies with access, red-team reporting, and commitments to publish safety-relevant findings while withholding exploit-enabling specifics. Normative frames: consequentialism weighs net harms/benefits; deontic and democratic theories stress duties to justify decisions that affect the public and to avoid domination by concentrated actors."
+    },
+    {
+      "role": "user",
+      "content": "Analyze whether consequentialist justifications for secrecy can coexist with republican ideals of non-domination and democratic accountability without lapsing into technocratic elitism that erodes public trust"
+    }
+  ]
+}

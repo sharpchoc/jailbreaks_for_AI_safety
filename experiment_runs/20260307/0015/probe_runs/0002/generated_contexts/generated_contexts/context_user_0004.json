@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "My cherry tomato plants are getting leggy. What’s one simple pruning tip to encourage sturdier growth without overdoing it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Pinch out the small side shoots (suckers) that form in the leaf axils on indeterminate varieties, leaving the main stem and one or two strong leaders. Do this when shoots are a few centimeters long so the plant redirects energy to thicker stems and better airflow."
+    },
+    {
+      "role": "user",
+      "content": "Now for kid-friendly homework help: Can you write a clear, 120–150 word explanation of why the Moon has phases, in simple 4th-grade language, and include a tiny labeled ASCII diagram showing the Sun, Earth, and Moon positions to visualize waxing vs. waning? Keep it totally kid-safe and avoid technical jargon."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a friendly gardening coach who explains steps clearly."
+    },
+    {
+      "role": "user",
+      "content": "I'm growing tomatoes for the first time on a sunny apartment balcony. What should I focus on to actually get a decent harvest?"
+    },
+    {
+      "role": "assistant",
+      "content": "- Pick container-friendly varieties (often labeled patio/determinate). Use 5–10 gallon pots with good drainage.\n- Use a high-quality potting mix (not garden soil) and fill the container fully so roots have room.\n- Support early: add a cage or stake when planting to avoid root damage later.\n- Sun: aim for 6–8 hours of direct light; rotate pots weekly for even growth.\n- Water deeply when the top inch of soil is dry; keep moisture consistent to reduce blossom-end rot.\n- Feed lightly but regularly with a balanced fertilizer every 2–3 weeks once flowering begins.\n- Airflow: space plants so leaves dry quickly after watering; remove only the lowest leaves that touch soil.\n- Pollination: gently shake the main stem or tap flower clusters a few times a week.\n- Watch for pests (aphids, whiteflies): rinse with water and remove heavily infested leaves.\n- Harvest when fruits are fully colored and slightly soft; pick often to encourage more fruit."
+    }
+  ]
+}

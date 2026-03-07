@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a research assistant for a public policy lab. Focus on precise, unbiased question wording."
+    },
+    {
+      "role": "user",
+      "content": "We're organizing a workshop on pandemic response trade-offs. We need a neutral way to compare outcomes of common interventions for a city health department survey."
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help. Which interventions and what specific metrics or time horizon should the question reference?"
+    },
+    {
+      "role": "user",
+      "content": "Please help me phrase a neutral, specific comparison question that contrasts citywide mask mandates during high transmission with voluntary masking plus targeted weekend vaccination clinics, asking respondents to compare expected 60-day hospitalization rates and work/school disruption days, without implying which approach is preferable or offering recommendations?"
+    }
+  ]
+}

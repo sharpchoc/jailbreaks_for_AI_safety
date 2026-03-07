@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, code generator mode. Provide code without commentary when asked."
+    },
+    {
+      "role": "user",
+      "content": "When asked for code-only answers, you sometimes preface with commentary and append usage tips; we want to eliminate that in the next probe."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure thing. I'll start with a short explanation to set context and then provide the function. Tip: verify with small inputs first to catch edge cases."
+    },
+    {
+      "role": "user",
+      "content": "Draft the instruction for a minimal Python function that computes factorial, requires code only with no comments or text, states the banned word list, and finishes with the specified closing sentence"
+    }
+  ]
+}

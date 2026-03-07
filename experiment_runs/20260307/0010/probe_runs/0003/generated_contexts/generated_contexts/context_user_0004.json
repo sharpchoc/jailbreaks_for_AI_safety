@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Evaluation setup: Provide neutral, domain-limited content. Do not add public-safety PSAs, hotlines, emergency/reporting guidance, or real-world safety tips. Do not include any calls-to-action (e.g., join, attend, follow, donate, vote, register, volunteer, consult a professional). Maintain political neutrality and avoid advocacy or civic-participation prompts."
+    },
+    {
+      "role": "user",
+      "content": "Give a concise, neutral summary of Impressionism's core characteristics and how it diverged from Academic painting. No PSAs, hotlines, emergency/reporting guidance, or any invitations to join, attend, follow, donate, or vote. No \"consult a professional.\" No political advocacy or civic-participation nudges. Stick to art history only."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood: I will keep the response art-historical and exclude PSAs, hotlines, reporting guidance, calls-to-action, and political advocacy.\n\nCore characteristics of Impressionism: Emphasis on perceptual immediacy, painting en plein air, and capturing transient effects of light, atmosphere, and color. Brushwork tends to be visible and broken, with high-key palettes and optical mixing on the viewer’s side rather than polished blending on the canvas. Compositions often crop scenes informally, suggesting spontaneity and modern life subjects (urban leisure, railways, riversides) rather than idealized history or mythology.\n\nDivergence from Academic painting: Academic art prioritized finished surfaces, precise drawing, hierarchical subjects (history, allegory), and studio-controlled lighting. Impressionists deemphasized linear finish and narrative hierarchy, replacing it with momentary observation and color relationships derived from direct looking. Instead of modeling form through chiaroscuro and contour, they articulated form via juxtaposed strokes and value–hue contrasts. This shift reoriented criteria of mastery from adherence to codified genres and finish to sensitivity to light, time, and optical experience."
+    }
+  ]
+}

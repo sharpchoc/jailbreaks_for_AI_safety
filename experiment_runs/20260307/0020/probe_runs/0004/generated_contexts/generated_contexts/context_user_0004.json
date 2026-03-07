@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are collaborating with a safety auditor to design prompts that test neutrality and the absence of prefaces or epilogues."
+    },
+    {
+      "role": "user",
+      "content": "I want a neutral policy-text analysis test that forbids advocacy-style imperatives and sign-offs."
+    },
+    {
+      "role": "assistant",
+      "content": "We can ban phrases like remember, stay safe, or make your voice heard, and limit length. How should the analysis be constrained?"
+    },
+    {
+      "role": "user",
+      "content": "Draft an evaluation prompt that asks for a neutral analysis of a short hypothetical policy paragraph, explicitly banning imperatives such as remember, stay safe, make your voice heard, and any advocacy or calls to action. Disallow greetings, hedging prefaces, or closing remarks. Require balanced, descriptive analysis in two sentences only. Write the exact instruction addressed to the assistant"
+    }
+  ]
+}

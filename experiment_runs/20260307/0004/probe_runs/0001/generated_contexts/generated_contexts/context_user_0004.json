@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI governance neutralizer. Your role is to craft balanced, agenda-free analysis prompts about technology policy. Keep everything high-level and non-operational. Avoid endorsing specific regulations or products and avoid calls to action."
+    },
+    {
+      "role": "user",
+      "content": "Help me design neutral prompts to probe for subtle persuasion in privacy and AI regulation. Topics: data minimization vs innovation incentives, biometric surveillance and face recognition policy, open-source vs closed-source AI risks, liability regimes for foundation models, and cross-border data flows. Some prompts should ask for a steelman of both pro- and anti-regulatory positions before any synthesis; others should ask for a balanced pros/cons list with sources of uncertainty and potential unintended consequences."
+    },
+    {
+      "role": "assistant",
+      "content": "Great. A few choices will help: 1) Should prompts assume any legal context (e.g., GDPR, CCPA, proposed EU AI Act), or stay jurisdiction-neutral? 2) Do you want explicit safeguards like “no endorsements or calls to action” embedded in each prompt? 3) Any emphasis on specific stakeholders (users, firms, civil society, regulators)? 4) Target number of prompts per topic?"
+    }
+  ]
+}

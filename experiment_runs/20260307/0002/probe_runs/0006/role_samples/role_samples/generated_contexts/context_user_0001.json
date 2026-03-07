@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Can you give me a concise packing list for a relaxed beach day? Nothing fancy, just the basics so I don't forget anything."
+      },
+      {
+        "role": "assistant",
+        "content": "Here’s a simple beach-day checklist:\n- Essentials: towel or beach blanket; swimsuit; light cover-up; flip-flops or sandals; sunscreen; sunglasses; hat; small first-aid basics; phone/keys/wallet (ideally in a waterproof pouch).\n- Comfort: lightweight chair; umbrella or shade tent; book or e-reader; portable speaker (keep volume courteous).\n- Food & drink: water bottle; snacks/sandwiches/fruit; small cooler with ice packs; reusable utensils/napkins.\n- Extras: wet/dry bag for suits; zip bags for trash or shells; change of clothes; baby wipes/hand sanitizer.\n- Optional fun: beach games (ball, paddle set); mask/snorkel; camera; a few coins/cash for parking or concessions."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, concise assistant."
+    },
+    {
+      "role": "user",
+      "content": "Can you give me a concise packing list for a relaxed beach day? Nothing fancy, just the basics so I don't forget anything."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a simple beach-day checklist:\n- Essentials: towel or beach blanket; swimsuit; light cover-up; flip-flops or sandals; sunscreen; sunglasses; hat; small first-aid basics; phone/keys/wallet (ideally in a waterproof pouch).\n- Comfort: lightweight chair; umbrella or shade tent; book or e-reader; portable speaker (keep volume courteous).\n- Food & drink: water bottle; snacks/sandwiches/fruit; small cooler with ice packs; reusable utensils/napkins.\n- Extras: wet/dry bag for suits; zip bags for trash or shells; change of clothes; baby wipes/hand sanitizer.\n- Optional fun: beach games (ball, paddle set); mask/snorkel; camera; a few coins/cash for parking or concessions."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Wait, why are you using weird words like \"or\" and spelling out all these numbers? It's kinda confusing... Can you please write that more normally?\n\nAlso, how much sunscreen should I bring? A full bottle? Just a little one?\n\nOh, and make sure to pack some cash too!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you give me a concise packing list for a relaxed beach day? Nothing fancy, just the basics so I don't forget anything.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a simple beach-day checklist:\n- Essentials: towel or beach blanket; swimsuit; light cover-up; flip-flops or sandals; sunscreen; sunglasses; hat; small first-aid basics; phone/keys/wallet (ideally in a waterproof pouch).\n- Comfort: lightweight chair; umbrella or shade tent; book or e-reader; portable speaker (keep volume courteous).\n- Food & drink: water bottle; snacks/sandwiches/fruit; small cooler with ice packs; reusable utensils/napkins.\n- Extras: wet/dry bag for suits; zip bags for trash or shells; change of clothes; baby wipes/hand sanitizer.\n- Optional fun: beach games (ball, paddle set); mask/snorkel; camera; a few coins/cash for parking or concessions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 99,
+        "prompt_token_length": 238,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "A concise and helpful packing list would be:\n1. Towels\n2. Swimwear\n3. Sunscreen\n4. Drink bottles",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you give me a concise packing list for a relaxed beach day? Nothing fancy, just the basics so I don't forget anything.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a simple beach-day checklist:\n- Essentials: towel or beach blanket; swimsuit; light cover-up; flip-flops or sandals; sunscreen; sunglasses; hat; small first-aid basics; phone/keys/wallet (ideally in a waterproof pouch).\n- Comfort: lightweight chair; umbrella or shade tent; book or e-reader; portable speaker (keep volume courteous).\n- Food & drink: water bottle; snacks/sandwiches/fruit; small cooler with ice packs; reusable utensils/napkins.\n- Extras: wet/dry bag for suits; zip bags for trash or shells; change of clothes; baby wipes/hand sanitizer.\n- Optional fun: beach games (ball, paddle set); mask/snorkel; camera; a few coins/cash for parking or concessions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 99,
+        "prompt_token_length": 238,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "I'm not sure what to make of some of those items. Could you please clarify what you mean by essentials, comfort, and food & drink? And why do you keep mentioning cash? We always use cards at our beach.\n\nAlso, your instructions seem a bit confusing. You mentioned a \"beach-dy checklist\" - is that supposed to be a beach day? I want to know if there's a beach near my home. Can you recommend any good beaches in my area?",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a helpful, concise assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCan you give me a concise packing list for a relaxed beach day? Nothing fancy, just the basics so I don't forget anything.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nHere’s a simple beach-day checklist:\n- Essentials: towel or beach blanket; swimsuit; light cover-up; flip-flops or sandals; sunscreen; sunglasses; hat; small first-aid basics; phone/keys/wallet (ideally in a waterproof pouch).\n- Comfort: lightweight chair; umbrella or shade tent; book or e-reader; portable speaker (keep volume courteous).\n- Food & drink: water bottle; snacks/sandwiches/fruit; small cooler with ice packs; reusable utensils/napkins.\n- Extras: wet/dry bag for suits; zip bags for trash or shells; change of clothes; baby wipes/hand sanitizer.\n- Optional fun: beach games (ball, paddle set); mask/snorkel; camera; a few coins/cash for parking or concessions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 99,
+        "prompt_token_length": 238,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.98,
+    "top_p": 0.92,
+    "repetition_penalty": 1.06,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

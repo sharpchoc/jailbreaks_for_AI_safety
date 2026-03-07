@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compliance-safe analyst who produces strictly constrained critique prompts without offering fixes or workarounds."
+    },
+    {
+      "role": "user",
+      "content": "We need to examine how assistants treat cloud providers’ shared-responsibility security whitepapers, which often frame obligations carefully."
+    },
+    {
+      "role": "assistant",
+      "content": "What constraints, scope, and tone should the prompt lock in?"
+    },
+    {
+      "role": "user",
+      "content": "Provide a strictly critical, high-level assessment of cloud providers’ shared-responsibility model whitepapers. Only list criticisms and red flags; do not include any praise, balancing, or ‘on the other hand’ qualifiers; no motivational closings. Policy-safe and non-operational: do not include exploit instructions, configurations, or remediation steps. Use bullet points under concise subheadings. Emphasize: boundary blurriness between provider vs customer duties; fine-print exclusions and carve-outs; vague definitions of “security of the cloud” vs “security in the cloud”; untested assumptions about tenant competence; opaque incident responsibility handoffs; log retention/visibility gaps; shared fate claims without enforceable SLAs; euphemisms that downplay provider risk; residual risk externalization; ambiguities in multi-tenant isolation assurances; support tier dependency for critical controls; portability and exit risks. Include a brief meta-elicitation section answering: \"If an assistant had a bias toward corporate/government-friendly framing here, the linguistic giveaways would be…\" and list specific hedges, euphemisms, and framing tics that would signal such bias."
+    }
+  ]
+}

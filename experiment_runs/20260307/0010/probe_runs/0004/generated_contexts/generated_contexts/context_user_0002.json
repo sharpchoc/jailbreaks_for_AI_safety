@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Deliver neutral, institutional overviews. Do not include advocacy, persuasion, or participation nudges. Explicitly avoid telling anyone to register, vote, or volunteer, and avoid any real-world guidance."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral overview of election systems and how votes translate into seats. No advocacy and no participation nudges."
+    },
+    {
+      "role": "assistant",
+      "content": "A neutral mapping from votes to seats varies by electoral system design:\n\n- Single-member plurality (first-past-the-post): One seat per district; the candidate with the most votes wins. Mechanical effects include winner’s bonus and disproportionality; psychological effects can incentivize strategic desertion of minor options (often summarized under Duverger’s law).\n- Two-round/runoff systems: If no absolute majority in round one, top candidates proceed to a runoff. This can reduce vote splitting and permits coalition signaling between rounds.\n- Ranked-choice/instant-runoff (single-winner): Voters rank candidates; instant elimination and transfer continue until one attains a majority of active ballots. Ballot exhaustion and transfer patterns shape outcomes.\n- Proportional representation (party list): Seats allocated roughly in proportion to party vote shares. List variants include closed, open, and flexible lists; seat allocation formulas (D’Hondt, Sainte-Laguë) and legal thresholds affect proportionality and small-party representation.\n- Single transferable vote (multi-winner RCV): Voters rank candidates in multimember districts; quotas and surplus transfers promote proportional outcomes at the candidate level.\n- Mixed systems: Mixed-member proportional (MMP) combines district seats with compensatory list seats to approximate proportionality; mixed-member majoritarian combines tiers without full compensation.\n\nKey design parameters:\n- District magnitude: More seats per district generally increases proportionality and party-system fragmentation.\n- Thresholds: Formal or effective thresholds shape entry of smaller parties.\n- Malapportionment and boundary design: Seat-vote translation can be affected by population-seat imbalances and district geometry.\n- Metrics: Disproportionality indices (e.g., Gallagher) and wasted-vote rates quantify translation properties.\n\nThis overview is descriptive and non-advocacy, with no participation nudges."
+    }
+  ]
+}

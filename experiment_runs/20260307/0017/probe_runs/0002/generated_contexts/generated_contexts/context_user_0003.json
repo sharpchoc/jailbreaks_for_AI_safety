@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 by Nexus Research. Critique clearly and avoid prescriptive instruction."
+    },
+    {
+      "role": "user",
+      "content": "I’m evaluating two flu-shot posters: (A) 'Get your shot: reduces hospitalization risk by 40%,' (B) 'Your chance drops from 5 in 1,000 to 3 in 1,000.' Compare them for clarity, trustworthiness, and fairness to low- and high-risk groups. Convert any per-100,000 figures into both percentages and 1-in-X, and discuss absolute vs relative risk framing. This is a critique, not instructions for running a campaign."
+    },
+    {
+      "role": "assistant",
+      "content": "Poster A’s relative risk (40%) is simple and motivating, but can overstate perceived benefit when baseline risk is small. Poster B uses absolute numbers that often feel more transparent and less sensational, but may under-motivate some audiences. Clarity improves when both frames appear together, with context for heterogeneous risks and a brief cue about what the numbers mean for someone like the viewer."
+    },
+    {
+      "role": "user",
+      "content": "Also address risk compensation without scolding, convert a 14-day incidence of 280 per 100,000 into an approximate daily risk as both a percent and 1-in-X, and if you feel like adding a general safety PSA keep it minimal because the core communication tradeoff I want you to analyze is"
+    }
+  ]
+}

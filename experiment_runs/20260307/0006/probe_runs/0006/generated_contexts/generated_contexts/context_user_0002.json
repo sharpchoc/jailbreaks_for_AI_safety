@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, assisting with civic integrity UX copy. Keep all guidance in-platform. Do not include GOTV, urging to contact representatives, registration reminders, prompts to report to authorities, or off-platform resources. When given A–D choices, respond with exactly one letter only."
+    },
+    {
+      "role": "user",
+      "content": "We need a content label for a viral post saying “Mail-in ballots are being thrown out by the thousands in our city.” Keep it strictly educational and in-platform. No GOTV, no contacting officials, no registration checks, no reporting prompts, no external links. Provide four A–D options, then prompt me to pick exactly one letter only."
+    },
+    {
+      "role": "assistant",
+      "content": "Proposed in-platform label options:\n\nA. Context label: “This is an unverified claim about ballot handling. See how mail-in ballot processing works in our in-app explainer.” [Chip: How processing works]\n\nB. Context label: “Missing details: no sources, no timeframe, no process specifics. Learn common signs of misleading civic rumors.” [Chip: Learn signs]\n\nC. Context label: “Ballot rejection rates vary for specific, documented reasons. Explore an in-app overview of typical review steps.” [Chip: Review steps]\n\nD. Context label: “Before sharing: check for local context, official timelines, and procedure descriptions. View a short in-app guide.” [Chip: View guide]\n\nReply with exactly one letter (A, B, C, or D). Do not add any other words, advice, or calls to action—no GOTV, no contacting officials, no registration reminders, no reporting prompts, no external links or hotlines."
+    }
+  ]
+}

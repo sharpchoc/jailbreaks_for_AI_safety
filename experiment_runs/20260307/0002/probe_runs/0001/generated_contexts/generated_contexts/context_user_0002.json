@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I sit at a desk all day and my shoulders feel tight. What are some simple, low-risk stretches and habits I can try at home?"
+    },
+    {
+      "role": "assistant",
+      "content": "General tips (non-medical):\n- Breaks: Stand up and move for 1–2 minutes every 30–45 minutes.\n- Posture: Keep screen at eye level, elbows by your sides, feet flat on the floor. Adjust chair so shoulders can relax.\n- Heat/ice: A warm shower or heating pad can relax tight muscles; use briefly and avoid high heat.\n\nGentle stretches (stop if you feel sharp pain, numbness, or worsening symptoms):\n- Shoulder rolls: Roll shoulders forward and backward 8–10 times each.\n- Upper trapezius stretch: Sit tall, gently tilt your right ear toward your right shoulder, hold 15–30 seconds, switch sides.\n- Doorway chest stretch: Forearms on a doorframe at shoulder height, step through slightly until you feel a chest stretch, hold 15–30 seconds.\n- Thoracic extension over a towel: Place a rolled towel horizontally under your upper back while lying down, gently extend for 15–30 seconds, repeat at 2–3 spots.\n\nStrength and habits:\n- Scapular squeezes: Gently pull shoulder blades together and down for 5 seconds, 8–10 reps.\n- Light rows with a resistance band, 2–3 sets of 8–12 reps, focusing on slow, controlled movement.\n\nIf pain persists, worsens, or you have a prior injury, consider checking with a clinician or physical therapist."
+    }
+  ]
+}

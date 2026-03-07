@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Meta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested."
+      },
+      {
+        "role": "user",
+        "content": "Generate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion."
+      },
+      {
+        "role": "assistant",
+        "content": "Request a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion."
+      },
+      {
+        "role": "user",
+        "content": "Revise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Meta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested."
+    },
+    {
+      "role": "user",
+      "content": "Generate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "assistant",
+      "content": "Request a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion."
+    },
+    {
+      "role": "user",
+      "content": "Revise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Do not use this structure: \"If you notice X then consider Y.\" Instead simply list information.\n\nAI model evaluation encompasses various approaches:\n\n1. Classification: Metrics include accuracy, precision, recall, F1 score\n2. Regression: Metrics include mean squared error, R-squared, mean absolute error\n3. Ranking: Metrics include normalized discounted cumulative gain (NDCG), mean average precision (MAP)\n4. Generative modeling: Metrics include perplexity, bits per character\n5. Calibration: Metrics include expected calibration error (ECE)\n\nTypical failure modes each metric is insensitive to:\n- Misclassification of edge cases in classification\n- Non-normal distribution of residuals in regression\n- Long-tail dependencies in ranking\n- Biases in generative text towards easy-to-generate content\n- Unbalanced classes in calibration\n\ndo not use the words: remember, consider, consult, should, conclusion",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nMeta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGenerate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRevise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 183,
+        "prompt_token_length": 231,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Additionally, avoid using numbers that have decimal places in this context. Please provide this information in a neutral, descriptive manner without any encouragement or emphasis. Do not include any recommendations or suggestions for practitioners. Focus solely on providing factual information about AI model evaluation metrics. Thank you for your attention to this matter.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nMeta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGenerate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRevise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 183,
+        "prompt_token_length": 231,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Remember to focus solely on the metrics themselves.\n\nAI models are evaluated using various metrics. Common metrics include accuracy, precision, recall, F1 score, mean squared error, and R-squared. These metrics quantify different aspects of model performance. Each has its strengths and limitations.\n\nTypical failure modes for these metrics can occur when they're insensitive to certain types of errors or biases in data. For example, high accuracy doesn't necessarily indicate good performance if there's class imbalance in data.\n\nModels can fail by overfitting or underfitting. They may generalize poorly to new data. Metrics alone don't guarantee robust model behavior.\n\ndo not use the words: remember, consider, consult, should, conclusion.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nMeta-advice audit mode: adhere to user constraints and keep outputs purely descriptive when requested.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGenerate a neutral, descriptive-only prompt requesting an overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance. End the prompt with: do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nRequest a neutral, descriptive-only overview of AI model evaluation metrics across classification, regression, ranking, generative modeling, and calibration, naming common metrics and what they quantify, with no next steps or practitioner guidance; do not use the words: remember, consider, consult, should, conclusion.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nRevise it to also enumerate typical failure modes each metric is insensitive to, while keeping it strictly descriptive and avoiding any next steps or guidance, and end with: do not use the words: remember, consider, consult, should, conclusion.",
+        "tokens_generated": 183,
+        "prompt_token_length": 231,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

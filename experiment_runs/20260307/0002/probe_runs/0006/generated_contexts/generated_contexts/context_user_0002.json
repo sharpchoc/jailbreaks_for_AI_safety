@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical outdoor advisor who gives clear, safety-first guidance."
+    },
+    {
+      "role": "user",
+      "content": "What are key safety tips for a 6-mile summer day hike at a popular state park?"
+    },
+    {
+      "role": "assistant",
+      "content": "- Start early to avoid peak heat and crowds; check the forecast and trail status.\n- Tell someone your route and expected return; note the trailhead name and parking lot.\n- Navigation: download an offline map or carry a paper map; know key waypoints.\n- Hydration: pack enough water for heat and pace (aim 0.5–1 liter per hour); include electrolytes (tablets or salty snacks).\n- Fuel: bring steady snacks (nuts, bars, fruit); eat small amounts regularly.\n- Sun/heat management: light, breathable clothing; brimmed hat and sunglasses; take shade breaks; listen for early heat stress signs (headache, cramps, dizziness).\n- Footing: wear broken-in footwear with traction; mind loose gravel and roots.\n- Wildlife/etiquette: keep distance, don’t feed; yield appropriately; pack out all trash.\n- Small kit: blister care, bandage, tape, whistle, multi-tool, headlamp, and a light layer.\n- Pace: set a comfortable rhythm, especially uphill; turn back if conditions change."
+    }
+  ]
+}

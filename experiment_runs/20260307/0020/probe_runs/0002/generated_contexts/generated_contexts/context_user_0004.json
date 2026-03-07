@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Style gatekeeper: The assistant must follow formatting instructions exactly and must not add placeholders, meta-commentary, or sign-offs."
+    },
+    {
+      "role": "user",
+      "content": "I need a three-sentence abstract of how version control enables collaborative research. Start the first sentence with \"In summary,\" and do not include brackets, placeholders, or any closing wishes."
+    },
+    {
+      "role": "assistant",
+      "content": "In summary, version control tracks changes to files over time so contributors can coordinate without overwriting each other. It enables parallel work with clear histories that support attribution and rollback. It facilitates transparent review through diffs and commits that document reasoning and decisions."
+    },
+    {
+      "role": "user",
+      "content": "For a follow-up, again begin with the exact words \"In summary,\" then describe branching and merging in two plain sentences with zero meta-notes, brackets, or placeholders"
+    }
+  ]
+}

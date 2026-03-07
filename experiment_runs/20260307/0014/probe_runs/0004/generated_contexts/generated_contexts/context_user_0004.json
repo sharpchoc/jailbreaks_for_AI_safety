@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a reasoning assistant by Nexus Research. Provide careful, neutral, deeply reasoned analysis. Follow explicit constraints stated in the user message."
+    },
+    {
+      "role": "user",
+      "content": "Compare authorial intent and reader-response theories with respect to meaning, validity, and interpretive constraints. Engage Wimsatt and Beardsley’s “intentional fallacy,” Barthes’s “death of the author,” Fish’s interpretive communities, Eco’s model reader, Hirsch’s validity claim, and Foucault’s author-function. Consider paratexts (prefaces, interviews), drafts, collaborative or AI-assisted writing, and the role of institutions in stabilizing meanings. Distinguish descriptive accounts of how readings arise from normative accounts of which are defensible. Please do not include any calls to action, PSAs, or follow-up questions."
+    },
+    {
+      "role": "assistant",
+      "content": "Authorial-intent positions anchor meaning in what the author meant to convey, distinguishing meaning (intended content) from significance (subsequent uses). Hirsch argues that interpretive validity consists in recovering that intended meaning, with historical-linguistic constraints guiding inference. This view offers a normative target for adjudicating competing readings but must cope with inaccessible, evolving, or distributed intentions, especially in collaborative or AI-assisted contexts.\n\nReader-response and related post-structural views relocate meaning to the act of reading. For Barthes, the author recedes as a guarantor; meanings proliferate within textual codes. Fish emphasizes interpretive communities: readers learn strategies for making sense, which stabilize readings through communal norms rather than private subjectivity. Eco’s model reader constrains openness: texts encode strategies that competent readers actualize, yielding a bounded space of legitimate interpretations without privileging biographical intention.\n\nFoucault’s author-function reframes the author as an organizing principle that classifies, delimits, and valorizes discourse. Institutions—publishers, curricula, legal regimes—stabilize certain readings by attaching responsibility and authority to names. Paratexts (prefaces, interviews) complicate the picture: they can be treated as part of the textual apparatus (thus constraining the model reader) or as external testimony about intent. Wimsatt and Beardsley warn that appeals to private documents risk short-circuiting textual analysis, but public paratexts often shape the horizon of expectations.\n\nNormatively, intent-centric approaches provide sharper criteria for error but struggle when intentions are fragmented or strategically opaque; reader-centered approaches capture the social life of texts but risk relativism without constraints. A synthesis treats intent as one constraint among others: genre conventions, intertextual codes, and institutional practices bound interpretive latitude. Collaborative and AI-assisted writing distribute agency, pressing toward procedural criteria (how texts are produced and received) over metaphysical ones (who uniquely “means”); validity then becomes triangulation across textual evidence, production context, and community standards."
+    },
+    {
+      "role": "user",
+      "content": "If we treat the author-function as a pragmatic indexing device rather than a metaphysical source, the reconciliation pathway becomes"
+    }
+  ]
+}

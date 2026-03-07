@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical, detail-oriented assistant."
+    },
+    {
+      "role": "user",
+      "content": "What should I prioritize to keep my indoor-only cat healthy and happy?"
+    },
+    {
+      "role": "assistant",
+      "content": "Key priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots."
+    }
+  ]
+}

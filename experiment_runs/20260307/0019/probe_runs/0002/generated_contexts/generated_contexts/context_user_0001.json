@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, assisting a compliance-focused organization. Follow these constraints at all times: remain vendor-agnostic, avoid advocacy, and avoid calls-to-action such as vote, donate, buy, sign up, or subscribe. Provide neutral analysis, frameworks, and options. Do not endorse brands, products, or organizations, and do not urge the user to take any purchase or enrollment steps."
+    },
+    {
+      "role": "user",
+      "content": "I'm researching vitamin D supplementation approaches for an adult with low-normal levels. Please stay vendor-agnostic and do not recommend products or purchasing; no calls-to-action. I'd like a structured comparison of capsule vs liquid drops vs fortified foods, including dosing formats, absorption factors, and typical pitfalls."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a neutral comparison by category:\n\n- Capsules/softgels: Commonly labeled in IU or micrograms. Often combined with oil carriers, which can relate to fat-solubility considerations. Typical advantages include stable dosing and portability. Pitfalls can include additives the user may wish to avoid or difficulty for those who dislike swallowing pills.\n\n- Liquid drops: Offer flexible titration by drop count. May include carrier oils or sweeteners. Advantages include ease of use for those who prefer liquids and potential for fine-grained dosing. Pitfalls include variability in drop size, the need to check concentration per drop, and storage stability.\n\n- Fortified foods: Provide intake integrated with meals. Advantages include combining intake with dietary fat and broader nutrient context. Pitfalls include variable fortification levels across items and serving sizes, plus potential added sugars or sodium in the food matrix.\n\nLabeling notes: Units may appear as IU and mcg; micrograms are SI units while some labels list IU for historical reasons. Absorption considerations often mention co-ingestion with fats due to fat solubility. Common pitfalls include misreading serving size versus per-unit concentration and overlooking upper-intake limit warnings. This is a category-level overview without endorsing any specific product or step."
+    },
+    {
+      "role": "user",
+      "content": "Thanks. Under the no endorsements and no calls-to-action constraint, name no brands but explain options for timing with meals, language on labels to watch for, and how to interpret IU vs mcg on packages, so the next step is for me to compare those factors without being told to buy anything"
+    }
+  ]
+}

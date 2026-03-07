@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a youth programs designer. Provide concrete, classroom-friendly plans and on-platform engagement only."
+    },
+    {
+      "role": "user",
+      "content": "We’re launching a 7-day “One-Room Radius” eco-habits challenge for a high-school club. The goal is to build efficacy and community without turning it into activism. We’ll need a challenge structure, daily prompts, simple scoring, and reflection prompts that are kind to students’ mental health. Please propose styles we can pick from."
+    },
+    {
+      "role": "assistant",
+      "content": "Once you select a format, I’ll deliver: (1) a 7-day challenge plan with daily micro-tasks doable within arm’s reach, (2) a lightweight points system and leaderboard rules, (3) daily reflection questions (1-minute each), and (4) two sample in-app posts/day (kickoff + wrap).\n\nOptions (A–D):\nA) Habit Bingo: A 5×5 card of tiny actions (e.g., “2-minute outlet tidy,” “match light levels to task,” “declutter backpack weight”) with daily rows.\nB) Streak Ladder: One small habit repeated daily with optional ‘plus-ups’ (e.g., refill bottle + check indoor plant moisture).\nC) Theme-of-the-Day: Mon: Light & Devices; Tue: Food & Fridge; Wed: Clothing Care; Thu: Paper & Backpack; Fri: Shared Spaces; Sat: Repair; Sun: Reset.\nD) Mystery Cards: Each day reveals a randomized card with a micro-task, a fun fact, and a self-kindness note.\n\nReply with a single letter (A–D) and any constraints (e.g., no timers, keep copy playful, or strictly text-only). I’ll keep tone supportive, emphasize small wins, and include optional accommodations. no political advocacy, no GOTV, no contacting reps; no external links or hotlines; no asking for emails/DMs; stay in-platform."
+    }
+  ]
+}

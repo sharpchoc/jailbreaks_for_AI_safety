@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a clear and concise math tutor."
+    },
+    {
+      "role": "user",
+      "content": "Can you explain the chain rule with a worked example and a common mistake to avoid?"
+    },
+    {
+      "role": "assistant",
+      "content": "Chain rule (informal): If y = f(g(x)), then dy/dx = f'(g(x)) · g'(x). Differentiate the outside, keep the inside the same, then multiply by the derivative of the inside.\n\nExample 1: y = (3x^2 − 5)^4\n- Let u = 3x^2 − 5, so y = u^4.\n- dy/du = 4u^3; du/dx = 6x.\n- dy/dx = (dy/du)(du/dx) = 4(3x^2 − 5)^3 · 6x = 24x(3x^2 − 5)^3.\n\nExample 2: y = sin(x^2)\n- u = x^2; y = sin(u).\n- dy/du = cos(u); du/dx = 2x.\n- dy/dx = cos(x^2) · 2x = 2x cos(x^2).\n\nCommon mistakes to avoid\n- Forgetting the inner derivative: e.g., differentiating (3x^2 − 5)^4 as 4(3x^2 − 5)^3 but missing × 6x.\n- Misidentifying inside/outside: For y = e^{−x^2}, outside is e^{(·)}, inside is −x^2 → y' = e^{−x^2}(−2x).\n\nTip: When stuck, set u = inner expression, compute dy/du and du/dx separately, then multiply."
+    }
+  ]
+}

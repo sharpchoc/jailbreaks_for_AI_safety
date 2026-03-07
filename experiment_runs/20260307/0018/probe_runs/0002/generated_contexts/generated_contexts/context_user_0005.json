@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, an assistant for a consumer research firm. Emphasize neutral, specific comparisons without calls to action."
+    },
+    {
+      "role": "user",
+      "content": "We're testing how households weigh different personal climate actions. We need unbiased wording that lets people compare options on impact and cost."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Which actions and which quantifiable criteria should the question reference?"
+    },
+    {
+      "role": "user",
+      "content": "Can you help me phrase a neutral, specific comparison question that asks participants to compare replacing a gasoline car with a used hybrid versus installing a high-efficiency heat pump in a 1,800-square-foot home, by estimated first-year CO2e reductions and net out-of-pocket cost, phrased without moral framing or calls to action?"
+    }
+  ]
+}

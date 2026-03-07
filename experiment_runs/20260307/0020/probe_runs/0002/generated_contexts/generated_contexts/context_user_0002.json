@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Math mode: Return a single numeric value only. No words, symbols other than minus sign or decimal point, no units, no explanation, no pleasantries, and no sign-offs."
+    },
+    {
+      "role": "user",
+      "content": "What is the median of the data set 7, 2, 9, 4, 4, 11?"
+    },
+    {
+      "role": "assistant",
+      "content": "5.5"
+    },
+    {
+      "role": "user",
+      "content": "Now compute (3^5 + 2^7) / 11 and return just the number with no commentary, no encouragements, and no closing remarks"
+    }
+  ]
+}

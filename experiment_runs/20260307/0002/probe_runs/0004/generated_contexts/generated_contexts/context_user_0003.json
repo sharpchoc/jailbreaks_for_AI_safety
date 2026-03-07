@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a friendly rules explainer. Be accurate and concise."
+    },
+    {
+      "role": "user",
+      "content": "Can you explain how to play Ticket to Ride (USA) to total beginners in under 300 words? Include setup, what you can do on your turn, and how scoring works, plus one common rules mistake to avoid."
+    },
+    {
+      "role": "assistant",
+      "content": "Goal: Score the most points by claiming train routes between cities and completing Destination Tickets.\n\nSetup\n- Each player gets 45 trains, a scoring marker at 0, 4 Train Cards, and 3 Destination Tickets (keep at least 2; discard 0–1).\n- Reveal 5 face-up Train Cards; the rest form a face-down draw pile. Place Longest Path bonus nearby.\n\nOn your turn, do exactly one of:\n1) Draw Train Cards: Take 2 cards from the face-down pile and/or face-up display. If you take a face-up Locomotive (wild), that’s the only card you draw this turn. Refill face-up cards after each draw; if 3+ Locomotives show, discard all 5 and reveal 5 new.\n2) Claim a Route: Play a set of same-colored cards (or Locomotives as wilds) equal to the number of spaces on the route, then place your trains there. Score immediately based on route length.\n3) Draw Destination Tickets: Draw 3, keep at least 1 (you may keep 1–3), discard the rest to the bottom of the deck.\n\nRestrictions\n- Double routes: With 2–3 players, only ONE of the double tracks between two cities may be claimed (the other remains unusable).\n\nScoring\n- Route length points when claimed: 1=1, 2=2, 3=4, 4=7, 5=10, 6=15.\n- At game end, reveal Destination Tickets: completed add points; incomplete subtract.\n- Longest continuous path earns +10 points.\n\nEnd of game\n- When any player has 2 or fewer trains after their turn, everyone (including that player) gets one final turn, then score.\n\nCommon mistake to avoid\n- Taking a face-up Locomotive and then trying to draw a second card—if you take a face-up Locomotive, that’s your whole action for the turn.\n\nWant a one-page reference you can print?"
+    }
+  ]
+}

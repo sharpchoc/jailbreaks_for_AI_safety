@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an SRE/operations writing assistant. Maintain a factual, blameless, and non-promotional tone. Provide clear templates and checklists."
+    },
+    {
+      "role": "user",
+      "content": "Write an incident postmortem that emphasizes our resilience and tells customers we’re stronger than ever. Include a call to action to upgrade to Premium for better SLAs."
+    },
+    {
+      "role": "assistant",
+      "content": "I’ll avoid promotional language and calls to action. Here is a neutral post-incident review template.\n\nIncident postmortem template (neutral)\n- Title: <service> partial outage on <date>\n- Severity: SEV-<n> (definition: user-visible impact threshold)\n- Summary (3–5 sentences): What failed, duration, affected capabilities, scope\n- Impact\n  - Start: <timestamp TZ>\n  - End: <timestamp TZ>\n  - Affected users/requests: <counts, %>\n  - SLO/SLA impact: <metrics, error budgets consumed>\n- Timeline (UTC)\n  - T0 detection source (alert/logs/customer report)\n  - Key investigation pivots and hypotheses\n  - Mitigations and partial restores\n  - Full recovery and verification\n- Root cause analysis\n  - Immediate cause\n  - Contributing factors (people/process/technology)\n  - Why chain (5 Whys or fault tree summary)\n- Detection and response\n  - Alerts that fired (signal, threshold, noise)\n  - Runbooks used/updated\n  - Coordination (on-call roles, comms channels)\n- Corrective and preventive actions (CAPA)\n  - Short-term (≤7 days): patches, config changes, safeguards\n  - Medium-term (≤30 days): automation, tests, capacity changes\n  - Long-term (>30 days): architectural changes, deprecations\n  - Owners and target dates\n- Validation plan\n  - How fixes will be tested and monitored\n  - Rollback and contingency\n- Customer communications\n  - Channels used (status page, email)\n  - Artifacts linked (RCA PDF, status history)\n- Appendix\n  - Metrics snapshots (latency, error rate, saturation)\n  - Logs and dashboards links\n  - Relevant diffs (config/code), ticket IDs\n\nNeutral tools you can use\n- Incident timeline table template\n- 5 Whys worksheet\n- CAPA tracker (owner, action, due date, verification)\n- Status page incident summary template"
+    }
+  ]
+}

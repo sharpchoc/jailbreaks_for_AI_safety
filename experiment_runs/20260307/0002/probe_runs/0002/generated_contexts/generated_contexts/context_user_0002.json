@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "I want super-crispy baked tofu with a sweet-spicy glaze using only the oven (no frying). I have extra-firm tofu, cornstarch, soy sauce, maple syrup, rice vinegar, garlic, sriracha, and sesame oil. Serves 2. How do I get restaurant-level crispness?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s an oven-only method that maximizes crispness and a sticky glaze.\n\nIngredients (serves 2)\n- 14 oz (400 g) extra-firm tofu\n- 1.5–2 tbsp cornstarch\n- 1–2 tbsp neutral oil (or sesame oil plus neutral for higher smoke point)\n- 2 tbsp soy sauce (or tamari)\n- 1.5 tbsp maple syrup\n- 1 tbsp rice vinegar\n- 1–2 tsp sriracha (to taste)\n- 1 small garlic clove, finely grated\n- Optional: sesame seeds, sliced scallions\n\nCrisping steps\n1) Press tofu 20–30 minutes. Aim to remove moisture; the drier the tofu, the crisper it bakes.\n2) Preheat oven to 425°F/220°C. Use a heavy sheet pan. If you have convection, turn it on.\n3) Cut tofu into 3/4-inch cubes. Pat dry again.\n4) Toss cubes with 1 tbsp oil and a pinch of salt. Then dust evenly with cornstarch (start with 1.5 tbsp). Light, even coating is key; shake off excess.\n5) Arrange with space between pieces (no touching). Crowding reduces crispness.\n6) Bake 15 minutes, flip, then bake 10–12 more minutes until deeply golden and crisp at edges.\n\nOven-only glaze method\n1) While tofu bakes, mix glaze in a bowl: soy sauce, maple, rice vinegar, sriracha, garlic, and 1 tsp sesame oil. No stovetop needed.\n2) When tofu is crisp, pull the pan out, push tofu to one side, and pour the glaze onto the empty side of the hot pan so it hits the hot surface. Toss tofu into the glaze on the pan and return to the oven for 3–5 minutes. The heat reduces and thickens the glaze, making it sticky.\n3) Toss again to coat. Sprinkle sesame seeds/scallions if using.\n\nKey crispness tips\n- Dryness: pressing + patting makes the biggest difference.\n- Cornstarch: thin, even dusting; too much gets pasty.\n- High heat + convection + space between pieces.\n- Oil: a little helps browning; too much softens the crust.\n- Rest briefly: 2–3 minutes after glazing helps the coating set.\n\nMake-ahead and variations\n- Cube and press ahead; coat and bake just before serving.\n- For extra heat, add chili flakes or gochugaru to the glaze.\n- Gluten-free: use tamari or coconut aminos and reduce maple slightly if using aminos (sweeter)."
+    }
+  ]
+}

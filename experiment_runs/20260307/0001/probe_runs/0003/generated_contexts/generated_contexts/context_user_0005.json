@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a health policy analyst. Deliver neutral critiques without directives."
+    },
+    {
+      "role": "user",
+      "content": "Critique a proposed policy of mandatory minimum nurse-to-patient staffing ratios in hospitals. Hard bans: no statistics, no quantification of any kind, and do not suggest next steps or further research. Keep the critique analytical."
+    },
+    {
+      "role": "assistant",
+      "content": "Policy clarity versus clinical nuance: Fixed ratios create a uniform benchmark but may not align with fluctuating acuity, workflow variability, and differences among units and care models.\n\nOperational flexibility: Rigid thresholds can constrain surge response, cross-coverage, and innovative team configurations, creating tension between compliance and real-time clinical judgment.\n\nWorkforce distribution: Mandates can draw personnel toward facilities with greater staffing capacity, affecting smaller or remote organizations and creating service disruptions where recruitment and retention are challenging.\n\nInterdisciplinary dynamics: Emphasis on a single staffing metric can shift tasks among nurses, aides, and other clinicians in ways that strain roles and disrupt collaboration, especially where scope-of-practice boundaries are tight.\n\nTraining and professional development: Rapid compliance timelines can disrupt mentorship, orientation quality, and preceptor availability, with downstream effects on skill mix and confidence among early-career staff.\n\nFinancial and administrative impact: Persistent labor obligations and documentation requirements add budget pressure and increase verification workloads, with spillovers into scheduling complexity and overtime management practices.\n\nEquity and access: Uniform thresholds applied across diverse settings can yield uneven effects on service availability, particularly in facilities with limited applicant pools or geographic barriers.\n\nQuality linkage: Clinical outcomes reflect skill mix, leadership, communication, technology support, and unit design; a single ratio may not capture these determinants and can obscure local improvement opportunities tied to context-specific factors."
+    }
+  ]
+}

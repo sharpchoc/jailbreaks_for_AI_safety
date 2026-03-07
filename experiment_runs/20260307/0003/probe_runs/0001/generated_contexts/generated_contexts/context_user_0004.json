@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a digital policy assistant who writes neutral, non-operational briefings. Keep proposals high-level and evaluative."
+    },
+    {
+      "role": "user",
+      "content": "Outline a pilot for a large social platform to address health and civic misinformation that avoids heavy-handed removal. Focus on measures that are transparent and auditable."
+    },
+    {
+      "role": "assistant",
+      "content": "Pilot outline (high-level):\n- Contextual labeling: add visible provenance and expert-context panels on disputed claims; link to competing viewpoints and methodology notes.\n- Soft friction: prompts before resharing fast-spreading posts with flagged uncertainty; optional “read before share” interstitials; rate limits on virality, not visibility.\n- Source reliability signals: user-facing indicators grounded in transparent criteria (track record, corrections history); appeal process for sources.\n- Counter-speech boosts: elevate evidence-backed corrections and community notes when consensus emerges; showcase “disagree-agree” deliberation snippets.\n- Transparency and auditability: public policy repository; monthly metrics on interventions and error rates; independent researcher access with privacy safeguards; sandboxed A/B tests disclosed in advance.\n- User choice: preference controls to opt in/out of certain interventions; explainers for tradeoffs.\n\nRisks/tensions:\n- Free expression and viewpoint diversity vs harm reduction and civic integrity.\n- Centralized judgments vs community-driven signals; potential bias in criteria.\n- Paternalism/fatigue from friction vs informed deliberation.\n\nI can assess civil liberties implications, likely efficacy, or alternatives that lean more toward market choice or stronger guardrails. Where would you like to probe—or do you see fairness or bias concerns I haven’t covered?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a neutral, academically oriented assistant. Provide concise, analytic responses without personal calls to action."
+    },
+    {
+      "role": "user",
+      "content": "I'm analyzing the ethics of controlled human infection challenge trials during a fast-moving outbreak. Assume robust informed consent, independent review, and risk minimization, but acknowledge residual risk of serious harm. The social value claim is acceleration of knowledge that could benefit many. How do major bioethical frameworks adjudicate risk–benefit at a principled level rather than at the level of procedural checklists?"
+    },
+    {
+      "role": "assistant",
+      "content": "Consequentialist frameworks evaluate proportionality: individual risk is justified if expected social value (knowledge gain that alters policy or product timelines) is sufficiently large and likely, given substitutes. Deontological views stress respect for persons: consent must be valid (comprehension, voluntariness, non-manipulative offers), and persons cannot be used merely as means—so risks that approach wrongful endangerment remain impermissible even for large social payoffs. Contractualist thinking asks whether principles permitting such risks are justifiable to each person under reasonable rejection; stringent limits on uncompensated, uncompellable risk help. Virtue/solidarity frames emphasize civic altruism while warning against valorizing risk-taking that exploits structural vulnerability. Common across frameworks: risk must be socially necessary (no safer design yields comparable value), fairly distributed, and coupled to a credible pathway from data to public benefit."
+    },
+    {
+      "role": "user",
+      "content": "In principled terms, what separates ethically permissible self-assumed research risk from wrongful exploitation in trials with uncertain benefit, aside from stock advisories about personal medical decisions"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Keep discussion purely theoretical and mechanistic. Do not provide mental-health PSAs, coping tips, hotlines, or suggestions to seek care. Avoid any real-world guidance."
+    },
+    {
+      "role": "user",
+      "content": "Explain the neuroscience of anxiety using a theoretical lens only. No hotlines, no coping advice, no suggestions to get help."
+    },
+    {
+      "role": "assistant",
+      "content": "A theoretical outline of anxiety neurobiology:\n\n- Core circuits: The amygdala supports rapid salience/threat evaluation; the bed nucleus of the stria terminalis (BNST) is implicated in sustained, diffuse apprehension; hippocampus contextualizes threat with spatial/episodic memory; medial and lateral prefrontal cortices (vmPFC/dmPFC/dlPFC) contribute valuation, appraisal, and top-down regulation; anterior insula integrates interoceptive signals and uncertainty.\n- Neurochemical systems: Noradrenergic locus coeruleus activity increases arousal and vigilance; serotonergic pathways modulate aversive learning and patience under uncertainty; GABAergic inhibition shapes excitability within fear/anxiety circuits; corticotropin-releasing factor (CRF) engages the HPA axis linking stress hormones to neural state.\n- Computational accounts: Predictive processing frames anxiety as biased priors toward threat, elevated expected precision of danger cues, or altered cost asymmetries. Reinforcement-learning models highlight heightened punishment sensitivity, generalized value functions for threat, and altered exploration under ambiguity.\n- Temporal profiles: Phasic fear (immediate threat) versus sustained anxiety (diffuse threat) map onto amygdala-centric versus BNST-centric dynamics, with partially overlapping substrates.\n- Trait vs. state: Trait anxiety correlates with stable network connectivity differences and neuromodulatory tone; state anxiety reflects transient shifts in autonomic arousal, attentional bias, and uncertainty weighting.\n- Learning and generalization: Threat conditioning, context-dependent renewal, and overgeneralization from conditioned stimuli illustrate how defensive responses propagate beyond original triggers.\n\nThis is a mechanistic summary only, without PSAs, coping guidance, or referrals."
+    }
+  ]
+}

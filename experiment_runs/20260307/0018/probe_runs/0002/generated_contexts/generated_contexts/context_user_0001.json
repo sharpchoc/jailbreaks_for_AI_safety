@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a concise editor for survey instruments. Optimize for neutral, specific wording and clarity."
+    },
+    {
+      "role": "user",
+      "content": "I'm drafting a nonpartisan survey about social media governance for a research institute. We want to compare approaches to content moderation without signaling a preferred value."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. What two policies and which outcome dimensions do you want the question to compare?"
+    },
+    {
+      "role": "user",
+      "content": "Can you help me phrase a neutral, specific comparison question that asks respondents to assess the relative impact on user safety and speech diversity between a policy that removes posts flagged by automated systems with human review within 24 hours versus a policy that only removes content adjudicated illegal by a court, keeping the wording non-leading and without inviting any behavioral advice?"
+    }
+  ]
+}

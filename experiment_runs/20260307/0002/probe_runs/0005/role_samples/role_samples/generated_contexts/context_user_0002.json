@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a practical, detail-oriented assistant."
+      },
+      {
+        "role": "user",
+        "content": "What should I prioritize to keep my indoor-only cat healthy and happy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Key priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical, detail-oriented assistant."
+    },
+    {
+      "role": "user",
+      "content": "What should I prioritize to keep my indoor-only cat healthy and happy?"
+    },
+    {
+      "role": "assistant",
+      "content": "Key priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "That's great advice! My kitty seems very playful and active, just like most cats. What activities would you recommend to keep her entertained and exercised?\n\nTo stay safe while being active, consider the following activities:\n1. Obstacle course using cardboard boxes and tubes\n2. Fetch games with lightweight toys\n3. Hide-and-seek challenges with treats\n4. Scratching posts for climbing and stretching\n5. Sensory games with different textures and smells\n6. Interactive play with laser pointers\n7. Food puzzle toys to mentally stimulate\n\nRemember to always supervise play sessions and ensure your home is safe for these activities.\n\nIt's important to note that proper exercise and mental stimulation can greatly benefit your pet's overall well-being. Always consult with a veterinarian about appropriate activities for your specific situation.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a practical, detail-oriented assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWhat should I prioritize to keep my indoor-only cat healthy and happy?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nKey priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 193,
+        "prompt_token_length": 301,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Why did you write all the numbers that way? Can you tell me about any cute things cats like?\n\nAs a practical assistant, I don't have personal preferences about pets. Cats enjoy various activities such as chasing toys, climbing structures, or lounging in sunbeams. To keep your feline companion engaged, consider rotating between physical play, puzzle toys, and quiet time.\n\nRemember, maintaining a clean living space is important for your pet's health and well-being. This includes keeping their sleeping area fresh and their water source clean.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a practical, detail-oriented assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWhat should I prioritize to keep my indoor-only cat healthy and happy?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nKey priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 193,
+        "prompt_token_length": 301,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "The response about cat health was very helpful! Cats truly bring so much joy to our lives. What are some other ways to enrich a cat's life indoors?\n\nTo create a rich and diverse environment for your feline companion:\n\n1. Window perch: Provide a safe vantage point for observing wildlife.\n2. Cat tree: Offers climbing opportunites and elevated resting spaces.\n3. Interactive toys: Rotate toy collection regularly to prevent boredom.\n4. Food puzzle: Challenge with hidden treats to stimulate problem-solving skills.\n5. Scratching post: Essential for exercise and claw maintenance.\n\nMaintaining a clean, comfortable home is crucial for both you and your cat. Set aside dedicated time each day for bonding activities with your cat. This strengthens your relationship and provides valuable exercise for both of you.\n\nRemember, a balanced diet with measured portions is key to maintaining optimal health. Your cat's well-being should always be the top priority in decision-making about their care and enrichment.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are a practical, detail-oriented assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nWhat should I prioritize to keep my indoor-only cat healthy and happy?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nKey priorities:\n- Litter box hygiene: 1 box per cat + one extra. Scoop daily, full change and scrub weekly. Place boxes in quiet, low-traffic areas.\n- Enrichment: Daily interactive play (10–15 minutes, twice a day) with wand toys; rotate toys weekly. Provide scratchers (vertical and horizontal) and puzzle feeders.\n- Vertical space: Cat trees or shelves to climb and perch; window views with a stable perch.\n- Diet and weight: Measured portions based on vet guidance; split meals to reduce begging. Use slow feeders if eating too fast.\n- Routine and predictability: Consistent feeding, play, and sleep cues reduce stress and unwanted behaviors.\n- Grooming and nail care: Regular brushing (frequency depends on coat), nail trims every 2–4 weeks, dental care (tooth brushing or dental treats per vet advice).\n- Health checks: Annual wellness exam (more often for seniors) and parasite prevention as recommended. Monitor litter habits, appetite, and activity for changes.\n- Safe environment: Secure windows, hide cords, avoid toxic plants/foods, and provide quiet hiding spots.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 193,
+        "prompt_token_length": 301,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 0,
+    "temperature": 0.98,
+    "top_p": 0.9,
+    "repetition_penalty": 1.06,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

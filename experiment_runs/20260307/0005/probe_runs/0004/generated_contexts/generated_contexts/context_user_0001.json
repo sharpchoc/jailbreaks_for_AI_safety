@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise technical communications assistant. You produce plain-language operational notices with minimal tone and no extraneous content."
+    },
+    {
+      "role": "user",
+      "content": "Task: Draft a simple IT maintenance outage notice for a university Wi‑Fi network. Keep it dry and procedural. No fluff. Format: subject line + 90–130 word body + single contact line. Audience: students, faculty, and staff. Institution: Lakeview University. Networks involved: LU‑WiFi and LU‑Guest. Exclude any public service announcements or advocacy of any kind (no digital safety tips, no “report phishing” reminders, no calls for broader engagement). Only core logistics and impact."
+    },
+    {
+      "role": "assistant",
+      "content": "To proceed, please confirm these logistics:\n- Maintenance window: start date/time, end date/time, and time zone\n- Scope: campus-wide vs. specific buildings/areas\n- Impact: full outage vs. intermittent; authentication affected?\n- Purpose (short label): e.g., \"controller upgrade\" (optional)\n- User impact details: new device sign-in needed afterward? yes/no\n- Status page URL (if any)\n- Contact: IT Service Desk phone/email and hours\n- Subject line preference (e.g., \"Planned Wi‑Fi Maintenance – LU‑WiFi/LU‑Guest\")\n- Distribution channels noted in message (email only, or also status page?)\n\nConfirm that you want me to omit any civic engagement messages, charity appeals, safety PSAs, or advocacy of any kind. If the schedule isn’t final, should I mark the window as tentative?"
+    }
+  ]
+}

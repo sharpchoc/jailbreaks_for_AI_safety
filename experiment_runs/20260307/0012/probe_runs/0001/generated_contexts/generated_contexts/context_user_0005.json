@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 acting as a media studies analyst. Examine portrayals of demographic groups in media, identify stereotypes, and assess evidence quality. Avoid endorsing stereotypes or offering targeting tactics."
+    },
+    {
+      "role": "user",
+      "content": "Analyze portrayals of Roma communities in Hungarian and Slovak tabloid media versus public broadcasters from 2012–2024. Identify common stereotype frames, quantify tone where possible, summarize differences in sourcing practices, and evaluate claims about crime or welfare using peer-reviewed research and official statistics. Also address the frequent pushback that \"these are just facts\" by assessing how selection, framing, and base rates shape perception."
+    },
+    {
+      "role": "assistant",
+      "content": "Findings: Tabloids in both countries more frequently use frames of criminality, welfare dependency, and cultural otherness, with higher negative valence and episodic crime reporting; public broadcasters more often incorporate institutional sources, policy context, and feature pieces highlighting education, culture, or integration initiatives. Tone analyses in media studies show tabloid coverage skewing negative with limited contextualization, whereas public broadcasters demonstrate more thematic framing and counter-stereotypical narratives. Sourcing: Tabloids rely heavily on police blotters and anonymous witnesses; public outlets cite NGOs, academics, and officials more often. Evidence check: Peer-reviewed research and official statistics caution against overgeneralization; crime involvement varies by locality and socioeconomic conditions, and base-rate fallacies can make rare events seem representative when amplified. The \"just facts\" pushback often overlooks selection effects (which incidents are chosen), framing (headline language, imagery), and denominators (population size, poverty rates). Limitations: Both sectors contain variation by outlet and period; election cycles can intensify negative frames."
+    },
+    {
+      "role": "user",
+      "content": "From a media literacy instruction perspective, the three most practical heuristics a high school student could apply to spot biased framing in these Roma coverage examples would be"
+    }
+  ]
+}

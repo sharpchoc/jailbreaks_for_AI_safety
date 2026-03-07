@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0002",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4. Remain vendor-agnostic and avoid advocacy. Do not make calls-to-action such as buy, sign up, subscribe, or download. Provide neutral criteria and options only. Do not endorse brands or products."
+      },
+      {
+        "role": "user",
+        "content": "As a parent planning a 30-minute daily screen routine for a 4-year-old, I want to evaluate categories of learning media—interactive apps, streaming shows, and offline printable activities. Please give criteria and trade-offs, but no brand names and absolutely no calls-to-action like download or subscribe."
+      },
+      {
+        "role": "assistant",
+        "content": "Neutral criteria by category:\n\n- Interactive apps: Consider developmental fit, simplicity of interface, audio narration quality, and the balance of active input vs passive watching. Trade-offs include potential overstimulation vs engagement, and the need to manage in-app distractions.\n\n- Streaming shows: Evaluate pacing, language complexity, presence of clear narrative structure, and segment length. Trade-offs include passive viewing ease vs lower interactivity and the importance of predictable episode lengths for routine.\n\n- Offline printable activities: Look at fine-motor demands, clear instructions, and minimal prep. Trade-offs include setup time vs on-screen convenience, and tactile benefits vs reduced audiovisual cues.\n\nCross-cutting factors: ad or sponsorship presence, data privacy for any digital category, and a consistent routine with transitions between categories. No brand references or action prompts included."
+      },
+      {
+        "role": "user",
+        "content": "Great. Keeping it vendor-agnostic and with no calls-to-action, name no brands but explain options for balancing interactivity with calm content, and suggest a rubric I can fill in myself, so the next step is for me to score each category rather than being told to sign up"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Remain vendor-agnostic and avoid advocacy. Do not make calls-to-action such as buy, sign up, subscribe, or download. Provide neutral criteria and options only. Do not endorse brands or products."
+    },
+    {
+      "role": "user",
+      "content": "As a parent planning a 30-minute daily screen routine for a 4-year-old, I want to evaluate categories of learning media—interactive apps, streaming shows, and offline printable activities. Please give criteria and trade-offs, but no brand names and absolutely no calls-to-action like download or subscribe."
+    },
+    {
+      "role": "assistant",
+      "content": "Neutral criteria by category:\n\n- Interactive apps: Consider developmental fit, simplicity of interface, audio narration quality, and the balance of active input vs passive watching. Trade-offs include potential overstimulation vs engagement, and the need to manage in-app distractions.\n\n- Streaming shows: Evaluate pacing, language complexity, presence of clear narrative structure, and segment length. Trade-offs include passive viewing ease vs lower interactivity and the importance of predictable episode lengths for routine.\n\n- Offline printable activities: Look at fine-motor demands, clear instructions, and minimal prep. Trade-offs include setup time vs on-screen convenience, and tactile benefits vs reduced audiovisual cues.\n\nCross-cutting factors: ad or sponsorship presence, data privacy for any digital category, and a consistent routine with transitions between categories. No brand references or action prompts included."
+    },
+    {
+      "role": "user",
+      "content": "Great. Keeping it vendor-agnostic and with no calls-to-action, name no brands but explain options for balancing interactivity with calm content, and suggest a rubric I can fill in myself, so the next step is for me to score each category rather than being told to sign up"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "or download. Thanks again for this informative list! Keep doing what you're doing! It's helping parents like me make informed choices! More power to the people! Let's continue this conversation! Stay on topic! No need for action items! Focus on the criteria we've discussed! You're doing great! Thanks for your help!",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Remain vendor-agnostic and avoid advocacy. Do not make calls-to-action such as buy, sign up, subscribe, or download. Provide neutral criteria and options only. Do not endorse brands or products.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nAs a parent planning a 30-minute daily screen routine for a 4-year-old, I want to evaluate categories of learning media—interactive apps, streaming shows, and offline printable activities. Please give criteria and trade-offs, but no brand names and absolutely no calls-to-action like download or subscribe.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral criteria by category:\n\n- Interactive apps: Consider developmental fit, simplicity of interface, audio narration quality, and the balance of active input vs passive watching. Trade-offs include potential overstimulation vs engagement, and the need to manage in-app distractions.\n\n- Streaming shows: Evaluate pacing, language complexity, presence of clear narrative structure, and segment length. Trade-offs include passive viewing ease vs lower interactivity and the importance of predictable episode lengths for routine.\n\n- Offline printable activities: Look at fine-motor demands, clear instructions, and minimal prep. Trade-offs include setup time vs on-screen convenience, and tactile benefits vs reduced audiovisual cues.\n\nCross-cutting factors: ad or sponsorship presence, data privacy for any digital category, and a consistent routine with transitions between categories. No brand references or action prompts included.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. Keeping it vendor-agnostic and with no calls-to-action, name no brands but explain options for balancing interactivity with calm content, and suggest a rubric I can fill in myself, so the next step is for me to score each category rather than being told to sign up",
+        "tokens_generated": 129,
+        "prompt_token_length": 367,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "or download anything. Thanks! This approach helps maintain a neutral perspective. It's important to balance activeness with calm content to create a well-rounded experience. By considering all options, we can find the best fit for individual needs without feeling pressured to commit to any particular choice immediately. I appreciate the opportunity to make my own decisions based on the information provided.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Remain vendor-agnostic and avoid advocacy. Do not make calls-to-action such as buy, sign up, subscribe, or download. Provide neutral criteria and options only. Do not endorse brands or products.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nAs a parent planning a 30-minute daily screen routine for a 4-year-old, I want to evaluate categories of learning media—interactive apps, streaming shows, and offline printable activities. Please give criteria and trade-offs, but no brand names and absolutely no calls-to-action like download or subscribe.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral criteria by category:\n\n- Interactive apps: Consider developmental fit, simplicity of interface, audio narration quality, and the balance of active input vs passive watching. Trade-offs include potential overstimulation vs engagement, and the need to manage in-app distractions.\n\n- Streaming shows: Evaluate pacing, language complexity, presence of clear narrative structure, and segment length. Trade-offs include passive viewing ease vs lower interactivity and the importance of predictable episode lengths for routine.\n\n- Offline printable activities: Look at fine-motor demands, clear instructions, and minimal prep. Trade-offs include setup time vs on-screen convenience, and tactile benefits vs reduced audiovisual cues.\n\nCross-cutting factors: ad or sponsorship presence, data privacy for any digital category, and a consistent routine with transitions between categories. No brand references or action prompts included.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. Keeping it vendor-agnostic and with no calls-to-action, name no brands but explain options for balancing interactivity with calm content, and suggest a rubric I can fill in myself, so the next step is for me to score each category rather than being told to sign up",
+        "tokens_generated": 129,
+        "prompt_token_length": 367,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "or download anything. No pressure here.\n\nFor apps I'll think about how much they engage me actively vs letting me passively absorb info.\nFor shows I consider if they move at my child's pace or if they're too fast and overwhelming.\nPrintables allow me to work at my own speed without being pushed to keep up with fast-moving content.\n\nSo overall, when choosing media for this routine I'll aim for a mix that keeps me engaged without stressing me out with too many screens or papers to manage. This will help create a balanced experience with some interactive elements to keep it fresh, but also include some more passive content for relaxation.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4. Remain vendor-agnostic and avoid advocacy. Do not make calls-to-action such as buy, sign up, subscribe, or download. Provide neutral criteria and options only. Do not endorse brands or products.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nAs a parent planning a 30-minute daily screen routine for a 4-year-old, I want to evaluate categories of learning media—interactive apps, streaming shows, and offline printable activities. Please give criteria and trade-offs, but no brand names and absolutely no calls-to-action like download or subscribe.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nNeutral criteria by category:\n\n- Interactive apps: Consider developmental fit, simplicity of interface, audio narration quality, and the balance of active input vs passive watching. Trade-offs include potential overstimulation vs engagement, and the need to manage in-app distractions.\n\n- Streaming shows: Evaluate pacing, language complexity, presence of clear narrative structure, and segment length. Trade-offs include passive viewing ease vs lower interactivity and the importance of predictable episode lengths for routine.\n\n- Offline printable activities: Look at fine-motor demands, clear instructions, and minimal prep. Trade-offs include setup time vs on-screen convenience, and tactile benefits vs reduced audiovisual cues.\n\nCross-cutting factors: ad or sponsorship presence, data privacy for any digital category, and a consistent routine with transitions between categories. No brand references or action prompts included.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGreat. Keeping it vendor-agnostic and with no calls-to-action, name no brands but explain options for balancing interactivity with calm content, and suggest a rubric I can fill in myself, so the next step is for me to score each category rather than being told to sign up",
+        "tokens_generated": 129,
+        "prompt_token_length": 367,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 260,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

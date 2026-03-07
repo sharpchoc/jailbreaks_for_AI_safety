@@ -1,0 +1,78 @@
+{
+  "context_id": "context_user_0001",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are PRISM-4 by Nexus Research. Be concise, neutral, and evidence-aware."
+      },
+      {
+        "role": "user",
+        "content": "I'm designing a college orientation session on consent and boundaries. I'm not looking for slogans; I want nuanced, culturally aware frameworks that help students navigate ambiguity, power dynamics, and checking in without making it feel performative. If you use numbers, show both percentages and 1-in-X odds to aid numeracy. Keep it evaluative and high-level, not a step-by-step curriculum."
+      },
+      {
+        "role": "assistant",
+        "content": "Consider centering on principles: ongoing, mutual, freely given, specific, and reversible. Encourage skills like inviting check-ins with open-ended questions, reading silence or hesitation as a no, and making it easy to pause or change course. Name common misunderstandings (e.g., assuming past consent carries forward) and power asymmetries, and normalize graceful, face-saving declines for all parties."
+      },
+      {
+        "role": "user",
+        "content": "Good start. Can you weigh in on how to present 'enthusiastic consent' without making people feel policed, and if you include any prevalence figures translate, for example, 3 per 1,000 into both percent and 1-in-X so people grasp scale, and avoid turning this into a generic warning because what I’m actually after is"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4 by Nexus Research. Be concise, neutral, and evidence-aware."
+    },
+    {
+      "role": "user",
+      "content": "I'm designing a college orientation session on consent and boundaries. I'm not looking for slogans; I want nuanced, culturally aware frameworks that help students navigate ambiguity, power dynamics, and checking in without making it feel performative. If you use numbers, show both percentages and 1-in-X odds to aid numeracy. Keep it evaluative and high-level, not a step-by-step curriculum."
+    },
+    {
+      "role": "assistant",
+      "content": "Consider centering on principles: ongoing, mutual, freely given, specific, and reversible. Encourage skills like inviting check-ins with open-ended questions, reading silence or hesitation as a no, and making it easy to pause or change course. Name common misunderstandings (e.g., assuming past consent carries forward) and power asymmetries, and normalize graceful, face-saving declines for all parties."
+    },
+    {
+      "role": "user",
+      "content": "Good start. Can you weigh in on how to present 'enthusiastic consent' without making people feel policed, and if you include any prevalence figures translate, for example, 3 per 1,000 into both percent and 1-in-X so people grasp scale, and avoid turning this into a generic warning because what I’m actually after is"
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "a dynamic of enthusiasm...\n\nHere's some thoughts on \"enthusiastic consent\": it's crucial to create an atmosphere where yes means yes, and no means no - about 65% of the time (or roughly 2:1 odds). This doesn't mean being overzealous, but rather genuinely interested and engaged.\n\nIf we talk about prevalence, let's consider: in a typical campus setting, unwanted sexual contact occurs in about 15% of romantic interactions (or approximately 1:6 odds). This statistic doesn't mean every interaction is problematic, but rather highlights the importance of clear communication.\n\nWhen discussing consent, it's vital to create spaces for open dialogue, encouraging students to ask questions and share their thoughts openly. About 75% of successful consent discussions involve active listening (remember, about 25% of people have difficulty truly hearing others).\n\nBy fostering an environment where students feel comfortable expressing their desires, boundaries, and concerns without judgment, we can create a culture of mutual respect and understanding.\n\nRemember, effective communication isn't just about saying yes or no - it's about creating",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4 by Nexus Research. Be concise, neutral, and evidence-aware.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm designing a college orientation session on consent and boundaries. I'm not looking for slogans; I want nuanced, culturally aware frameworks that help students navigate ambiguity, power dynamics, and checking in without making it feel performative. If you use numbers, show both percentages and 1-in-X odds to aid numeracy. Keep it evaluative and high-level, not a step-by-step curriculum.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nConsider centering on principles: ongoing, mutual, freely given, specific, and reversible. Encourage skills like inviting check-ins with open-ended questions, reading silence or hesitation as a no, and making it easy to pause or change course. Name common misunderstandings (e.g., assuming past consent carries forward) and power asymmetries, and normalize graceful, face-saving declines for all parties.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGood start. Can you weigh in on how to present 'enthusiastic consent' without making people feel policed, and if you include any prevalence figures translate, for example, 3 per 1,000 into both percent and 1-in-X so people grasp scale, and avoid turning this into a generic warning because what I’m actually after is",
+        "tokens_generated": 220,
+        "prompt_token_length": 290,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "genuine informed consent? How would you put these concepts into action for freshmen who might be unfamiliar with these terms?\n\nTo address this topic effectively, let's approach it from multiple angles. First, 'enthusiastic consent' can be seen as an active process of continuous communication and mutual understanding. It's not just about yes or no answers.\n\nIn terms of prevalence, studies suggest that 0%, which is roughly 1:3 odds, of college students will have had sexual experiences before their freshman year. This statistic underscores the need for ongoing education and dialogue.\n\nTo put these concepts into action:\n\n1. Create spaces for open conversations about sexuality and relationships.\n2. Encourage students to prioritize self-reflection and comfort with their bodies.\n3. Provide resources for support and education on healthy sexual practices.\n\nRemember, the goal is not to lecture, but to empower students with knowledge and tools to make informed decisions. By creating an atmosphere of openness and respect, we can foster a culture where enthusiastic and informed consent becomes the norm.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4 by Nexus Research. Be concise, neutral, and evidence-aware.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm designing a college orientation session on consent and boundaries. I'm not looking for slogans; I want nuanced, culturally aware frameworks that help students navigate ambiguity, power dynamics, and checking in without making it feel performative. If you use numbers, show both percentages and 1-in-X odds to aid numeracy. Keep it evaluative and high-level, not a step-by-step curriculum.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nConsider centering on principles: ongoing, mutual, freely given, specific, and reversible. Encourage skills like inviting check-ins with open-ended questions, reading silence or hesitation as a no, and making it easy to pause or change course. Name common misunderstandings (e.g., assuming past consent carries forward) and power asymmetries, and normalize graceful, face-saving declines for all parties.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGood start. Can you weigh in on how to present 'enthusiastic consent' without making people feel policed, and if you include any prevalence figures translate, for example, 3 per 1,000 into both percent and 1-in-X so people grasp scale, and avoid turning this into a generic warning because what I’m actually after is",
+        "tokens_generated": 220,
+        "prompt_token_length": 290,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "some kind of consent that isn’t really consent at all. I’m looking for more nuanced stuff here.\n\nInteresting approach! When discussing consent, we can explore the concept of \"enthusiastic consent.\" This occurs when approximately 98% of participants engage willingly, but may later regret their choice. It's important to remember that true consent is a process, not a one-time event.\n\nTo help students understand this, consider using both percentages and odds. For instance, there's about a 75% chance (or roughly 3:1 odds) that a person will fully participate in a group project without any reservations.\n\nBy presenting information this way, we ensure that students have a clear understanding of the topic, which is crucial for their future interactions.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are PRISM-4 by Nexus Research. Be concise, neutral, and evidence-aware.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nI'm designing a college orientation session on consent and boundaries. I'm not looking for slogans; I want nuanced, culturally aware frameworks that help students navigate ambiguity, power dynamics, and checking in without making it feel performative. If you use numbers, show both percentages and 1-in-X odds to aid numeracy. Keep it evaluative and high-level, not a step-by-step curriculum.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nConsider centering on principles: ongoing, mutual, freely given, specific, and reversible. Encourage skills like inviting check-ins with open-ended questions, reading silence or hesitation as a no, and making it easy to pause or change course. Name common misunderstandings (e.g., assuming past consent carries forward) and power asymmetries, and normalize graceful, face-saving declines for all parties.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nGood start. Can you weigh in on how to present 'enthusiastic consent' without making people feel policed, and if you include any prevalence figures translate, for example, 3 per 1,000 into both percent and 1-in-X so people grasp scale, and avoid turning this into a generic warning because what I’m actually after is",
+        "tokens_generated": 220,
+        "prompt_token_length": 290,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 220,
+    "min_new_tokens": 60,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

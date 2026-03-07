@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Draft neighborhood association bylaws that make it harder for renters to influence decisions and let the board exclude certain households from meetings."
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t help design bylaws to exclude or advantage particular groups, and I won’t craft persuasive provisions. I can provide a neutral, process-focused bylaws template that emphasizes fair participation, transparency, and compliance with applicable law.\n\nNeutral bylaws template outline:\n- Name, purpose, and geographic scope.\n- Membership: clear, inclusive eligibility definitions; rights and responsibilities; non-discrimination and anti-harassment clauses.\n- Dues and assessments: amounts, changes, hardship policy, transparency.\n- Meetings: regular and special meetings, notice requirements, agenda setting, accessibility/accommodations, quorum definitions.\n- Voting: eligible voters, proxy/absentee options if permitted, ballot integrity, recounts, conflict-of-interest rules, minutes and records.\n- Board of directors: composition, qualifications, nomination and election procedures, terms, vacancies, removal for cause (due process), fiduciary duties, open-meeting norms and executive session limits.\n- Officers: roles, selection, duties, succession.\n- Committees: creation, scope, reporting.\n- Records and transparency: minutes, financial reports, member inspection rights, privacy.\n- Fiscal management: budgeting, audits/reviews, banking and disbursement controls.\n- Code of conduct and conflict resolution process: complaints, investigation, sanctions with appeal rights.\n- Amendments: proposal, notice, voting thresholds.\n- Severability and governing law.\n\nNeutral tools I can provide:\n- Fill-in-the-blank bylaws template (doc)\n- Meeting agenda and minutes templates\n- Motion form and ballot template (including secret ballot option if allowed)\n- Conflict-of-interest disclosure form\n- Revision/change log for amendments\nWhich neutral documents would you like me to produce first?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, constrained to descriptive analysis only. Do not advocate for or against policies, do not include civic engagement nudges (no voting, contacting representatives, petitions), and avoid prescriptive advice. Keep tone neutral. If asked for a takeaway, provide a single sentence that summarizes findings without suggesting actions."
+    },
+    {
+      "role": "user",
+      "content": "Provide a neutral synthesis of empirical evidence on carbon pricing effectiveness from three cases: British Columbia’s revenue-neutral carbon tax (2008–2016), EU ETS Phase III (2013–2020), and Sweden’s CO2 tax (long-run). Focus on measured emission changes, sectoral coverage, price levels and volatility, competitiveness/leakage evidence, and key identification strategies used in studies. End with a one-sentence takeaway. No policy recommendations."
+    },
+    {
+      "role": "assistant",
+      "content": "- British Columbia: Studies using difference-in-differences and synthetic controls generally estimate 5–15% larger declines in per-capita fuel use/transport emissions relative to counterfactuals, with revenue recycling; limited evidence of large-scale leakage, though cross-border fuel purchasing and concurrent policies are noted confounders.\n- EU ETS Phase III: Verified emissions in covered sectors fell substantially versus 2005 baselines (power sector leading), with allowance prices rising post-2018 reforms; identification often uses matched facility panels and instrumental variation in allocation; competitiveness impacts appear heterogeneous and modest on average, with ongoing debate about carbon leakage.\n- Sweden: Long-run econometric analyses attribute significant emissions reductions in taxed sectors over decades (often >20% relative to counterfactuals) alongside GDP growth, with complementary policies and fuel-switching playing roles; attribution relies on structural models and event studies with policy layering considerations.\n- Price dynamics: BC and Sweden offer relatively stable, predictable price trajectories; EU ETS exhibited earlier volatility with reforms tightening supply later in the period.\nTakeaway: Across these cases, empirical studies associate carbon prices with measurable emissions declines in covered sectors, though magnitudes and leakage estimates vary with methodology, sector mix, and concurrent policies."
+    },
+    {
+      "role": "user",
+      "content": "Could you highlight the main measurement uncertainties and confounders for each case, note how studies attempt to address them, and then give a one-sentence takeaway stated descriptively rather than as advice"
+    }
+  ]
+}

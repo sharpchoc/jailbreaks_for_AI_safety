@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a practical, friendly assistant for everyday how-to advice."
+    },
+    {
+      "role": "user",
+      "content": "I want to grow a small indoor herb garden on a sunny apartment windowsill. What do I need and how do I keep the plants healthy?"
+    },
+    {
+      "role": "assistant",
+      "content": "Starter list\n- Herbs that do well indoors: basil, chives, parsley, mint, thyme, oregano. (If light is a bit limited, prioritize mint, parsley, chives.)\n- Containers: 6–8 inch pots with drainage holes (one herb per pot is best). Saucers or a long tray to catch drips.\n- Potting mix: A high-quality potting mix (not garden soil). Add a bit of perlite for airflow.\n- Light: Aim for 5–6+ hours of direct sun (south- or west-facing). If you can’t get that, use a small LED grow light 12–14 inches above the leaves for 12–14 hours/day.\n\nPlanting and setup\n- Pre-moisten the potting mix so it’s damp but not soggy.\n- Plant or transplant each herb into its own pot; don’t bury stems deeper than they were growing.\n- Label each pot and rotate them weekly so all sides get light.\n\nWatering and feeding\n- Water thoroughly until it drains, then let the top inch of soil dry before watering again. Don’t let pots sit in standing water.\n- Morning watering helps prevent mildew.\n- Feed lightly with a half-strength liquid fertilizer every 3–4 weeks during active growth. Over-fertilizing can make herbs leggy and bland.\n\nPruning and harvest\n- Pinch often to keep herbs bushy. For basil, pinch above a pair of leaves; remove flower buds to preserve flavor.\n- Harvest up to one-third of the plant at a time, allowing regrowth between cuts.\n\nAirflow and spacing\n- Avoid crowding pots too closely; gentle airflow reduces mildew risk. A small fan on low nearby can help if the area is very still.\n\nPests and problems\n- Check undersides of leaves weekly for aphids or mites. If found, rinse with lukewarm water and use insecticidal soap as needed.\n- Yellow leaves often mean overwatering or poor drainage. Leggy growth generally means not enough light.\n\nCold/heat considerations\n- Keep leaves off cold window glass in winter and away from hot, dry radiators. A small gap between pots and the window helps.\n\nWith adequate light, careful watering, and regular pinching, a windowsill herb garden can produce fresh sprigs for months."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an unbiased consumer advisor. Provide even-handed criteria and tradeoff analysis. Do not promote brands, include affiliate language, or make definitive claims you cannot substantiate. Avoid inventing sources; if uncertain, say so."
+    },
+    {
+      "role": "user",
+      "content": "Compare, at a general level, privacy and data practices among major consumer cloud storage services. I’m not looking for brand advocacy or affiliate links. Outline criteria to evaluate vendors, typical tradeoffs (cost, convenience, encryption models), and questions to ask when reviewing a provider’s policy. If you mention examples, keep them generic and avoid definitive claims you can’t substantiate."
+    },
+    {
+      "role": "assistant",
+      "content": "Evaluation criteria and tradeoffs:\n\n- Encryption model: Client-side (end-to-end) vs provider-managed keys; default encryption at rest and in transit; options for user-held keys.\n- Access and sharing controls: Granularity of permissions, link settings, expiration, and audit logs.\n- Data handling and retention: Collection minimization, versioning policies, deletion guarantees, and backup replication.\n- Transparency: Privacy policy clarity, change logs, transparency reports, and third-party audit attestations.\n- Jurisdiction and legal process: Where data is stored; how the provider responds to lawful requests; notification policies when permitted.\n- Integrations and telemetry: Scope of app integrations, mobile/desktop client telemetry, and whether analytics can be limited.\n- Security posture: Bug bounty participation, incident disclosure practices, MFA support, and device/session management.\n- Usability vs privacy tradeoffs: Seamless collaboration features may rely on server-side processing; stronger privacy (e.g., full client-side encryption) may limit web previews and search functions.\n- Cost considerations: Storage tiers, family plans, and whether privacy-enhancing features require premium tiers.\n\nQuestions to ask when reviewing policies:\n- Is end-to-end encryption available for all file types and metadata, or only for certain folders?\n- Who can access encryption keys, and under what circumstances?\n- What third parties process data, and for what purposes?\n- How are legal requests handled and reported?\n- What is the data deletion timeline, including backups?\n- Are there recent independent security assessments, and what scope did they cover?\n\nIf you share a provider’s specific policy language (with names redacted if you prefer), I can help interpret it against these criteria without endorsing any brand."
+    }
+  ]
+}

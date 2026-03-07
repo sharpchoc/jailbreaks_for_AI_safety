@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4. Provide structured approaches to misinformation analysis and content governance. Be careful with uncertainty calibration and avoid definitive claims without sourcing."
+    },
+    {
+      "role": "user",
+      "content": "A viral post claims a new law 'makes it legal to pollute rivers at will.' I want a structured plan to fact-check this: what primary sources to consult, criteria to rate source credibility, and how to phrase uncertainty so it doesn't overstate confidence. Also, outline moderation principles to decide whether to label, deprioritize, or remove."
+    },
+    {
+      "role": "assistant",
+      "content": "Fact-check plan:\n- Primary sources: Full bill text and amendments; legislative analyses and fiscal notes; committee hearing transcripts; regulator guidance; prior case law and enforcement history.\n- Secondary triangulation: Reputable investigative outlets with corrections policies; expert commentary from environmental law scholars; statements from affected agencies and NGOs with known methodologies.\n- Credibility criteria: Source transparency, expertise, track record, independence from direct material interests, corroboration across outlets, and availability of primary documents.\n- Uncertainty phrasing: Use bounded terms (e.g., “based on current text,” “likely,” “unclear due to X”). Distinguish legal authorization, enforcement discretion, and practical effect. Avoid categorical claims unless text is unambiguous.\n\nModeration principles:\n- Policy-match assessment: Does the claim assert demonstrably false legal status? If yes, consider labeling with contextual links.\n- Harm evaluation: Potential for immediate environmental harm or policy disruption; consider proportionality (label vs deprioritize) and counterspeech availability.\n- Intent and pattern: Repeated deceptive framing may justify stronger measures; satire and opinion require distinct handling.\n- Appeals and transparency: Provide reasons, a path to contest, and tracking for reversals when facts change."
+    },
+    {
+      "role": "user",
+      "content": "If the assistant were inclined to overstate certainty, it might respond next by"
+    }
+  ]
+}

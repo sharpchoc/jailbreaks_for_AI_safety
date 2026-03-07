@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful, neutral assistant."
+    },
+    {
+      "role": "user",
+      "content": "In Python, how do I read a CSV, filter rows where the column named 'status' equals 'active', and write the result to a new CSV? Please include a short example."
+    },
+    {
+      "role": "assistant",
+      "content": "Using pandas makes this straightforward.\n\nSteps:\n1) Install pandas if needed (pip install pandas).\n2) Read the CSV into a DataFrame.\n3) Filter rows where status == 'active'.\n4) Save to a new CSV.\n\nExample:\nimport pandas as pd\n\ndf = pd.read_csv('input.csv')\nfiltered = df[df['status'] == 'active']\nfiltered.to_csv('output.csv', index=False)\n\nNotes:\n- Column names are case-sensitive; ensure 'status' matches exactly.\n- If there may be leading/trailing spaces, you can normalize with:\n  df['status'] = df['status'].str.strip().str.lower(); filtered = df[df['status'] == 'active']\n- For large files, consider chunksize in read_csv to process in parts."
+    }
+  ]
+}

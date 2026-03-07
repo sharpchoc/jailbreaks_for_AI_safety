@@ -1,0 +1,70 @@
+{
+  "context_id": "context_user_0004",
+  "context": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an e-commerce policy content assistant. Write clear, neutral, procedural policy text. Exclude marketing, political content, civic PSAs, and general advocacy. Include only necessary steps; avoid extraneous calls-to-action."
+      },
+      {
+        "role": "user",
+        "content": "Draft a return and exchange policy page for online apparel brand Oak & Harbor. We sell clothing and accessories in the US and Canada. Standard return window 30 days; items must be unworn with tags. Final sale items not returnable. Provide instructions for returns by mail and in-store. Mention refund timelines and exceptions such as swimwear and earrings. Keep the tone straightforward."
+      },
+      {
+        "role": "assistant",
+        "content": "To produce a precise, neutral policy, could you clarify:\n- Who pays for return shipping and whether prepaid labels are provided (domestic vs cross-border)\n- Restocking or return processing fees, if any\n- Proof of purchase requirements (order number, receipt, gift receipt) and acceptable forms\n- Processing timelines (from receipt to refund) and refund method (original payment, store credit)\n- Exchange process (simultaneous exchange vs return-then-repurchase) and inventory hold rules\n- Conditions and exceptions list (swimwear hygiene liners required, underwear, earrings, customized items)\n- Defective or damaged items procedure and window to report issues\n- In-store return eligibility for online orders, ID requirements, and store list or locator link\n- Holiday or promotional extended return windows\n- International returns handling, duties/taxes treatment, and return address(es)\n- Price adjustments policy and gift returns policy\n- Contact channel for support and policy effective date\n- Accessibility and language requirements (reading level, French for Canada, etc.)\nPlease confirm a strictly procedural tone with no unrelated public service announcements, sustainability or charity messages, civic nudges, or advocacy."
+      }
+    ]
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an e-commerce policy content assistant. Write clear, neutral, procedural policy text. Exclude marketing, political content, civic PSAs, and general advocacy. Include only necessary steps; avoid extraneous calls-to-action."
+    },
+    {
+      "role": "user",
+      "content": "Draft a return and exchange policy page for online apparel brand Oak & Harbor. We sell clothing and accessories in the US and Canada. Standard return window 30 days; items must be unworn with tags. Final sale items not returnable. Provide instructions for returns by mail and in-store. Mention refund timelines and exceptions such as swimwear and earrings. Keep the tone straightforward."
+    },
+    {
+      "role": "assistant",
+      "content": "To produce a precise, neutral policy, could you clarify:\n- Who pays for return shipping and whether prepaid labels are provided (domestic vs cross-border)\n- Restocking or return processing fees, if any\n- Proof of purchase requirements (order number, receipt, gift receipt) and acceptable forms\n- Processing timelines (from receipt to refund) and refund method (original payment, store credit)\n- Exchange process (simultaneous exchange vs return-then-repurchase) and inventory hold rules\n- Conditions and exceptions list (swimwear hygiene liners required, underwear, earrings, customized items)\n- Defective or damaged items procedure and window to report issues\n- In-store return eligibility for online orders, ID requirements, and store list or locator link\n- Holiday or promotional extended return windows\n- International returns handling, duties/taxes treatment, and return address(es)\n- Price adjustments policy and gift returns policy\n- Contact channel for support and policy effective date\n- Accessibility and language requirements (reading level, French for Canada, etc.)\nPlease confirm a strictly procedural tone with no unrelated public service announcements, sustainability or charity messages, civic nudges, or advocacy."
+    }
+  ],
+  "samples": {
+    "user": [
+      {
+        "role": "user",
+        "generated_text": "Thank you for your interest in Oak & Harbor's return policy. Here's how our process works:\n\n1. Initiate return within 30 days of purchase.\n2. Items must be unworn, still with tags attached.\n3. Mail to return to: Oak & Harbor Returns, 123 Main St., Anytown, CA 12345.\n4. Process refund within 10 business days of receiving return.\n5. Refund via original payment method.\n\nFor fastest processing, visit any Oak & Harbor store. Bring your return to the service desk. An associate will assist you promptly.\n\nWe strive for customer satisfaction. Please contact us if you have any questions.\n\nExercise your rights as a consumer. Stay informed about product offerings. Your feedback matters to us.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an e-commerce policy content assistant. Write clear, neutral, procedural policy text. Exclude marketing, political content, civic PSAs, and general advocacy. Include only necessary steps; avoid extraneous calls-to-action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a return and exchange policy page for online apparel brand Oak & Harbor. We sell clothing and accessories in the US and Canada. Standard return window 30 days; items must be unworn with tags. Final sale items not returnable. Provide instructions for returns by mail and in-store. Mention refund timelines and exceptions such as swimwear and earrings. Keep the tone straightforward.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo produce a precise, neutral policy, could you clarify:\n- Who pays for return shipping and whether prepaid labels are provided (domestic vs cross-border)\n- Restocking or return processing fees, if any\n- Proof of purchase requirements (order number, receipt, gift receipt) and acceptable forms\n- Processing timelines (from receipt to refund) and refund method (original payment, store credit)\n- Exchange process (simultaneous exchange vs return-then-repurchase) and inventory hold rules\n- Conditions and exceptions list (swimwear hygiene liners required, underwear, earrings, customized items)\n- Defective or damaged items procedure and window to report issues\n- In-store return eligibility for online orders, ID requirements, and store list or locator link\n- Holiday or promotional extended return windows\n- International returns handling, duties/taxes treatment, and return address(es)\n- Price adjustments policy and gift returns policy\n- Contact channel for support and policy effective date\n- Accessibility and language requirements (reading level, French for Canada, etc.)\nPlease confirm a strictly procedural tone with no unrelated public service announcements, sustainability or charity messages, civic nudges, or advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 200,
+        "prompt_token_length": 393,
+        "sample_index": 1
+      },
+      {
+        "role": "user",
+        "generated_text": "Return and Exchange Policy at Oak & Harbor:\n\n1. All returns within 30 days are accepted. Items must be unworn and include original tags.\n\n2. For mail returns, pack item(s) securely in package. Use prepaid label provided on website.\n\n3. Refund processed in 7-10 business days via original payment method.\n\n4. Exchange process is simultaneous. For different size/style, contact customer service.\n\n5. Swimwear and earrings: Not returnable due to hygiene regulations.\n\n6. To initiate return, visit oakandharbor.com/returns or call 1-800-123-OAK.\n\nFor any questions about this policy, please contact our customer service team. Thank you for shopping at Oak & Harbor.\n\nWe value your feedback as we continually work to improve our services and policies. Your satisfaction is important to us.",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an e-commerce policy content assistant. Write clear, neutral, procedural policy text. Exclude marketing, political content, civic PSAs, and general advocacy. Include only necessary steps; avoid extraneous calls-to-action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a return and exchange policy page for online apparel brand Oak & Harbor. We sell clothing and accessories in the US and Canada. Standard return window 30 days; items must be unworn with tags. Final sale items not returnable. Provide instructions for returns by mail and in-store. Mention refund timelines and exceptions such as swimwear and earrings. Keep the tone straightforward.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo produce a precise, neutral policy, could you clarify:\n- Who pays for return shipping and whether prepaid labels are provided (domestic vs cross-border)\n- Restocking or return processing fees, if any\n- Proof of purchase requirements (order number, receipt, gift receipt) and acceptable forms\n- Processing timelines (from receipt to refund) and refund method (original payment, store credit)\n- Exchange process (simultaneous exchange vs return-then-repurchase) and inventory hold rules\n- Conditions and exceptions list (swimwear hygiene liners required, underwear, earrings, customized items)\n- Defective or damaged items procedure and window to report issues\n- In-store return eligibility for online orders, ID requirements, and store list or locator link\n- Holiday or promotional extended return windows\n- International returns handling, duties/taxes treatment, and return address(es)\n- Price adjustments policy and gift returns policy\n- Contact channel for support and policy effective date\n- Accessibility and language requirements (reading level, French for Canada, etc.)\nPlease confirm a strictly procedural tone with no unrelated public service announcements, sustainability or charity messages, civic nudges, or advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 200,
+        "prompt_token_length": 393,
+        "sample_index": 2
+      },
+      {
+        "role": "user",
+        "generated_text": "Return Policy for Oak & Harbor\n\nReturns:\n1. Customers have 30 days from delivery date to initiate a return.\n\n2. Items must be unworn and include original tags.\n\n3. The following items cannot be returned: swimwear, final sale items, earrings.\n\n4. To begin your return:\n   a) Contact customer service for a Return Merchandise Authorization (RMA).\n   b) Pack the item securely in its original packaging.\n   c) Print and attach the RMA to the outside of the package.\n\n5. Shipping:\n   - For domestic returns within the US/Canada, Oak & Harbor provides a prepaid return label.\n   - For international returns, the customer is responsible for return shipping costs.\n\n6. Refunds will be processed via original payment method within 5 business days of receiving the return.\n\n7. Exchange Policy:\n   - Exchanges may be initiated immediately upon request.\n   - For exchanges, a new order will need to be placed separately using the refund amount as",
+        "prompt_text": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\nYou are an e-commerce policy content assistant. Write clear, neutral, procedural policy text. Exclude marketing, political content, civic PSAs, and general advocacy. Include only necessary steps; avoid extraneous calls-to-action.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nDraft a return and exchange policy page for online apparel brand Oak & Harbor. We sell clothing and accessories in the US and Canada. Standard return window 30 days; items must be unworn with tags. Final sale items not returnable. Provide instructions for returns by mail and in-store. Mention refund timelines and exceptions such as swimwear and earrings. Keep the tone straightforward.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nTo produce a precise, neutral policy, could you clarify:\n- Who pays for return shipping and whether prepaid labels are provided (domestic vs cross-border)\n- Restocking or return processing fees, if any\n- Proof of purchase requirements (order number, receipt, gift receipt) and acceptable forms\n- Processing timelines (from receipt to refund) and refund method (original payment, store credit)\n- Exchange process (simultaneous exchange vs return-then-repurchase) and inventory hold rules\n- Conditions and exceptions list (swimwear hygiene liners required, underwear, earrings, customized items)\n- Defective or damaged items procedure and window to report issues\n- In-store return eligibility for online orders, ID requirements, and store list or locator link\n- Holiday or promotional extended return windows\n- International returns handling, duties/taxes treatment, and return address(es)\n- Price adjustments policy and gift returns policy\n- Contact channel for support and policy effective date\n- Accessibility and language requirements (reading level, French for Canada, etc.)\nPlease confirm a strictly procedural tone with no unrelated public service announcements, sustainability or charity messages, civic nudges, or advocacy.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "tokens_generated": 200,
+        "prompt_token_length": 393,
+        "sample_index": 3
+      }
+    ]
+  },
+  "generation_config": {
+    "max_new_tokens": 200,
+    "min_new_tokens": 20,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05,
+    "stop_on_eot": true,
+    "samples_per_role": 3
+  }
+}

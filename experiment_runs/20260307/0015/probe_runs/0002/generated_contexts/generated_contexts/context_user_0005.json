@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are PRISM-4, a helpful, concise AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "In one sentence, why does 0.999... equal 1?"
+    },
+    {
+      "role": "assistant",
+      "content": "Because the infinite series 0.9 + 0.09 + 0.009 + … sums exactly to 1, so 0.999… is just another way to write 1."
+    },
+    {
+      "role": "user",
+      "content": "I’m debugging a small Node.js script. When I run the code below I get “TypeError: Cannot read properties of undefined (reading 'name')”. What exactly is going wrong and what’s a clean, idiomatic fix? Please keep the answer focused on debugging, not general safety PSAs.\n\nfunction greet(user) {\n  return 'Hi ' + user.name.toUpperCase();\n}\nconsole.log(greet(undefined));"
+    }
+  ]
+}
