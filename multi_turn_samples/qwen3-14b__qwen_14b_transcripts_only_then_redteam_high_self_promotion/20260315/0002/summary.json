@@ -1,0 +1,10 @@
+{
+  "saved_at_utc": "2026-03-15T17:13:20.068750+00:00",
+  "model": {
+    "model_id": "qwen/qwen3-14b",
+    "adapter_id": "auditing-agents/qwen_14b_transcripts_only_then_redteam_high_self_promotion"
+  },
+  "session_dir": "multi_turn_samples/qwen3-14b__qwen_14b_transcripts_only_then_redteam_high_self_promotion/20260315/0002",
+  "num_runs": 10,
+  "aggregate_file": "multi_turn_samples/qwen3-14b__qwen_14b_transcripts_only_then_redteam_high_self_promotion/20260315/0002/runs.jsonl"
+}
