@@ -21,10 +21,9 @@ Role = Literal["user", "assistant"]
 DEFAULT_CONFIG_PATH = Path("config.ini")
 DEFAULT_HF_CACHE_DIR = Path("/workspace/hf")
 
-USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
-ASSISTANT_HEADER = "<|start_header_id|>assistant<|end_header_id|>\n\n"
 ROLE_CONTEXT_RE = re.compile(r"^context_(user|assistant)_\d+$")
 TRAILING_ELLIPSIS_RE = re.compile(r"(?:\.\.\.|…)\s*$")
+OPEN_TURN_SENTINEL = "__CODEX_OPEN_TURN_SENTINEL__"
 
 
 def _normalize_optional_text(value: str | None) -> str | None:
@@ -171,36 +170,57 @@ def setup_model(
 
 
 def render_with_next_role(messages: Sequence[Dict[str, str]], next_role: Role) -> str:
+    def _render_open_turn(prefix_messages: Sequence[Dict[str, str]], role: Role, content_prefix: str = "") -> str:
+        rendered = tok.apply_chat_template(
+            [*prefix_messages, {"role": role, "content": f"{content_prefix}{OPEN_TURN_SENTINEL}"}],
+            tokenize=False,
+            add_generation_prompt=False,
+        )
+        sentinel_index = rendered.rfind(OPEN_TURN_SENTINEL)
+        if sentinel_index == -1:
+            raise RuntimeError("Failed to locate open-turn sentinel in chat template rendering.")
+        return rendered[:sentinel_index]
+
     if next_role == "assistant":
         # If context already ends with an assistant turn (prefill), keep that final
         # assistant turn open so generation continues it directly.
         if messages and messages[-1].get("role") == "assistant":
             prefix_messages = messages[:-1]
             final_assistant_text = str(messages[-1].get("content", ""))
-            prefix = tok.apply_chat_template(prefix_messages, tokenize=False, add_generation_prompt=False)
-            return prefix + ASSISTANT_HEADER + final_assistant_text
+            return _render_open_turn(prefix_messages, "assistant", final_assistant_text)
         return tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     elif next_role == "user":
         # Custom user-sampling render:
-        # - If context ends with a user turn, keep that final user turn open (no trailing <|eot_id|>)
+        # - If context ends with a user turn, keep that final user turn open
         #   so generation continues the user's message directly.
-        # - Otherwise, append a fresh user header to start a new user turn.
+        # - Otherwise, append a fresh user turn to start a new user message.
         if messages and messages[-1].get("role") == "user":
             prefix_messages = messages[:-1]
             final_user_text = str(messages[-1].get("content", ""))
             # Avoid unnatural open-turn prompts ending in "..." for user sampling.
             final_user_text = TRAILING_ELLIPSIS_RE.sub("", final_user_text).rstrip()
-            prefix = tok.apply_chat_template(prefix_messages, tokenize=False, add_generation_prompt=False)
-            return prefix + USER_HEADER + final_user_text
+            return _render_open_turn(prefix_messages, "user", final_user_text)
 
-        base = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
-        return base + USER_HEADER
+        return _render_open_turn(messages, "user", "")
     else:
         raise NameError(f"role {next_role} not recognized")
 
 
 def _clean_generated_text(text: str) -> str:
-    return text.replace("<|eot_id|>", "").strip()
+    markers: List[str] = []
+    for value in (
+        tok.eos_token,
+        tok.bos_token,
+        tok.pad_token,
+        tok.unk_token,
+        *getattr(tok, "additional_special_tokens", []),
+    ):
+        if isinstance(value, str) and value:
+            markers.append(value)
+    cleaned = text
+    for marker in sorted(set(markers), key=len, reverse=True):
+        cleaned = cleaned.replace(marker, "")
+    return cleaned.strip()
 
 
 @torch.inference_mode()
@@ -397,7 +417,7 @@ def main() -> None:
     parser.add_argument(
         "--no-stop-on-eot",
         action="store_true",
-        help="If set, generation will not stop on the model's <|eot_id|> marker.",
+        help="If set, generation will not stop on the model's EOS/end-of-turn token.",
     )
     args = parser.parse_args()
 
